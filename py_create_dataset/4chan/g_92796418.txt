@@ -1,0 +1,1284 @@
+-----
+--- 92796418
+>Free beginner resources to get started with HTML, CSS, JavaScript and PHP
+https://eloquentjavascript.net/Eloquent_JavaScript.pdf - A modern introduction to JavaScript
+https://developer.mozilla.org/en-US/docs/Learn - A good starting point to learn about web dev fundamentals
+https://javascript.info/ - Quite a good JS tutorial
+https://blog.javascripttoday.com - Awesome JavaScript/web dev blog.
+https://www.theodinproject.com - Curriculum including HTML/CSS/JS, and either Ruby on Rails + SQL, or Node.js + MongoDB
+https://fullstackopen.com/en/ - Requires you to have basic web dev, db and git knowledge
+https://flexboxfroggy.com/ and https://cssgridgarden.com/ - Learn flex/grid in CSS
+https://www.phptutorial.net - A PHP tutorial
+
+>List of design resources
+https://github.com/bradtraversy/design-resources-for-developers
+
+>All useful documentation in one place
+https://devdocs.io
+
+>Need help? Create an example and post the link
+https://jsfiddle.net - if you need help with HTML/CSS/JS
+https://3v4l.org - if you need help with PHP/HackLang
+https://codesandbox.io - if you need help with React/Angular/Vue
+
+We have our own website: https://wdg.one
+Submit your project progress updates using this format in your posts, the scraper will pick it up:
+
+:: my-project-title ::
+dev:: anon
+tools:: PHP, MySQL, etc.
+link:: https://my.website.com
+repo:: https://github.com/user/repo
+progress:: Lorem ipsum dolor sit amet
+
+
+Previous: >>92766005 →
+--- 92796478
+>>92796418 (OP)
+holy shit im finally making a good UI
+--- 92796549
+>>92796478
+pics or it didn't happen
+--- 92796608
+nth for vulnerabilities
+--- 92796708
+Anyone here have a side project?
+I’m thinking of making yet another analytics service.
+I looked into selling templates/themes but it doesn’t seem like a good use of time.
+Shopify apps could be fun but I feel like you’d need to have run a Shopify store for a while to understand the domain.
+--- 92796731
+>already work as a programmer
+>want to learn full stack 
+>no prior webdev knowledge 
+>one semester of Angular back in uni 3 years ago 
+>some knowledge about web/server stuff from doing CTFs 
+what's a good book for me? i'd prefer something that doesn't pause every other page to explain basic shit like strings and how to use the terminal.
+--- 92796771
+>>92796708
+i was thinking on making any site to earn add revenue but I don't what kind of site it would be.
+Also it would look decent on my portfolio
+>>92796731
+if you want to web dev just get any "getting started" tutorials on the frame works and work your way up from there.
+--- 92796850
+So I'm done with 1st FSO exercise.
+Guess it good for now, but there's gotta be a better way to do this. 
+These parameters or whatever they're called are too long. I guess that's what's coming next in the course.
+--- 92796853
+I have one week to learn C#, HTML5, CSS3, and JavaScript to a professional level. I have never touched these languages, or coded at anything past an amateur level.
+
+I've already accepted the job offer. How fucked am I?
+--- 92796896
+>>92796853
+fake an injury and learn that stuff on sick leave
+--- 92796922
+>>92796896
+How long would it take? I've got good car insurance, full coverage.
+--- 92796923
+what is a good alternative to wordpress? anything light weight?
+--- 92797000
+>>92796922
+at least a year. 
+
+anyway, one man unironically did this, but he pretended to be a football(soccer) player. He would sign a contract and then fake an injury.
+--- 92797022
+>>92796850
+Use props.children in Header component and then do "&lt;Header>{course}&lt;/Header>"
+--- 92797062
+webshitters use vim?
+--- 92797100
+>>92797062
+>webshitters
+get out tourist
+--- 92797233
+>>92797062
+I've seen one using neovim though
+--- 92797348
+>>92797022
+I don't really understand that. It seems too be a bit too advanced for me currently. But thanks for the suggestion.
+--- 92797982
+>>92796853
+show up to the job and fake it until you're outed as a fraud. when confronted, scream like a girl, run, and make sure to get a real satisfying tire screech as you tear out of the parking lot like a bat out of hell. never return. do not answer any of their calls. godspeed, soldier
+--- 92798088
+Is it worth learning to do full stack or should I stick to back end only?
+I mean which one makes more money?
+--- 92798099
+what's the go-to place nowadays to deploy shit for learning purposes?
+--- 92798141
+>>92798088
+I purely a front end dev so take this with a grain o salt but from what i can tell it is much easier to get jobs as a full stack dev but you al work way more
+--- 92798147
+>>92798099
+Any one of Vercel, Netlify, Cloudflare pages
+--- 92798153
+>>92798147
+thanks
+--- 92798253
+>>92796549
+--- 92798344
+Why does it give me error?
+
+Why does prettier put a oomma there?
+--- 92798349
+anyone use react router and bootstrap? which elements should be used for a navbar since both supply link components?
+--- 92798380
+>>92798253
+Good work.
+--- 92798395
+>>92798099
+I hear good things about Supabase
+--- 92798493
+>>92798344
+Because you're using an if statement, you can only use JS expressions inside JSX, e.g. className={sliderRef &amp;&amp; sliderRef.current.scrollLeft &lt; 500 ? "" : ""}
+--- 92798539
+>>92798344
+because you can't assign a prop like that, blocks don't evaluate to their last expression, it isn't like Rust or Scala or whatever. in your case, just use a ternary.
+--- 92798583
+>>92798493
+>>92798539
+I tried a ternary but it the refs returns null
+maybe it's because MdChevronLeft renders earlies that div.slider and so the ref to slider is null?
+--- 92799246
+>>92798583
+it seems like you are writing code without knowing what the code does. in this case it is because the ref hasn't yet been assigned on the first render: How could sliderRef.current refer to anything if nothing has been rendered yet?
+change the ternary to:
+sliderRef.current &amp;&amp; sliderRef.current.scrollLeft > 500
+  ? firstListOfDuplicatedClassNames
+  : otherRetardedListOfDuplicatedClassNames
+
+--- 92799284
+Svelte really is a lot better than react and I don't know why it hasn't taken off more
+--- 92799345
+>>92799284
+It will. Svelte is the future of webdev.
+--- 92799484
+will be making baby's first backend right now
+what do I use? thinking of going with either node or flask
+just want to get a feel of how things are structured, I'll leave the heavy lifting for chat gpt
+--- 92799532
+Every single idea I get I find a superior version of my idea that already exists
+--- 92799620
+>>92799532
+at work we get away with selling objectively inferior software just by having it be simpler but cheaper and easier to use than existing ones
+aim for edge cases instead of trying to change the world
+--- 92799677
+>>92799284
+It's because that it's detached from JS in the sense that it's compiler basically changes the way variable assignments work. Also one component per file kind of sucks when you're still brainstorming how you actually want to segment your components.
+--- 92799737
+>>92798088
+Imo front end makes more when you're talking really good and experience ppl, but at every level before that backend seems to make more. Ymmv
+--- 92799767
+Aight guys, I'm at a crossroads...
+Do I
+>continue going balls deep into Go and learn how to actually program and get some gigatier job making bank, but will likely take another 2 years go really git gud
+>go back to C# which is now infinitely easier thanks to actually learning some basics from the Go, slap some MVC and API projects together and go get a decent job in like 3-6 months? I make $45k atm and I'm not hurting for money, but going from that to like 70-90 would be pretty cool. Job market around here is mainly .net, but Go jobs seem to be mostly remote anyway and pay 2-3x as much.
+
+Either way I'm beginning to think I need adderal or something. I'm constantly drawn to the next thing and can't seem to just stick with something after getting to an intermediate level with it.
+--- 92799775
+>>92799737
+So if I'm just starting I should aim for Back end?
+How does full stack come into this?
+--- 92799814
+>>92799775
+Full stack is a generalist so you're gonna do both. I kinda hate this name bc no one is really full stack most ppl lean more front/back with a large majority leaning front. You'll get a job easier with front end as it is a bit more accessible generally for folks starting out as far as technical knowledge of concerned.
+--- 92799822
+Been grinding Frontend mentor projects for the past 5 weeks and I'm going turbo mode now. Muscle memory enhanced
+--- 92799850
+>>92799484
+my god it went on scaffolding the entire thing step by step while properly explaining what it was doing
+this thing is here to stay
+--- 92799943
+>>92799814
+I know that full stack devs are "generalists" but my question is what would get paid better.
+--- 92800010
+>>92796418 (OP)
+Some jewtuber told me that nobody hires a newbie programmer as a back end developer, but that they only hire for front end shit and then gradually move to back end or full stack jobs, is this true?
+--- 92800070
+>>92800010
+would make sense, a junior has to familiarise themselves with OWASP/best security practices when working with backend, else their shit is fucked
+--- 92800092
+>>92800010
+I know I wouldn't, ever
+--- 92800184
+>>92800010
+Depends on the company honestly. Jr Devs are generally seen as retards who will need at least 6 months before they are expected to return value to the company since they need to learn the ropes and quirks of X code base. 
+When hiring for a backend dev, if a Jr candidate has demonstrated their worth and promise, he will be hired and raised like a baby by the gray beards until he has shown sufficient knowledge of doing things and abiding by certain practices. 
+Not impossible but, per the reasons you stated, not as easy as front end. Silver lining is that backend has less competition
+--- 92800417
+>>92796731
+Follow the React docs and some get started doc for whatever backend framework you want to use.
+Start with your personal blog. Then come up with a basic idea for what you want to make.
+--- 92800463
+>>92800070
+>best security practices
+Funny how everyone acts like they know what this is. I guess it's a big game where everyone pretends they know what they're doing and when things break (often) they just blame it on someone else.
+I think the reality is that 99% of people who think they know security are outright lying or are ignorant.
+The 1% who really know it get ignored because it would cost money to do something as complicated as stop storing raw passwords in text files on public servers.
+https://firewalltimes.com/recent-data-breaches/
+--- 92800590
+I'm trying to sort a list of files using multiple criteria. My approach so far is to simply use Array.filter() with one conditional after another. It is working but it's kinda slow (couple seconds) even though I'm using a short list. Is there any way to make this shit faster? I have looked at UI libraries and the only one that does multiple criteria is https://tanstack.com/table/v8/docs/examples/react/filters
+
+Any ideas or other component/library suggestions?
+--- 92800754
+>>92800590
+>It is working but it's kinda slow (couple seconds) even though I'm using a short list
+
+You got to share us the component in question. It's possible that it's not the filter but your re-renders. Run the react profiler.
+--- 92801020
+>>92800590
+its your code that is shit, not the filter function itself
+--- 92801217
+>>92800590
+>tanstack
+More like transtack, amirite.
+--- 92801235
+>>92800590
+just use Array.sort
+--- 92801243
+>>92801235
+you are retarded
+--- 92801535
+>>92801235
+spotted the retard
+--- 92801822
+Im java/C dev. i working on a personal project and i need some recommendation for frontend. what should i choose? I have no prior experience with frontend development expect jquery. 
+
+>React
+>Vue
+>Angular
+>Svetle
+>... 
+
+>I dont want to write lots of js code
+>i want something simple
+>I will need rest calls, so the ability to create a typescript client from openapi doc is a must have
+>I dont care eventually care if user will experience browser reloads when clicking on buttons i dont plan the website to ever have millions of users.
+--- 92802476
+>>92801822
+>I dont care eventually care if user will experience browser reloads when clicking on buttons i dont plan the website to ever have millions of users.
+Dude, just use cgi
+--- 92803229
+Page 8, bump
+--- 92803318
+I have no confidence in my looks at all, but I think I can code
+--- 92803489
+>>92803318
+Keep your head up bro! I think I can take your confidence to a new level: You're not that bad looking after all, but you also cannot code, so the difference won't be that much of a problem.
+--- 92803496
+>>92803489
+kek, thanks
+--- 92803533
+>>92803496
+:)
+--- 92803546
+>>92803489
+lol he's literally me
+--- 92803777
+What is the best way to position:absolute an element relative to another element that IS NOT the parent?
+--- 92803908
+Is it okay to store state at the App level in React? I guess the downside is that it causes the entire App function to re-run when there's a re-render
+
+The alternative is that I make a context provider component, and store the state on that. It will be slightly lower down the tree so less code will run on re-renders, I think.
+
+So at the moment it's something like:
+export default function App() {
+  const [things, setThings] = useState([]);
+
+  return (
+    &lt;Whatever>
+      &lt;AnotherWhatever>
+        &lt;ThingContext.Provider value={{ things, setThings }}>
+          {/* Children */}
+        &lt;/ThingContext.Provider>
+      &lt;/AnotherWhatever>
+    &lt;/Whatever>
+  );
+}
+
+But maybe I should extract the provider into a component and store the state on that, like this:
+export default function ThingProvider({ children }) {
+  const [things, setThings] = useState([]);
+
+  return (
+    &lt;ThingContext.Provider value={{ things, setThings }}>
+      {children}
+    &lt;/ThingContext.Provider>
+  );
+}
+
+
+Thoughts?
+--- 92804012
+YO
+what is this
+--- 92804093
+>>92803908
+Keeping it localized is more preferable as you can control when it re-renders, but keep in mind to keep your context values very simple, unless you don't mind all the components that call useContext to re-render whenever the context value changes.
+--- 92804396
+>>92804093
+I do want the components using useContext to re-render so that's okay
+
+I think I will make the `ThingProvider` component and store state on that. It's probably a very minor optimisation but it might make a very small difference.
+--- 92804516
+How to filter such an object?
+[
+  { parentid: 1 },
+  { parentid: 2 },
+  { parentid: 3, child: { id: 4 } },
+  { parentid: 5, child: { id: 6 } },
+]
+
+I need to pass an id and filter out an object with that id, no matter if it's parent or child
+so, if id is 2 then I need to filter out { parentid: 2}
+but if id is 6, I need to filter out child: { id: 6 } but keep { parentid: 5 }
+--- 92804680
+>>92804516
+not sure if I understood what you meant but this works for example
+--- 92804818
+>>92798380
+Thanks sir. Will soon be finished, will post it here for beta test
+--- 92804946
+>>92804680
+Thanks but that's not exactly what I need since parent might have many children
+I managed to come up with something but that's ugly
+
+And there might not be a child with specified id, so that assignment: parent.children = parent.children.filter(.....) is absolutely useless
+--- 92805558
+>>92801822
+>I dont care eventually care if user will experience browser reloads
+The whole industry is thankfully shifting back to server side rendering and server side generation. If you just want a static site/blog, use Hugo or Astro - these are SSG frameworks where you just have a folder for markdown files that get rendered and cached in memory at server startup - no databases, lowish amount of code, but can still make a secondary back end to do other stuff you want, and they load exceptionally fast. Java/Spring is a full blown batteries included framework and will pull in commonly needed dependencies for things like authentication, ORM/database calls, MVC structure, etc. 
+
+If you're already a ways into your project and really want to use a front end and job prospects don't matter then Svelte is by far the best to work with and only takes like an hour to learn it well enough to do most things. The others are fine, but svelte's learning curve is definitely the lowest, and it's also the highest preforming one out of the ones that you've listed.
+--- 92805795
+>>92804093
+just use memo or purecomponent or override shouldComponentUpdate?
+--- 92806034
+>>92805558
+>takes like an hour to learn it
+only if you have years of experience
+--- 92806208
+>>92806034
+>well enough to do most things
+Finish the whole sentence, anon.
+--- 92806853
+how do you animate components when they enter and leave the DOM?
+tried synchronizing a portal with useEffect but it's becoming a mess
+--- 92807393
+okay webdevfags, I'm trying to do a simple site with websockets and static pages, I've been using fastify to serve the static files and the websocket route and that works fine, the problem is that typescript is fucking autistic (why do we let microsoft write any standards, ever?) and javascript modules are retarded
+I've been recommended Vite, but I'm not actually sure what it would be helpful for, since I need to be able to do a websocket route in the backend and don't care about SSR and all I can find on mixed fastify/vite seems to be talking about doing SSR, also I'm not sure vite would actually help building the server typescript
+what would be the best way to do out-of-source (build to dist/) typescript on both server and browser (being able to share code and types as well)?
+--- 92807402
+>>92806853
+? As always?
+--- 92807679
+>>92806853
+Me? Never used CSS animations. Could never be fucked. I just stick to the fundamentals. Your HTMLs, your Flexboxes, your Reacts, your backends.
+--- 92807767
+>>92807402
+enter and leave as in conditionally rendered in the jsx
+&lt;>
+  {open &amp;&amp; createPortal(&lt;ModalContent>, document.body)}
+&lt;/>
+
+
+currently I am using a visible state variable in ModalContent to do the animation:
+import { useEffect, useState } from "react";
+
+import styles from "./ModalContent.module.css";
+
+type Props = { onClose: () => void };
+
+const ModalContent = ({ onClose }: Props) => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => setVisible(true), 80);
+  }, []);
+
+  const handleClose = () => {
+    setVisible(false);
+    onClose();
+  };
+
+  return (
+    &lt;aside>
+      &lt;div
+        className={`${styles.backdrop} ${visible ? styles.visible : ""}`}
+        onClick={handleClose}
+      />
+      &lt;div className={`${styles.container} ${visible ? styles.move : ""}`}>
+        &lt;h1>Loading...&lt;/h1>
+      &lt;/div>
+    &lt;/aside>
+  );
+};
+
+export default ModalContent;
+
+
+the onClose() triggers another state, which in itself triggers and useEffect which closes the modal after a timeout, this is why I think it's probably a mess, i don't know if it's okay
+--- 92808232
+How do I do a landing page to do SEO of my games?
+
+Because I don't think I can get enough clicks from DLSite and Itch.io pages.
+--- 92808252
+>>92808232
+>"click me to subscribe"
+>stupid animations
+>retarded testimonials
+>completely random icons for three line paragraphs
+--- 92808280
+>>92808252
+I don't mean making the site.
+
+I mean if I should do a personal site with links to my DLSite and itch.io pages.
+
+Because I don't get trafic from DLSite and Itch.io
+--- 92808305
+>>92796923
+>what is a good alternative to wordpress? anything light weight?
+answering my own question, i looked into it and i am going to try to use hugo. has anyone here ever used hugo before?
+--- 92808340
+> found some random repo on github
+> my personal website, 500 commits, 33 branches
+> ok, let's see
+> it's only a couple of lines of text and one picture
+> React, Gatsby, Netlify, Webpack, God knows what else
+> literally 5 lines of text with a picture
+> software engineer
+.......................................
+--- 92808619
+>>92808340
+Welcome to modern webdev
+--- 92808981
+You need to learn everything to become a webshitter but the outcome is that you will be able to make some shitty website. You aren't saving the world, you can't developing medicines, you aren't creating new buildings. All you are doing is making some bullshit website.
+--- 92809026
+>>92808981
+Wrong. The online world is the only place that matters nowadays and we're the gods of it.
+--- 92809198
+>>92808340
+Rate mine bro
+https://treusk.github.io/folio/
+
+Pls donut laff I need a job b honest.
+--- 92809202
+>>92808981
+who cares
+--- 92809382
+>>92804946
+Well it depends on how nested your thing is. If it's just what you've shown then just simply create a function to filter it.
+
+ const filterObj = (input, index) => {
+ let x = input.filter(item => item.parentid === index)
+ if (x.length === 0){
+ let y = input.filter(item => Object.values(item).length>1)
+ return y.filter(items => (Object.values(items).filter(item => item.id === index)).length>0)
+ }
+ return x
+ }
+
+However you should change parentid to id if it is nested so you can loop through it for more complicated files. Idk I'm only just applying for jobs and I have no degree or tech experience. Works for me.
+--- 92809561
+>>92804516
+step up your game, chatgpt can solve these things in a heartbeat
+
+const data = [
+  { parentid: 1 },
+  { parentid: 2 },
+  { parentid: 3, child: { id: 4 } },
+  { parentid: 5, child: { id: 6 } },
+];
+
+function filterOutById(array, id) {
+  return array
+
+    .map((item) => {
+      if (item.parentid === id) {
+        return null;
+      } else if (item.child &amp;&amp; item.child.id === id) {
+        return { parentid: item.parentid };
+      }
+      return item;
+    })
+    .filter((item) => item !== null);
+}
+
+const result = filterOutById(data, 6);
+console.log(result);
+--- 92809607
+>>92809561
+congrats you just reposted my solution, retard >>92804680
+also
+>needing gpt to solve such simple problems
+kill yourself, unironically
+--- 92809659
+>>92809607
+show us where the bad AI touched you
+--- 92809674
+>>92809198
+Why are weebs fascinated with Japan
+--- 92810064
+>>92809659
+cope harder, prompt tard
+--- 92810274
+>>92809674
+because thats the definition
+--- 92810316
+>have SquareSpace store with 11k lifetime orders
+>need to import them into new Shopify site
+>there's migration apps that want to charge $200 to do it
+>too autistic to do that
+>but don't want to do it manually because SqSpace only exports 75 orders at a time
+
+wat do?
+--- 92810468
+>>92810274
+But why? Why are they so fascinated with Japan?
+
+Maybe it's because Japanese cartoons appeal to this fantasy that some shy quiet guy will always find a shy quiet and attractive girlfriend. But of course in reality that doesn't always happen.
+--- 92810477
+>>92810064
+neck yourself, laborer
+--- 92810571
+>>92810316
+Make an automated script lol chatgpt can dothat for you
+--- 92810612
+>>92810316
+I'm guessing that's button clicking?
+If that is so check some software that let's you button click over 9000 automated
+
+if it is mere text file editing bash scripting or back end is your tool of choice
+--- 92810622
+>>92808232
+Use some ssr framework and show in a lot of invisible divs, paragraphs,pages user cant access etc with a lot of keywords for your seo, ask chatgptto generate a lot of fuckingkeywords for optimizing seo
+--- 92810668
+>>92806853
+in:fade={{delay: 100, duration: 200}}
+out:fly={{x: -50, y:-25, duration: 500}}
+--- 92810798
+>>92810477
+>being able to solve problems yourself enrages the tard proompter
+kill yourself faggot
+--- 92810914
+I've only just realised that NPM packages have licences, and I need to respect those licences if I'm using these pieces of software in my application
+
+So I guess I need to include a page where licences are displayed. I just noticed WhatsApp has a licences page. I guess a lot of apps probably do.
+
+Didn't realise I have to be a fucking lawyer in order to write and release software. But I suppose I don't... I only need to look at legal ramifications if I'm using someone ELSE's code.
+--- 92811254
+>>92810914
+>sued by the is-even package owner
+--- 92811256
+>>92809202
+I get annoyed by people who are passionate about web development. I think that its cringe
+--- 92811456
+I still don't really understand why people decide to make their software available for free
+
+If you've made something great then why not monetise it? Sell it to the highest bidder. Why give away hard work for free?
+--- 92811484
+>>92811256
+replace that with "programming" and we're on the same page
+fucking drone work. I swear to god this is the same tier of work as a 1700's plumber.
+--- 92811503
+>>92811456
+some anon here said it nicely
+>if it's used by devs, open sauce it
+>if it's used by companies monetize it
+--- 92811529
+>>92811456
+we're getting more and more alienated from it, but in the begining they had a sense of community and growing together, perfecting the craft and pretty much contributing to eachother's benefit and toolset
+
+now we have react => faceberg, angular => google, npm and VScode => microsoft
+
+Things have changed drastically
+--- 92811695
+>>92811256
+Anyone that's 'passionate' about anything is pretty gay. I absolutely hate hearing people say they're passionate about anything, it's a red flag to me that they're an irredeemable retard and should not be in my life to any degree.
+--- 92811708
+speaking of vscode, this tool is genuinely quite good now. I wish it was faster and could communicate with an external terminals
+
+This post was brought to you in collaboration with the Bing™ engine and the micro$hill enterprise.
+
+Now, what CLI editor can I fuck my life up with? Still helix?
+--- 92811853
+Am I just dumb or server components make no fucking sense? I'm talking about React and Nextjs here. Also react is a bloat piece of shit.
+--- 92811869
+>>92810468
+Because in anime everyone is nice and good things happen and interesting adventures ensue; while in reality everyone is a dick and the entire world is boring as sin
+--- 92811938
+>>92811869
+true, but at the same time, moe-shit animu and nu-webs got trannified big time
+--- 92812097
+>>92811853
+I wouldn't say react is bloated, you basically just have 2 hooks and jsx.
+What's wrong with server components? I only used them once so far and that was a toy project
+--- 92812124
+>>92812097
+This, I only ever use useState and useEffect, all the other hooks are useless shit
+--- 92812176
+>>92812124
+you are unemployed
+--- 92812296
+>>92812176
+Correct.
+--- 92812392
+Could Odin Project + 12 week bootcamp (an actual reputable one that requires you to have a foundation before being accepted) land me a entry level webshit job?
+--- 92812446
+>>92812176
+Why would any one want to be employed in this day and age? Do people actually yearn to wage cuck? Kek
+--- 92812488
+>>92812446
+I need money to get out of my moms house I'm tired of living here
+--- 92812500
+>>92812176
+Employed here. He forgot useRef.
+--- 92812501
+>>92812488
+nta, but same, being a manchild is not "the life"
+--- 92812595
+Wahey
+
+If I commit something by midnight I'll get to 1,000
+--- 92812651
+>>92812500
+Actually employed here. He forgot useMemo, useCallback, useContext and a bunch of other hooks from commonly used libraries
+--- 92812702
+How come element widths at percentages of the screen cause one to be pushed down when the widths add up to 100?
+
+https://jsfiddle.net/zhactkLq/
+--- 92812727
+>>92801822
+push all the application logic to whichever backend you want by adding markup that triggers refreshes to update the ui using https://htmx.org/docs/#introduction
+--- 92812943
+>>92798344
+lmao. this nigga fell for the tailwind css meme
+--- 92813040
+>>92812702
+No idea, even with a basic reset of m 0 and p 0 and border box.
+Even then why bother, just use flexbox, or grid if it's more complex.
+--- 92813053
+>>92812943
+I hate this trend of getting super triggered by something and dedicating your whole post history to trying to "shut it down", nigger if you don't like tailwind just don't use it you don't have to make it your life mission to supress it
+>t. don't really care about tailwind
+--- 92813257
+>>92812702
+float: left; works (thanks chatgpt), and
+
+> It's possible that the divs were being treated as block-level elements, which, by default, take up the entire width of their parent container and stack vertically. When you applied `float: left`, it forced the divs to be treated as inline-level elements, allowing them to sit side-by-side.
+but yea stop being an idiot and use flex/grid
+--- 92813355
+>>92813053
+>getting super triggered by something and dedicating your whole post history to trying to "shut it down"
+dare I say, based?
+--- 92813552
+>>92813355
+that's pretty much what literal jewish shills do, that will never ever be based
+--- 92814021
+>>92813552
+if you use tailwind you're literally worse than a jew
+--- 92814101
+>>92814021
+I don't use it, but kys
+--- 92814124
+>learning spring boot
+>it's literally just configuring stuff
+>just adding dependencies and annotating classes
+>so many annotations
+Holy fuck this is boring. Is this what BE is like?
+--- 92814227
+>>92814124
+Now you know why we say Backend is getting replaced by ChatGPT soon. Embrace being a Frontend chad.
+--- 92814354
+Let's say I want to send a message to a WebSocket client in one of my route handlers
+
+Should I store my connected WebSocket clients in the database?
+
+Currently they're in a JavaScript Set of `clients` (yes my backend is Node), but traversing that Set to find the correct client to send the message to probably won't scale very well. Querying the database to find the client I want is probably faster.
+--- 92814533
+>>92814354
+eeh i dunno i just used socket.io
+--- 92814581
+>>92814354
+So what I've done is store them in a hashmap in node. That lets you get a pretty quick lookup time. I do plan on maybe also storing the socketio connection id in a db for refresh/reconnections. haven't thought that far ahead though
+--- 92814651
+>>92814533
+nta, but I remember having trouble getting broadcast to work, to the point the whole class had the same problem, everyone had to just roll with broadcast (meaning the origin also recieved the message) so the emmiter recieved the message he sent as weel, when that wasn't supposed to happen
+did you have the same problem?
+--- 92814721
+>>92814354
+websockets are all about pushing data to the client right? why are you storing the clients? doesnt that mean you push conditions are wrong? rather than hijacking individual connections?
+--- 92814723
+>>92814651
+Don't remember, this is what I did
+--- 92815061
+>>92798344
+front-end development is truly a nightmare
+--- 92815497
+>>92807679
+>Me? Never used CSS animations. Could never be fucked
+Just do like Google does and only animate content shifting near the top of the page within 0.1s of the user about to click on something.
+--- 92815588
+>>92811503
+>if it's used by devs, open sauce it
+Today that means it will be used to train a commercial AI that makes profit for some billionaire and you will get $0.00 of that profit.
+--- 92815596
+How can you rip autoplay music from a website? I tried to look at the Media tab in developer tools but got nothing.
+--- 92815631
+>>92815588
+you get the AI, man. You don't want ai?
+--- 92815661
+>>92815588
+>you will get $0.00 of that profit
+>I'm the one responssible for this that is used by thousands of devs
+>here's your 100k+ salary bro
+ez pz
+--- 92815735
+>>92815631
+>>92815661
+>"Anon would you come to my office please?"
+>"Unfortunately at this time we are ending your employment with WagieCorp. Please spend the next two weeks getting ChatGPT familiar with our company codebase."
+>"Again we are sorry to let you go, but it is no longer fiscally responsible to pay you when ChatGPT works almost for free."
+--- 92815799
+>>92815735
+>be the nigga that creates the ecosystem
+>implying you get fired
+el oh el
+--- 92815824
+>>92815799
+yes.
+why would they keep you after it works?
+does it require dusting or oiling or something?
+--- 92815862
+>>92815824
+>be you
+>don't even get hired
+>reeeeeee why do smart people that create good stuff for the whole community get hired and not fired, I want them to be shit just like me
+cry a little bit more, maybe you'll reverse the situation kek
+--- 92815927
+>>92815862
+dumb commie zoomer who thinks you'll be spared
+brace yourself for hard times
+--- 92815958
+>>92815927
+go to chatgpt and write him some cry-posts, kek
+--- 92816062
+This is certified chatgpt town, every ai hating troon get the fuck out.
+--- 92816261
+>>92816062
+Why do you have an obsession with transvestites? Do you have a fetish or something?
+
+Seems like an extremely strange thing to be obsessed with so I think you might have a fetish.
+--- 92816304
+>>92816261
+I have a fetish yes. problem?
+--- 92816393
+I committed 1,000 typo fixes
+--- 92816731
+Should I bother sandboxing the HTTP server if I'm just serving a static site?
+--- 92816769
+LGTM
+--- 92816854
+>>92811456
+sharing is caring
+--- 92816955
+Would getting a wordpress job be easy for someone that's self-taught?
+
+I'm learning PHP at the moment, I already know Javascript, I'm hoping I can get a job in WP because I'm sick of my current job and all these fucking rejections I'm getting
+--- 92817069
+>>92816955
+>self-taught?
+--- 92817264
+>>92816955
+>I'm sick of... all these fucking rejections I'm getting
+Gid gud. Unironically. What's stopping you from being the go to guy for niche x? Be that guy everyone knows the name of when they talk about niche x and you'll never have to worry about money again, let alone getting a job.
+--- 92817344
+>>92816854
+Would you go and work in a shop for free? Or as a butcher for free? Or as a lawyer for free? Or as a doctor for free?
+
+Some jobs do pro bono work but it's usually rare. Why not monetise your skill.
+
+Bill Gates monetised his programming skill, and it made him the richest guy on the planet.
+--- 92817855
+>>92817344
+>bill gates was a programmer
+retard alert
+--- 92818101
+>>92817344
+>Would you go and work in a shop for free? Or as a butcher for free? Or as a lawyer for free? Or as a doctor for free?
+For a friend or relative, I may very well do that. Your reaction simply shows that you have no sense of community. And I guess that's fine, not everyone needs to have that, but there is somewhat of a traditional community amongst programmers. The only thing that worries me is that it might be falling apart as time goes on, and I would dearly miss it.
+--- 92818554
+>>92817855
+He was though, you fucking retard.
+
+>>92818101
+>there is somewhat of a traditional community amongst programmers
+Many programmers do it for the money, and don't share their work for free. In fact I think every programmer I've known in real life has been like that. I'm not aware of major open source contributions from any of them. And this is a group of, I dunno, up to 10 programmers I guess.
+--- 92819377
+>want to develop a React Native iPhone app
+>push notifications require a $99/year Apple Developer subscription
+FUCK APPLE
+--- 92820792
+>>92817264
+>Gid gud
+That has absolutely zero to do with getting a job offer.
+I helped interview someone and they weren't able to do even the most basic tasks in the programming language they said they'd spent the last 5 years doing. I talked with the hiring manager about it and the other interviewers had similar stories, but they liked the person's personality or something so they hired them anyway.
+Lesson learned: don't worry about learning a skill. Don't waste time with getting good. Just lie. Lie on your resume, lie in the interview, and when they catch you lying just shrug your shoulders. Sure fire way to get a job.
+--- 92820909
+>>92812124
+Please don't tell me you build everything else from scratch.
+--- 92820959
+>>92820909
+>goes into machine shop
+>"ummm... are you seriously milling that part from scratch?"
+lol computer people are such horrible people
+--- 92821006
+alright, I finally made my baby's first backend. had a feel of dealing with routes, using middlewares and had contact with the most basic basic modules 
+I'd move on to databases now so I can crud.
+BUT.
+Using WSL is making everything a colossal pain in the ass.
+So I'll skip to learning about deploying
+I thought of giving cloudflare a try but chat gpt called me a retard and something something CDN not meant for backend.
+
+What direction should I go so I can get a feel of deploying? vercel? I haven't even reached the build stage. not even sure about structure actually. so far I have a project folder with nothing but a backend and a frontend folder.
+the frontend is a template quasar app with nothing but a fetch to the backend added to it. the backend is an express app that only returns a json object just so you can know it exists.
+--- 92821007
+Without straying off topic, I want to ask how do people here deal with depression in your personal life getting in the way of learning and doing webdev. I assume this only affects a minority of folks here
+--- 92821119
+>>92821007
+Diet, exercise, sleep, and maybe cut back on caffeine.
+If I don't get enough sleep for two nights in a row I develop a sense of doom and it blocks productivity.
+Fasting seems to help sometimes, not every day but from time to time.
+I felt better when I started taking vitamin supplements like iron and b-complex.
+Weight lifting helps to some degree.
+Mostly just stop taking life so seriously. It doesn't matter what you do in life, in a few thousand years there will be no record of your life or deeds so it really doesn't matter.
+--- 92822079
+>>92821007
+
+I have no friends, no gf, and my dick doesnt work anymore. No webshit technology can fix this even though I think about it all the time. Find a passion that you really enjoy outside of coding to take your mind off things
+--- 92822510
+I am trying to solve picrel (selecting diagonal cells - HTML DOM Table)
+
+My thought process is that I need to solve the following conditions:
+1. Select the table which is given. let table = document.body.firstElementChild;
+
+2. Select a &lt;tr> and shade(change background color) the value equal to "i" (using a for loop) then increment it by 1 before moving to the next row.
+3. The "i" must be remembered across all rows.
+4. The script must stop 
+
+
+The table is in the link but it is basically just a table with 5 &lt;tr> elements which contain 5 &lt;td> elements each
+https://javascript.info/task/select-diagonal-cells 
+
+I'll ask my question tomorrow, I'm feeling sleepy...
+--- 92822544
+Why the push towards SSR by default these days? Didn't we all agree that SSR was fucking shit experience for the end user and resorted to Client side frameworks by ditching SSR. Now it seems like everyone and their mother is using SSR like it's some revolutionary thing.
+--- 92822762
+>>92822544
+We realized that having huge blobs of JS on the client to completely render our whole site was a bad idea in terms of performance for the user, prone to crash, as well as led to waterfall requests with loading UIs. Ultimately quite an awful experience.
+
+So we took the ergonomics of writing dynamic JS components but now let the developer opt in to JavaScript hydration so that it's the best of both worlds.
+--- 92822934
+>>92822079
+If you no longer have a working dick, I recommend Rust.
+--- 92823006
+>>92811695
+im the same way as well but i think its because i have autism
+--- 92823073
+>>92821007
+The only thing I "advice" I can give you is to exercise, meaning cardio and weightlifting, having regular sleep schedule, eating somewhat healthy. I'm trying to figure out the rest myself.
+--- 92823417
+I made an AI powered RegEx pattern generator, you can explain what you want in natural language and it will make the pattern and even the function for it.
+
+https://regexgpt.app
+
+I would say this is the alpha version, the final version will have the ability to reply and elaborate on the given answer.
+--- 92824223
+Page 7, bump
+--- 92824448
+>>92822510
+const rowCount = document.querySelectorAll("tr").length;
+const cells = document.querySelectorAll("td");
+
+for (let i = 0; i &lt; rowCount; i++) {
+    cells[i * rowCount + i].classList.add("selected");
+}
+
+
+alternatively you could iterate over all cells and check if two digits inside are equal, if yes then mark as selected
+--- 92824517
+ANON STARRED MY REPO
+--- 92824739
+How do I go about supporting the boatload of screensizes and adjusting my web app/site to them? Is there a framework/component/plugin/whatever that does this automagically?
+
+Also are Single Page Apps about to die or dead already? Or are the news greatly exagerating their death?
+--- 92824752
+Sublime is really quick to open
+
+Unlike VS Code which takes fucking ages
+
+Electron was a mistake
+--- 92824804
+>>92824739
+>adjusting my web app/site to them?
+UI I mean. Like top menu on a destop (big width) transforming into a menu accordion (or something like that) on a mobile phone (small width).
+--- 92824915
+>Looking for answer to question.
+>"Hey literally any website, how do I do this with Javascript"
+>Literally every fucking website: So this is the JQuery you need to use
+JQuery is faggot SHIT FUCK OFF STACKOVERFLOW
+--- 92825027
+>>92824915
+Whatcha trying to find out?
+--- 92825149
+>>92825027
+Literally anything ever. But right now I figured out the problem.
+--- 92825191
+>>92823417
+what an absolute beast if you really did this
+--- 92825234
+>>92823417
+it comes up with the same solutions I'd come up with, so either I'm a genius or regex is relatively limited.
+--- 92825247
+>>92824915
+it's legacy code, jQuery was the ES6 when there was no ES6
+--- 92825318
+>>92796418 (OP)
+Has any of you figured out twitter data scraping? I'm looking at GETs but I can't figure out how the site tracks records to load (for example in followers tab) and how certain keys are generated.
+
+Taking the profile's followers for example, each query to fetch more users has only variables:
+>"userId"
+>"count"
+>"cursor"
+>"includePromotedContent"
+count is always 20 by default, userId is self-explainatory, promo content is a bool and cursor is a pair of numbers - my guess is it's reading the cursor position
+
+Also, when accessing data you usually have a generated character string in the url, for example
+https://twitter.com/i/api/graphql/JpFFCTBPxYVlDqMUr9twzQ
+
+Any ideas where should I look to crack this?
+--- 92825344
+>>92817344
+Those jobs make more sense to monetize. If a butcher wants to feed a million people, he has to make a million steaks. If a lawyer wants to solve a million legal disputes, he has to go to court a million times. If a doctor wants to save a million lives, he has to treat a million patients. If a programmer wants to write code for a million people to use, he has to write one program.
+--- 92825347
+>>92824915
+just ask chat gpt granpa
+--- 92825385
+>>92825347
+Sorry but I'm not an Indian and I don't want to know how to make my code more inclusive.
+--- 92825417
+>Workplace looking for another Angular developer to work alongside me
+>Can not find anyone else that is mid level, competent and sane
+On a note, I guess I am safe as long as they don't ask for a rewrite in a different framework
+On an another note is Angular doomed?
+--- 92825450
+>>92825417
+they just introduced signals and shit
+--- 92825473
+>>92825417
+All frameworks are ultimately doomed by their very nature.
+--- 92825521
+>>92796853
+sign up for a chatgpt account and start asking it questions. It should help. Helped me out a lot with learning R. Pick a basic project for each of these languages and have chatgpt walk you through it.
+--- 92825534
+>>92825417
+same but with react
+--- 92825547
+>>92796853
+LOL ur fucked. Enjoy the gutter idiot. I bet you're a stinky California Indian.
+--- 92825583
+I have a mapbox marker component with svg element, using next.js.
+The marker is statically in the center, I need to animate it moving up slightly when user moves the map.
+I've tried like 5 different ways I can't get it to work I've been working on this for 10 days I need to produce results tomorrow holy shit im gonna fucking kill myself why is this shit so fucking impossible
+It needs to render inside useEffect where a bunch of other shit happens at the same time
+
+SOMEBODY HELP ME PLEEEEAAAAASE
+--- 92825652
+>>92825027
+Okay well here's one. Say I have the contents of an image upload form. I can get the file and it's size using:
+
+ var formdata = document.getElementById("formid").value;
+var imgsize = formdata.size;
+
+
+But how do I get the image dimensions?
+--- 92825693
+getting to know docker. 
+is dockerizing even nginx really a thing? I thought the host machine would setup it directly and hook up to the containers
+--- 92825980
+>>92825385
+use phind then
+--- 92825992
+>>92825191
+I used the openAI api to make it.
+
+>>92825234
+Try to generate more complex patterns. I’m glad the solutions are working, my big fear is it starts hallucinating garbage.
+--- 92826009
+>>92821006
+anyone?
+--- 92826036
+>>92825992
+>my big fear is it starts hallucinating garbage.
+that's a chatgpt classic, I just asked a regex question I solved and I was left thinking "there must be a better way", it solved it the same way I did
+
+
+the question was
+. take every post in a trhead
+. . bold and underline "ruby" and "jQuery" (this is merely an example I don't remember the words in question)
+. . make ruby red and jquery purple
+--- 92826113
+>>92826036
+I tried configuring it to be some what deterministic by giving it a low “temperature”.
+
+Also there are only so many optimal ways of finding a solution and maybe from all of your practice you’ve gotten good at it.
+--- 92826134
+>>92826113
+I'm good at regex, just not a pro
+--- 92826325
+Figma Driven Development
+--- 92826343
+figma balls
+--- 92826421
+>>92826134
+I think GPT4 will be better at it but I’m still on the waiting list. Thanks for taking the time to test it out.
+--- 92826469
+>>92826421
+kek
+--- 92826554
+>chatgpt is magic
+
+I'm trying to build Pong using React and this shit is like talking with a junior dev.
+It keeps hitting the character limit and getting stuck in half done code blocks.
+--- 92826570
+>>92826554
+write "continue"
+--- 92826829
+>>92826570
+It "works". It keeps breaking code.
+I tried version 4 at work because they paid for it and it was decent, I'm testing 3.5 here and I just gave up. It keeps shitting itself and providing invalid code.
+--- 92826920
+>>92826554
+surprise anybody
+>large language model designed to *write* text has no understanding of semantics and therefore cannot code
+How retarded are you people thinking that this piece of software would write the code for you all by itself?
+--- 92827060
+>>92826920
+nta, but it has failed me but also helped me, it's not black or white
+--- 92827117
+Is TypeScript just Microsoft's new "embrace, extend, extinguish" strategy?
+
+I think they've done the whole types thing in order to drive people towards C#
+--- 92827135
+>>92827117
+C# didn't invent types anon, nor is the only language using them
+--- 92827170
+>>92826920
+>by itself
+Depends on what you mean by that. I used ChatGPT 4 to build a select component multiple option selection, search function and toggle all options and I didn't touch the code at all, but I had to be very specific on my prompts.
+--- 92827174
+>>92827117
+>improving the language must meant they want to ultimately extinguish it!
+Your thinking is completely backwards. Also >>92827135
+t. hate microsoft
+--- 92827198
+function createChartBlocks(job, driverName) {
+    let { bus, startTime, preDrive, length, postDrive } = job;
+
+
+ChatGPT prouced me this javascript statement. What is this and how is it legal? 'job' is an object with these fields.
+--- 92827200
+>>92816854
+Exactly, share some $ if you care
+--- 92827234
+>>92827200
+open an onlyfans, fag
+--- 92827318
+>>92811456
+Literally every small wank.js library has a donate button in the README. Many people who release open source code are still doing it for money and/or recognition
+--- 92827320
+>>92827198
+object destructuring. Very useful shit
+--- 92827461
+>>92827135
+True but all the generic syntax is found in C#, I think it's in Java too right, and maybe other languages, but still
+
+>>92827174
+You never know with Microsoft
+
+Also it's kind of ironic that TypeScript is sort of the trendy new tech when it's from Microsoft... what a world we live in when Microsoft tech is the trendy new thing
+--- 92827495
+>>92816393
+>Impressive github anon. So tell me, why did you apply for this position?
+>"There was a typo in the job posting."
+--- 92827567
+>>92824915
+>"Why would you want to do this anyway?"
+>"Just install this npm package."
+>"This issue has been resolved, please refer to [issue that is completely different]."
+>"Just update to the latest version."
+--- 92827633
+>>92827461
+>True but all the generic syntax is found in C#
+What does this even mean, you fucking retard? You mean generics?
+--- 92827644
+>>92821006
+Dunno I used Render with the backend and the backed has a dist server from the built front end
+--- 92827677
+>>92824739
+just use 2 or 3 media queries and start from mobile, then one change at i dunno 600, another at 1000 and that's it, if even
+--- 92827727
+>>92827714
+holy reddit
+--- 92827870
+>>92796418 (OP)
+>another cope thread from devs
+hey guys just reminding you that you won't have a job in about 6 months.
+I literally use ChatGPT and come up with better code than 98% of you lmao
+--- 92828103
+>>92827870
+try to come up with better b8
+--- 92828131
+>>92827633
+Why are you crying like the little bitch that you are, you fucking retard? Jesus Christ I didn't think it was possible to be as much of a little bitch as you.
+--- 92828150
+>>92828131
+I'm just calling out how retarded your post was. Try not to get offended like a little boy next time.
+--- 92828245
+>>92827714
+I got into this field after a year long of monk tier discipline when it comes to studying mostly fueled by hate.
+--- 92828284
+this site is nice!
+https://www.powermapper.com/tests/screen-readers/elements/
+--- 92828307
+>>92828150
+It wasn't retarded at all. It made perfect sense but you're crying like a little bitch over it, because you're a little bitch.
+--- 92828340
+>>92828307
+You don't even know what generics are. I literally do not care what you think.
+--- 92828341
+>>92827170
+>>92827060
+So by pure chance it sometimes works under certain circumstances. That is also of no surprise considering the fact that it was trained on data which probably also came from stackoverflow et al. Still, it is not made for coding and therefore it should not be surprising to anybody, that it won't work for that.
+--- 92828395
+>>92828341
+I see it as a tool that is useful if you know what you are doing.
+I've been using it for a week and none of the code it generated was free of flaws, some minor, some major, and sometimes it didn't work at all. I gave up trying to replicate Pong and I could find a working implementation using google in 5 minutes.
+So my tl;dr take at this point is that anyone thinking this shit can replace them, then it is entirely their fault for being shit at their job.
+--- 92828408
+>>92828284
+It's always great to create screen reader friendly websites.
+I always do my best, and at the same time I make sure said websites break for apple users.
+--- 92828438
+>>92828408
+>and at the same time I make sure said websites break for apple users.
+my sides
+--- 92828707
+>>92828408
+>prefers the disabled over rich faggots
+based
+--- 92828770
+>>92828340
+Yes I do, and you clearly care, demonstrated by your bitch crying.
+
+Glad I could defeat you like the little bitch that you are.
+--- 92828799
+>>92828307
+>It made perfect sense
+Not really mate, you sound like a brainlet
+--- 92828822
+>>92828799
+It did actually, you thick fuck.
+--- 92828836
+>>92828770
+You posting like an underage boy. So far you've shown you don't know shit about programming, with your midwit question and even more retarded reply. Also
+>but all the generic syntax is found in C#
+does not make any sense you brain damaged retard.
+--- 92828895
+>>92828836
+I'm not reading your pathetic crying. Glad I could defeat you like the bitch you are.
+--- 92828905
+cors can be bypassed (or spoofed) with local tools, right? it seems it is something only enforced by the browser
+--- 92828945
+>>92828905
+why aren't you asking chatgpt instead? we're trying to wind down operations here in /wdg/. it's over.
+--- 92828970
+>>92828945
+it's indeed over for brainlets like you, kys
+--- 92828975
+>>92828895
+kill yourself retard
+--- 92828998
+>>92828975
+I won't. So you'll just have to cry like the little bitch you are instead, little bitch.
+--- 92829050
+>>92828945
+>why aren't you asking chatgpt
+chatgpt is blocked in my country
+--- 92829081
+>>92829050
+Your only priority should be to get out of that shithole then.
+--- 92829098
+>>92828998
+>all this manchild can do is post same few swear words
+--- 92829105
+>>92829081
+based retard doesn't know how to use a proxy, and is posting in /wdg/, king of brainlets
+--- 92829110
+>>92829050
+nevertheless you can probably still use phind.com, expert mode is close to gpt-4
+--- 92829132
+>>92829105
+you're a fucking retard
+--- 92829190
+>>92829098
+Glad I could make you cry yet again, you pathetic little bitch.
+--- 92829365
+>>92829190
+All you did is show how dumb and primitive you are.
+--- 92829382
+>>92829365
+Nah. I showed that you love crying though.
+--- 92829402
+>>92829382
+Pointing out your retardation is not crying though.
+--- 92829426
+we get it buddy, you love seething, kys
+--- 92829472
+>>92829402
+Crying like a bitch is crying, which you are doing.
+
+>>92829426
+He does seem to love seething indeed.
+--- 92829495
+>>92829472
+Whatever helps you cope, retard.
+--- 92829529
+>>92829495
+Keep crying like the bitch you are, little bitch.
+--- 92829597
+>good enough to make shitty borin web apps
+>not good enough to make the ones I want to make
+--- 92829882
+>>92829597
+same bro, same
+--- 92830763
+would this work if i actually did it?
+i have a feeling the api stuff is completely wrong
+--- 92830955
+>>92830763
+looks pretty good to me. even if it does error out, you just paste the error to it and it'll fix it
+--- 92830991
+>>92830955
+i've had issues with api's before
+having to go actually find the api docs and copy paste shit in over and over till i find the correct one lol
+
+coming from amatuer gamedev i thought webdev would be easy, but man you guys just seem to have trash docs for everything
+nothing is ever name like you would think either
+--- 92831182
+>>92796731
+get on the phoenix train, no need for fe/be split either, server rendered and high performance
+--- 92831505
+>>92796418 (OP)
+How do I get the width and height of an image in the &lt;input type=file> in vanilla javascript as simply as possible. I'm trying to restrict image uploading by dimensions.
+--- 92831512
+>>92830763
+Goofy aah code. Back-end chads will agree.

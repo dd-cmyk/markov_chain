@@ -1,0 +1,1443 @@
+-----
+--- 92780054
+tinyminimicro router edition
+
+READ THE WIKI! &amp; help by contributing:
+https://wiki.installgentoo.com/wiki/Home_server
+
+>NAS Case Guide. Feel free to add to it:
+https://wiki.installgentoo.com/wiki/Home_server/Case_guide
+
+/hsg/ is about learning and expanding your horizons. Know all about NAS? Learn virtualisation. Spun up some VMs? Learn about networking by standing up a OPNsense/PFsense box and configuring some VLANs. There's always more to learn and chances to grow. Think you’re god-tier already? Setup OpenStack and report back.
+
+>What software should I run?
+Install Gentoo. Or whatever flavour of *nix is best for the job or most comfy for you. Jellyfin/Plex to replace Netflix, Nextcloud to replace Googlel, Ampache/Navidrome to replace Spotify, the list goes on. Look at the awesome self-hosted list and ask.
+
+>Why should I have a home server?
+/hsg/ is about learning and expanding your horizons. De-botnet your life. Learn something new. Serving applications to yourself, your family, and your frens feels good. Put your tech skills to good use for yourself and those close to you. Store their data with proper availability redundancy and backups and serve it back to them with a /comfy/ easy to use interface.
+
+>Links &amp; resources
+Server tips: https://anonbin.io/?1759c178f98f6135#CzLuPx4s2P7zuExQBVv5XeDkzQSDeVkZMWVhuecemeN6
+RouterOS's: https://wiki.installgentoo.com/wiki/Home_server#Custom
+https://gitlab.com/awesome-selfhosted/awesome-selfhosted
+https://reddit.com/r/datahoarder
+https://www.labgopher.com
+https://www.reddit.com/r/homelab/wiki/index
+https://wiki.debian.org/FreedomBox/Features
+List of ARM-based SBCs: https://docs.google.com/spreadsheets/d/1PGaVu0sPBEy5GgLM8N-CvHB2FESdlfBOdQKqLziJLhQ
+Low-power x86 systems: https://docs.google.com/spreadsheets/d/1yl414kIy9MhaM0-VrpCqjcsnfofo95M1smRTuKN6e-E
+Cheap disks: https://shucks.top/ &amp; https://diskprices.com/
+
+Previous: >>92758826 →
+--- 92780144
+this should be called consumer general
+--- 92780358
+my home server doesn't do anything most of the time it just sits there powered on using 30ish watts
+what should I make the bitch do to be useful
+--- 92780548
+>>92780358
+find half-dead torrents, download them and seed them (on public trackers)
+even if some can take over a year to download 100%
+--- 92780566
+I want to use an old smartphone to host stuff, but I'm too lazy to do it. 
+https://lbrito1.github.io/blog/2020/02/repurposing-android.html
+--- 92780785
+>>92780144
+>be your own service provider, on your own terms
+>own your digital life
+>learn more things daily
+>repurpose hardware you already have
+vs
+>consumer general
+what did anon mean by this
+did anon get lost
+>>92780358
+/mlp/ torrent/ipfs station
+people discover the magic of friendship every day
+>>92780566
+do it anon, I'm rooting (heh) for you!
+see if postmarketOS runs on your phone, you might get a more typical userspace that way
+--- 92780836
+>>92780785
+>Samsung Galaxy Pocket This device is marked as not booting.
+>Status: Kernel compiles, but doesn't boot (stuck on bootloader logo)
+Alas, if only I hadn't trashed my old Moto G3. Thanks for the encouragement. Could it still host a textfile hosting service, though. kek
+Maybe soon...
+--- 92780972
+>normies talking about torrenting Japanese cartoon collections for their NAS
+>not setting up a virtualization server and making money selling cloud VMs to Pajeets on GitHub to deploy their shitty apps for crypto
+--- 92781006
+>>92780054 (OP)
+What model? What is the WiFi cable for?
+--- 92781076
+>>92780836
+>Kernel compiles, but doesn't boot
+Older phones usually had UART more accessible, like on some modded USB cable or exposed on mobo test points. Console output could help you understand what's going on there, and perhaps get you into another cool hobby that lets you learn a ton.
+Good luck either way, post in the thread if you get something out of it.
+>>92780972
+>giving strangers possibility to remotely execute code from your IP
+well, sounds fun except for that point
+>>92781006
+>What model?
+M720q Tiny, see >>92758826 →
+>What is the WiFi cable for?
+access point, most likely
+--- 92781091
+>>92781076
+>implying VLANs don't exist
+>implying multi-layer firewalls don't exist
+>implying containerized VMs with root admin control doesn't exist
+>lastly implying Pajeets can even find such an exploit on Stack Exchange to copy their code from
+--- 92781112
+>>92781091
+I mean, GH gives people runners to run their unapproved shit on, and the company still exists, so of course it's possible to sandbox stuff. But I personally wouldn't do that unless I was paid handsomely.
+--- 92781183
+>>92781076
+>M720q
+Cool. Using m710q here myself. It was a good ebay deal
+--- 92781294
+Is SELinux doable on a raspberry pi? Why can't a find a thing that works?
+--- 92781379
+>>92781294
+Fedora
+--- 92782328
+>>92780054 (OP)
+Does the power disable feature of HDDs automatically get defeated if you use a hotswap bay that uses molex for power?
+I assume yes as there is no 3.3v going to the HDD
+--- 92782387
+>>92780054 (OP)
+To the anon that told me about Navidrome, thanks. I got it all setup and working perfect, been bicycling to my own music on my phone from my homeserver.
+
+Extremely comfy.
+--- 92782425
+>>92780972
+>giving remote access to strangers
+I'm sure nothing could go wrong.
+--- 92782726
+>>92782387
+Navidrome has a cool feature called smart playlists. It's not very well documented, but you need to create a nsp file with proper json and it will dynamically pull songs based on metadata and tags.
+--- 92783785
+Does yunohost hate m.2 drives? Been trying for the better part of a week to get it running and in all the install attempts it simply will not pass the partitioning step of the install if the device im using has its target drive in the m.2 slot instead of sata
+--- 92783979
+>>92783785
+Yunohost is very opinionated when it comes to the installation. Probably you hit such a case.
+--- 92784000
+>>92783785
+Also an anon in /fwt/ told me about ventoy and yunohost straight up does not like that either
+--- 92784023
+>>92783979
+I have been coming acutely acquainted with that over the last week kek i thought as much
+--- 92784507
+I set up a NAS at my parents' house so they don't lose all their music and photos on the 10+ year old laptop hard drive they have been using. How can I also back it up over the internet to my NAS? Both are running Unraid and I have a Windows VM on their box that I can remote into.
+--- 92784703
+Thoughts of setting up a Raspberry Pi Jellyfin server for my TV? I have most of my home network in my office including a NAS and I'm tired of having to hook up my laptop to the TV when I want to watch some movies or TV shows. I figured a Raspberry Pi would be easy to mount behind my TV hidden away but can it handle a Jellyfin server with all the media stuff with transcoding?
+--- 92784728
+can someone explain what the fuck is wrong with this drive, it's literally brand new. i tried btrfs and ext4 both seem to stop copying after awhile and drive turns to "read only". sync stops working and smartctl wont even show jack unless i replug the drive. what is going on?
+--- 92784953
+>>92784728
+Do you use any HBA? It might be overheating.
+Check cables.
+Check dmesg for SATA errors.
+Disk get remounted read only when the fs or kernel notices catastrophic failure. 
+It also might be that the drive is faulty for some reason and you should RMA it.
+--- 92785219
+how come AV1 hasnt taken over the pirate scene?
+--- 92785259
+>>92784953
+i just gonna refund it and never order from this store ever again
+--- 92785310
+>>92784953
+>>92785259
+also the thing is. "read only" also lie, because i cant even ls the directory after it's in this state. it gives input/output error instead. i have no idea why would brand new drive do this
+--- 92785336
+>>92785310
+Have you even partitioned and formatted it?
+--- 92785353
+>>92780054 (OP)
+Got my 10gb DOCSIS 3.1 modem a couple days ago.
+Today, I place the order for a static IP from my ISP. 
+I have a good "managed" router with some okay built-in firewall stuff but i'm not opening ports until I'm good and ready. 
+Picrel related, It's pretty basic but what would you change if anything? My modem actually has two ports on it. I could get two routers just because but that's not a good reason. I will get another 3560 switch for the Server(s) but that won't be for a bit.
+--- 92785418
+>>92785353
+>Got my 10gb DOCSIS
+Got your fucking WHAT?
+--- 92785446
+>>92785418
+I was just showing off. My connection is &lt; 1gb.
+--- 92785480
+>>92785353
+Why do you need so many switches? How much stuff do you have? 
+
+Instead of worrying about redundancy, you should be worried about security. It's a home network not a business. Get a router with pfSense or OPNsense, managed ports, and vLAN. Dividing your devices with more switches does nothing. Setup vLAN with a router. Get a POE managed switch if you have a bunch of IoT devices.
+--- 92785525
+>>92785446
+I don't know of a single DOCSIS modem with a 10G port, but I know of one that does 2x1G and can do LAG. Consider yourself lucky, we're still stuck on 3.0 24x6 here. Wish this stupid country had DOCSIS 3.1 and allowed me to get an SB8200 for myself.
+Instead we do XGS-PON with only 1G ports and no LAG options.
+--- 92785924
+>>92785336
+>i tried btrfs and ext4 both seem to stop copying after awhile 
+im not sure why would it be different this time. i formatted and encrypted a lot of drives by now. the only unique thing this time i wanted to try was compress=lzo on btrfs, but like i said, after it start acting up as a test i formatted to normal ext4 just to see and it was getting worse
+cryptsetup luksFormat --type luks --cipher twofish --hash sha512 --key-size 256 --use-urandom --iter-time 2000 /dev/new-drive
+mkfs.btrfs /dev/mapper/new-drive
+mount -o defaults,noatime,compress=lzo /dev/mapper/new-drive /mnt/new-drive
+--- 92785982
+>>92785525
+A LAG doesn't allow you to create a single 2gbit/s TCP connection.
+--- 92786507
+maybe I'm just retarded but DD-WRT's website is fucking pain in the dick to use.
+How the hell do I find the flash file for Asus N66u? I see people saying they're using new versions for this router but I've search over the download links their stupid website offers and can't find one for the router. Looked over their entire FTP list and can't find it. They're router table offers a version from 2020 but the whole website says "don't use the router table" so what the fuck
+--- 92786678
+>>92784703
+I have a rpi with 2gb ram and it chugged and kept crashing playing back 1080p content. Not sure if it was transcoding or 2gb ram is just not enough or what, kind of a noob to this and really don't have time to go deep into the media playback codec rabbithole h265, av1, etc, bs so I picked up some guy's $200 gaming pc with a ryzen 3 and 1060 off marketplace and had no issues since.
+--- 92786704
+>>92786678
+Sorry meant to say rpi4 with 2gb ram.
+--- 92786768
+>>92786507
+Switch to the superior choice: https://firmware-selector.openwrt.org/?version=22.03.4&amp;target=bcm47xx%2Fmips74k&amp;id=asus_rt-n66u
+--- 92786796
+>>92785525
+What's the upload like?
+--- 92786812
+>>92786768
+At least it's fucking easier to find the image I want holy shit. The only thing I can find at all on DD-WRT was the AC-66u which looks the same but I don't know how that might work and don't want to brick my stuff.
+--- 92787075
+>>92786812
+Too bad the router is another Broadcomshit that has bad driver support.
+--- 92787116
+Should I use a RAM disk or a spare 128gb ssd for a transcode drive?
+--- 92787233
+>>92787075
+what is this Broadcomshit?
+--- 92787280
+>>92787233
+Look at what it says on the wiki: https://openwrt.org/toh/asus/rt-n66u
+It's using a Broadcom chip that's badly supported so Wifi won't work correctly.
+--- 92787354
+>>92784703
+i used a raspberry 3 as a plex server for a long time. it works great just disable transcoding
+--- 92787383
+>>92787280
+I see. So a wifi-router that doesn't use a Broadcom chip would be best if messing around with custom firmware like openWRT?
+--- 92787484
+currently preclearing my HDD x18 Exo 18TB and wow look at those speeds, 276Mb/s. That will easily hit 10Gb speeds along with my other 4 drives I currently have
+--- 92787620
+>>92787383
+Yes, but always check the wiki for support status before making any purchases.
+--- 92787846
+>>92780548
+>find half-dead torrents
+I have one of those, stuck at 16% for years but I'll never give up.
+--- 92788278
+Figure this might be the best place to ask
+I have to store several videos of security cameras, they are recorded on device and once per day, downloaded.
+What’s the best way to codec/compression to store them?
+Our employees need carry a small camera similar to what police use
+I don’t care if it takes an hour to decompress i don’t want to have them use a lot of space
+--- 92788571
+>>92788278
+It depends on how often you will want to recall certain segments and at what quality.
+Most likely the video is already compressed by usage of some codec like H264 on the device level, so you can re-compress it at lower bit-rate/resolution or use a higher complexity codec (H265, AV1) to achieve higher compression ratios. Just be aware that re-compressing will take a lot of time and CPU/GPU power so it might be cheaper just to have bigger storage and use the format directly from the cameras. If it's going to be used for evidence/law enforcement then storing the video directly without modification might actually be mandatory.
+--- 92788705
+I have to store several tb of data
+This data is maybe accessed once a year, i don’t see the point of having a 24/7 nas just to use it once a year.
+From what I understood, bit rot can happen, even on unplugged hard drives, how often should i turn the nas on to prevent rot? Once a month? Once a week?
+--- 92788749
+>>92788571
+Again, i don’t mind waiting 2 hours to retrieve them, they are 10-12 hour recordings at 1080p, times 60 employees, that’s 600 hours of video a day
+--- 92788831
+>>92788749
+With such a scale re-compression is probably out of the question.
+If you don't mind waiting 2 hours then why don't you put it on LTO?
+--- 92789074
+>>92780785
+>be your own service provider
+home server doesn’t do that
+--- 92789233
+>>92780054 (OP)
+I soon will have money :)
+Id like to have a home server, but i dont want to spend extremely much. Id like to host books, videos, and such things to my family, perhaps a mail server, or a xmr node, maybe also TOR node
+
+Is an old computer enough for this? I dont have one, what should I look out for?
+
+is an i3, and a TB hdd good enough for this?
+What OS, should I get?
+OpenBSD?
+Gentoo?
+--- 92789402
+>>92780054 (OP)
+I dont see any router generel so im just gonna ask here,
+I live in an apartment that has a router preinstalled. Can i just remove that one and put in my own one?
+
+Can i get into problems? Will it work? do they block your own ones?
+--- 92789431
+>>92788705
+You won't even know bitrot happens unless you have data to compare it against. Do you have the data running hot 24/7 somewhere else as well?
+>>92789233
+>Is an old computer enough for this? I dont have one, what should I look out for?
+Cheap dell optiplex on fbm or craigslist is plenty
+>is an i3, and a TB hdd good enough for this
+Maybe? If you're booting from the drive and running everything else on it it'll chug. Boot from an ssd and store data on the drive, you'll be fine.
+>What OS, should I get?
+Whatever you're comfortable with already.
+--- 92789448
+>>92789402
+If you can log into it like you can a normal ISP modem/router just see if you can set it to bridge mode.
+--- 92789517
+>>92789448
+as i understand from the short paragrpah on our wiki, 
+bridge mode just routes all the traffic trough one physical port on the router in which I can plug in my own router? Basically acting as a kinda firewall-router between my homenetwork and the isp's router?
+
+Wont the isp router still have much control over my network like wifi? inspecting my traffic, also wifi?
+should I wrap it in a faraday stuff or what ahha
+--- 92789629
+>>92789517
+>asically acting as a kinda firewall-router between my homenetwork and the isp's router?
+It would not be acting as a firewall and no matter what you do your ISP would still be seeing your traffic unless you use a proxy or commercial VPN. If you just want to keep your traffic private, look up MullvadVPN or any of the ones shilled on youtube.
+--- 92789879
+>>92780054 (OP)
+you've got a label maker, why you putting coloured zip ties on your cables?
+--- 92790053
+>>92789517
+u turn off the wifi and everything else on the router when you put it into bridge mode. at&amp;t calls this ip passthrough mode, some of the ISP networks wont allow a connection unless it detects their device on the end as a gateway so u set the routers up to simply pass through the traffic and put the router u actually want to use behind it and set the wifi and shit up on that one
+--- 92790226
+>>92790053
+Different guy here, what are actually the benefits of using ur own router?
+--- 92792364
+want to make a jellyfin server what's better used dell optiplex with the ability to add a low profile GPU to handle in case of transcoding or a mini PC with a decent quick sync Intel chip ?
+--- 92793528
+>>92776010 →
+Ty anon. That looks pretty good.
+--- 92793566
+How do though redditors connect 20 drives to their PSU? I currently have only a power supply capable of powering 6 HDD only and would need to buy splitters but it would overload the PSU or cable
+--- 92793748
+>>92790226
+You can run different stuff on it aside from the ISPs firmware. In my case, COX doesn't let you do port forwarding and a bunch of other shit unless you do it through the phone app or their actual website. So I have a router connected to their moden/router that is set in bridge mode. Now I have a bit more control of the traffic in my network, which I couldn't do with my shitty ISPs router. 
+Other anons do some real shit like hosting webservers so they need a legit router. I'm just talking about the ones you'd buy from best buy or amazon for $75-$120.
+--- 92794402
+>>92793566
+You can use splitters safely with HDDs, to a point of course.
+Hard drives don't take much power and only having 3-4 sata connectors per PSU cable is not because the wiring can't handle more but more to do with power supply manufacturers deeming it not necessary.
+--- 92794478
+>>92794402
+how much can i daisy chain without burning the cables?
+
+looked online and they've said it was 3-4 sata connectors per sata power cable as it can only handle 4.5A and each sata connector will have a 1.5A load on them so I am stuck with a limited amount of power connectors to my HDD
+--- 92795536
+>>92792364
+An off lease mini PC with a newish i3 with Quicksync would be better. Solid transcoding performance with far less power used. Only thing is when your library grows it'll be harder to add more drives to it
+--- 92797291
+>>92794478
+>how much can i daisy chain without burning the cables?
+Quite alot
+Even assuming 18 guage wire coming from your PSU, that can easily handle 10 amps which is 120w. Good rule of thumb for 7200RPM HDDs is 10W of power consumption per drive so you can safely double the amount of drives off one PSU lead. If you really know what your HDDs consume you can even triple it with no risk of burning anything.
+
+Just a single sata connector is good for 54W, although I'd probably limit it to 4 drives per connector
+--- 92797378
+>>92784728
+tried checking syslog/dmesg?
+--- 92798285
+>>92790226
+the stock isp routers are normally trash without even basic router features like qos built in and shitty wifi
+--- 92798693
+>>92782328
+Yes, power disable depends on a specific pin (that's disconnected when powered via Molex) being pulled high
+--- 92799014
+>>92780144
+fpbp. Bunch of loontroons LARPing as Big Data from throwaways they find on the side of the road.
+--- 92799191
+What's the most minimal and secure way to run a wordpress? I don't have time to manage a fullblown manual apache mysql etc setup
+--- 92799637
+>>92799014
+This but unironic
+--- 92800807
+>>92789879
+tell me how you expect to label an Ethernet cable? it's a little harder to tell when they all come from the wall or front of the rack, and they are all unplugged.
+--- 92801490
+>>92797291
+>although I'd probably limit it to 4 drives per connector
+So does this mean I can get a 4 way splitter for each sata connector right if thats what you mean? Thats about 12-16 HDD per sata power cable
+--- 92803114
+boop
+--- 92803749
+is it supposed to take this long for a scrub? problems after problems with zfs giving me a migrane
+--- 92804226
+i have a tinymicro running jellyfin with the *arr stack and a discord bot. i just upgraded it to 32gb ram, give me some inspiration on how to use them gigs
+--- 92804281
+>>92803749
+depends on what disks you have and how the data is distributed on them but yeah several days is hardly exceptional for that amount of data
+--- 92805407
+Tax return just came in. Should I?
+Also, what's the best setup for zfs on these? I was thinking 2 mirrors in a pool, WD/Seagate +WD/Seagate
+--- 92805647
+>>92805407
+Do not use SMR disks with zfs or raid in general. You will have a bad time.
+--- 92805746
+>>92805647
+The WD is CMR thought, right? And I know people generally recommend mixing up disks in mirrors, but what are my odds realistically of 2 drives in a mirror failing at the same time if I put 2 WD in together?
+--- 92805967
+>>92805746
+Yes WD should be CMR, but Seagate are SMR.
+The blue line from WD have bad specs and are not supposed to be run in raid.
+If they fit your budget they might be ok, but they also might fail fast in zfs.
+--- 92806124
+>>92805967
+Seagate Ironwolf Pro is CMR but he went for the Barracuda for some reason
+--- 92806177
+>>92782726
+Not the first anon but I tried this and it seemed to crash / lag out my server.
+Shame cause that's basically the last thing I would need for it to be perfect.
+
+Also haven't found a good android app for it.
+--- 92806237
+Got szurubooru up and running for personal collection of memes / reaction images / art / porn. Extremely comfy.
+
+Any other boorus with working docker images I should be using instead before I commit too hard? I'm happy with szuru but seems like its not really maintained these days.
+--- 92806375
+>>92806177
+Works fine here with 5k tracks, but the functionality is not finalized and can have bugs. I only us very simple dynamic queries like most played or genre with some filtering.
+
+For Android there is DSub (no longer actively developed, but works well), Ultrasonic (actively developed with fancy UI).
+There are some other newer ones with fancy UIs but the functionality is lacking.
+--- 92806410
+anyone on 100gb yet? MikroTik CRS504-4XQ-IN is surprisingly cheap
+
+>>92788278
+you can't just losslessly compress videos with normal file compression like zip etc. and expect savings of more than a few percent, lots of video takes up lots of space
+
+if you only need long term storage and very rarely need the actual data, tape may be good
+
+>>92788705
+powering on a hard drive won't change anything (SSDs are different though), you need to be using some kind of backup solution that's checking data integrity
+--- 92806591
+I need to build a home server that I want to use run some stuff:
+
+Local files server with separate access for work and personal stuff (it would sync with separate onedrive accounts I have for work and personal things too)
+CFTV server of a few IP cameras I have at my place
+Home assistant for automation of stuff I have here
+Plex server
+
+Should I run multiple VMs for each of these things so they stay separate? I probably should be running some linux distro that runs all that stuff right?
+Any recommendations on hardware to run this? An used old IBM server or something running a xenon would be enough?
+--- 92806694
+>>92806124
+All about price, my friend.
+>>92805967
+Fine, you convinced me to cancel the Seagates. Still doing the WD though, good deal and for my NAS that sits idle 99% of the time and doesn't need reliable uptime I'm not too worried about getting top-tier hardware.
+--- 92806745
+>>92785480
+Take note that this is a homelab as well as a home network. I think you're right though. I need to worry a bit more about security. My router has VPN capability so it has a built-in firewall and other stuff, which I need to learn a bit more in-depth. 
+As far as other things go, I already have a Cisco 3560 switch that I picked up on the cheap from some company that was going out of business. I was going to duplicate it for inter-VLAN routing, ether channel and such, you know, solid networking stuff. Redundancy is part of any networking strategy in a mid to large business. 
+I don't have a bunch of stuff, I put the three server images in there more for image consistency than anything. I have an enterprise server running a handful of VMs.
+--- 92807137
+>>92806237
+hydrus is better
+--- 92808205
+can someone explain to me how hardlinking works on sonarr/radarr in unraid? like i know basically it creates a pointer to the same file that can have a different name, but i don't get how it works with deleting the files. If I download a file and have the torrent client delete it when its done seeding will it just delete the original pointer to the file and still leave the second pointer that sonarr created with the cleaned up file name and stuff in tact unless i delete it at both locations? or will the hardlink that sonarr created for the library be broken and stop working if you delete the original from the torrent download
+--- 92808649
+>>92808205
+Hardlinks - you need to delete all hardlinks and original file to free storage
+Soft links - you need to only delete original file that is source to free storage
+--- 92808680
+>>92784703
+Definitely set up zram regardless of what you do, pic related. I also use high swappiness.
+
+As for transcoding, the GPU support is still fucked after all these years. You may be able to pull off a single stream if you OC and cook the thing. If your TV is recent enough it should handle most codecs without transcoding.
+Alternatively install LibreELEC on it or get a dedicated device like a Fire Stick with Kodi on it.
+--- 92809135
+Is an old IBM 3550 a good buy? For 40 bucks
+--- 92810503
+>>92809135
+>IBM 3550
+
+You'll end up spending more just powering it than if you bout more recent parts and built something yourself. Never mind the heat &amp; noise it'll produce. The early 3550s seem to be from 2007, the top end of the first gen models seem to be X5460 CPUs. Those have a CPU Mark of 2566. Any modern Ryzen can do 15000+.
+--- 92810771
+>>92800807
+If you can't figure that out you should seriously consider suicide.
+--- 92811406
+>>92808649
+thx
+--- 92811742
+>away from home
+>decide to do fix something
+>mess up systemd service config
+>unable to access my services 
+>even ssh isn't working
+
+Am I fucked until I get home?
+--- 92811945
+>>92811742
+Tell us the server ip and find out
+--- 92812000
+>>92811945
+192.168.1.1
+--- 92812302
+>can't receive incoming connections at main pc
+>iptables says it's supposed to accept incoming connections
+>tcpdump says the packets are actually coming
+>disabling firewalld allows me to receive incoming connections but only from my local server
+>still can't receive connections from any other devices in my network
+how can I troubleshoot this further?
+--- 92812378
+>>92811742
+I'm at your house now. What should I check first?
+--- 92812530
+>>92812302
+wtfs an 'incoming connection' is there a wikipedia page for it
+--- 92812531
+>>92811742
+Hope you had a serial console setup already or you're fucked after you get home too
+--- 92812753
+>>92812000
+how did u know my router ip am i hacked
+--- 92813471
+>>92812378
+Start by getting DP to HDMI dongle from the top left orange box in the kitchen. While there you might also want to get a keyboard. Turn on the tv and the xbox since it is in sleep mode and turn the xbox off. Unplug the hdmi cable from it and plug it in the dongle mentioned earlier. Now turn off the server and bring it over to the tv along with the power cable. From there plug the dongle with the hdmi cable to the tv, plug the power cable to the server and turn on the server. The password for the root user is r007P4$$wor&amp;.
+From there you know what to do.
+--- 92813493
+>>92813471
+For anyone wondering this is a joke obviously.
+--- 92813541
+>>92813471
+Done. Can you verify it's working?
+--- 92814080
+Are there any HDD bays WITHOUT raid?
+I just want a 2-4 drive bay for like 50$...
+--- 92814255
+probably the best thread to ask in,
+what should I look for in a electricity usage monitor? which one do you guys use if any?
+--- 92814256
+>>92780972
+Those are the exact customers that make working for a place with shared web-hosting a nightmare, have fun with watching your IP space get blackholed because pajeet left a VM with SSH open and a root login of 1234.
+--- 92814531
+>>92812302
+To begin with, you seem to have both iptables and firewalld enabled at the same time. Pick one and disable the other. If you're on an rpm based distribution you can install and enable iptables-service, which will allow you to restart iptables with your ruleset like any other service, and you can save your rules to a file that will load after rebooting. If you want to stick with firewalld, redhat has some docs for it that explain the basics. In your case you should look up how to see what policy is active and what rules are part of the policy. At the very least they will walk you through making your own policy to use instead of the one that is fucked.
+--- 92814605
+>>92814080
+Holy shit, just found an offer for an empty WD Book Duo for 25$.
+Should I get that + 2 WD Red or just get WD My Book?
+After a bit of research apparently the 8TB WD My Book have rebranded HGST helium drives inside which sounds pretty good for that price.
+--- 92814706
+>>92814255
+I just use a kill a watt like every one else. I've seen big clive use one and I assume he wouldn't if he thought they were shit.
+--- 92815161
+>>92814255
+They are all the same, just some are properly calibrated.
+Low amperage reading will be off.
+Generally works better with resistive load.
+The very cheap knockoffs can have up to 10% error on power measurements.
+For a proper power analyzer you would need to spend a couple of thousand dollars.
+--- 92815207
+Not sure if best thread to ask in, but here goes:
+
+I have two external hard drives and an old laptop that I want to turn into a NAS so I can do scheduled backups on RAID 1 between the two ext HDDs. (I'm currently using Macrium Reflect on my Windows PCs onto just one HDD each). Unfortunately it's an old ultrabook I got for free with no Ethernet port. What OS is best suited? Apparently there are open source dedicated NAS OSes?
+
+I also want to buy, or I suppose build, a cheap firewall. Something with decent logging and GUI log viewing capabilities. My network is fucking tiny and there's &lt;100mbit BW so I would think hardware resource requirements would be minimal.
+--- 92815615
+>>92814531
+no good, both turned off and I still can't get other devices to make an http request
+>If you're on an rpm based distribution
+this is endeavourOS
+
+do you have any clues on why I can curl from my server and manage to get a request through?
+--- 92815690
+>>92812000
+I'm in.
+--- 92816078
+>>92814080
+Get a 2 drive docking station from sabrent or something, those are 50 bucks.
+--- 92816147
+>>92812000
+Wtf that's my IP...
+--- 92816250
+>>92816147
+YOU STOLE HIS IP!!!
+--- 92816263
+>>92814605
+any1?
+--- 92816743
+>>92816263
+if u can get an 8tb drive for $25 go for it, i have some 8tb hgst helium drives with 60k hours on them so they seem to last a good long while
+--- 92816780
+>>92816743
+No, the WD My Book Duo is empty (just the case) for 25$ so I was thinking I could get it as a very cheap hdd enclosure and get an 8TB drive (that would give me one more slot for potential upgrades).
+The alternative would be just getting a single normal 8TB WD My Book.
+--- 92817898
+>>92812302
+>>92815615
+came to find that tcpdump isn't catching any request for the other devices and I also can't ping them from my machine (but the server manages fine) which only makes this weirder to me
+--- 92818017
+If I want to know where to start about what hardware to get for a server should I ask here or on the pc building general?
+--- 92818149
+>>92811742
+ilo? idrac?
+--- 92818368
+>>92818017
+No
+--- 92819971
+>>92787484
+what is this, unraid?
+i went with truenas but this ui looks a lot better... not that i spend a lot of time looking at the truenas ui since i finished setting it up
+--- 92820288
+Anyone has some good resources on Proxmox?
+
+Also, I'm having issues with GPU passthrough (GPU is detected on GPUZ, but I can't seem to use it on benchmarks and such)
+--- 92820874
+Want to access my server that stores TBs of security camera videos when I'm overseas. 
+What are some secure Linux programs that can host a folder/s just to stream videos (but not download/copy them like Syncthing would)?
+--- 92820933
+>>92820874
+How about a Wireguard VPN to act as if you were on your network locally? Then you can use whatever local solution you would come up with.
+--- 92821194
+>>92820874
+just add them on insecam.org and u can view the streams on there
+--- 92821586
+>>92781294
+Selinux will run on just avout any linux...
+--- 92821790
+Do you actually try to hedge your bets by putting multiple brands of HDDs in your NAS? Seems more logical to me to just buy the brand that seems most reliable based on Blackblaze, etc.
+--- 92821821
+>>92821790
+>hedge your bets by putting multiple brands of HDDs
+Quality autistic advice. Gonna do this with my next array.
+--- 92821833
+>>92821790
+the logic seems to be, that they are more probable to fail all at the same time
+--- 92821866
+>>92821790
+i just buy the cheapest used drives i can find on ebay
+--- 92821952
+>>92821833
+unless you get hundreds of drives you are extremely unlikely to get multiple with the same production date
+--- 92822532
+I have a laptop ( lenovo X220T) is it good enough to use for torrents/ small server?
+--- 92822929
+>>92820933
+I like the idea, but am stupid and haven't had any luck setting up. Need to find out why the handshake is failing between my machine and the Android device. Apart from doing the right port forwarding, are there any other prerequisites?
+--- 92823287
+>>92807137
+Unless you have a server running SSD's and a 10gig link hydrus is only good locally.
+--- 92823297
+I want to get a new router to replace D-Team Newifi D2 (Newifi3) which I got couple of years back. What is the current budget king for OpenWRT? It is doing an ok job, but the wifi is subpar. It will also be paired with my raspberrypi ghetto server.
+Already asked in /csg, I remember there were router discussions from Ali/Ebay there too and I think I got the idea for this one there.
+--- 92824394
+feeling proud, I setup a ddns on my network, and put a bastion host in the dmz to securely remote in
+--- 92824543
+Hi guys!
+
+Can't decide between unraid or TrueNas scale or TrueNas Core.
+
+I don't want to do crazy things just the normal ones. Store and access files and maybe something else to experiment.
+
+Any suggestion?
+--- 92825751
+>>92822929
+Create a tailnet.
+
+tailscale.com/
+--- 92826717
+whats the benefit of mapping a network drive?
+i have a wd pr4100 nas and havent ever mapped it
+i can still access its files from my laptop though
+so what benefits does mapping it offer?
+--- 92826899
+>>92810771
+if you try to put a regular label from a chink label printer on there it will fall off. kill yourself
+--- 92827195
+I have a spare RPi 2B gathering dust in a drawer and I've been thinking about turning it into a little Radarr/Sonarr/Plex box for my brother. I know this thing would probably explode if I tried to make it transcode a 640x480 video but could it handle direct playing videos to a local WebOS TV?
+--- 92827330
+Hello anons, I went through the NAS case guide but those feel intended for serious users. I want to use my PCs as regular PC with 4 HDDs. Will Fractal Pop Air XL work? Looking for something which has decent cooling out of the box.
+--- 92827700
+>>92827195
+It should be able to work. I have a WebOS tv and I'm using an old PC. It explodes when it tries to burn subtitles but for anything direct play it works perfectly fine. Ethernet and USB ports are the limiting factor of the raspberry pi. I'd rather sell it and get a used PC. If you add the costs for accessories the Rpi might be get more expensive.
+--- 92827857
+FUCK
+--- 92828007
+it seems like most people here are only interested in running small server, have any of you gone the other way? I am thinking of setting up an old crypto rig and using it for a local AI/Stable diffusion server that I can access from anywhere, it would be cool to chat to my PC from my phone or generate images while at work.
+--- 92829796
+>>92826717
+What do you mean by "mapping" a drive?
+
+>>92827857
+Just replace it what's the deal
+
+>>92828007
+Just setup a VPN to you home network/server
+--- 92829800
+boop
+--- 92830712
+what option for remote backup of 10TB+ of data?
+>co-located hard drive box in another state
+>cloud storage (if so which? S3, backblaze, etc)
+>mailing a crate of usb flashdrives to a friend in another state
+--- 92830904
+>>92830712
+Best option 
+>shitty nas or old PC at friend or family's house connected to your network via VPN
+
+And in case of loner 
+>pay $10/month per hardrive at zfs.rent
+--- 92831215
+>wired network regularly goes out
+>use patch cable to bypass switch directly to computer room outlet to test
+>works fine
+Looks like my ethernet switch is fucked. Been using an 8-port but I'll be upping my wired devices soon by dropping new cable. Any recommended 24-port switches? Don't have any PoE devices so no need for a bunch of those ports
+--- 92831226
+>>92831215
+What was your previous switch?
+--- 92831275
+are there any TMM boxes out there that come with at least 2 2.5Gb ethernet ports? thinking of building my own router and just using something like an eero for wifi, since most AP routers seem to be shit for range
+no more need to run cables all over the place that way, and pfSense would give way more control than dd-wrt or whatever, from what I understand
+--- 92831349
+>>92831226
+Netgear SG108
+--- 92833572
+>>92827330
+yeah it'll work
+--- 92835228
+>>92829796
+>What do you mean by "mapping" a drive?
+like in this article:
+https://support-en.wd.com/app/answers/detailweb/a_id/25436#subject2
+--- 92835413
+>>92786796
+On fucking what, XGS-PON? 1 or 2 gigabit. DOCSIS 3.0? Fucking 60. At least it ain't 300/15 like it used to be.
+--- 92836311
+to defragment my TrueNAS volume does a simple file rename for all my files work?
+Or if not just copying the whole folder then renaming it back to the original name?
+--- 92838708
+boop
+--- 92838820
+is there any software that can stream music from my storage server and generate playlists/suggest songs based on the stuff im listing to like pandora or spotify or something
+--- 92839692
+>>92815207
+truenas core
+>>92824543
+core
+--- 92839814
+thoughts on my below setup?
+I've made it so it have the least chance of the tasks conflicting with each other as it would slow down one another:
+TrueNAS scrub zfs - Day 06, 16, and 26 of every month@06:30
+UNRAID scrub btrfs - Every Friday@06:30 
+Backup cron job data from TrueNAS to UNRAID - Daily@01:45
+Backup cron job data from TrueNAS to UNRAID checksum enabled (takes 2 days) - Day 01 of the month@06:00
+Backup cron job Incremental image backup of OS drive to UNRAID - Daily@01:05
+Backup cron job Full image backup of OS drive to UNRAID - Day 01 of every month@01:05
+--- 92840158
+I'm a noob. 
+
+I've been hosting a Nextcloud instance on my server for a while and I love it so much that I'm only ever using Nextcloud for all my cloud storage/ calendar/ contact needs.
+
+The issue I have is that the eerver only has a 500GB Sata SSD, and its almost full now.
+
+How do I add storage to the server (Fedora) and make Nextcloud and other apps use the new storage, ideally without reinstall everything?
+The server does have capacity to add hard drive so that wouldn't be an issue and I have enough hard drive to add to the server.
+
+I'm just lost how do I manage the applications.
+--- 92840331
+What wireless router should I buy if I just need decent WiFi and a few gigabit LAN ports?
+
+There are so many models I don't know where to begin.
+I don't want to spend too much but I also don't want to buy crap. I'll probably upgrade in the future to something more robust (dedicated wired router, then wireless access points for WiFI maybe) but now I just need something simple and affordable.
+
+I looked at some models and got interested in these.
+RT-AX55 (cheap but seems to offer everything I want)
+RT-AX3000 (on sale, not sure if I need the extras)
+--- 92840802
+>>92840158
+How are you running it? Docker? Bare metal?
+--- 92841051
+I have a Optiplex 3070 I'm using as a NAS. It's got two SATA ports. One is plugged into the SSD and one is plugged into the disk drive. I have three SATA HDDs plugged in via USB right now. If I unplugged the disk drive could I use that SATA connector to power three or more drives?
+--- 92841243
+>>92841051
+I can't answer that.
+But, in general, yes. Branching a power connector off to power multiple devices usually works.
+
+In most cases it all boils down to wire gauge and amps on the PSU rail. The unknown factor here is your OEM dell PSU that might be cost-cut enough to not reliably be able to branch out and power more devices than they planned for.
+If you're powering 2.5" drives instead of 3.5" drives, you should be fine. But 3.5" HDDs can use anywhere from 8-16W of power each and that might be problematic.
+
+Look at your power supply. How many watts is it rated for?
+--- 92841401
+>>92841243
+Optiplex 3050 Micro, not a 3070.
+
+Says max power output is 180W
+--- 92841452
+>>92841243
+>>92841401
+Just checked my drives, all three are 2.5". There is a 3.5" 14TB I'm planning on buying though. I don't mind ditching one of the other HDDs to make room for it.
+--- 92841660
+>>92841401
+>>92841452
+Anon, the 3050 Micro doesn't even have room for a 3.5" HDD.
+If you're connecting an external via USB3 power isn't a concern since those come with power adapters.
+Those ultra low profile machines are neat and useful but don't have much room for expansion. If there's room inside for a second or third 2.5" drive a SATA power splitter should be fine.
+--- 92841688
+>>92785219
+You need new, expensive hardware to hw accelerate the encoding process. x265 never took over. x264 is just faster to encode. Newer codecs take forever.
+--- 92841729
+Is there a list of specific AM4 or AM5 mobos that are confirmed compatible with ECC memory? A few hours of googling yielded contradictory results. One source says x model is confimed working, other sources say that same model doesn't work.
+--- 92841786
+>>92840802
+Bare Metal.
+--- 92841907
+>>92830712
+Make a 2nd NAS and take it to your friend personally. It's probably cheaper and definitely safer (privacy wise) than cloud storage. S3 is cheap per TB but the retrieval fees are ridiculous, blackblaze is kinda expensive.
+--- 92841937
+How can I set up a NAS on Windows please?
+
+I want to connect a hard drive to a PC and have its files available on all my devices including my phone even when I'm not on WiFi. I'll use it to access files and watch media back. 
+
+the threads keep dying after I ask bros ;_;
+>>92776764 →
+--- 92842174
+>>92841937
+Desktop windows doesn't come with the software components needed to setup a proper NAS. Even the winfags in this thread use Linux or something else for running their actual servers.
+--- 92842246
+>>92841660
+Could I damage my HDDs if I try to chain all four onto one SATA connector but end up not having enough power?
+--- 92843597
+>>92842174
+>to setup a proper NAS
+How would I go about setting up an improper NAS, or is that not possible either?
+My uses for the NAS are very basic right now, and the My Cloud Home I'm trying to replace did much of what I needed to.
+
+
+That said, any dummies guides to NAS's on Linux would be appreciate too
+--- 92843807
+>>92842246
+Every single connected device (motherboard, CPU, ram, GPU, HDDs, SSDs, USB attached devices can get nuked upon PSU failure.
+It's unlikely though.
+
+Have backups if you're concerned. You're far more likely to have a random HDD failure due to other means than a simple SATA power splitter cable fucking things up leading to data loss. Just don't try and chain like 6 HDDs off of one SATA power connector and you should be fine. 2.5" drives sip power instead of chug it. They're not just smaller they're more efficient. Lower performance but it's not an issue. If you're using SSDs they also use less power but can actually consume quite a bit when reading/writing at their maximum potential. Idle is like zero though.
+--- 92845723
+> scan: scrub in progress since Fri Apr 14 14:30:02 2023
+> 15.2T scanned at 67.8M/s, 14.3T issued at 63.8M/s, 20.5T total
+> 0B repaired, 69.81% done, 1 days 04:17:16 to go
+is a zfs scrub supposed to be this slow on my hard drives? I thought it was expecting it to be faster since it was a block level operation
+--- 92845793
+Are the benefits of storing filesystem journals on a separate drive worth it? I've seen benchmarks where HDD speeds can be vastly increased by storing the journal on a separate SSD; I just don't know how much is involved in setting up and maintaining such a configuration. Would there be any downsides to setting aside an appropriately sized partition for HDD journals on the boot SSD?
+--- 92846189
+>>92841937
+TrueNAS in Hyper-V is what I use, been working fine so far.
+
+only thing is you won't get SMART data without complete passthrough of the drives but it doesn't matter as you can do SMART tests on the host machine anyways
+--- 92846201
+>>92843807
+>don't try and chain like 6 HDDs off of one SATA power connector 
+thats really little. How do those reddit users with 20 HDD in their tower cases power all those up with a single PSU?
+--- 92846297
+hello sirs, 
+i want to set up this basic network and have a few questions about it if someone cares to give advice to a retard.
+should i even bother with firewall rules on the mikrotik when i am already behind (albeit a shitty one) firewall? if so, what are some essential blocking rules i should have on there? mostly confused about the forward chain and what should be blocked on it. 
+
+when it comes to port forwarding.i can just forward internet -> 192.168.1.100 on the ISP router and then 192.168.1.100 -> NAS IP through 2 NATs like that and it should work, right? 
+
+is it better to setup Wireguard on the NAS or the mikrotik router? 
+
+how fast am i getting ransomwared after i deploy this shit?
+--- 92846328
+>>92846297
+oh and the reason why i am putting the mikrotik in is to shape traffic because i can't do that on the ISP router and i have people on the network who sometimes go full retard with upload/download and fuck up my bing bing wahoo latency and then i am forced to go around the house yelling "WHO THE FUCK IS DOWNLOADING SHIT" and i would like to remove these wholesome moments from my life.
+--- 92846359
+>>92846201
+Maybe a PCIe power connector PDU?
+--- 92846401
+>>92846359
+its not see pic related on a reddit post where they don't have it. Must be using a single PSU for this.
+
+I doubt the claim of a 6 HDD to a single power connector
+--- 92846440
+>>92846401
+That's only 4 each assuming the PSU had 4
+--- 92846448
+>>92846201
+Anon, desktop power supplies are designed with way more power allocated to drive power. Some PSUs come with cables for up to 24 drives (6 cables with 4 SATA power cables each) and some extra MOLEX cables that can also be converted to SATA power. Your Dell is different, it's a stripped down cheapo prebuilt designed for 1-2 drives.
+
+In short, their desktops are built for it and your micro PC is not.
+I just googled it and according to Dell the 3050 Micro has a 65W PSU. It's not uncommon for a desktop to have a PSU designed for over 600W.
+--- 92846497
+>>92846448
+looks like a 4 and 8 pin CPU Power connectors can use a 4 to 8 pin adaptor for powering up sata connector since it requires 2 8 pins
+
+also molex to sata is another one where you can fit 15 drives on a single molex power connector as in >>92846401
+--- 92846524
+>>92846448
+the PSU I have is the TX650M, and it comes with 2 x 3 power connectors for a total of 6 HDD connected. I don't see where you're getting 6 sata power plugs on the PSU unless you're on a 1000w+ PSU.
+--- 92846651
+Need a cheap switch with vlans and maybe a couple of vpns
+
+what should I buy
+--- 92846654
+>>92846524
+Yes, 1000W+ PSUs exist.
+Without any adapters it's pretty common for any decent desktop PSU to have eight individual SATA connectors alongside some MOLEX, on high end PSUs you get more of everything.
+--- 92846712
+>>92846654
+looked up a 1600w EVGA psu and it does have 6 sata power connectors for 24 drives.
+
+Didn't realize I needed higher power PSU for more drives.
+
+this is my PSU how will I get it to work with 16 drives? I've only got 2 sata power connectors (total 6 HDD) and a single molex (splits off into 3 molex cables).
+--- 92846923
+>>92846712
+So, you have the following?
+>4x SATA
+>2x SATA
+>3x Molex
+
+Just branch the Molex out using some of these.
+https://www.monoprice.com/product?p_id=8794
+
+Before doing that just check that there's enough watts on the 12v rail for 3.5" HDDs. PSU spec sheets will list output in a chart broken down by voltage. 16 drives is a bit much but if some are SSDs it shouldn't be a big problem if you've got a high watt PSU. Just be aware that drives consume more power spinning up initially so if you're connecting 16x22TB drives you might run into issues of not enough power but if you're dealing with typical HDDs you should be fine.
+--- 92846994
+>>92846923
+for the corsair tx650m PSU it says 612w for the 12v rail, so it can handle at more than 30 HDD assuming 10w per HDD
+
+but its just the connectors I need more of which I've ordered the sata splitters already. didn't realize I could also use molex to sata as well
+--- 92847110
+>>92846994
+Sounds like you'll be fine.
+--- 92847361
+>>92845793
+More points of failure, because now if journal drive fails your data is lost.
+Generally not worth it unless you want to squeeze the last drop of performance for chance of data loss.
+--- 92847402
+>>92845723
+What drives?
+The more small files you have the slower the scrub will be.
+--- 92847440
+>>92839692
+can you develop a little bit your answer, please?
+--- 92847484
+anyone here got surveillance cameras?
+
+Used to use blue iris but only had my gaming pc that had to be on all the time
+
+Currently got tp link nvr and it's okay but lots of cams cutting out sometimes
+
+dunno if should go back to blue iris on a NUC or something or get a ubiquiti NVR (was looking at their router anyway)
+--- 92847809
+>>92847402
+Shouldn't matter about files since it's a block level operation
+--- 92848833
+oh fuck
+--- 92849001
+>>92848833
+--- 92849217
+I need a book server than handles cbr/cbz graphic novels. It also needs to have a docker image. 
+Jellyfin shits the bed with comics so that's not an option
+--- 92849406
+>>92780054 (OP)
+If I have disabled password login on ssh, I don't really need fail2ban, do I? I mean, I know that I technically don't but is there a value to IP banning a bot that is repeatedly trying to log in?
+--- 92849971
+>>92849406
+i've had 3 work vps boxes run out of disk space logging login attempts, only actual reason I bothered setting up fail2ban. also the default settings are retarded, set it to like 20 attempts instead of 2 you get out of the box or you'll be forever in the VNC shell unblocking your own address (even with ssh keys you need to use the correct user name lmao).
+--- 92850899
+>>92849971
+fair enough. Thanks!
+--- 92851171
+>>92823297
+xiaomi routers are cheap
+--- 92851182
+>>92841937
+>>92846189
+Thanks
+What do you use to access your files on a Windows PC or Android phone then?
+Is TrueNAS babby friendly in that someone who/s never tried Linux can set it up and then keep it running without further tinkering?
+--- 92851315
+>>92780054 (OP)
+Show me the guts
+--- 92852824
+boop
+--- 92853680
+>>92847809
+Sure it does as a lot of small files introduces a lot of random io at block level.
+--- 92854021
+>>92848833
+It looks like we're back. Hope it will stop at 3848
+--- 92854914
+>>92845723
+move your metadata onto optane or fast ssds for improved performance.
+--- 92854955
+>>92847484
+get a tiny/mini/micro like in the OP. nucs are overpriced
+--- 92854970
+>>92854021
+you need to stop hoping and make sure those backups are valid... you do have a backup, right anon?
+--- 92855278
+I want to host Jellyfin on a separate machine. Most of my videos are 1080p x264, but I have few 4K x265 HEVC movies.
+Right now i have some C2D and I can watch 1080p 264 (no HEVC files) without problems, but those few better quality movies cause system to RIP.
+So I don't need anything special, I just want the best for least money.
+What CPU should I get? And what discreete GPU?
+--- 92855653
+>>92851171
+hmm, had forgotten they make routers (surprise!)
+
+Must see which is the best candidate for openwrt
+--- 92856061
+>>92855278
+just use plex for hassle free streaming
+--- 92856215
+>>92846297
+This is almost my exact setup, I would recommend you use the firewall on your mikrotik, all it takes is your ISP router having some weird backdoor or random ports open to theoretically cause issues.
+
+And NAT works how you described on the ISP router send all traffic for the desired ports to your mikrotik, then on the mikrotik send all traffic to its destination.
+--- 92856334
+>>92854021
+Relocated in the thousands and climbing means the drive is on it's deathbed.
+Hope you have backups and a spare drive to switch.
+--- 92856401
+>>92855278
+You need to disable transcoding on C2D.
+Either get some 7th gen Intel CPU or add a GPU like used Nvidia Quadro p400 to be able to transcode.
+--- 92856446
+>>92854970
+>>92856334
+Yep I have a backup but it was new exos 8tb 7e8.
+--- 92856491
+>>92856401
+is i3-7100 enough?
+I'll get P400 also
+--- 92856652
+just did a fresh install on OMV 6 on my server, previous one worked until something broke portainer and docker along with it and it turned unsalvagable. 
+Last time I did this was like three years ago, what's the best way to run plex and transmission in OMV that won't shit the bed any sooner than in another three?
+--- 92856713
+>>92856491
+if u get a newish intel cpu with quicksync the p400 is unnecessary bc the intel igpu completely mogs it at hardware transcoding and you can only use one or the other anyway. u can look at pic related list and the files u need to transcode and see how new of a cpu youll have to get
+--- 92857058
+>>92854955
+Hmm, this little boy costs 324 for the AMD Athlon version. Slightly more that for a Pentium NUC
+--- 92857159
+You faggots don't even need a home server. Stop pretending that you need one. Stop wasting your time.
+
+>b-but
+
+You know its true
+--- 92857208
+ok frens. I have one of pic related prodesk 400 g3 and I am planning on using a 40 gb dual qsfp+ fitted via m.2 pcie 4x adapter and using the other m.2 wifi slot to use with pcie 1x card with 4 ethernet slots hoping bios doesn't fuck me. and making a custom case with my 3d printer for it.
+--- 92857242
+>>92857208
+card to be used with 4x slot m.2 with riser. I will post the PSU I will plan to use later.
+--- 92857246
+>>92857159
+no u
+--- 92857258
+>>92857242
+wtf pic didn't post, testing
+--- 92857262
+>>92857208
+post case
+--- 92857326
+>>92857262
+It is just a plain thing for now
+--- 92857353
+>>92857258
+for the wifi slot 1x lane hopefully
+--- 92857376
+>>92857159
+Let's assume that you convinced me that I don't need a home server. What's next?
+--- 92857445
+>>92857353
+something like this claims to be 300W and is very small, 34 usd on amazon.
+--- 92857622
+>>92857208
+you're going be getting throttled bandwidth with that nic and cpu combo unless it's got rcoe/iwarp, also you barely have the bandwith on a x4 slot to saturate one 40gb nic. Have you considered sitting down and doing some research?
+--- 92857666
+>>92857376
+live ya life nigga
+--- 92857680
+>>92857258
+that's a x8? you know you're losing half your lanes, right? if it'll even run.
+--- 92857698
+>>92857445
+Then increase size to fit risers, psu, cards and shit. Was thinking about buying a tesla p4 for the meme but I am not sure if it requires expanded BAR/Above 4g decoding or whatever but having more ethernet ports would make more practical sense if used as a pfsense machine (actual or virtual). Place a noctua fan or two, Give it a mesh for ambient cool and better airflow and make it look as professional as I can.
+--- 92857767
+>>92857680
+it runs.
+--- 92857774
+>>92857680
+Why wouldn't it? It will just run slower I'd imagine. If it runs at half speed then it will still be fast and cheap.
+>>92857622
+If I can't use them here I have other systems that could use them. I like trying stuff out and they aren't even that expensive so.
+--- 92857853
+>>92857774
+I hope you just had them laying around and you're just playing about with the hardware. Planning this out as home server or "production" machine that's this bottlenecked it not ideal. 
+I doubt you'll even get 20gig throughput on anything other than iperf. On the flipside I guess you'll learn some stuff. Enjoy anon.
+--- 92857886
+>>92857767
+mellanox(looks like cx3) will run, not all vendors play nice with gimped lanes.
+--- 92858611
+>>92857853
+Yeah it is for tinkering as a hobby. 
+My brother gave me his old PC with his 1080ti. I was playing around with the idea of getting a meme "GPU with Computer attached" system going on another minipc I used as a minecraft server. P40 for scale (sadly the p40 would not be able to run due to 4G and cooling issue). It would depend on if those cheap 300W "PicoPsus" are actually what they advertise since big PSUs are ugly as sin and take up way too much space for something I'd like to be able to travel with.
+--- 92858639
+>>92857258
+will be bottlenecked by x4
+>>92857353
+will be bottlenecked by x1
+--- 92858731
+>>92858639
+>will be bottlenecked by x4
+Hmm, barely in terms of the actual capabilities of the card. Realistically no
+>will be bottlenecked by x1
+Depends on PCIe version
+2.0 is cutting it very close, 3.0 absolutely not.
+--- 92859094
+does pihole forward the dns provider addresses that you tell it to use to the router? i configured the pihole server as 192.168.1.3 in my network and then put that in as the dns address in my router and restarted the router. whenever it came back up it still has pic related listed as the dns addresses, however pihole says its blocking stuff now. thats the same dns addresses that were in the router before i changed them though
+--- 92859289
+>>92846297
+telnet into the VDSL chink modem
+dump the VoIP and IPTV VLAN info
+configure mikrotik accordingly
+--- 92859336
+>>92784507
+Syncthing is the easiest imho.
+
+>>92784703
+Not sure why you'd run the server on your Pi and not the NAS.
+
+>>92787116
+If you've got the space, RAM disk is going to be technically more performant, but you're not going to notice a difference. If you need to buy hardware either way, go with the SSD imho as long as it's not too much more since it can be more easily be repurposed.
+
+>>92788705
+Use something like BTRFS RAID 1(0) and power it on once a month to do a scrub, then turn it back off if you want. You could probably do it every couple months if you wanted, really.
+
+>>92788749
+If you're looking for absolutely the best space savings, go find a vendor that has a readymade solution for transcoding video in their proprietary format that offers the best size reduction. Ultimately though you just have to accept that you need to store a massive amount of data.
+
+>>92803749
+Not sure about ZFS but my 40TB/20TB RAID10 BTRFS setup takes about 13 hours to scrub, depending on how much it's being used.
+
+>>92806591
+IMHO I'd use containers instead of VMs, but that's really a matter of personal taste. You don't need much horsepower for what you've listed so just about anything would work, just keep in mind if you want to do everything in its own VM you'd want a fair amount of RAM.
+
+>>92811742
+Probably.
+--- 92859441
+>>92859094
+no, pihole doesn't update your routers dns configuration, only your router does that.
+you set your desktop/laptop/phone to use 192.168.1.3 as it's dns server. your router is not used for dns at all.
+--- 92859835
+>>92859441
+i thought you could just change the dns address in the router and then set all the client devices to automatically obtain the dns address and the router would tell them to use the pihole address. all my client devices are on automatic still so idk how theyre getting the pihole address bc the router is still listing the stock google and cloudflare ones
+--- 92859929
+>>92859835
+You can, it's called DHCP options, but pihole doesn't talk to your router and pass along any information. you set those options in your router and when you desktop contacts your router, it gets the configuration you set. 
+ipconfig /all or cat /etc/resolv.conf to get your dns configuration.
+--- 92861470
+>>92859929
+my shit was all fucked up, apparently my router doesnt have the basic option to even change the ipv4 dns server, it has this dns dhcp shit though so i had to put the pihole ip address in that and then disable dhcp on the router and set it up on the pihole server
+--- 92861604
+>>92856652
+>something broke portainer and docker along with it and it turned unsalvagable.
+how the fuck do you break docker, docker isn't really breakable, you must have fucked your entire system up. docker is so easy it's ridiculous. you honestly must not know what you're doing. my recommendation will still be docker even if you broke it. you shouldn't abandon docker if you fucked your system, that's unrelated.
+>what's the best way to run plex and transmission
+docker. literally docker compose. portainer, ovm, and your broken system are literally unrelated to docker
+--- 92861639
+>>92861604
+if u use a cache drive on unraid and fill it up all the way it will corrupt all ur docker images and u have to delete and reinstall all of them to get them to work again
+--- 92861687
+>>92861639
+>u
+>ur 
+are you a young person?
+>if u use a cache drive on unraid
+wtf, this is retarded
+>and u have to delete and reinstall all of them 
+images are not installed. they aren't packages
+--- 92861965
+>>92861687
+>are you a young person?
+im 32, i don't care about grammar on an anonymous online message board
+>wtf, this is retarded
+you often cant max a gigabit connection writing straight to the drives, writing to my array is like 60mb/s at best
+>images are not installed. they aren't packages
+pic related
+--- 92862149
+>>92861965
+>writing to my array is like 60mb/s at best
+sad
+>pic related
+ah, a retarded gui with buttons for idiots with incorrect terminology, you're just parroting it and thinking it's correct, gotcha
+>unraid
+imagine running a proprietary raid, yikes!
+--- 92862640
+>>92858731
+>barely in terms of the actual capabilities of the card. Realistically no
+Bull fucking shit, there's no way you're getting 40G out of x4 3.0
+>2.0 is cutting it very close, 3.0 absolutely not.
+Just checked, you're right.
+--- 92864565
+I like putting fanless 5 to 10 watt servers on each of my IPs. Current 2 are intel NUCs. Getting a Celeron N4100 laptop in a few days for the third IP - 2443 Passmark for only 6watt, and no fans either.
+
+Currently they run python and twitter bots but I'm thinking about starting a wordpress server as well so I can delete my namecheap hosting account. 
+
+Thanks for reading my blog
+--- 92865164
+>>92780054 (OP)
+Okay I setup Opnsense but I think I fucked up my network design.
+
+I have LAN and OPT1. My WAP is plugged directly into OPT1. I do this because I don't have a 2.5GbE managed switch, and it was cheaper to get a 2.5 NIC.
+Problem is, now I have two distinct interfaces and I want to tie everything together with VLANS.
+I have a 1GbE managed switch but I don't want to throttle my entire network. Most things are connected via 2.5 GbE MoCA devices, which the LAN port directly connects to.
+
+I was reading about bridging and it might be the right solution for my cheap ass over getting a dedicated switch. Is this the way to go? I hear it puts on CPU strain but I have a gen 7 intel so I imagine I would be fine. I idle at like 2% as it is.
+
+What do?
+--- 92865302
+>>92865164
+Unless you're running some shit like a Celeron or old Atom the extra load from a bridge won't do jack shit in terms of performance. You would need to be running shit like HAProxy or some form of intrusion detection to start loading down your system
+
+I'm assuming you want both you wireless and wired network to share a subnet in which case you should just be able to create a bridge with both interfaces and assign it. I would switch the LAN interface to the bridge and remove the Wireless interface assignment as this should avoid you being locked out as long as you are using a wired connection to the device
+
+All my experience is with pfSense and not opnSense so your mileage may vary, but I know they are extremely similar in most regards
+--- 92865407
+I know this is the home server thread but this concerns my home server and I'm sure some of you know the answer. What's the go-to for cheap low-power VPS use? I moved a few months ago and never got my domain name redirected to my new IP nor configured the shit on my router. Now I'm moving again shortly but want my website running in the meantime. What's a cheap VPS host I can run my site from in the mean time?
+--- 92865430
+>>92865302
+>intrusion detection
+I saw that as an offered service but didn't mess with it. Is it useful ever? I eventually want to go full on (Dev)SecOps with self-hosted IDR, Vulnerability Management, and other mock enterprise level security tools so I can learn about them from the comfort of my own home.
+
+Also, when it comes to setting a "management" VLAN should I not bother and instead just set the LAN to be untagged? Not sure what best practice is here. 
+The wannabe security nerd thinks that making any random physical connection just get sent to a locked-down part of the network would be fun to implement, but that's probably a pain in the ass configuration and would lead to lock out scenarios like you mentioned since I'm so new.
+
+Either way I'll setup the bridge. Thanks, anon!
+
+>>92865407
+I liked DigitalOcean droplets. I think if it's static you can also use Heroku, but I never used it personally
+--- 92865546
+>>92865430
+IDS is generally fucking overkill for a home network and can be a time consuming nightmare to set up.
+
+Snort offers some good defaults which you can find out how to do in this guide albeit I have no idea how well that will translate to opnSense
+https://www.youtube.com/watch?v=-GgqYq5-EBg [Embed]
+
+Here's a more advanced guide using Suricata which should translate better if you're interested
+https://www.youtube.com/watch?v=S0-vsjhPDN0 [Embed]
+
+I wouldn't really recommend setting either of these up unless you're running servers publicly facing the internet on your network or you are trying to learn, but they are there if you want them
+
+VLANs won't do you much good unless you are working with a managed switch and want different networks on different ports or you're using you're using them in your OS for VM networks or something of that nature. In your described setup, VLANs would do fuck all
+--- 92865625
+>>92865546
+My desire for VLANs is just the common use case of wanting to lock down untrusted IoT devices, provide a guest network, a separate but similar WFH network, a VLAN for home security, for trusted devices, and so on.
+
+I've heard of Snort and Suricata, but I'll pass on IDS for now. What plugins do you use in your pf/opnsense box? I was probably going to go for AdGuard Home or w/e the community offering is. Anything else handy or borderline essential?
+--- 92865636
+>>92865407
+Vultr has some pretty cheap offerings and a pretty wide range of systems and distros to choose from to suit your preference
+
+Oracle Cloud has a really generous free offering, their old AMD VPS offerings are always free and their Ampere options have a data cap which would be really hard to hit if this is for personal use. they also offer up to 200 GiB free which can be spread across 2 or 3 machines
+--- 92865761
+>>92865625
+In that case are you aware of whether or not your access point is VLAN capable or not? If not you may need to invest in different hardware. I'm unsure which access points are on the market since I only use VLANs for wired and internal use at the moment
+
+If you want things to be separated I would probably skip on the bridge and keep LAN and OPT1 separate since running VLANs over a Bridge (I don't remember if you can actually do this either) would be less secure than running them individually on each interface
+
+If your access point can use VLANs you should be able to set them up on whatever interface OPT1 is assigned to and set up subnets, dhcp, and firewall rules from there. You will need to do some work on the access point to get different SSIDs on those VLANs. My knowledge here is very limited so do your own research
+
+Also if you want VLANs on a wired network you will need a managed switch in order to do that
+--- 92865883
+>>92865761
+I own 1 switch and 1 AP and they both handle VLANs. So you think the bridge is a bad ideas when LAns are involved? So I'd essentially just dupe all my VLANs for each interface and then set like an any rule so they can talk to each other?
+--- 92865944
+>>92865883
+If you want VLANs over both interfaces, bridging might be your best option then. pfSense lets me use the same VLAN ID on multiple interfaces so you could try doing that as well which would avoid the need for the bridge
+
+I might stand up some VMs and do a bit of testing just to be sure since this is pretty foreign territory to me
+--- 92866043
+>>92865883
+Another thing I thought of you could do is run the AP off of the switch to take a bit of the load off of the opnSense box
+
+For any VLANs you want to handle on the AP, they would need to be tagged going out on the line that the AP is connected to
+--- 92867947
+I finally upgraded my router to OpenWrt 22.03.3 and lost access to my selfhosted stuff - cloudflare gives error 522 connection timed out. I recreated the incoming FW rule and the nginx reverse proxy seems to be working, service are reachable locally. Disabling the CF tunnel doesn't help, problem is clearly on my end. IP is the correct one, not that it changes.
+Any tips how to troubleshoot this? I think next would be to find more detailed logs via SSH.
+--- 92868135
+Okay here's the plan for converting my old ass basic R5 array to R6 with data integrity .
+Current setup is 4 4TB drives in sync and one spare. 
+>remove spare and format it with dm-integrity crc32 
+>wait 8 hours 
+>grow array to raid 6 
+>wait 12 hours for sync 
+>remove another drive from array format with integrity then re add and re sync to array 
+>repeat with all drives in array
+ If all goes well my array will be safe from bitrot in about 5 days with 0 downtime .
+--- 92869211
+>>92784507
+restic over SFTP, or restic and its rest-server + reverse proxy (like Caddy)/selfhosted VPN tunnel for a bit faster backups
+Syncthing is way more "just works", but it's a sync program, not exactly a backup program. Can be kinda used to do backups, removed/modified files can be moved to a "trash" dir instead of being modified in place/deleted.
+>>92784703
+If you only watch your media on TV, maybe you don't need a full media server, and a simple Kodi (using e.g. LibreELEC) on Pi, playing media shared with Samba or whatever from your NAS would be better and less bloated.
+Or run Jellyfin on your NAS, run Kodi with Jellyfin client plugin on your Pi and enjoy a media server. Transcoding isn't a necessity as long as clients can play media as-is, Kodi usually can.
+>>92787116
+SSD, in case of Jellyfin the transcodes directory also holds temporary remuxes of media, e.g. when only the audio track is transcoded to aac, or when you need only a different container (MKV vs MP4) for the client to play. RAM isn't worth it, your source storage/CPU will be the bottleneck.
+>>92789074
+It doesn't provide with Internet access service, but provides me with file storage service, chat hosting service, game server hosting service, media streaming service, etc.
+>>92789233
+congrats on getting rich and staying frugal, anon
+tinyminimicros or their bigger SFF bros are nice and decent
+>storage
+Up to you, let's start with that. Although SSD is always nice to have.
+>OS
+Whatever you like, I like Debian as solid base and docker-compose to run the services.
+>>92789402
+>Can i get into problems?
+ask the owner
+>>92790226
+I like being able to run Wireguard directly on the router, in case I fuck up my server remotely. Also, it just feels clean to run a no bloat router that's fully under your control.
+>>92792364
+both - those Optiplexes usually have a 6+ gen i3 even in the lower price range. 7+ gen gets you that HEVC 10-bit decoder.
+--- 92869351
+>>92793566
+I have a Corsair HX750 and it's a modular PSU where manufacturer was kind enough to include cables for 16 drives.
+>>92795536
+>Only thing is when your library grows it'll be harder to add more drives to it
+Can always migrate to a regular computer. Just pointing that out in case anon thought he should look at commercial NAS - migrating your data from there could be more difficult. However with a tinyminimicro/sffs you get a regular computer, just quite efficient.
+>>92799191
+I don't know, but since nobody has replied to you anyway, maybe consider a static website generator? Like Hugo for example. Much smaller attack surface and management, nothing to upgrade because it's fucking plain HTML and CSS, put it on some hosting and forget.
+>>92804226
+zfs
+>>92806591
+>Plex
+consider Jellyfin
+As for VMs, well, I used to but settled on containers. Debian and docker-compose feels good and solid.
+>hardware
+an enterprise computer, tinyminimicros/SFFs or bigger ones if you don't need power efficiency.
+>>92814080
+yeah, they're too expensive, I just used WD My Book (single drive!) enclosures without shucking
+>>92814255
+calibration from factory
+I have some cheap killawatt clone and two Nous A1T plugs, had to calibrate the latter with an old lamp but they work nice and expose Prometheus metrics by their opensource Tasmota firmware; good shit so far
+>>92814605
+>WD Book Duo
+absolutely not
+piece of shit applies encryption to your drives even if you don't set a password
+can't take out the drives and plug them to a regular computer without running reallymine to recover data
+single drive enclosures are fine and don't do that shit (afaik, I have 10 of them)
+>>92815207
+if you want to learn a bit of Linux, Debian is nice
+ask in next thread pls, I don't feel brain enough to give you more thought out answer, gotta run through the rest of thread as well
+>>92816780
+as mentioned, I'd avoid the Duo, personal experience
+worked alright over USB though, just lacked SMART on drive 2
+--- 92869466
+>>92869351
+>consider Jellyfin
+Unfortunately my parents will be using the media server, so it has to look like your average media app like netflix.
+And Jellyfin is simply too much work to customize to such degree. Plex is fine
+--- 92869542
+>>92818017
+both, but list your use cases, maybe a prebuilt tinyminimicro will be better
+>>92819971
+same thoughts on UIs
+>>92820288
+eh. you can figure out most stuff on your own (that's why it has web UI), if not there's docs/manual/forum
+as for passthrough, Arch wiki is extremely helpful even on other distros
+>>92820874
+I'd do one of those, in that order: SSH, Wireguard and Samba or whatever you use to access it, or Tailscale (either hosted by them, or selfhosted) if you're having problems with selfhosting Wireguard.
+>>92821790
+no, probably should
+>>92822532
+yes, doesn't hurt to try
+>>92822929
+key setup is often confusing, make sure addresses AND allowedIPs are correct too (I don't recall what they should be)
+>>92824394
+nice
+>>92823297
+Netgear R6220/Xiaomi AX3200, in case of Xiaomi get an older model with enabled telnet OOTB/get two models to force enable telnet via mesh hack. Nice security on stock, kek.
+>>92827195
+>could it handle direct playing videos to a local WebOS TV?
+yeah, just make sure TV can direct play
+>>92827700
+>I'd rather sell it and get a used PC.
+good point
+>>92828007
+clusters are fun, there are a few anons with 49" racks too. For SD there's an easy to use web UI somewhere.
+>>92830712
+tinyminimicro and HDD colocated in your grandpa's basement
+>>92831275
+can't recommend any off top of my head (maybe those M920q or something where you can plug a 2.5G NIC yourself on PCIe), but
+>pfSense
+consider OPNsense, pfSense bullied OPNsense when they dared to fork opensource codebase of pfSense
+>>92836311
+move between datasets iirc
+>>92838820
+anons above said something that Navidrome can do something like that
+>>92835228
+ah, so a regular action of mapping a Samba share to explorer, you'll just have slightly easier access
+>>92839814
+as long as it doesn't overlap, seems fine
+--- 92869706
+>>92840158
+ask next thread pls, in general consider Docker containers (for future migrations), add another drive, format, mount, stop NC, copy all data to new drive, edit NC config (that's where containers would make it easier) to point to new drive, start NC, hope it doesn't fuck up during reindexing
+>>92840331
+R6220/Xiaomi AX3200 (beware of telnet issue), flash either with OpenWrt, enjoy good cheap shit
+>>92841401
+>2x 2.5" in Micro
+how
+>>92841937
+ask next thread pls
+in short, built-in file share (right click on disk/directory to share), and Tailscale (at least it's very easy to setup and kinda idiotproof and secure) for remote access
+consider Linux though
+shit fuck i should get working on that guide
+>>92845793
+zfs metadata on SSD for HDD pool seems to have some benefits
+>>92846651
+search for managed switches
+>VPNs
+do that on router or a server
+>>92847484
+tinyminimicros, for software there's Frigate and a few others
+>>92851171
+they even base their original OS on openwrt, but have their privacy violation layer on top (it requires you to accept a fucking privacy policy, for a router....)
+>>92855278
+first, try to make sure your clients can direct play stuff, then a toaster will work as Jellyfin/Plex server
+>>92856061
+the same Plex that transcodes shit to 720p 2 Mbps by default which constantly makes people think transcoding is a must, and that they have to buy Plex Pass for faster hardware transcoding? fuck that
+>>92856491
+>i3-7
+yeah, has that 10-bit HEVC hw decoder as well
+>>92857058
+those are super overpriced as well, look into e.g. Dell 3040 micro, that can be found for what, 100-150 eur
+>>92857159
+dumbest thread derailment strategy itt
+>>92857208
+good fucking luck, post pics later
+>>92857376
+subscribe to 100 SaaS subscriptions for what a 100 eur one time payment server would do forever
+it's better for you, you know
+--- 92869766
+>>92861604
+don't bully anons with problems
+although
+>portainer
+sounds like possible cause, too often recommended for OMV users though, a bit sad, I should make a dedicated fucking plugin for containers on OMV instead of that bloat
+>>92861639
+interesting trivia about Unraid, thanks
+>>92861965
+where's that pic from?
+>>92864565
+cute
+post pics
+>>92865407
+Oracle cloud, free decent ARM instances if you go through signup with a support blessed credit card.
+Hetzner is cheap and much less shitty though, esp. network.
+>>92867947
+since nobody suggested anything, I'd suggest to avoid letting Cloudflare do MiTM on your traffic to server
+>>92868135
+fingers crossed, I fucked my R5->R6 md reshape because I had to pause it at some point due to absolutely unusable storage (speeds), and then I accidentally restarted it via another means (i think mdadm vs echo to somewhere in /sys) and it became FUBAR
+made me migrate to ZFS though, much less flexible but also retard (me) proof
+good luck anon, let us know next thread
+>>92869466
+>it has to look like your average media app like netflix.
+My parents are able to use the Jellyfin clients. Click and play. Anyway, just wanted to mention that.
+
+fuck im tired
+at least it's not bump limit
+--- 92870279
+>>92869466
+I get this, I specifically have Plex with the pass just so that my family can use it like Netflix
+Just sign into their account on their phone and type in the code on screen to log in. Meanwhile with Jellyfin you have to set it up for them because they're not punching in server addresses

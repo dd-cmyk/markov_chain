@@ -1,0 +1,722 @@
+-----
+--- 92804193
+Is Rust really better than C and C++? Should I move to Rust?
+--- 92804227
+I saw people claiming "rust is safer". In what ways? What is safety? Memory safety?
+--- 92804366
+>>92804193 (OP)
+You should give it a try. It's not better in every single way but it's better in a lot of ways.
+In some ways it's like a do-over of C++ that fixes a lot of its problems.
+
+>>92804227
+Mainly memory safety, which it tries to guarantee. But it also has fewer footguns and a powerful type system that lets you express your own guarantees, and that helps with other kinds of safety.
+--- 92804452
+How do I achieve safety in C? In C++?
+--- 92804570
+>>92804366
+>>92804227
+> tries to guarantee
+yeah. but what rust trannies don't like to mention is that a lot of functions within rust, such as library macros, are littered with unsafe{} code just so it can function as a real language. most of the work is done by the compiler but you can still make rust just as unsafe as any other language.
+--- 92804598
+>>92804452
+I mean, is it possible? What articles and books can anon recommend?
+--- 92804610
+>>92804452
+get good. most problems with that arise with c are man made problems and errors that a compiler will think is expected behaviour. the idea of rust was to make this process more idiot proof.
+--- 92804630
+if you have to ask the answer is "no, also get another job"
+--- 92804632
+rust doesn't support unicode
+c and c++ do
+--- 92804651
+>>92804632
+need a third party unicode library for basic functionality of recognized and well used standards in 2023?
+--- 92804657
+>>92804193 (OP)
+Move to crab https://github.com/crablang/crab
+--- 92804673
+>>92804452
+dont write suckass code, watch cppcon talks, learn from the professionals, practice hard, figure out your mistakes and formulate ways to prevent them. talking to those who know thier shit helps a lot. rust people made thier language because they got gatekept from c++ from a skill issue. they are the arch linux of programming languages (if you think this is a good thing you need to lurk more)
+--- 92804679
+>>92804651
+are you ignorant of the existence of codepages?
+--- 92804695
+>>92804679
+> nonsensical drivel
+amazing answer.
+--- 92804696
+>>92804227
+it's a meme spouted by greenhorn novices.
+--- 92804697
+>>92804673
+Thank you. Also, is this a good channel? https://www.youtube.com/@cppweekly
+
+I also understand x86 assembly
+--- 92804741
+>>92804695
+so basically, that's a yes. believe it or not, not all targets will want to give the program utf-8, the environment you run in will on runtime be able to inform you what is needed. if you only do utf-8 it's akin to only using a json object because when would you ever get any other kind of input doooood!
+--- 92804762
+>>92804697
+it's a decent entry level one, there are much much better ones off of youtube in the realm of the grass touchers
+--- 92804783
+>>92804193 (OP)
+yes. it's much better than c or c++ even for embedded
+--- 92805032
+C is trash, it lacks names paces, it is weakly typed and has lots of undefined behavior and memory safety vulnerabilities. C++ is at least more statically typed and has lots of baggage, but even so has the same problems of C related to memory safety and undefined behavior. Rust is better than C++ for system programming tasks, such as device drivers, embedded system, programming language runtime, bytecode interpreters, and high performance low resource servers. 
+
+C++ is still better for high performance scientific computing, supercomputing, computer graphics and games. In those tasks, security is not a major concern.
+--- 92805065
+>>92805032
+>Rust is better than C++ for system programming tasks, such as device drivers, embedded system, programming language runtime, bytecode interpreters, and high performance low resource servers.
+why?
+--- 92805118
+>>92804452
+Use a static analyzer, that can give clues about what is wrong with the code base and enforce programming styles. Compile the code with an undefined behavior sanitizer and use a fuzzying for identifying vulnerabilities. If the paranoid is too much or the stakes are too high, in the case of aviation, just use Rust or ADA.
+--- 92805141
+>>92804193 (OP)
+Define better.
+Rust is better designed language and offers more than C and C++ in terms of safety and high level programming.
+C and C++ have better job market and larger ecosystem/supported platforms.
+
+>>92804227
+Memory safety, thread safety and in general allows you to express more invariants in the type system to uphold more guarantees you want to add on top of it.
+
+>>92804452
+In C you can't because you simply do not have tools necessary to do it. Best you can do is just follow some solid set of practices to minimalize potential bugs.
+In C++ you should do the same thing you do in Rust. Express various invariants in type system, use stuff like RAII, smart pointers, checked functions, properly handle errors etc. You can't express lifetimes in C++ so you gotta rely on comments here. Make sure you clearly state the lifetime of your pointers/who and when is responsible for allocating/freeing memory and be careful during refactoring to not fuck it up.
+--- 92805226
+>>92805065
+Because Rust does everything to avoid the developer shooting his own feet providing memory safety and thread safety with its innovative borrow checker mechanism that can detect several problems at compile-time that C++ compilers cannot detect. Many of those memory safety problems are unnoticed during many years, until security researchers or hackers figure out how to take advantage of them to compromise vulnerable systems.
+
+The only problem of Rust is its crazy activist community.
+--- 92805377
+Rust advocates are generally full of shit, because they use straw men arguments.
+
+They start from the many limitations and footguns of C, which is certainly true, and then explain that the solution is to use Rust. But in reality in many, many cases the solution is simply to use any higher-level language like Lisp, Python, PHP, Perl, Java, Go, C#, etc. etc. etc.
+
+Rust advocates keep talking about memory safety as if they came up with the concept, but in reality it's something we've known since at least the 1960s, and basically 95% of programming languages also support.
+
+The main difference is that Rust lets you have memory safety and manual memory management, but not really, and in practice there is an unsafe annotation mechanism that lets you disable the safety checks in cases where they don't work.
+
+In other words, Rust is not a particularly interesting language, and you can observe that very few things of significance are written in Rust. In comparison, Go is a completely retarded language that completely ignores 40 years of programming language research, yet it's actually used to write tons of useful software.
+--- 92805500
+>>92804193 (OP)
+rust is not safer than C/C++. it is possible to write “safe” programs in C/C++. rust has the unsafe keyword, effectively turning off some static analysis that all C/C++ compilers do. watch the jonathan blow rant. memory safety is just a small piece of what programmers have to consider.
+--- 92805551
+>>92805377
+>and basically 95% of programming languages also support.
+you mean all languages except C/C++?
+>unsafe annotation mechanism that lets you disable the safety checks 
+unsafe doesn't disables anything you dumb fucking retard.
+--- 92805709
+what if there was a C/C++ like language that had built in resource validation? it seems like the biggest gripe with rust is that the borrow checker only knows about memory, but not user defined resources. so what if a language had something like this
+typedef int16_t entityID_t
+
+entityID_t create_entity() {
+    // creates a new entity is
+}
+
+void destroy_entity(entity_id_t entt)
+invalidates entt // keyword to let the static analysis checker know the entt symbol is invalid after this call
+{
+    // frees the entity
+}
+
+entity_t reallocate_entity(invalid entity_t entt)
+validates entity_t // keyword to tell compiler the parameter is valid after this call
+{
+    // reallocate the entity here
+}
+
+void do_something(entity_t entt) {
+    // takes a valid entt, does something with it 
+}
+
+void run() {
+    entity_t my_entt = create_enttity(); // type of my_entt is now entity_id
+    entity_id other_entt = my_entt; // i think aliasing could be allowed, and the compiler could have a set of which symbols refer to the same values 
+
+    do_something(my_entt); // ok, my_entt’s type here is entity_id
+
+    free(other_entt); // after this call, the type of my_entt and other_entt is ‘invalid entity_t’
+
+    do_something(my_entt); // type error! expected entity_t got invalid entity_t
+
+    reallocate(my_entt); // types of both entities are now entity_t
+
+    do_something(my_entt); // ok
+}
+
+idk maybe it’s stupid. just seems like a less troonic way to do borrow checking. wouldn’t have to worry about moves or drops. what do you guys think?
+--- 92805764
+>>92805709
+Rust's borrow checker doesn't know anything about memory.
+Educate yourself before you speak.
+--- 92805839
+>>92805764
+whatever you get what i mean. if you define a custom entityid_t type in rust, it won't be able to 'borrow-check' that an entity_t is valid or not because it doesn't know its a resource. so instead we could have a language that does know about resources. it even works with diamond-control-flow, something that's a bitch in rust.
+void run() {
+    entity_t my_entt = create_entity();
+
+    if (user_input() % 2 == 0) { // borrow checker would complain that it cant rigorously prove this is safe
+        destroy_entity(my_entt);
+    } else {
+        destroy_entity(my_entt);
+    }
+}
+
+--- 92805898
+>>92805839
+I do not get what you mean.
+I'm guessing that whatever you're trying to to here is possible in Rust, you just don't know anything about Rust except what you've read on /g/ so as a result you spout nonsense.
+--- 92805920
+>>92805709
+Global reasoning like this is very bad. This is a lot like when people first tried to extend Hoare logic for pointers. Long story short, it doesn't work and becomes completely intractable for anything non-trivial, you need local reasoning. Enter separation logic, which most C verifiers as well as Rust's ownership and borrowing are based on.
+--- 92806029
+>>92805920
+Also, yeah, Rust's type system is agnostic to the fact that it's normally just used for memory resources. The standard library uses ownership and borrowing for files and sockets, for example. You can even use lifetimes without references, e.g. a borrowed file that is just an FD (the std doesn't do this, however).
+--- 92806097
+>>92805920
+No, it's more of a dynamic type system really. The types of the symbols change throughout program, based on control flow. I think it could be viable, if it was used as an open-world kind of thing, ignoring cases it can't reason about
+--- 92806105
+>>92804193 (OP)
+yes, in the same way that being trans is better than being cis. start HRT today
+--- 92806130
+>>92805709
+This doesn't work for concurrency
+--- 92806447
+>>92806029
+>a borrowed file that is just an FD (the std doesn't do this, however).
+you mean this?
+https://doc.rust-lang.org/stable/std/os/fd/index.html
+--- 92806512
+>>92805709
+So what you want is borrow-checking, only with the possibility to "re-allocate" the thing (i.e. the lifetime) after it has expired? With both allocation and expiry being explicit?
+
+If you create a ’type Handle(u16)’ in Rust and add a "fn load(&amp;self) -> Resource&lt;'a>", you can do:
+let res = handle.load();
+
+res.do_sth();
+
+// "free"
+std::mem::drop(res);
+
+// fails because res is no longer valid
+res.do_sth();
+
+// "reallocate"
+let res = handle.load();
+
+What is missing?
+--- 92806630
+>>92804762
+examples?
+--- 92806674
+>>92805377
+>Rust advocates are generally full of shit, because they use straw men arguments.
+>continues to write the post using nothing but straw men arguments
+--- 92806722
+>>92806512
+this would still be subject to linear typing, eg you couldn't have more than one mutable reference. in your example its fine, but if you wanted a more complicated resource, maybe something like a B-tree, you'd have to Rc it, right? Not great for hard-real-time applications
+--- 92806764
+>>92806722
+Linear typing has nothing to do with borrowing,
+Also, Rust doesn't have linear types.
+--- 92806796
+>>92806764
+still would need to Rc and RcRef a B-tree. "guys we're a C++ replacement" yeah maybe for CLI apps no one uses. lol! lmao!
+--- 92806811
+>>92806796
+>has no clue
+>thinks he owned Rust because he made up some shit
+--- 92806837
+>>92805226
+it also provides good and flexible tools for this
+--- 92807526
+>>92804227
+I think the memory safety aspect is pretty overhyped since the borrow checker is dumb, and it doesn't help much with solving issues with dynamic borrows. Plus you can still shoot yourself in the foot in other ways trying to work around problems with it.
+--- 92808116
+>>92806097
+Doing it dynamically involves nothing special, it would pretty much be Rc&lt;RefCell&lt;Option&lt;Entity>>> where the Option would be Some(entity) for valid and None for invalid.
+
+If you're talking about static type state, yeah, it just can't be done as simply as you think. Being able to change the type of an object with one reference to it is okay, you can just change the type of that one reference. If there are multiple references, you're now trying to change the type of all of them globally. This completely breaks down when you want to compose subprograms (e.g. functions) into a larger program, because it's impossible to reason about subprograms in isolation, and the situation is even more dire if you want to run subprograms concurrently (e.g. threads) because the type of a reference one subprogram is using could be changed by another subprogram at an arbitrary moment! The only way to proceed at this point is to exhaustively search through the state space of the entire program, which as I said before is intractable for non-trivial examples.
+
+The local reasoning solution is to allow different references pointing to the same object to have different types. The actions of a subprogram can never change the type of a reference that it does not hold, so subprograms can be reasoned about individually. The totality of the types of the references to an object and typically a piece of shared state that the subprograms can access to communicate with each other (locked/unlocked flag of a mutex, reference count of a smart pointer, message buffer of a channel etc.) determine the actual type of the object. And I'm talking about very fine-grained and precise types here, like dependent types that can nail down the exact value of a variable as well as expressing things that are important for memory management. The catch is that this requires writing lots of formal proofs in a sophisticated logic expressed in a type theory like Coq.
+https://iris-project.org/
+--- 92809186
+>>92808116
+tldr
+--- 92809526
+>>92809186
+go back to tiktok low attention span zoomer, I was able to read the post just fine
+--- 92809648
+>>92809526
+It's not about having the ability to read long posts, it's about the motivation.
+Do you think I'm going to waste 2 minutes reading something which likely is written by a retard?
+--- 92809895
+>>92808116
+> Rc&lt;RefCell&lt;Option&lt;Entity>>>
+this is fucking unreadable, tranny retard
+--- 92810117
+>>92804632
+>He's still posting it
+What drives a "man" to behave like this? Is it the autism?
+--- 92810359
+>>92809895
+type StupidRef&lt;T> = Rc&lt;RefCell&lt;Option&lt;T>>>;
+
+--- 92810543
+>>92809895
+>t. webshitter meets generic programming
+--- 92810561
+>>92809648
+Where do you think low motivation comes from?
+--- 92810582
+>>92804193 (OP)
+>Is Rust really better than C and C++? Should I move to Rust?
+No. It's a pretentious language for pretentious people.
+t. distro maintainer
+>>92804227
+Rust will refuse to compile if
+>your function doesn't have documentation in the source code comments
+>your code was written for a slightly older version of Rust compiler, usually it takes 8 updates before your code is unusable anymore
+
+>What is safety? Memory safety?
+When you ask the system to give reserve some memory for you, where you want to keep your data, you need to tell the system that you're giving it back. If you don't, you're leaking this memory and unless the system doesn't look out for these small accidents, that memory is lost forever until reboot, because the process that requested it has orphaned it. Rust uses refcounts to make sure you don't have to worry about these leaks. C and C++ allow you to make those mistakes.
+>>92804452
+1. Static analysis with SonarQube or other, similar solutions
+2. Run your code through valgrind or similar memory analysis tool. This is a literal god-send when it comes to detecting leaks.
+3. Run your code through gdb and see if anything is breaking. This will let you know if you have freed your memory too early.
+4. Apply latest MISRA C standards. There are books about it. I mean, I worked at a certain CPU manufacturer and the drivers we make for Windows and Linux had to comply with MISRA, SonarQube, Bullseye, and we also had to do anti-plagiarism scans with BlackDuck.
+--- 92810603
+>>92810561
+from reading retarded shitposts on 4chan
+--- 92810639
+>>92810603
+So that's how zoomers justify that nowadays.
+--- 92810648
+>>92806512
+>>92808116
+>>92809895
+>>92810359
+I said it before and I'll say it again. Rust makes Perl look beautiful.
+
+t. former paid Perl dev
+--- 92810661
+>>92810648
+Wait until you see C++'s templates.
+--- 92810694
+>>92810582
+>LARP
+--- 92810725
+>>92810694
+Los Angeles Rust Police
+--- 92810858
+Nobody ever seems to mention the real problem with C which is compiler overoptimizations on UB.
+--- 92811031
+>>92810582
+>Rust will refuse to compile if
+>>your function doesn't have documentation in the source code comments
+>>your code was written for a slightly older version of Rust compiler, usually it takes 8 updates before your code is unusable anymore
+>If you don't, you're leaking this memory and unless the system doesn't look out for these small accidents, that memory is lost forever until reboot
+>Rust uses refcounts to make sure you don't have to worry about these leaks.
+This is just bunch of lies lol.
+--- 92811106
+>>92811031
+I maintained a couple Rust applications in a certain Linux distro a few years back and that's how it was. This is not a lie. Starting with Rust 1.33 you will need to document your functions or else Rust will refuse to compile.
+>the thing about memory leaks
+Sometimes, but only sometimes, your OS may free the memory your program leaked, but this is not something you should rely on if you insist on quality. I mean, if that was the case, people would be rebooting database nodes all the time because they leak memory left and right.
+--- 92811131
+ziggers WW@?
+--- 92811202
+>>92811106
+>Starting with Rust 1.33 you will need to document your functions or else Rust will refuse to compile.
+Well we're on 1.68 now and this still isn't true. Fuck off you lying sack of shit.
+--- 92811259
+>>92811106
+Larping is not going to make your lies true.
+
+>>your function doesn't have documentation in the source code comments
+fn main() {}
+
+Compiles just fine without any comments nor documentation.
+
+>>If you don't, you're leaking this memory and unless the system doesn't look out for these small accidents, that memory is lost forever until reboot
+Memory leaks are not memory unsafe. You can literally use Box::leak to leak as much memory as you want.
+
+Every modern operating systems do not keep memory allocated after the process exit. You do not have to reboot your machine to reclaim it.
+
+You don't even have to be a Rust programmer to understand that you are full of shit.
+--- 92811294
+>>92804193 (OP)
+I know we fuck around on this board a lot but trannies aggressively promoting Rust on social media and 4chan definitely is definitey no joke.
+--- 92811387
+>>92811202
+I don't care if you're on 2.0 or on the end of my dick. Rust made my job living hell. I needed to write patches that would fix a number of kinda-abandoned but highly-demanded projects, so that they would compile with Rust too new than the upstream devs thought of. Never has a piece of software put me through this much suffering. I wouldn't piss on Rust if it were on fire.
+
+>>92811259
+The reason why Rust doesn't have a garbage collector is because Rust would get collected.
+--- 92811415
+>>92811387
+>Gets called out
+>Gets utterly BTFO
+>Spergs out
+>I DONT CARE REEEEEE I HATE RUST
+Lol.
+--- 92811431
+>>92811415
+You won't be laughing when ArchLinux drops Rust
+--- 92811496
+>>92804193 (OP)
+you heard incorrectly
+--- 92811670
+>>92811387
+>I needed to write patches that would fix a number of kinda-abandoned but highly-demanded projects, so that they would compile with Rust too new than the upstream devs thought of.
+I still find this very difficult to believe, unless they were using experimental nightly features in production, which is obviously dumb if you don't control the development environment.
+--- 92811704
+>>92811670
+The guy spouts obvious nonsense and you are giving him benefit of a doubt.
+--- 92812127
+>>92811670
+I was and wasn't because I thought it to be the case too, but it didn't make any difference.
+From my experience, Rust is unstable and unmaintainable. Another thing I really hate is the recent advent of languages with package managers built into them. This completely breaks network sandboxing. This then, makes your builds non-deterministic because there is nothing stopping someone from pip, npm, go or cargo from removing a version you depended on and swap in something else there. But who the fuck cares, I'm just a distro maintainer, all the cafe latte hipsters that write the shit I put out in the distro only care about things no further than the tip of their nose. And because nobody wants to take on the kind of work I do, people will never know what it's like and just go ahead and call me a liar.
+--- 92812533
+>>92808116
+You're using big words and concepts so I don't understand what you mean.
+
+Obviously for straight control flow, this system is trivial.
+int* x = newInt();
+
+// Here, x has the type of a valid integer pointer
+// Deref operations are allowed on valid pointer types
+
+invalidate x; // Instruction to static analysis that x is now invalid
+
+// Here, x has the type of an invalid integer pointer
+// Deref operations are NOT allowed on invalid integer pointers
+
+validate x; // Instruction to static analysis that x is now valid
+
+// Here again, x is valid integer pointer
+
+And it still makes sense for branching control flow, so long as there isn't a type contradiction at the phi nodes
+int* x = newInt();
+
+if (userInput() % 2 == 0) {
+    invalidate x;
+} else {
+    // don't invalidate x
+}
+// Compile error here, x is both `invalid int *` and `int *`
+
+Then, functions can specify whether they take a valid or invalid type, whether they return a valid or invalid type, and whether they invalidate or re-validate their parameters.
+That way, functions act as an interface. Inter-function control flow is trivial, and intra-function validation checking is mediated by the function declaration.
+
+Use-after-free is a TYPE error, because you can't dereference a freed pointer. A freed pointer is a different type than an allocated pointer. 
+Again, this is more of a sanitizer than a checker. If the compiler can prove a resource is invalid, it'll throw a compiler error, otherwise it'll pass. This is the biggest gripe I see against the borrow-checker is that it disallows correct programs and allows incorrect programs. My system disallows some incorrect programs, and allows some incorrect programs, but more importantly it allows ALL correct programs.
+--- 92812610
+>>92812127
+>Another thing I really hate is the recent advent of languages with package managers built into them. This completely breaks network sandboxing. This then, makes your builds non-deterministic because there is nothing stopping someone from pip, npm, go or cargo from removing a version you depended on and swap in something else there.
+I don't know about those other languages, but you are missing a few things about Cargo:
+1. The lockfile fixes the version/commit of the crate so it doesn't update behind your back.
+2. Cargo supports patching a dependency by getting the source from somewhere other than the original location.
+3. cargo vendor will automate downloading sources to a local directory and updating the Cargo file, so you can apply your own patches.
+It's quite irresponsible to be a distro maintainer handling Rust software while not knowing this.
+--- 92812731
+>>92805377
+>Lisp
+Nice try weenie
+--- 92812930
+>>92812533
+>Use-after-free is a TYPE error, because you can't dereference a freed pointer. A freed pointer is a different type than an allocated pointer.
+How are you going to put pointers into composite types then? Does it mean that a struct containing n pointers requires 2^n different types to represent all possible combination of allocated and freed pointers?
+--- 92813162
+>>92812930
+Yeah, I suppose so. Not sure if that'd necessarily be a bad thing, as 1. there's no codegen difference between a valid and invalid type, so there's no runtime performance impact, and 2. it's not like the static analysis tool has to do O(2^n) operations for an n-struct. Consider
+struct S {
+    invalid entity_t entt;
+    invalid int fd;
+    invalid int* ptr;
+};
+
+void f() {
+    struct S my_struct;
+    my_struct.fd = open(/*whatever*/); // my_struct.fd is now a valid fd type
+    my_struct.ptr = malloc(sizeof(int)); // ditto .ptr
+    my_struct.entt = create_entt(); // ditto .entt
+}
+
+So sure, my_struct could be 2^n different types, but it will always be the same unique type at any given IR, and the validator only needs to worry about that type.
+
+Maybe you're talking about generic type unification? In which case, sure if you wanted to accept a value of either a valid or invalid type. But that use-case doesn't seem likely to me.
+--- 92813702
+>>92812533
+You are describing a technique called typestate. Rust does have a baked in typestate protocol for all objects and references. An object starts off uninitialized. After being initialized, it is in the state of owning a value or resource. You can borrow the value or resource of an object into a reference temporarily, with additional typestate like mutable/immutable/interior-mutable coming from the various types of borrow and reborrow that are possible. An object can also be moved or dropped if its value or resource is not currently borrowed, which is irreversible (this is one difference with your examples).
+
+Most importantly, this whole system has an invariant that implies that if the program contains no UB, typestate changes are always local in safe code, since there cannot be a typestate change to an object when there are shared references (aliasing) to it. Local reasoning isn't only about helping the programmer with safety or correctness, mind you, it's also invaluable to an optimizing compiler.
+
+>This is the biggest gripe I see against the borrow-checker is that it disallows correct programs and allows incorrect programs. My system disallows some incorrect programs, and allows some incorrect programs, but more importantly it allows ALL correct programs.
+It's good that you bring that up, because that's exactly what you get in UNSAFE Rust. Pointers can alias and they can mess with typestate - that's non-local. Rust also has an analyzer/sanitizer like you're describing called MIRI. It only tells you when you're obviously wrong, and never complains about correct programs. However, the reason MIRI is actually practical is because of the pattern of encapsulating unsafe implementations behind safe interfaces. The safe interface delimits the scope of any non-local behaviour, and you can run MIRI only on that implementation, which makes it more effective since it has a smaller state space to search.
+--- 92813869
+>>92811387
+>LARPing
+rustc by default doesn't care about uncommented code.
+you can make it care with the missing_docs lint. https://doc.rust-lang.org/rustdoc/lints.html#missing_docs
+some crate authors use this so that rustc emits an error if there is an undocumented function.
+rustc tells you in the error message that this error was emitted because of this lint.
+you can easily disable it through various means.
+--- 92813951
+>>92813702
+Neat, didn't know about that until now. Thanks!
+--- 92813961
+>>92812533
+>>92813702
+My ultimate point is that this kind of system is impractical for non-trivial programs without controlling aliasing to limit the state space. Whether the analysis is conservative or not doesn't matter, either you reject far too many correct programs or you accept far too many incorrect programs. And existing sanitizers like ASan and UBSan cannot detect UB caused by improper aliasing.
+--- 92814087
+>>92805839
+use different types for valid and invalid entries and linear types in general
+https://borretti.me/article/introducing-austral
+--- 92814189
+>>92813961
+Can you show a simple non-trivial case where this breaks?
+--- 92814221
+>>92813961
+>And existing sanitizers like ASan and UBSan cannot detect UB caused by improper aliasing.
+Actually, I suppose that's not quite correct. They can't detect violations of strict aliasing or restrict pointers, but use-after-free is a problem related to aliasing and typestate and they sure can detect that. The real limitation of ASan and UBSan and other global analyses is that if your program is made up of a module A and a module B, you can't sanitize the modules separately and then assume that the entire program is now sanitized. You have to sanitize the whole thing, with which the same time investment is generally going to detect far fewer bugs. Same goes for formal verification, non-locality means you can't verify A and B separately but you must verify them together and have a much harder time of it.
+--- 92814248
+>>92812930
+>How are you going to put pointers into composite types then?
+That's why there was so much agonizing over linked lists (and trees too; they're related structures after all).
+--- 92814293
+>>92814221
+>non-locality means you can't verify A and B separately but you must verify them together and have a much harder time of it.
+Global properties are always difficult to handle, and many safety properties are global. (For example, deadlock-freedom is a very desirable property of multithreaded apps, but cannot be safely proved on less than the whole application state. This has been known for decades.)
+--- 92814351
+>>92814221
+And there's no way to contracturalize interactions? For example, this might be a destroy() method on an entity 
+void destroy(entity_t entt) invalidates entt {
+    // put entt into a purge list
+    invalidate entt;
+}
+
+
+Actually, I see what you're saying. If you had entt stored somewhere else, it'd be hard to reason about whether it was valid or not after a call to destroy()
+--- 92814816
+>>92814189
+entity foo;
+semaphore bar;
+
+void create(entity e) validates e { ... }
+void destroy(entity e) invalidates e { ... }
+
+void thread_a() {
+  create(foo);
+  signal(semaphore);
+}
+
+void thread_b() {
+  wait(semaphore);
+  destroy(foo);
+}
+
+Just think about this for a while. Is it correct to say that thread_a validates foo and that thread_b invalidates it? How can you describe the typestate of foo statically?
+
+>>92814293
+Deadlock-freedom can absolutely be proven with purely local reasoning, e.g. by restricting the order in which lock operations can be nested.
+--- 92814847
+>>92814816
+You're right.
+
+What if globals are forbidden?
+--- 92814906
+>>92814847
+It's the same situation if you have a main function where foo is local and spawns the two threads, passing foo to both of them. You don't even need threads; consider two objects that each have a field aliasing the same entity that can call methods on each other, changing the entity's typestate.
+--- 92814922
+>>92814847
+void main() {
+    entity foo;
+    semaphore bar;
+    run(thread_a, &amp;foo, &amp;bar);
+    run(thread_b, &amp;foo, &amp;bar);
+}
+
+void create(entity e) validates e { ... }
+void destroy(entity e) invalidates e { ... }
+
+void thread_a(entity *foo, semaphore *bar) {
+  create(foo);
+  signal(semaphore);
+}
+
+void thread_b(entity *foo, semaphore *bar) invalidates foo {
+  wait(semaphore);
+  destroy(foo);
+}
+
+Not much better
+--- 92815270
+>>92814847
+For your consideration, here is how you'd translate >>92814922 to Rust.
+fn thread_a(chan: Sender&lt;Entity>) {
+    let foo = Entity::create();
+    chan.send(foo).unwrap();
+}
+
+fn thread_b(chan: Receiver&lt;Entity>) {
+    let foo = chan.recv().unwrap();
+    foo.destroy();
+}
+
+fn main() {
+    let (tx, rx) = channel();
+    spawn(|| thread_a(tx));
+    spawn(|| thread_b(rx));
+}
+
+The semaphore is now a channel that explicitly transfers ownership of the entity i.e. "invalidates" foo on the sender and "validates" it on the receiver. foo is never aliased; it's a different variable for each thread, yet they both refer to the same entity due to this ownership transfer.
+--- 92815543
+>>92810582
+>Rust will refuse to compile if
+>>your function doesn't have documentation in the source code comments
+You can deliberately opt into this behavior with #![deny(missing_docs)] but it's not the default.
+>>your code was written for a slightly older version of Rust compiler
+There was still some breakage in 2015-2016 but things got stable since then.
+Unless you deliberately use unstable experimental nightly features, but even that is much less common than it used to be.
+I can believe these things happened to you once but they're not chronic problems with Rust.
+Red Hat actually updates the Rust compiler in every RHEL minor release even though they're known for being conservative. Seems to work out for them.
+
+>When you ask the system to give reserve some memory for you, where you want to keep your data, you need to tell the system that you're giving it back. If you don't, you're leaking this memory and unless the system doesn't look out for these small accidents, that memory is lost forever until reboot, because the process that requested it has orphaned it. Rust uses refcounts to make sure you don't have to worry about these leaks. C and C++ allow you to make those mistakes.
+Every part of this is wrong. Memory leaks are cleaned up on process exit, Rust's protection against memory leaks is basically equivalent to that of modern C++ (and not airtight), and Rust's safety isn't based on refcounting (though it does have refcounted smart pointers, once again same as C++).
+The most important memory safety issues are about accessing the wrong memory. Either by accessing out of bounds and using the wrong location (very common in C, largely solvable in modern C++ if you're willing to take a slight performance hit) or by accessing memory after it's been recycled for something else (unsolved by C++, Rust's solution is its main innovation).
+--- 92816361
+>>92810582
+>>What is safety? Memory safety?
+>When you ask the system to give reserve some memory for you, where you want to keep your data, you need to tell the system that you're giving it back. If you don't, you're leaking this memory and unless the system doesn't look out for these small accidents, that memory is lost forever until reboot, because the process that requested it has orphaned it. Rust uses refcounts to make sure you don't have to worry about these leaks. C and C++ allow you to make those mistakes.
+>>>92804452
+>1. Static analysis with SonarQube or other, similar solutions
+>2. Run your code through valgrind or similar memory analysis tool. This is a literal god-send when it comes to detecting leaks.
+>3. Run your code through gdb and see if anything is breaking. This will let you know if you have freed your memory too early.
+>4. Apply latest MISRA C standards. There are books about it. I mean, I worked at a certain CPU manufacturer and the drivers we make for Windows and Linux had to comply with MISRA, SonarQube, Bullseye, and we also had to do anti-plagiarism scans with BlackDuck.
+how ever
+1) memory LEAKS are not the main problem - the UB is, especially calling / using invalid memory or overwritting memory (and reading not-intended memory)
+
+2) valgrind etc are just a tool that SOMETIMES work, no promise
+--- 92816544
+>>92815543
+>or by accessing memory after it's been recycled for something else (unsolved by C++
+you can choose a safe subset of C++ and coding standards, where you are free from this.
+
+start with smart pointer on everything, and no references passing mostly
+--- 92816593
+>>92816544
+Does anyone do this?
+--- 92816980
+>>92816593
+>Does anyone do this?
+certainly.
+rust kinda does that too just with less options to opt out
+
+you can basically do same safety against own bugs in C++ with proper tools and shit
+--- 92817217
+>>92816980
+>rust kinda does that too just with less options to opt out
+Rust does references out the wazoo tho
+>you can basically do same safety against own bugs in C++ with proper tools and shit
+Any notable projects that manage it? Preferably something I can look at
+I can believe this is viable in embedded but does it scale?
+--- 92817239
+>>92804227
+
+>What is safety
+You're asking the right questions. Safety in Rust refers to the absence of undefined behavior. For the most part, this refers to memory corruption, including memory corruption caused by data races. In the safe subset of the Rust programming language, it is not possible to cause undefined behavior, and this is verified by the compiler. Within the context of an unsafe block or unsafe function, however, it is possible to create undefined behavior. Total elimination of unsafe code in Rust is not possible, because calling foreign functions is considered unsafe (after all, it's not possible for a compiler to make guarantees about code it hasn't even compiled). But just because code is unsafe doesn't mean it will cause undefined behavior, just that it can't be proven by a compiler to not do so. We humans must make that guarantee, and the safe subset of code will trust that whatever comes out of unsafe is valid.
+
+The goal of having this distinction between safe code and unsafe code is that we're able to minimize the amount of undefined behavior. The higher the percentage of your code that is safe, the lower the probability that it contains undefined behavior. And furthermore, if undefined behavior does exist in your code, it is guaranteed to originate from an unsafe block or function. Therefore, you are able to narrow your search significantly for where this bug came from.
+--- 92817433
+>>92804741
+
+While not all targets will give the program UTF-8, if the target is actually using any form of Unicode, it will be one of UTF-8, UTF-16, or UTF-32, all of which are supported by standard library functions and data types in Rust. If you are using any other encoding, you're actually not using Unicode, even if the characters in your encoding format are also included in Unicode. In your screenshot, the encoding used is ISO 8859-7, which is an extension to ASCII that includes Greek letters. Every character in ISO 8859-7 has an equivalent in Unicode, but the reverse is not true. I cannot take Chinese characters and represent them in ISO 8859-7, nor can I encode Arabic letters or Zalgo text or emoji.
+
+It's disingenuous to proclaim that Rust does not support Unicode when the characters you are trying to get it to process are not using any Unicode encoding. This is like complaining in France that the people around you don't speak French, when you yourself are speaking Chinese.
+--- 92817819
+>>92817433
+>It's disingenuous to proclaim that Rust does not support Unicode when the characters you are trying to get it to process are not using any Unicode encoding.
+It's not unreasonable for a program to need to deal with both unicode and non-unicode text at the same time. Consider something like a web browser; there's no guarantee at all that the encoding of the webpages it is rendering will be the same as the encoding of filenames in whatever it is using to implement a local cache. It's also very very possible for not all webpages to have the same encoding, nor even components of the same webpage.
+Unicode is fine as a logical pivot encoding (it's grown to contain every character in every other encoding in the wild that matters) but that isn't the same as saying everything is in Unicode. (UTF-8, UTF-16 and UTF-32 should all be seen as just ways to write Unicode text down. There are others too.)
+tl;dr: encodings are complicated, much more so than Rust pretends. Unironically, other languages have better solutions because they were written by more experienced programmers with more awareness of just how complicated this can get.
+--- 92818111
+>>92817819
+
+>It's not unreasonable for a program to need to deal with both unicode and non-unicode text at the same time
+While it is perfectly reasonable to expect a program to deal with non-unicode, it should not be phrased as a failure to support unicode.
+>UTF-8, UTF-16 and UTF-32 should all be seen as just ways to write Unicode text down. There are others too
+There really aren't. There's like... 7 different ways to write Unicode, the the 4 that I didn't mention are just big and little endian versions of UTF-16 and UTF-32
+https://unicode.org/reports/tr17/#CharacterEncodingScheme
+>The Unicode Standard has seven character encoding schemes: UTF-8, UTF-16, UTF-16BE, UTF-16LE, UTF-32, UTF-32BE, and UTF-32LE. 
+>UTF-8, UTF-16BE, UTF-16LE, UTF-32BE and UTF-32LE are simple CESs
+>UTF-16 and UTF-32 are compound CESs, consisting of a single, optional byte order mark at the start of the data followed by a simple CES.
+--- 92818154
+>>92817819
+>tl;dr: encodings are complicated, much more so than Rust pretends. Unironically, other languages have better solutions because they were written by more experienced programmers with more awareness of just how complicated this can get.
+C doesn't do anything to solve the problem at all so Rust is already better.
+--- 92819228
+>>92813162
+Ok. Now what if the assignment to a pointer depends on the runtime condition.
+Also any container of pointers result in an infinite number of types. Your functions will only be able to take fixed length lists with predefined configuration of valid and invalid pointers.
+--- 92821208
+>>92810582
+>I worked at a certain CPU manufacturer and the drivers we make for Windows and Linux had to comply with MISRA
+MISRA requires all code in your system to be MISRA conforming. Since neither Linux nor Windows are MISRA conforming, it is impossible to write MISRA conforming driver for those kernels. So no, you didn't write shit. They just gave you some basic validator with some MISRA rules (that are mostly useless and donido anything - there have been a research on that).
+--- 92821406
+>>92804193 (OP)
+no, zig is though.. but it is still in it's infancy. 
+rust is equal to those, if you already use them no reason to switch
+--- 92823680
+>>92817217
+Knowing how to do this with C++ is a competitive advantage over the rest of the job market
+Nobody will even tell you the name of a single tool for doing it
+--- 92823743
+>>92805226
+>The only problem of Rust is its crazy activist community.
+It's the only problem (besides the ugly syntax) but it's a show-stopping problem. Just recently they came out and said you can't use "Rust" or the Rust Logo, they're trademarked, etc. No politics to do with the language, unless it's Russian infowar stuff like BLM and trannyism. I knew they'd do that shit sooner or later ever since it was made clear that Rust would never be passed over to the ISO.
+--- 92823841
+>>92823743
+
+Protip: for like 90% of the shit they say you can't use it for, just use it anyways. Stop pretending like they have authority over you.
+--- 92826209
+>>92823680
+Nobody's doing it, got it
+--- 92826348
+>>92817819
+You're using a very odd example.
+I've found Rust's solution for webpage encoding (encoding_rs, made for precisely that) very pleasant and elegant to use. It's designed for UTF-8 as a pivot encoding but that seems to work out well enough in practice, given that Firefox uses it.
+This maybe shouldn't come as a surprise given Rust's origin at Mozilla.
+What should Rust be doing better? Which specific languages do it better? (Surely not C and C++, they nearly ignore the issue.)
+--- 92828443
+>>92823743
+They published a draft policy, asked for feedback, and the feedback they got was "absolutely not".
+I don't think they'll go through with it.
+--- 92830260
+>>92810582
+>t. distro maintainer
+Opinion discarded.
+--- 92830626
+>>92823841
+>Stop pretending like they have authority over you.
+Well, they don't because I'm not using Rust. But if I did, then they would.
+>Protip: for like 90% of the shit they say you can't use it for, just use it anyways.
+I'm just going to stick with C++.
+--- 92830634
+>>92823743
+This. I work doing doing C++ dev/linux janny stuff in HFT. On the C++ side really focused on IO, packet processing, shared memory, type of issues. I maintain a bunch of versions of the code base compiled on different versions of the same distro, the device drivers for NICs and all that. So i hear the concern of undefined behavior memory wise wrecking you. Since some dumb shit like little mistake here or there will wreck you. 
+
+Often i consider making some device drivers and whatnot in rust because it may be easisr. But the rust community being a bunch of kikes caught up in their nonsense keeps me away. 
+
+I really do need precise control over memory, kernel services, IO and other things and somethings some "unsafe" c++ is what's needed but then someone's it isnt as well. So i hate not only their tranny cock gobbler nonsense but also when majority of when you try to investigate how it can help folks like me is "oh nah bro muh unsafe c++, here this webdev shit that is entirely unrelated to your usecases proves why you're a subhuman for using C++ and C"
+
+Really i would like to see xilinx and nvidia start offering rust apis into vivado/vitis for cuda and all the mellanox apis respectively. At that point its permanent. But the fact they won't, similarly intel and one API, leads me to believe there's some resistance from "Big Hardware" since now adays theres alot of adoption of modern c++ in the tools that i mentioned that a few years ago were largely just C based inspite of c++11 having been a thing already for a while
+--- 92830667
+>>92830634
+*offering rust apis into vivado/vitis and for cuda/mellanox apis respectively
+--- 92830752
+>>92830634
+totally incomprehensible gibberish

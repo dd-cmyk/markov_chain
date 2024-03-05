@@ -1,0 +1,1242 @@
+-----
+--- 92783046
+>/g/ makes a ninth album
+Theme: "/g/enres (are for pu$$ies)" (interpret this however you want)
+Artist: Anonymous
+Title: Genres Are a Social Construct
+Cover: https://files.catbox.moe/diupmv.png (embed)
+Submission deadline: Midnight between the 17th and the 18th of April (UTC)
+
+====JOIN THE LISTENING PARTY===
+https://cytu DOT be/r/dmp
+>Sunday, April 23rd
+12 PM Pacific US
+1 PM Mountain US
+2 PM Central US
+3 PM Eastern US
+8 PM UTC
+8 PM UK
+9 PM Germany
+10 PM Russia
+>Or Monday the 24th for the following time zones:
+3 AM China
+4 AM Japan
+5 AM Australia
+
+
+If you want to submit a track post it NOW (i.e. in 3 days at most)!!!
+
+Upload the file somewhere and post the link here. If you want to update your track, make a new post.
+If possible use a lossless format and upload to a file-sharing service, not to a music site like Vocaroo or SoundCloud.
+Include the title of the song in the post. Don't rely on us reading it from the filename or tags.
+When you post the submission make sure that the song is clearly a submission for the album, otherwise it might get skipped.
+Songs that contain anything against YouTube's policies won't be uploaded on YT (but will still be added to the album).
+If your track's volume goes above 0 dB it will be clipped for the release.
+
+----------
+
+>/g/ makes a tenth album
+Theme: Boardcore: Songs based on the boards from everyones favorite cambodian scrapbooking BBS
+PLEASE POST TITLES
+
+----------
+
+>Where can I hear the previous albums?
+https://rentry.org/dmpalbums
+
+>Wikis
+https://dmpdoc.neocities.org/
+https://web.archive.org/web/20220330105340/https://rentry.org/dmpdoc
+https://rentry.org/dmprockandroll/
+https://mu-sic-production.fandom.com/wiki//mu/sic_Production_Wiki
+
+----------
+
+Previous thread died for our sins >>92774307 →
+--- 92783422
+getting back into music, downloaded lmms, never used it before. any of you ever had a good and legal free acoustic guitar vst? there are a few in my ancient vst folder but i don't like them. almost considering getting a real guitar and learning to play, it would annoy my folks though
+--- 92783445
+News
+>Submission deadline for the 9th album postponed, some anons rejoice having more time to finish their tracks while others go back to perfectionist despair loops 
+>>92774370 →
+
+>The first commercial product running GPU Audio just got announced, reactions vary
+>>92774433 →
+
+>Anon brags about having 8 speaker setup, looking for tips for spatial sound imaging
+>>92778837 →
+--- 92784091
+>>92783422
+>good and legal free acoustic guitar vst
+
+>good
+>legal
+>free
+choose two
+
+>almost considering getting a real guitar and learning to play, it would annoy my folks though
+you know you can use headphones right? real guitars are completely different experience than piano rolls on even midi keys, you should probably consider some audio interface though
+--- 92786019
+izotope has great series about mixing and mastering, how is it not in wikis yet
+https://www.youtube.com/watch?v=E-6Lnp8RB00&amp;list=PL4dISychPQEvW2RRu5BqQUciqm8zBfu7q [Embed]
+--- 92786151
+>>92783422
+iirc the amplesound acoustic guitar is about as good as it gets, but I haven't checked out any instrument libraries in a while. I've been hearing good things about decentsampler. The libraries for it all seem to be on a seperate site called pianobooks for some reason. Maybe you'll find a decent acoustic library there.
+
+>>92784091
+Agreed, the midi guitar experience is really different from a real guitar. I think it stems from the midi protocol being based off of keyboard instruments. The way you approach playing and managing notes on a guitar fretboard is different enough that midi can't recreate it realistically. Since I learned to play the guitar, I haven't bothered sequencing any guitar parts.
+--- 92786732
+>>92783445
+Doing god's work
+--- 92787099
+>roland r8 comes in the mail
+>start cleaning it off with alcohol wipes
+>wow these wipes are really black
+>turns out im rubbing out the finish
+>can finally crack open this 100$ fucking wall wart power supply
+>my r8 is the mk1 
+>seems that the psu plug for the mk2 has a little plastic divot to stop mk1 psu and mk2 psu from working even though its literally the same machine 
+
+bros what the fuck
+do i file down the little plastic nib so it can fit? i never seen anyone mention this specific bullshit on the net
+--- 92787956
+>>92787099
+looks like a pain in the ass.
+I found this:
+"The pins on the socket have incorrect labeling. Roland swapped the +10V and the GND on the plastic enclosure of the R8 (apparently they corrected it on the MKII and R5). Just make sure to connect them correctly, and double check one more time!"
+here: https://www.autodafe.net/blog/232-roland-r8-power-supply-replacement.html
+--- 92788834
+>>92787099
+Hardware bros not like this
+--- 92789175
+>>92787956
+its this little plastic knub blocking the cable
+im just gonna file it down and see if it works
+--- 92789419
+>>92787099
+Be prepared to read the manual before you can do anything, it's like 250 pages long. It's a based drum machine though, you have a lot of editing possibilities. You can hear it used with the default drums on tons of songs. /ourgirl/ used it in a good portion of her work and the default kit is clearly audible in quite a few songs.
+--- 92789704
+>>92783422
+Any ROMpler from the early '90s onward should have a good guitar, you can pick up a sound module for cheap and never have to worry about hunting down samples for basic instruments like that for probably less than $100.
+--- 92789958
+>>92789419
+im almost 100% sure it was used extensively on pretty hate machine but trent lied and said he stole samples to sound edgy 
+
+i mostly brought it because im sure it was also used in twin peaks too
+the jazz brush card sounds almost exactly like some of the songs
+https://www.youtube.com/watch?v=vKBRyNNW3u0 [Embed]
+https://youtu.be/3WkqlwF9jMw?t=426 [Embed]
+--- 92790159
+I was supposed to schedule an MRI literally two months ago and i'm still putting it off pls help I don't wanna :( lol
+
+https://vocaroo.com/17LJM2ncVnTa
+--- 92790248
+posting my kot because y not
+--- 92790607
+Anyone here familiar with SCSI? I have an old Emu Emulator IV and I want to start storing a ton of custom multisamples I'm making, would connecting an HD via SCSI be all I need to do to get more storage?
+--- 92790859
+>>92787099
+amongst the nip companies roland is the shogun of shekel snatching, be advised
+--- 92790903
+>>92790607
+if i recall correctly you need some type of specific ass hard drive for a emulator 4 like a quantum fireball or some shit
+--- 92790905
+>>92790607
+As long as you set the IDs of your HDDs correctly it should be alright. Don't forget to use a terminator after the last unit on the bus. Terminator problems and ID conflicts are the main sources of issue with SCSI.
+I don't have anything from Emu, but using HDDs with my Akai S1000 is pretty straightforward once the drives are set correctly.
+--- 92790934
+>>92790607
+>people made masterpieces on emus with 20 mb hard drives that cost 400$
+--- 92791734
+sorry for my ignorance, new dmper here using Ableton. I have a question with the following clip, from 0:31 to 0:36. it sounds like he cuts the last chimes of the audio clip then creates a loop of it with a sound effect and descending volume. how do I do that? I'm just not sure where to start so I don't know how to look it up
+--- 92791754
+>>92791734
+fakin fak, forgot link:
+
+https://youtu.be/-g3RUnx9svM?t=31 [Embed]
+--- 92791760
+>>92789958
+Yep it was popular because it was so much more flexible than typical drum machines. But it requires a trained operator, anybody can learn how to use a TR-series or clone pretty quickly but you'll never get the weird time signatures and other features the R8 gives you with anything like that.
+--- 92791792
+>>92790905
+Yeah I was reading about the terminator thing. I think once I have one in my hands it will be easy enough.
+
+>>92790934
+Why wouldn't those people have used external storage?
+--- 92791803
+>>92790607
+SCSI2SD is what you want.
+--- 92791847
+>>92791754
+He's just triggering a sample on his Akai, he's not making his tracks in Ableton.
+--- 92791972
+>>92791847
+thanks for not answering anything and where tf did your ableton comment come from? nice reading comprehension retard
+--- 92792030
+>>92791972
+>how do i trigger a loop on a sampler using ableton
+Frankly you're using the wrong tools - if you want to create DnB, you need to get an MPC. Simple as. Ableton can easily trigger samples though, that's like basics 101. Watch a video or read the manual.
+--- 92792162
+just keep it siiiiiimple dude miiiiinimal
+https://vocaroo.com/1RJl61vR41tC
+--- 92792450
+>>92787099
+I learned my lesson and I'm never buying anything from Roland again. They're cheap motherfuckers and they don't really care about us.
+--- 92792512
+>>92792450
+BUT 808 GO BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM
+--- 92792519
+>>92791734
+>last chimes of the audio clip then creates a loop of it with a sound effect and descending volume
+It's just delay+filter
+--- 92792522
+>>92792512
+so do the samples tho
+--- 92792550
+>>92792162
+I'm digging it
+--- 92793868
+>>92789175
+let us know if you're alive and how burned is your house
+--- 92793932
+Anyone know where the Tunefish presets are saved in windows? I've looked, can't find the directory, if it exists at all.
+--- 92794057
+You know what's really underrated (by me and other retards)? A big ol NOTCH in the EQ. not just a little narrow dip,those minus infinity fuckers will bust a mix wide open man.
+--- 92794764
+>>92784091
+>choose two
+I'll take my good &amp; free acoustic guitar vst, please.
+--- 92795114
+my kick is striking way over 0db but i have a limiter on drum bus
+is that an acceptable turn of events or is there some better way to have punchy kick?
+--- 92795312
+>>92795114
+Clip it and turn everything down before it hits the buss nerd.
+>but the limiter
+Don’t just smack it on to prevent clipping, it’s going to have an impact on the sound- you need to manage gain reduction at all points in the chain.
+--- 92795410
+I have this old keyboard with a bunch of sounds and effects I want to sample and use for recordings. The manual says the output jack can connect to a mixer. 
+Can I just buy an audio interface and it will send the sound to my DAW? I haven't used a mixer before, I thought it was only for guitars and microphones.
+--- 92795491
+>>92795114
+fuck (export) around and find out
+--- 92795520
+>>92795410
+>interface
+Yes
+--- 92796243
+last calllll sick of it allll (these songs)
+
+https://vocaroo.com/15bDPCb4WF1c
+https://vocaroo.com/1kXyog7DmzKp
+
+Second one is a huge throwback. 
+No enthusiasm but it feels wrong to just not finish lol. 
+I can't hear the uh....
+--- 92798030
+Fnaf
+--- 92798881
+hello everyone I just downloaded ableton my dream is to make darkwave and techno to attract local cute alt-girls and goth chicks
+
+thank you
+--- 92799546
+>>92790248
+nice kot
+--- 92799930
+>>92790159
+Please schedule it soon friend. I know it's not nice, but not doing it is worse.
+--- 92799945
+>>92790159
+>>92792162
+>>92796243
+Pretty neat tracks
+--- 92800031
+>>92799945
+thanks fren
+
+>>92799930
+nah man I've had like a million and it's no big deal now, it's just the anxiety of having to TALK to a PERSON and being on put on hold listening to muzak bro FUCK
+--- 92800055
+>>92800031
+>being on put on hold listening to muzak
+Yeah you do have a point
+--- 92801749
+Here's a tip if you're using an MPC - put each one of your drum sounds on a different track (can be the same MIDI channel) so you can pad mute them for wicked epic breaks. Pad mute doesn't work in MIDI / CV mode, only sampler mode.
+--- 92801761
+track mute I mean, that works in MIDI mode
+--- 92801850
+>costs $40,000 (with programmer) in your path
+--- 92801946
+here's my first submission ever. it's the one song i actually kinda like the sound of
+title: check out my sanrio collection uWu
+https://vocaroo.com/1i5PdbOA2UGH
+--- 92802302
+>>92801946
+Do you have a lossless version?
+--- 92802361
+>>92802302
+>>92801946
+woops forgot that vocaroo is compressed. 
+https://files.catbox.moe/86angr.flac
+--- 92802636
+>>92802361
+Thanks
+--- 92804763
+>>92798881
+[unsubscribe]
+--- 92805243
+>>92795491
+>>92795312
+>you need to manage gain reduction at all points in the chain
+why this is the case exactly with mah limiter on the bus? asking unironically, i'm a dummy
+hard clipping sounds better, more punchy for me in this case
+--- 92806842
+Play some notes and chords on a keyboard for 25 minutes a day and you'll become a musical pro.
+--- 92808465
+>>92786019
+Cause the wiki admin is a faggot nigger. Jannies are always faggot niggers
+--- 92808640
+How do people make those fat deep distorted rap vocals?
+--- 92808806
+My mixing is so garbage anons, that I can barely tolerate hearing my own music anymore. Because no matter how much work I put into the melody, the chords, the rhythm + drums, I can hear how unplayable it is. It's gotten to the point where I rather just make music in musescore, cause at least it's mixed there properly.
+Here's the bootcamp
+>remake songs: go through artists like Daft Punk, Tycho, Prodigy and others who I really like, and remake their songs. 
+>mix stems: go to sites like https://www.cambridge-mt.com/ms/mtk/ and https://behindthespeakers.com/300-free-multitracks/, download stems, and mix them myself. 
+>read the Art of Mixing and The Mixing Engineer's Handbook, read up on soundonsound, and use as much primary/actual mixing engineers advice as possible. I just watched YouTube before, and I think the channels I watched were shit 
+>Go do ear training for mixing. Go to https://webtet.net/ and do exercises using white noises + my reference artists.
+>get feedback from people.
+>listen the mix on as much devices as possible
+What else should I do?
+--- 92809651
+Any (preferably portable, lightweight) software to write (and listen to) sheet music that you'd recommend?
+
+I don't need much in terms of audio, just a MIDI for the basic instruments (for now, just piano is fine).
+
+I know how to use DAWs and Trackers, but I want to go back to the basics and learn notation as I compose copycats of the songs I'm learning on the piano.
+--- 92809820
+>>92809651
+https://audioz.download/software/win/222993-download_cockos-reaper-v671-x86-x64-repack-portable-by-xetrin.html
+--- 92810160
+>>92809651
+MuseScore 4 is bretty gud.
+The dude that linked you to Reaper is kind of on the right track if you want something integrated with that DAW workflow.
+--- 92810333
+>>92783445
+>>The first commercial product running GPU Audio just got announced, reactions vary
+reactions have been critical and comical. they're quite literally using the GPU as a DSP but the marketing of it is cringe. not sure who the market is. the pros have no shortage of hardware DSPs and VST plugins that run flawlessly as is without any GPU co-processor.
+--- 92810505
+>>92808806
+>>get feedback from people.
+>>listen the mix on as much devices as possible
+>What else should I do?
+those two suggestions above and try not to be too critical. making the music is the easy part but getting it all to be mixed in and playing well together is a separate art form that takes practice. one thing i would suggest is finding a bunch of music similar to what you're making that's been properly mastered and use those tracks as a reference. from that you can get ideas of how loud or quiet certain things need to be, use of effects, compression, the eq of certain sounds etc. because even if your speakers and whatever isn't the greatest you can still get very close to having a mix that sound goods on everything.
+--- 92810700
+>>92810333
+GPU audio replaces the need for external DSP so you can run the same amount of processing (actually way more) on a laptop, lets you run huge projects full of plugins without having to bounce (even if they run flawlessly, when do you ever just run one?) and lets developers make VSTs that do DSP-intensive tasks (such as the spatial convolution in that library) without having to build for hardware (which is prohibitive for many, if not most developers).
+You may not have a need for it, but many others do. If you do any serious sound design you probably find yourself making huge patches that max out your CPU (lots of voices, layering, processes that are intrinsically expensive, etc) pretty often, and plugins built on this technology would solve that almost completely.
+--- 92810796
+Long time no see. felt funky today.
+https://vocaroo.com/1AKvZFFDJwHc
+--- 92810924
+>>92805243
+Seeeee the thiiiiing is
+
+Can you wing it, not really pay attention, and then put a hard clipper or limiter at the end of your chain and have it work? Definitely. The result of it actually sounding good won’t be easily replicate though, and you may have problems arise that are difficult to identify/rectify (Note: it’s much easier to get away with poor practice in formulaic music where it’s “wrong” the same way every time (trap comes to mind))
+
+The reason why managing your gain throughout, (and compression/clipping) is both to maximize the amount of control you have, to make things easier on yourself (making mixing decisions at equivalent volumes is very important ) and to mitigate accidents (e.g one plugin is adding a shit lot of gain or distortion somewhere, or eating headroom from the last point of compression and it effects the tone of the whole buss (again, we want things to be reppicatable where you know exactly what’s happening).
+
+It’s *much* better practice to know where everything is peaking, and be able to identify “oh my kick is peaking x dB over everything else and that’s what the limiter is reacting to for x dB gain reduction at this point (so on...)” than to just leave everything at unity and slam at the end praying for a good result.
+
+This all isn’t even getting into the subject of headroom for your mixes/master- you’re shooting yourself in the foot if you don’t at least semi-pay attention to gain staging.
+--- 92810973
+>>92810700
+>GPU audio replaces the need for external DSP
+didn't i just write that? oh i did.
+>and lets developers make VSTs that do DSP-intensive tasks
+people with very expensive CPUs and many gb of RAM don't have this problem with VSTs without any co-processor. since the absolute state of plugins in current year with some developers is bad without co-processor i highly doubt it'll improve the software with a co-processor. add copy protection and i think the performance savings quickly evaporate.
+>without having to build for hardware
+hardware exists. has existed for decades in various forms. DSP is everywhere in a pro's studio.
+>You may not have a need for it, but many others do
+i don't see musicians rushing to the shops to get a top of the line nvidia card just to run VST plugins. not going to happen. the market is limited.
+> you probably find yourself making huge patches that max out your CPU
+as i mentioned above, people with decent CPUs and systems don't have this problem.
+--- 92811736
+>>92810973
+>didn't i just write that? oh i did.
+Read the rest of the sentence before you reply to its setup in isolation. Fucking embarrassing dude 
+
+>people with very expensive CPUs and many gb of RAM don't have this problem with VSTs without any co-processor.
+Wrong. Bouncing and reducing quality settings are still common with powerful processors because the projects some times scale accordingly.
+And besides, not everyone has or wants a huge workstation. Your whole argument hinges on a very narrow idea of what a professional is. Lots of people who work with audio work with laptops on the go, or simply don't have the studios and hardware that are more common in the mixing/mastering side of audio production.
+The vast majority of electronic music producers (including pop and hip-hop ones) work on laptops. Are they not professionals as well?
+
+1/3
+--- 92811759
+>>92810973
+>since the absolute state of plugins in current year with some developers is bad without co-processor i highly doubt it'll improve the software with a co-processor. add copy protection and i think the performance
+This is binary thinking. A plugin can be heavy on the CPU for a number of different reasons. Some of them are indeed because the developers are so bad that they can't make something efficient AND they wouldn't be able to make their plugins run on the GPU, but in every other case this doesn't apply. They can be inefficient because the specific process they're coding is just very expensive (like convolution, additive synthesis, "spectral" processes, anything that requires lots of things running in parallel, etc) or it's simply harder to optimize than it is to offload to the GPU.
+And this whole thing is moot, because if GPU audio becomes common, chances are that eventually there will be companies that make a GPU-based alternative to the slower CPU-based version (regardless of why it's slow).
+
+>add copy protection and i think the performance savings quickly evaporate.
+Completely retarded statement. Audio on the GPU lets you run orders of magnitude more DSP, and to think that the marginal hit in performance brought by copy protection would make a dent is hilarious.
+
+2/
+--- 92811780
+>>92808806
+Post stems. I want to practice my mixing skills.
+--- 92811782
+>>92810973
+>hardware exists. has existed for decades in various forms. DSP is everywhere in a pro's studio
+Again, not every pro has or wants hardware (read above for why this "no true Scotsman" is wrong), and even if that was the case, there are simply many plugins that don't run on hardware.
+Sure, if you want something like the Eventide effects, or the Kyma, or whatever runs on UAD cards, you have your based covered. But what if you want something that doesn't have an alternative that runs on hardware? The most popular or powerful synths don't, for example. Most of the effects used in experimental sound design don't. Things like the spatial library above don't.
+The list goes on and on.
+You may not care about those, but it's undeniable that a lot of people do.
+
+>i don't see musicians rushing to the shops to get a top of the line nvidia card just to run VST plugins. not going to happen. the market is limited
+Your prediction is worth less than zero, as you've proven yourself to have no understanding of anything involved.
+Besides, people running assembled desktops will buy it like they buy the powerful components they already have in, and the rest will just use the integrated graphics that their Macs already have.
+
+>as i mentioned above, people with decent CPUs and systems don't have this problem
+As I mentioned above, you're wrong for several reasons.
+
+Anyway, considering the utter stupidity of your posts, you're either trolling or you're a bitter retard. In either case you're not worth the time and I won't be wasting any more arguing against your fallacies and incorrect statements. Bye.
+
+3/3
+--- 92812041
+>>92811736
+>>92811759
+>>92811782
+> gets absolutely btfo
+> walls of text 
+fantastic.
+> Your whole argument hinges on a very narrow idea of what a professional is
+stating that musicians are awash with hardware solutions is an argument? i would have thought that was fact, but not for you, mr. snakeoil salesman. not a single valid reply in any wall of text either! much wow.
+
+>Your prediction is worth less than zero,
+it's worth more than this garbage software solution trying to reinvent the wheel for poor people that can't afford real computers and real dsp hardware.
+
+>As I mentioned above, you're wrong for several reasons.
+no, i'm right. and it really rips your anus apart knowing that i'm right, doesn't it? all that text you wrote and nothing to show for it. i didn't need to write thousands of words to slap you around like the clueless whore that you truly are.
+--- 92812406
+Did u-he's Filterscape update just blow E-mu's z-plane filters out of the water? ..or am I missing something?
+--- 92813048
+>>92810160
+Thanks, I'll get 3.6.2 since I'm on Windows 7.
+--- 92813235
+>>92812406
+The snapshot morphing thing is so useful, I'm surprised it's not in more things.
+--- 92813237
+>>92813048
+>3.6.2
+Oouf. There was a massive update when they went to v4, which brought it to a-whole-nother level. I love Windows 7 and still have a machine that runs it, but damn.. you might be missing out.
+3.6.2 should be good enough if you just want some rough notation software though.
+--- 92813563
+>do sloppy take just to remember what I want to do
+>none of my proper takes ever get as good as the initial sketch
+https://vocaroo.com/1cwSCOzFMjKm (it's the messy take)
+--- 92813675
+>>92808806
+Consider that sound selection, not mixing, might be your problem. I can hardly imagine a decent instrumentation with minimal fx and just the most basic of level-setting would sound as terrible as you say.
+--- 92814373
+>Need a seperate brick to use your synth as a synth
+What was Roland smoking back then?
+--- 92815015
+>>92814373
+At that time the fad among musicians was about getting machines with a lot of presets and not bothering with programming. By separating the means of programming and the synth, they could reduce the costs.
+If you had a computer it was also possible to program your D-10/D-110 without the programmer.
+--- 92815177
+>>92815015
+>at that time 
+
+>>92814373
+That was hardly a Roland exclusive thing lol.
+Shit that happens plenty today as well
+--- 92815608
+>>92813237
+Fugg. But as long as I can notate and listen to it, and perhaps export MIDIs if I want to use them later, it's fine.
+--- 92816468
+>>92814373
+>What was Roland smoking back then?
+probably that studio guys would like it
+--- 92817597
+Are there any music YouTubers that you can't watch due to their lack of symmetry? I literally get a headache watching this dude because his lower jaw and mouth are at a 30 angle with the rest of his head, so he tilts his head to keep his mouth horizontal, but then his eyes are way off axis.
+--- 92817799
+>>92817597
+If they show their face at all they’re a personality and not with watching almost no exceptions
+--- 92818889
+https://www.youtube.com/watch?v=AWM5ZNdWlqw [Embed]
+--- 92818908
+>>92818889
+Thanks I need more silly dialogue samples for my pre drops bro &lt;333
+--- 92818924
+>>92818908
+https://www.youtube.com/watch?v=IgSogzuw4iE [Embed]
+--- 92819262
+>>92801850
+I bought the clone of this thing. It's great.
+--- 92821018
+I dont even know to explain what i want to ask.
+--- 92821241
+>>92821018
+Don’t try don’t get an answer stop being a fag
+--- 92822369
+I want to give up schizo dnb anime breakcore lainpill music and enter my normie gamer dubstep era but I don’t have the strength please help :^(
+
+Also bump
+--- 92822859
+>>92822369
+>my normie gamer dubstep era
+forwhatpurpose.webp
+--- 92822887
+>>92822859
+To prevent myself from growing stagnant and to have fun
+--- 92823323
+>>92822887
+Fair enough
+--- 92823963
+I just saw the name of my arch nemesis (generic pop musician who I went to school with) next to Joe Hisaishi I SWEAR the tiktok algorithm is actually fucking with me I’m actually fuming and NOT joking what the fuck. 
+What drives you /prod/?
+For me, it’s revenge.
+--- 92824022
+I'm thinking of watching one of those start-to-finish courses where an artist talks about every aspect of a song they make and things like that. Maybe it would help freshen up my things since everything's getting a bit samey.
+
+Any recommendations? Ableton live and electronic music preferred.
+--- 92824605
+>>92818889
+Didn't know model funfair was a thing.
+--- 92825898
+>>92824022
+Mr. Bill made 4 courses like that IIRC.
+--- 92826037
+>>92825898
+>Mr. Bill 
+Bro I was soooo hyped to see one of his available projects to download was with my patron saint (qebrus) (rip fuck man) and all of the actual good shit (I.e everything that wasn’t mr. bills) was just printed audio and I’m SO fucking mad about it what fucking bullshit is that man FUCK. If I had actually payed I would have asked for a refund.
+
+Literally the only good thing to come of it was getting clues in that a lot of the sounds I heard was definitely made kilohearts shit since producers like that obviously get all buddy-buddy and share their super secret tricks and I ended up being able to reverse engineer some specific sounds after grinding for XP for like a year.... iirc it wasn’t even in the session, it just made me aware that they actually worked together. FUCK
+--- 92826929
+>>92826037
+Lmao that sucks
+What kind of clues are we talking about here?
+--- 92826969
+>>92823963
+>What drives you
+>Implying
+--- 92827186
+>>92826929
+It wasn't anything worth talking about- either there were basic patches or printed files with plugin names, or Mr. Bill had mentioned those plugins specifically and I connected the dots.
+
+They're obviously good plugins for their main purpose but once you start pushing things into glitch territory the difference can be significant- not in an objectively better sounding way but a *specific sound* way. I *strongly suspected* for a long time until I got exact sounds like... last week while systematically running an idea I had and just happened to nail one.... so I'm *pretty sure* now.
+... the only other thing I knoooow know (heard so don't know) is that he used logic (actually that would partially explain the Mr. Bill project thing, huh), and that people have said he fucked with coding etc, which wouldn't be surprising, but also wouldn't be surprising if it was completely made up because people say that shit about every marginally IDM sounding producer and how to get similar sounds lol.
+
+>>92826969
+and yet, here you are.
+Curious!
+--- 92828554
+>>92827186
+Interesting, thank you very much
+--- 92829364
+>>92823963
+>What drives you /prod/?
+>/prod/
+go back cancer
+--- 92829560
+>>92817597
+Lol I never noticed that. The thing that puts me off of his videos is his slow southern cadence. He also doesn't really seem to say much of value, but part of me likes him because he seems like a guy I'd hang out with in school
+--- 92829700
+>>92817597
+This dude gets recommended to me some times and I can't bring myself to click even if I'm interested in the topic. That nose is too much for me.
+--- 92830739
+>>92827186
+>and yet, here you are.
+>Curious!
+Stockholm syndrome
+--- 92830746
+>>92829700
+never watched this guy before but checked his 88 remakes video now and his advice was decent. but the fact that he's selling his remakes in a pack for money is probably problematic from a licensing/copyright standpoint lmao
+--- 92830780
+>>92830746
+Who cares look at that nooose
+--- 92831474
+>>92822369
+WTF is this retarded word salad? Why are you even here, just to shit up the thread?
+--- 92831510
+I start work tomorrow! finally I can afford useful music hardware like uhhhh..
+the uhhhh....
+--- 92831599
+>>92831474
+He has been here from the start..
+The thread was going to be bumped off page 10 if he hadn't posted.
+>>92831510
+Nothing more valuable than time.. that sucks.
+--- 92832297
+idk if I should buy the $99 Ableton live suite or the $200 FL studio producer. I can't tell which one I like more kek
+--- 92832346
+>>92832297
+>$99
+>suite
+Try again?
+--- 92832540
+>>92832346
+whoops, yeah that's the intro version lol...
+--- 92832800
+>>92832540
+Did you ever buy some hardware that came with Live Lite?
+If so, this might be your cheapest way to Live Standard (but wait for a sale, and then you're in the ballpark of $200)
+https://www.thomannmusic.com/ableton_live_11_standard_upg_lite.htm
+--- 92833440
+Is there any merit to using MIDI cables over USB?
+--- 92834846
+>>92833440
+side effects include increased beard growth and male pattern baldness
+--- 92835696
+>>92833440
+It depends on your needs. You can use more gear with MIDI than you can with USB since it took USB almost 20 years after the introduction of MIDI to appear on musical instruments, the cable length limit isn't nearly as short as USB, and historically there were less timing issue with MIDI than USB (I don't know if it's still the case though).
+--- 92835707
+I installed AV Linux on my machine. I don't think I like it very much :/
+--- 92835747
+>>92833440
+No hardware has a usb port unless it's for power which means you can't connect a MIDI controller to it.
+--- 92835971
+>>92835747
+>No hardware has a usb port
+the hell are you talking about? My Yamaha P125 has a USB port that works fine.
+--- 92836723
+>>92831510
+A mixing and mastering engineer to make your tracks feel good
+--- 92836959
+>>92836723
+Sound good*
+wtf man
+--- 92836993
+>>92832297
+You are falling for the meme
+>Ableton
+Overpriced and looks ugly
+>FL Studio
+Awful workflow
+Get Studio One if you plan on mixing a lot or if you are working with recordings, or Bitwig if you want to make electronic music or sound design
+--- 92837076
+>>92836993
+Bro, Shitwig looks like Ableton, if Ableton got hit with the ugly stick.
+--- 92837090
+>>92837076
+I think you got that backwards, bro
+--- 92837127
+>>92837090
+Freetard aesthetic sensibilities
+--- 92837141
+>>92836993
+Retard contrarian takes lmao
+Ableton definitely is expensive though
+
+>>92832297
+Uhhhh demo them?
+What kind of music are you making m8
+--- 92837188
+>>92837141
+>contrarian takes
+Go buy Pro Tools then, it's the industry standard.
+--- 92837827
+>>92837188
+For audio engineering, not for producing in the box
+--- 92838165
+>>92835747
+Most synths from the past 20ish years have MIDI USB.
+--- 92838306
+this is not a story, just random thoughts from the weekend
+
+>making my own multi-samples has been fun. for whatever reason whenever i make my own samples, i get more into whatever song i'm making
+>ever since i bought a decent mic, i've been adding vocals on basically everything i make. sometimes this forces me to develop ideas more, but on the con side i feel like i settle too early with vocal melodies and also i sometimes hate my voice
+>i want a tube drum machine. maybe i'll make one out of metasonix modules some day. someone has a d-1000 on reverb for $5.5k - fuck that. just get a couple of their bandpass filters VCAs and make it work
+>i forced myself to write today even though i wasn't in the mood. the results were okay. i wrote a song that's basically a joy division rip off and i'll probably scrap it but the instrumental sounds kind of warm and nice
+--- 92838324
+Has anyone here used BandLab on their phone? 
+I'm having a lot of fun with it, but I'm not sure if there's any hidden licensing stuff that'll get me later if I publish tracks made with this software and its instruments.
+--- 92838532
+>>92838306
+Same. I re-use everything I make from scratch at some point but building up a whole instrument just gets you so much more invested.
+
+>settle too early
+Same, it's a real problem.
+The only ways I've found to combat this are to make the early stages of songwriting largely based around brain storming parts (not really vocal exclusive obvs) for every instrument both vertically and horizontally so to speak (i.e both what accompanies it (arrangement) and what comes next)= those parts end up getting mixed around a lot.
+Also learning to be comfortable with throwing ideas out completely is necessary to make room for better ideas.
+
+Write everyday! Getting good isn't based off how you feel, it's just a habit bb.
+>Joy Division
+An all time favorite... top.... 20.......
+--- 92838950
+>three straight weeks of Abbey Road plate reverbs
+haha... thanks Chris... sounds good man... this ones good too...! 
+._.
+--- 92839393
+You know what Ableton's vocoder needs? 
+Dynamic band compression, because god fucking damn that high end. Enhance is usually the move but it completely fucking ruins some sounds wtf
+--- 92839802
+Yo, who tf is this dickhead?
+https://www.youtube.com/watch?v=czrKNRLkLkY [Embed]
+--- 92839946
+What is the best way to learn sound design and SFX? Resources? Software?
+--- 92839990
+>>92839802
+don't know don't care but thumbnail is a reminder that circumcised penises are objectively more attractive.
+
+>>92839946
+Personal experimenting and constant reference to manuals>>>
+
+If you're *new* new, everybody reccomendds syntorial
+--- 92840609
+>>92783046 (OP)
+>Submission deadline: Midnight between the 17th and the 18th of April (UTC)
+>mfw
+--- 92840707
+>>92840609
+I was sweating this morning before finishing too bro
+Do your best!
+--- 92840785
+Here is my submission for the album
+"quadga"
+https://anonfiles DOT COM SLASH O5x3Mbl2z2/quadga_wav
+--- 92840889
+Submission: "Somewhere OTT" 
+https://we DOT tl/t-y0PzZjvUYJ
+
+:^)
+--- 92841258
+>>92840889
+--- 92841312
+>>92840609
+I just finished my taxes. Fuckin' waste of a Sunday.. and I always end up owing money. No new fun music toys this month.
+--- 92841490
+I'm desparate for some of the samples in this sample pack that was free but the download link is dead:
+
+https://www.musicradar.com/news/tech/download-the-drum-bass-all-stars-sample-pack-for-free-601210
+
+does anyone have it by some wild chance? I have been deep in the trenches trying to find this gosh darn thing but all links point back to this website with the link dead. it has exactly what I want and it's driving me mad because I can't find shit that sounds similar
+--- 92841537
+>>92841490
+>download link is dead:
+huh? It just can't be downloaded securely.. you can override that shit.
+--- 92841596
+From the other thread [>>92839764 →]
+https://twitter.com/rpnickson/status/1647548141384736770
+--- 92841732
+>>92841537
+ok I'm retarded, thanks. I didn't notice that
+--- 92841881
+>>92841732
+I tried to find Computer Music #174 [Feb 2012] because Nookie is cool, but I wasn't able to find anything :(
+I did find this 3.9G collection on archive.org, but it looks like these are older.
+https://archive.org/details/compmagsamples/
+--- 92841923
+>>92841596
+Nice, that means I will be able to get my qt vocalist for a solo shoegaze project one of these days
+--- 92841952
+>>92841923
+>vocalist for a solo shoegaze project
+>solo
+the whole point of starting a shoegaze band is to fuck the singer, are you retarded?
+--- 92842035
+>>92841952
+I don't do music for pussy, there are better ways to get it
+--- 92842098
+>>92842035
+No, there's no reason to make *shoegaze* besides a pussy. One singular, high quality pussy. 
+Way to miss the point completely dude, sheesh.
+--- 92842291
+Belinda Butchered the joke..
+--- 92842343
+BLEEP BLEEP BLEEP (daily)
+Head. Pain! :(
+
+https://vocaroo.com/1iYfK63AViWD
+
+okie bye c u tomorrow :(
+--- 92842579
+>>92842343
+mmm 00daedaube ;)
+--- 92842907
+can someone say "please! just don't /prod/! just don't join us!" and vocaroo it thnx I need it prior to Midnight between the 17th and the 18th of April (UTC)
+--- 92843379
+>>92841596
+Pretty sure the only AI on this is on the vocals. In other words, he made the beat and sang on it and put a vocal effect to sound like Drake and the Weeknd. It's pretty accurate sounding though.
+
+I wonder what kinds of tools will be available in 6 months.
+--- 92843986
+>>92843379
+https://www.youtube.com/watch?v=gOehqSK-7tM [Embed]
+4 years ago
+--- 92844051
+>>92842343
+Nice melody and sounds
+--- 92844746
+>>92842907
+Can't submit my track until someone pulls through on the vocal
+--- 92844759
+>>92844746
+Why don't you record it yourself?
+--- 92844862
+>>92842907
+https://voca.ro/14dWJbBdX5fW
+--- 92844885
+Getting an electric soon, very exicted. I suck ass at guitar, and so I plan to use my guitar as a quasi sampler (set amp to settings, record the chords with the tempo, then slice/chop as I would). Any other guitar techniques to help me out?
+--- 92845006
+>>92844885
+>guitarlet
+LOL, same bro, same. Record at slower tempos and bring it up, comp your games of course. 
+Sometimes I turn one shots into wavetables but multisamples are usually fine; layering them up is better though- different pickups and tone positions of course.
+--- 92845007
+>>92844862
+kek that's perfect anon thank you
+>>92844759
+I'm Australian
+--- 92845022
+>>92845007
+>I'm Australian
+Oh...
+--- 92845094
+>>92845022
+yeah
+
+>>92783046 (OP)
+My submission
+Title: It's too late for /dmp/
+https://voca.ro/1o9X2KhqcZNe
+--- 92845105
+>>92845094
+Do you have a lossless version?
+--- 92845243
+>>92845105
+Title: It's too late for /dmp/
+https://files.catbox.moe/ycxnbp.flac
+
+Title: /dmp/ rhythm journey
+https://files.catbox.moe/zj1bja.flac
+--- 92845708
+>>92845243
+Thanks
+--- 92846850
+modified, final version of album submission track titled "hypnagogia"
+
+https://files.catbox.moe/9i91lh.flac
+
+fuck ableton
+--- 92847043
+Album submission:
+https://vocaroo.com/1blOHU45OTt7
+https://litter.catbox.moe/63gb36.wav
+Title: Blink
+
+Everything you hear comes from this sample:
+https://vocaroo.com/1j0BHEpcvadE
+--- 92847160
+what the fuck did op add to the op that it now triggers me /g/ filters? i couldnt find this thread for a week now
+--- 92847199
+>>92847160
+>3 AM China
+>/chin(a|ese)/i;op:only;boards:g;type:subject,comment
+oh
+i added this recently due to all china shill threads. fucking moron op
+--- 92847229
+>>92847199
+>i added this
+>fucking moron op
+This website needs to replace the captcha with an IQ test
+--- 92847518
+>>92847229
+I can't believe the frogposter is right for once
+--- 92848225
+>>92789175
+>>92793868
+RIP anon [*]
+--- 92849291
+piracy question for Cubase pirates:
+- if i get pirated cubase, i assume you can use pirated sound content with it
+- if i get pirated cubase, can i use legit sound content? downloaded through steinberg download manager (or was it library manager? they have lots of these bloat manager shits)?
+- if i get legit cubase (lol), can i use pirated sound content with it?
+mainly im interested in question number 2, since that would be very comfy
+thanks bros
+>t. producing on logic pro but will absolutely not buy a new mac when current one kicks the bucket, so looking to transfer to cubase
+--- 92849317
+>>92847518
+frognigs are like a broken clock after all
+--- 92849474
+>>92841596
+>It goes so damn hard.
+hihi, americans attempting to describe their feelings are so cute
+--- 92849661
+>>92849474
+>hihi
+--- 92850824
+>>92849291
+pirated logic 10.7 on a late 2013 mbp still works well even with heavy plugins like rx9 and kontakt, unless you have a faulty mac you'll be using logic for years to come anon... no need to switch to inferior DAWs
+
+it really does just werk™
+--- 92851073
+>>92849474
+shit slaps frfr no cap, iykyk
+--- 92852217
+recommend me a technology that lets me make music while taking a shit
+i don't like touchscreens
+--- 92852253
+>>92852217
+op-1 field
+--- 92852449
+>>92852217
+acoustic guitar
+--- 92852715
+>>92850824
+i like logic, it's powerful and intuitive, but i hate being tied to a niggerish operating system and ecosystem. new logic versions require the absolute niggerish versions of macos (not even big sir is enough now)
+i also don't want to use old hardware (but it's still much better than new hardware with 2 usb-c ports)
+cubase is also not inferior in my area of ""expertise""
+--- 92852781
+>>92852253
+why is it priced so high? genuine question. why is this thing special compared to the others?
+--- 92852883
+>>92852781
+TE doesn't want dirty poor hands touching their products.
+--- 92854671
+>start making thing
+>listening to it over and over I go into a trance
+>oh my god this is the best thing I've ever made
+>show friend
+>"meh"
+>listen to exported track on earbuds before sleep
+>it's pretty uninteresting music and I've made better for sure
+
+so how do I realize I'm making shit while I'm making it? although not having an overly strict "internal censorship" can help with creativity sometimes I guess, if I instead just deleted every idea as not being good enough and ended up with nothing then that would be worse
+
+https://voca.ro/15H1EXMm9gNR
+
+main impetus was to put into practice what I'm learning from some videos I watched on song arrangement, but besides the fact that I've made three parts it's not a huge success haha. they don't mesh that well together
+--- 92854692
+Bump
+
+I’m absolutely fucking obsessed with this stupid cute little nisekoi remix and I want to make a cute song but I’m supposed to WUB today 
+;__;
+--- 92854828
+>>92854671
+>so how do I realize I'm making shit while I'm making it?
+impossible for a beginner, comes with years and years of practice. even then, the best judge of your own work is you in 2 weeks.
+for now, just focus on creating and building your internal critic in parallel (educating yourself in music theory, wide variety of musical styles etc)
+>https://voca.ro/15H1EXMm9gNR
+idk what you were going for here really, but the main melody cant hold listeners attention for longer than 10 seconds, it might be a good bass line rather. the filter envelope also gets heavy on the ear in a while
+--- 92854922
+>>92854671
+>overly strict "internal censorship"
+It’s critical to not *during* writing for sure, but recognizing bad song ideas quickly is something most people are naturally terrible and only learn through experience ime.
+For me, it usually comes down to if I can immediately see where it’s going, and or if a part actually makes me want to dance/headbang etc or has a melody I can actually remember after twenty minutes (or better, the next day) of not working on something (I know that doesn’t sound like a long time but if I just layed down 5~ potential parts in MIDI I’m probably not going to have them memorized right away).
+
+Most ideas don’t make it past 10-20 minutes for me, you have to be willing to kill off ideas immediately.
+This is also largely a taste/golden ear thing, which I think is weirdly ignored even though it’s like the single most important asset of a musician lol
+--- 92855018
+>>92854671
+>so how do I realize I'm making shit while I'm making it?
+
+Well, you've already uncovered one way. Next time you're excited about something, get away from it for some time and then revisit with earbuds in a different context. 
+
+Usually revisiting in general is how I organize and sus out timewaster ideas. It's probably good to go through your ideas/WIP folder once every two weeks or whatever and cull the nonsense. You don't have to be overly critical. If you think something has a hint of a good idea, you can move it to a "needs to be reworked" folder or something similar.
+--- 92855036
+>>92854692
+>nisekoi remix
+ClariS's OP?
+2nd best love story..
+We all know which one is numbah one
+https://www.youtube.com/watch?v=COp82Hu3UGs [Embed]
+--- 92855251
+>>92855036
+The bit starting at 40 seconds has been popular on the clock app 
+https://m.youtube.com/watch?v=eiL0oCXqYYE&amp;pp=ygUbc3VwZXIgYW5pbWUgZ3Jvb3ZlIDNkIHdvcmxk [Embed]
+
+>oreimo number 1
+...
+--- 92855310
+>>92838306
+>tube drum machine
+why?
+also why not get a normal analogue drum machine and slap a tube distortion on it?
+--- 92855362
+>>92852781
+it lets you make music while taking a shit
+for real there's no more than 3 or so devices on the market right now that let you make full tracks including synths, drums, sampling, fx, multitrack recording, mixing all on a single device while taking a shit
+--- 92855402
+>>92855251
+>The bit starting at 40 seconds
+Japanese JUSTICEpunk... Mm, I don't remember this track, but it's been years since I watched Nisekoi -- second season?
+--- 92855434
+>>92855362
+what are the other 2 devices?
+--- 92855556
+>>92855402
+Yeahhh t b h I don’t remember the music being outstanding, but this dude made it slap. 1st season I think actually.
+--- 92855626
+>>92855434
+desu I don't think there are any really, I just said it preemptively cuz I couldn't be arsed to look. Unless you're content with just samples in which case there's quite a few options including those recent hardware trackers, mpc one, electribe, octatrack, novation circuit, etc etc... But that's not quite the same.
+--- 92856800
+>>92854671
+>so how do I realize I'm making shit while I'm making it?
+in my opinion it's best not to think about it too much while you're in the zone and actually enjoy making it, but then make a break, listen to some other stuff and listen to what you've done after a while
+if it's still good then great, polish it a little, then give it some time again to see if you still like it, only then i would show it to anyone else
+if you're not feeling it when you try to listen to it after some breaks a few times just leave it or delete it, it would probably happen a lot but such is life
+--- 92857123
+>>92854828
+>>92854922
+>>92855018
+Thanks for the feedback. I'll keep grinding and tossing until I mine some gold.
+--- 92857496
+>>92855362
+there are plenty of devices that allow you to do that, it's called a notebook (AKA laptop)
+also ipad
+--- 92857542
+>>92849291
+BUMPING FOR CUBASE SISTERS
+no seriously, noone here uses cuckbase?
+--- 92858166
+>>92857542
+i do, but i own it, so i can't help you there
+--- 92858337
+Modifed my track (Frantik Flo)
+
+https://mega.nz/file/xVNDhIIS#NiDis6UZ8MPrh7M_LWqVtpPqALyWv4A0APnX1z6Oej4
+--- 92858421
+10th album title: b/o/r/d/e/r/s/
+--- 92858439
+>>92858421
+>10th album title: b/o/r/d/e/r/s/
+Shit, I forgot the a, I meant /b/o/a/r/d/e/r/s
+--- 92858952
+mood swings absolutely fucking me up I hate this shit so much 
+
+https://vocaroo.com/1fGRwLbi7w4V
+--- 92859005
+>>92858421
+>>92858439
+I like it
+--- 92860458
+less than an hour left
+post tracks
+--- 92861447
+>>92855310
+>why?
+Idk, there's just a certain sound I'm chasing where the sound/resonance begins to break a little that seems most common with valves. 
+
+>also why not get a normal analogue drum machine and slap a tube distortion on it?
+
+It's just a matter of control and options, I guess. If I put together like a 60HP rack of tube bandpass filters and VCAs I could use that to both generate drum sounds (bc the filters oscillate) and process external drum sounds. Any tube distortions you recommend? I've been messing around with some Metasonix emulations in the reaktor user library with decent results
+--- 92861795
+New /mu/ album dropped, we're about to stream it link is in the bandcamp description :)))
+https://moomakes.bandcamp.com/album/heroin-needle-in-my-dick-is-such-a-good-name-for-the-closer-lmao
+--- 92862382
+flashbacks man
+
+https://vocaroo.com/1g3iZvQYOZ56
+--- 92862672
+>>92861447
+>begins to break a little
+Nta but whenever I need that sound I just use dynamic tube in ableton lol.
+Plenty of airwindows distortions go into interesting territory like that as well.
+Fabfilter Saturn has a “broken” option under tubes but imo that one and Saturn in general don’t really have that much space between very subtle and completely distorted, but maybe that’s what you want.
+--- 92862935
+Project folder naming convention idea #37:
+>YYMM## 
+>YY00## reserved for asset production like sound design, custom breakbeats, etc -- things entirely intended to be used in other projects
+Thoughts?
+--- 92862984
+Why do you think juke/footwork never got *extremely* popular?
+
+The most mainstream person producer in the sphere of what I pay attention to is Machine Girl, and obviously the producers they've directly inspired are more about jungle; in fact almost all of what I hear from the past 5~ years are primarily DnB/jungle producers who only *dabble* in footwork.
+I don't consider myself very in tune with dance music trends in general but I'm only aware of big songs that launched careers like 10~ years ago of producers who ended up quickly moving on (one name in particular comes to mind as a prime example but I can't remember her name).
+
+Is it not conducive to elements people who aren't into dance music find catchy (melodically, primarily).
+Are the rhythms too complex for normies and or is the barrier to entry for producers to high (i.e it's a little harder to just loop spam compared to house or dnb etc).
+
+https://www.youtube.com/watch?v=5Tx5pnyPR-A [Embed]
+--- 92863072
+>>92862935
+>YYMM##
+personally I quickly abandoned this when I realized it doesn't help me find projects, and it stops making sense as soon as you revisit a project, in which case you start adding revisions within that folder (so the date no longer makes sense) or you re-save the project under a new date, and folders begin to get scattered and you start storing duplicate files
+
+For sound design, I just do Year-month but it depends on how you work.
+If it's something you do daily, that'll end up being a long list, but if it's less often and you re-use those particular assets *a lot* then maybe it makes sense for you.
+--- 92863287
+>>92862984
+it was decently popular on soundcloud during mid 2010s, but i think it isn't known much in general since the house scene in Chicago happened at the same time and overshadowed it
+house turned into piano house/vocal house in the 90s and was played on the radio everywhere, true deep house/footwork didn't get much air at all and remained in select labels
+--- 92863393
+>>92862984
+>juke/footwork
+that music was popular in chicago because of local scenes and the producers that drove the local scenes. a lot of them were dancers when they were younger and made music for dancers when they got old. you would need that kind of generational development in other places.
+--- 92863402
+>>92862984
+I don't know.. I was into it; it felt like a fresh modern take on 90s rave music. I felt that DJ Paypal got pretty big.. Machinedrum's Vapor City had some solid footwork/juke vibes.
+https://soundcloud.com/daedelus/plastic-man-pacifically-worked
+Nice link; I'm going to have to listen to his set during my next exercise session.
+
+>>92863072
+>personally I quickly abandoned this when I realized it doesn't help me find projects,
+That's what Obsidian is for ;)
+It's not necessarily the date, but the month when you first started the project to help at least give a broad grouping since I find taste/style is always evolving and broad time periods could give hints as to what type of sound you were making at that time. I could probably just get away with YY###.
+
+Another thought I had was to group projects by an opus number to keep projects of similar style, intent, and time period grouped together.
+I wonder.. did classical composers assign opus numbers and piece numbers after pieces were completed, or when they were started?
+I imagine they're all different... Mozart with his katalog numbers..
+--- 92863967
+>>92863287
+>overshadowed
+bummer t b h
+
+>>92863393
+>generational development
+Sounds like a unique happening when you put it that way.
+I remember a shit load of kids in my area wanted to be asian b-boys (high population) and silly break dancing was commmon when people were goofing around... that sounds like a lot of fun actually.
+One of my goals has actually been appropriating IDM for people to *actually* be able to dance to lol...
+
+>>92863402
+Yeah I remember seeing both those names come up a lot on /mu/, but it still seemed pretty niche.
+
+> always evolving and broad time periods
+Yeah, that would make sense if you can stay focused in recognizable periods like that then.
+
+>group projects by an opus number to keep projects of similar style, intent
+If you're doing pieces with a lot of movements that sounds pretty useful.
+My first long lasting system was grouped by genre folders and had a specific one for what I thought was representative of a personal evolving style while the rest were just practice/study etc (you know, lol).
+Rock me amadeussss
+--- 92865420
+Bump
+--- 92866893
+>>92858952
+:(
+At least the song is good. I like that sound in the beginning that sounds like distorted screams a lot
+--- 92867061
+>>92858421
+>10th album title: b/o/r/d/e/r/s/
+>>92858439
+>Shit, I forgot the a, I meant /b/o/a/r/d/e/r/s
+Is the correction in the second post supposed to not have the final slash?
+--- 92867502
+>>92862984
+DMP, what to you think of 3phaz?
+discrepant.bandcamp.com/album/ends-meet
+I'm mesmerized by his use of reverb.
+--- 92867680
+>>92867502
+خَرا
+--- 92867683
+>>92867502
+*Spoiler: I'm on a break with some of my artistic endeavors since I heard that.
+--- 92868119
+>>92789704
+Yes Romplers are fucking great, don't get how people don't like them kek
+--- 92869560
+>>92862984
+Does Machinedrum count? I still like him.
+Also Planet Mu put out a lot of that kind of stuff for a while though I didn't listen to much of it.
+--- 92869597
+>>92861447
+no sorry I'm not messing with tubes and I don't expect I ever will
+sounds like an issue you might find help for on llllllll.co
+--- 92870903
+>>92861795
+not bad
+--- 92871959
+What is the best way to learn trackers in 2023? What recourse should I be reading?
+
+Is it better to just learn Renoise instead of trackers?
+--- 92872443
+>>92858166
+literally you can help me, my 3rd question was about a legit cubase: "if i get legit cubase, can i use pirated sound content with it?"
+i don't know yet how it works with cubase, but I assume if i buy a non-pro version, it will be missing some sound content exclusive to pro version
+--- 92872509
+>>92872443
+i haven't used pirated content in more than a decade. cubase is nitpicky over what vsts it recognizes. when you point it to the folder, if it doesn't like the file, it won't show up in your instrument list. it's probably the most picky of any software i've used.
+--- 92872647
+>>92872509
+(((steinberg)))
+thanks for the reply. i'm using pirated Kontakt with pirated cinemastrings. maybe the apple way will save some huge headache (and money, if i can use pirated vsts in logic) in the long term
+--- 92872685
+>>92872647
+just go pirate fl like everyone else does, you might be making things unnecessarily hard on your self
+--- 92872816
+>>92872685
+i did use pirated FL for quite some time, the workflow was terrible for me after a while, even though I understand why people like it. switched to logic then and everything felt natural. the only problem I have with logic is the need for apple hardware and ecosystem. ergo my cubase questions
+--- 92872847
+>>92869597
+>no sorry I'm not messing with tubes and I don't expect I ever will
+
+what did they do to you
+--- 92872874
+>>92872509
+>cubase is nitpicky over what vsts it recognizes. when you point it to the folder, if it doesn't like the file, it won't show up in your instrument list. it's probably the most picky of any software i've used.
+
+i'm sure there's a better explanation than it being "picky"
+--- 92872913
+>>92872874
+there is, but you can read the manual for that
+--- 92874787
+>>92862382
+--- 92874914
+>>92871959
+What do you mean? 
+Renoise is a tracker.
+--- 92875163
+>>92874914
+No idiot, it's a DAW with tracker functionality.
+--- 92875422
+>>92875163
+If this helps you to sleep at night.
+--- 92875458
+>>92875422
+It's 2023 and you still don't know what a tracker is. How embarrassing for you, idiot.
+--- 92875528
+>>92875458
+I hope ill figure out in the next 5 years, or so. Until then ill keep calling Renoise a tracker, because you cant use Renoise without the tracker.
+--- 92876257
+Broke my windows computer, gotta go to my chinkpad and make music. Any recommendations? I wanna try out ardour and calf, any other cool tools I should check out?
+--- 92876421
+>>92876257
+What kind of music do ants listen to?
+--- 92876429
+>>92876421
+Bugwave
+--- 92876470
+>>92876421
+Brutal slams
+--- 92876630
+Why hasn't FL Studio 21 been cracked yet? I thought FL Studio was famous for being easy to pirate?
+--- 92878711
+>>92876630
+Imagine being a serial upgrader and not just taking whatever you have and actually making music with it? Like hur de durr, I'd make some music today if I had just this one more VST/DAW/etc.
+
+Shut the fuck up and make some music.
+--- 92878759
+>>92876630
+what >>92878711 said, but in a bit less mean way
+sometimes, there are major upgrades that are worth it. mostly it's just ui changes
+--- 92879175
+>>92867061
+No, I forgot
+--- 92879255
+I want to start pirating after spending thousands but I'm afraid that russian malware will steal or break my shit
+--- 92880623
+>>92879255
+computer malware in cracked plugins >>>>> bed bugs in used hardware
+--- 92880668
+>>92880623
+lole
+--- 92881716
+Made some nice "ambient classical remix" but I'm unsure whether it's something I can ever release as it has ~1 minute of a piano recording sampled.
+
+Guess I just gotta get good enough to play the same piece and make my own recording h-haha
+--- 92882433
+>>92783046 (OP)
+
+been working on making this idea sound like an actual song:
+
+https://vocaroo.com/1c2llJwWH2V2
+--- 92882591
+>>92882433
+I really really like the intro anon
+--- 92882750
+>>92789704
+>Any ROMpler from the early '90s onward should have a good guitar
+
+those guitars sound like shit are you serious

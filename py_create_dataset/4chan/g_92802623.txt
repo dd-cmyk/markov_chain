@@ -1,0 +1,279 @@
+-----
+--- 92802623
+>Keyboard recommendation template
+https://pastebin.com/n220xk9V
+
+>Where to buy keyboards
+https://www.mechmap.tech/themap
+https://keycaplendar.firebaseapp.com
+https://www.mechgroupbuys.com/keyboards
+https://www.alexotos.com/keyboard-vendor-list
+https://mechkeys.me/VENDORS.html
+
+>News:
+FEKER Alice98 released.
+Keychron Q11 released.
+Epomaker VIAL Adapter released (not keyboard).
+Monsgeek M2 released.
+EPOMAKER RT100 released.
+
+You are paying for the brand by buying Ducky, Steelseries, Razer, Corsair, Logitech. This applies mildly to Leopold, Filco, Varmilo, and other brands from the late 2000s to early 2010s, which are dated (topre lineups excluded).
+
+Previous thread: >>92699776 →
+--- 92802650
+I recorded myself typing on my regular keyboard vs my new split one
+
+https://www.youtube.com/watch?v=iaWRKFvwdW8 [Embed]
+--- 92802931
+where can I find wood keycaps like these
+--- 92803010
+>>92802931
+Wood key caps make you gay anon
+--- 92803417
+>>92802650
+I feel like this was a very bad idea...
+--- 92803497
+>>92802931
+>some splitting is natural
+do keycap fags really?
+--- 92803806
+i want an uncomfortably tactile switch for my meme keyboard and picrel + paper mod (as many plys possible) is the best i can come up with
+
+https://www.youtube.com/watch?v=zdFcBs5IdJY [Embed]
+https://www.youtube.com/watch?v=qQqLvu7RMiE [Embed]
+--- 92804111
+>$810 usd
+https://drop.com/buy/angry-miao-cyberboard-mechanical-keyboard
+Will last longer than your gpu, but $810 for a keyboard.
+--- 92804152
+>>92802931
+aliexpress
+--- 92804175
+>>92804152
+Save your money and buy some social skills.
+--- 92804187
+>>92804175
+>this nigga bought his social skills
+lmao
+--- 92804242
+>>92804187
+No one reads your blog or listens to your keyboards.
+--- 92804311
+>>92804242
+not after they're sold out
+--- 92806045
+does spacebar foam make a difference or is it just a meme?
+--- 92806193
+>>92802931
+KPrepublic Store sells without legends
+--- 92806308
+I want to biuld a board to use up 91 spare switches i have. whats an interesting form factor thats not a meme (ie no pickle bs) that i should do? im fine with hand soldering although desu idk if i want to vs just buying a pcb.
+--- 92806576
+>>92806308
+>not a meme
+all of them are memes
+build an orhtolineal so you don't have to fuck around will stabilizers
+--- 92808041
+I'd like to try one of those split keyboard I sometimes see here.
+I want the first one to be cheap. If I like the layout I then will splurge.
+Any recommendations?
+--- 92809090
+hello? are there any good websites/vendors available in poland yet?? being a 3rd worlder is tiring and ive been waiting for at least 3 years for the mechanical keyboard trend to come to my cunt is it here yet hello??!!? i want to upgrade my keyboard and tinker around with it without having to spend a fortune of shipping already!!!!
+--- 92809159
+>>92806308
+>91 spare switches
+two split space 40% boards or a tkl
+--- 92809311
+>>92809090
+invest in a 3d printer already
+--- 92809585
+where the hell can I get a decent trackpoint supply short of ripping the parts out of old thinkpads?
+--- 92809629
+>>92809585
+took 3 seconds https://www.aliexpress.com/item/1005004696754100.html
+--- 92810650
+For those interested in a TKL, the Monsgeek M3 is finally up for preorder. It is a gasket mounted premium aluminum keyboard at just $109.99 or $115.99 for the purple color, the value on this is insanely good even beating the likes of the Keychron Q series.
+
+https://www.monsgeek.com/product/m3/
+https://www.youtube.com/watch?v=RIr3MWrIGTA [Embed]
+--- 92811120
+>steelseries 6gv2
+god i hate this keyboard so much. why does it use such a fucking random layout? seriously, no left windows key, BIG ass enter key, only some media control buttons.
+thing is SOLID though, but leaves a lot to be desired.
+--- 92812009
+>>92811120
+mine has a dedicated rgb key, duno whats more retarded.
+lucky you can program over it and replace it with something that makes more sense
+--- 92812310
+>>92812009
+keychron? I had that too, but i remapped it to be a screenshot macro
+--- 92812374
+Also behold, my cute k6 with cinnamoroll keycaps. wish the frame was white, might paint it one day, but the coating is too nice
+--- 92812388
+>>92810650
+is there a way to build it so it has no bounce or squishy flex like a bottom plate mount? i like solid feeling no flex keyboards
+--- 92813328
+>>92812388
+These keyboards are not very very bouncy. Also flex and bounce are 2 different things. You coud wait for the FR4 plates to make it stiffer and 3D print plate socks to make it completely rigid. I don't think you will notice bounce on this board stock anyway.
+--- 92813443
+I like these fellas
+--- 92813482
+>>92813443
+literally just garfield recolors. Im yet to see an interesting custom keycap (theyre all the same soulless crap)
+--- 92813924
+>>92813328
+>Also flex and bounce are 2 different things
+just dont put them shits in my keyboard bruh
+--- 92813944
+>>92804152
+all those boards look like shit you could have bought a single decent good looking board for the price of everything there
+--- 92814195
+what is the most expensive keyboard prebuilt or custom?
+--- 92814307
+>>92813944
+for $60?
+i plan on 3d printing some nice keyboard cases and harvest my one non-hotswap kb for the switch housings
+aftermarket keycaps will also come out
+--- 92814914
+Ok so these chink keychron KSA keycaps I recieved today are really enjoyable. I was wondering if the reason I hated my keyboard so much was because I actually hated the OEM profile or cherry and turns out yeah the KSA profile is much easier for someone like me who is not a particularly good typer. I still hate this piece of shit RK84 I had for years but now I feel reassured that I will probably enjoy a nicer board once I get one.
+
+Regarding the keycaps the profile is fucking amazing. If MT3 really is similar then its very good. I used to miss keys and type between the keys and my fingers are nicely guided to the keys now. Pretty thick and sounds great. Font clarity is mostly great but its still keychron and I had only a couple keys with minor defects. Otherwise It's very sharp.
+
+I got the grey and silver set and what they call silver is just white. It looks grayish on the picture but it really is not. Especially when contrasted with the dark gray keys. Purple keys are more lavender and less saturated than the pictures suggest.
+Can't wait to get a decent board to put these in.
+--- 92815996
+>>92814307
+>3d printing some nice keyboard cases
+based
+--- 92816107
+>>92815996
+nice
+i wanna print a fatter ncr80 or something to that effect
+--- 92816156
+>keychron releases the q1 pro finally
+>announces q2 pro right after
+For fucks sake, these bastards are going in numerical order for this shit. Can't wait for the Q6 Pro to release already.
+--- 92816266
+>>92816156
+$$$$$$$$$$$$$ ka-ching! $$$$$$$$$$$$$$
+--- 92818424
+reminder: install a wordfilter browser extension
+the hobby -> the cult
+this hobby -> this cult
+that is all
+--- 92818439
+>>92818424
+Good thing literally the only instances of that word in the thread are your post then.
+--- 92818495
+>>92818439
+>in the thread
+yeah but elsewhere it's gold
+when ur doing research and see comments/replies with it
+--- 92822190
+>>92815996
+If you're printing a plate you might as well make it 5mm thick (with cutouts 1.5mm in so the switches can still snap into place).
+--- 92822252
+Which looks better? The dark caps came with the keyboard while the white ones I bought.
+--- 92822266
+>>92822252
+whatever happened to case color = alpha bg
+--- 92822335
+>>92822266
+I didn't choose the color. It was a prebuilt NK87 someone was selling for $100.
+--- 92822641
+>>92806193
+they seem pretty nice might grab a spacebar 
+https://kprepublic.com/products/wooden-keycaps-wood-keycap-r1-r2-r3-r4-backspace-enter-spacebar-arrow-key-wasd-for-87-tkl-104-ansi-xd64-xd75-xd96-xd84-cospad
+But I think im blind I dont see what profile they are?
+--- 92822732
+>>92822641
+The only profile I've seen wooden caps in is OEM.
+--- 92822841
+>>92822732
+>only seen in OEM
+dont have an OEM set to use with, so much for that
+--- 92822843
+>>92822190
+I considered making the plate thicker, but I'd rather keep my case as low as possible since it will still need gaskets and a daughter board.
+--- 92822899
+1
+--- 92822904
+>>92822899
+>cherry red
+wow gross
+--- 92822911
+>>92822899
+--- 92823042
+>>92822641
+>$10 per keycap
+Jesus Christ, I should go into business selling these shits
+--- 92823113
+>>92822899
+>>92822911
+checked, now you have to lick it clean
+--- 92823244
+>>92822904
+Yeah, I don't really like them but I don't care about swapping them anything else during this time.
+--- 92824009
+>>92810650
+considering getting a monsgeek, what is different between the m1 and m3?
+--- 92824701
+>>92824009
+M1 is a 75% with a knob whereas the M3 is a TKL. One thing to keep in mind is that the Monsgeek M1 is currently the only one with a knob; a very smart move on Monsgeek as having a knob tends to look ugly and out of place on a TKL. The switches offered by Monsgeek are from Akko and are rather limited in selection. Akko CS Jelly Blues for tactiles and Akko CS Silver Switch for linears.
+--- 92824801
+>>92824701
+>as having a knob tends to look ugly and out of place on a TKL
+a knob on TKL is fine as long as you don't have somebody retarded designing the board
+just place it on pause/break simple as that 
+Ill never understand why these keyboard designers need to have it on have it for f13 while pause/break is almost as useless of a button while being in a more optimal position.
+--- 92824907
+>>92824701
+im probably going to get an m1
+--- 92825719
+use lube and orings and then buy foam for the space bar.
+--- 92826803
+Anyone know a good exploded 75% case and plate model for 3D printing?
+--- 92827254
+im new to this stuff and just got a psd60 case. can i add weights into the cutout pic rel? and if so does it matter if i use steel, brass, coins or whatever when it comes to sound?
+--- 92827564
+>>92827254
+That space is for a battery if you go wireless. Weights usually screw to the back, but put whatever you want there as long as its secure.
+--- 92827611
+>>92827564
+not planning on using it wireless. i just have some left over steel from a welding project that perfectly fits the cutout but i was reading that brass was good for the sound signature or some shit.
+--- 92827690
+>>92827611
+put your dick inside it, sure it fits
+--- 92827716
+>>92827690
+my dick didnt even fit in your mother and shes as loose as they come
+--- 92827756
+>>92827611
+You can put foam between the case and pcb to deaden the noise. Some people complain that aluminium cases "ping" but I've never worried about their sound. Steel should be fine.
+--- 92828193
+I need like 30 neutral position keycaps for like $5.
+What's the move?
+--- 92828432
+>>92802623 (OP)
+>applies mildly to Leopold
+well hell, who else around sells mechs that look like the beige crap i used as a kid? the fc900r pretty much fits the bill for me so far.
+--- 92829310
+I'm looking for a 100% ISO UK keyboard, but I want it to have a knob for volume and media keys. I'd settle for the knob only if it can be pressed in to pause or double pressed to skip a track
+
+My wish is one like the gmmk where I can just slot in switches but I'd be perfectly happy with a complete keyboard
+--- 92829518
+Quick question, do low-profile switches (cherry low-profile and kailh choc) use the same mounting holes as regular mx switches?
+--- 92829602
+>>92829518
+no
+and cherry switches are extra scratchy
+--- 92829772
+Hey guys. I'm poor as fuck and I can afford maximum $50 on a keyboard.
+I really like typing on my IdeaPad's keyboard, but when I'm on the desk I can't put the notebook in front of the screen...
+I like the big enter and shift keys because I hit them with my pinky when programming. I also need arrow keys and F1-F12.
+What would be a budget tiny keyboard that suits my needs? It can be either mechanical or chiclet-style like the Lenovo's.
+--- 92829970
+>>92829518
+Absolutely not. No low profile switch currently available is cross compatible with anything but itself right now. However Gateron low profile switches can accept plenty of regular keycaps while being way thinner. Any cherry keycap that have the stem flush with the keycap base can be fitted onto gateron. 
+Trying out an ISO Keychron K3 pro low profile right now with these switches and it's looking pretty good. Going to put some PBT on this because the factory caps on ISO boards are painted dogshit even though they are pretty thick.
+The board sounds very muted but very consitant. Great for office use. It also has the best factory stabs I ever used.

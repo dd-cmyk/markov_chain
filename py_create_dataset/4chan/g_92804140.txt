@@ -1,0 +1,308 @@
+-----
+--- 92804140
+What are /g/'s thoughts on Ares OS?
+It is sort of like an onion os, made from many layers:
+- Helios: A microkernel at the heart of Ares
+- Mercury: A driver framework for Ares
+- Venus: A collection of drivers
+- Gaia: an userspace programming environment
++ Luna: POSIX compatibility layer (optional)
+
+These all together form the Ares OS, which will be a high level OS with a package manager, wayland support and more!
+
+One of the more interesting features of Ares OS, is that it doesn't have a monolithic kernel.
+Instead, drivers are running in userspace with the help of the capability system. A neat thing is also that all processes will inherit drivers from their parents, which means that a parent can re-implement a driver capability for it's child processes, allowing for advanced sand boxing and also running multiple Ares operating systems in one, without using virtualization! Neat, huh?
+
+See https://ares-os.org/
+Currently, helios is apparently almost done, and mercury is being worked on. Work just started on Gaia.
+Also see video related, it is a shell on the mercury layer. Pretty cool, huh?
+--- 92804174
+>YAFP
+Don't care, fuck off.
+--- 92804378
+Unironically the most promising project of the last couple off years. 
+The ideas are all on spot (on paper), and the development proceed constantly 
+Drew de Vault seems to be the kind of guy who does what he promises. 
+
+For now it's too early to make any educated guess, but if devs don't fuck it up and skilled people join the project there is the potential to replicate the Unix/C phenomenon with Ares/hare
+--- 92804769
+>>92804174
+>osdev
+>one of the few technology related posts here
+>YAFP
+the absolute state of zoomer retards
+--- 92804965
+>>92804140 (OP)
+>What are /g/'s thoughts on Ares OS?
+If it's not Windows then it doesn't matter.
+You can delete your shill thread now.
+--- 92805002
+>>92804769
+You're an illiterate child projecting his continuing dependence on breast milk, and don't even know what YAFP stands for.
+It's obviously time for your nap, kid.
+--- 92805261
+>>92805002
+Yet Another Filtered Post
+--- 92805773
+YET ANOTHER FANTASTIC POST!!
+--- 92805880
+If you want to see the Helios presentation at fosdem 
+https://drewdevault.com/2023/02/20/2023-02-20-Helios-aarch64.html
+--- 92806259
+>>92805880
+The most incredible thing is that drew devault managed to write a driver for raspberry pi presentation graphics all by himself in just TWO WEEKS. Either he is a god programmer, or Hare really is a god language
+--- 92806333
+>>92805261
+>>92805773
+Yet Another Fucking POSIX.
+Fucking zoomers and their retardation.
+--- 92806369
+>>92806333
+It isn't posix. it has an optional posix compatibility layer.
+But it isn't posix, because the system is based on capabilities, not file descriptors
+--- 92806524
+>>92806333
+It's not posix you retard. It just has a posix compatibility layer
+
+>>92806259
+ddv surely is a good programmer, probably not an extremely brilliant one, but way more than what /g/ actually meme about
+
+The port has some hacks by his own admission but still is kinda of an achievement.
+
+> Hare is really a god language
+It's good, not by an academic fashion but by being a small, simple language with few frills that get the job done. It's basically a modern C (really, not like zig) 
+It's the only language I would be really happy to take over c
+--- 92806807
+So for once instead of cloning unix he's cloning Windows and this likely won't go anywhere because the point of this project is to pad the author's CV?
+Sounds good.
+--- 92807247
+>>92806807
+>So for once instead of cloning unix he's cloning Windows 
+Where the fuck did you get that from?
+Helios is a clone of seL4 and also unlike windows is a full ukernel
+
+The userspace is Unix/Plan 9 inspired in the sense there one uniform resource abstraction and the whole os aims to be a fully network transparent distributed (still Plan 9 inspired but not with the thin client- fileserver paradigm)
+
+Are you actually clinically retarded?
+--- 92807271
+>>92807247
+>fully network transparent distributed (still Plan 9 inspired but not with the thin client- fileserver paradigm)
+I heard that. But how does that work? You have a private key somewhere and every device with the same private key will be auto mounted somewhere and you will be able to run processes and control the filesystem on it?
+--- 92807325
+>>92807247
+>Where the fuck did you get that from?
+From the advertisement that is the OP's post. Thanks for the clarification but I'm still not going to google your shitty hobby project.
+--- 92807463
+>>92807325
+Nothing in op post suggest windows in any form 
+> Not Google your shitty hobby project
+Don't bother, it sounds like you would have hard time understanding it
+--- 92807582
+>>92807271
+I'm not expert in capabilities based but I think you can do that by process capabilities inheritance 
+I don't think the details are available yet
+--- 92808593
+Bump
+--- 92810472
+Bump
+--- 92810666
+It's a great idea and I'm happy to see something promising to compete with Fuchsia in the pipeline. I think forcing every driver to re-implement in a new programming language is a poor choice however; if the project can figure out how to play nice with (userspace) drivers written in C, it has a chance to copy the NetBSD rump drivers in to get a bunch of devices besides just virtio or whatever the community can maintain in Hare.
+
+Also DDV is kind of a blowhard for banning all blockchain projects from sourcehut, I can never trust him not to be a moralizing leftist tool after that. Hopefully that attitude stays out of the Ares project.
+--- 92812300
+>the only good thread that is actually about technology
+>sits dormant at page 9
+why is this?
+--- 92814682
+>>92804140 (OP)
+i dislike the cringe naming, ngl
+--- 92814750
+>>92804140 (OP)
+wtf is that naming
+why some shit is roman and some other names are greek? WHY??
+--- 92814761
+>>92814750
+because both were based
+--- 92814838
+>>92814682
+>>92814750
+Imagine being this retarded. Guess 
+
+> Why some shit is Roman and some other are Greek?
+They are all English, but you can't name a layer "earth" or "moon" since it sounds retarded
+--- 92814858
+>>92814838
+>a layer "earth" or "moon"
+also "sun" for helios
+--- 92814873
+>>92814838
+why is not mars instead of ares you dense retard
+--- 92814886
+>>92814873
+mars is too popular of a name. everyone knows about mars because of aliens n stuff
+--- 92814952
+>>92814858
+Of course, that would have sound retarded. The naming is spot on, it perfectly represent a layered system as the distance from the kernel (the sun)
+
+>>92814873
+Because MarsOS sounds like shit you piece of cretin. Are your parents brother and sister?
+--- 92814971
+>>92814952
+>The naming is spot on, it perfectly represent a layered system as the distance from the kernel (the sun)
+That is what i noticed too
+--- 92814982
+>>92814952
+then keep all the names in greek
+--- 92815065
+>>92814952
+>>92814886
+Why Mercury and Venus instead of Hermes and Aphrodite?
+--- 92815072
+>>92814838
+why the demonic name scheme in the first place?
+
+i can understand if the os was inspired by satan himself but i suspect it's just ignorance, which makes it cringe
+--- 92815144
+>>92815072
+>The naming is spot on, it perfectly represent a layered system as the distance from the kernel (the sun)
+In what kind of isolated village do you live where planets are considered satanic?
+>>92815065
+Because that would have sounds cringe as fuck
+--- 92815226
+>>92815065
+Also you would have lost the planet metaphor. Only the names that sound strange or are too common in English language (sun, earth, moon, mars) are translated. Mercury and Venus are there to makes you think about planet and so have a metaohor of a hierarchical system
+--- 92815353
+>>92815144
+imagine not knowing the heliocentric system is a religious scheme being propagated through satanic infrastructure (media, education) for the purpose of destroying souls
+
+imagine thinking the wandering stars, so called planets, are actual terra firma balls and unknowingly paying tribute to them
+
+sheesh, you'd be better off not having eyes and ears
+--- 92815655
+>>92815353
+Godspeed anon
+--- 92815854
+>>92815353
+do not fret my friend, modern science have actually proven the the observable universe ia centered in the earth
+--- 92817543
+Bump
+--- 92817852
+>>92804140 (OP)
+Like all worthless toy operating systems, the memory management system is underdeveloped and there has clearly been no significant thought put into it. This is an especially great sin for a microkernel system where the situation is quite a bit more complex, and a non-robust plan for these things puts you in the coffin immediately. I don't need to check anything else, that alone re-confirms to me what I already thought, which is that devault is a blowhard cult leader who either likes the attention or just thinks he's way smarter than he is.
+--- 92818090
+>>92805002 >>92805261 >>92805773 >>92806333
+You're A Fucking Pimp
+--- 92818871
+>>92817852
+Nice fud retard
+--- 92820744
+>>92804140 (OP)
+arseOS until i can muh drivers beyond bsd levels
+--- 92820883
+will hare ever not be a meme
+--- 92821068
+>>92820744
+> BSD level
+Freebsd has official Nvidia support, I doubt Nvidia will write drivers for ares
+You're a retard
+--- 92821187
+>>92804174
+>>92805002
+>>92806333
+UNIX haters were, are and always will be retarded. Every large operating system becomes a mess, and the UNIX mess is the least bad of all of them and makes it the easiest to write portable code. The last time I had to debug something on NT it made me pull my hair out and drink. 
+
+I hate non-UNIX systems so much it's unreal.
+--- 92822372
+Why not just further Plan 9 development? Does Ares offer anything special in the kernel or IPC department in contrast?
+--- 92822888
+>>92821187
+you are unsmart
+--- 92823340
+>>92821187
+you are undumb
+--- 92823385
+>>92822372
+From OP:
+>One of the more interesting features of Ares OS, is that it doesn't have a monolithic kernel.
+also no legacy baggage
+--- 92823436
+How does this compare with Sculpt, Redox, Managarm, etc?
+--- 92823580
+>>92823385
+I don't think either of these set it apart here. It's not as if Plan 9 has legacy concerns, and the kernel makes little difference when everything is done via ipc/rpc anyway. Combined with the fact you can swap the kernels out with the same userland on top as a result of that.
+I'd have to hear why the difference in kernel architecture matters in this case.
+--- 92823639
+>>92823436
+for one you don't need to know c++ or rust to hack on it
+redox and managarm also seem less ambitious about building a new kind of userland
+--- 92824169
+>>92823580
+i admit i'm not that well versed in Plan 9 or osdev but to me structuring the entire system from drivers to applications around a single "everything is a capability/kernel object" paradigm sounds like it would have advantages in isolation, flexibility and overall system clarity/simplicity
+you can read more about drew's personal rationale at https://drewdevault.com/2022/06/13/helios.html
+and some of the design rationale at https://mirror.drewdevault.com/ares.pdf
+--- 92824199
+>>92804140 (OP)
+>microkernel
+enjoy the massive context switching overhead lmao
+--- 92824236
+>>92824199
+anon this is a desktop OS not a high frequency trading bot
+--- 92824260
+>>92824236
+>performance doesnt matter lol
+--- 92824277
+>>92804140 (OP)
+that's neat, but otherwise, there's nothing special on this OS
+--- 92824416
+>>92824199
+What operating aystem with actual security doesn't have such overhead?
+--- 92824530
+>>92824260
+what's the point of squeezing for every last ounce of performance at the low level when shitty bloated applications just gobble everything up with their shitty design
+i will NOT sacrifice security and stability so application devs can be more careless with every hardware generation
+--- 92824663
+>>92824530
+>what's the point of squeezing for every last ounce of performance at the low level when shitty bloated applications just gobble everything up with their shitty design
+>i will NOT sacrifice security and stability so application devs can be more careless with every hardware generation
+--- 92824730
+>>92804174
+Time to take your meds schizo
+--- 92825930
+>>92824663
+Yes.
+--- 92827376
+>>92804140 (OP)
+Ares is proof that Hare is in fact usable and a great langauge to write operating systems in
+--- 92827411
+>>92823436
+It aims to be more practical 
+>>92822372
+Because, while it is inspired in some parts by Plan 9, they are different projects
+> Language: Plan 9 c / hare 
+> Kernel: monolithic / ukernel 
+> Uniform resource abstraction: file(system) / capability
+> Distributed model: thin|diskless client -> server / personal os &lt;-> personal os 
+
+As you can see they are massively different, you basically have to rewrite Plan 9 (in another language) from scratch
+
+Other Plan 9 ideas that could make it into Ares are private namespaces and lack of global filesystem, and probably the Plan 9 userspace
+--- 92827440
+>>92827411
+Plan 9 userspace is almost certain at this point. Drew said, that the userspace will likely be heavily inspired by plan 9
+--- 92828635
+>>92827411
+Very cool. Thanks for the breakdown. I'm actually interested in this.
+Plan 9 is great in a lot of ways, especially compared to Unix. But the prospect of using something like it except with more modern lessons learned and practices is appealing. Especially if it's intended for actual use rather than purely research.
+Not to say that Plan 9's C dialect or libraries are bad but I'd take almost anything over C these days.
+I'm going to read more into this later.
+--- 92830444
+>>92827411
+>It aims to be more practical
+What does this mean? They're all planned to have full POSIX interoperability eventually so I can't see how one would be more practical than another for a user. Is it more practical for the devs, then? In what way? Is it just because of the simpler programming language or is there something specific about the architecture that makes it more practical than other microkernels?
+--- 92830525
+>>92804140 (OP)
+>microkernel
+Into the trash it goes
+--- 92831376
+>>92830525
+Filtered

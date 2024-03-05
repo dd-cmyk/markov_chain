@@ -1,0 +1,1165 @@
+-----
+--- 92793407
+This is the /hifi/ General. Talk about everything, except if there is a specific thread like /iemg/:
+headphones, amps, speakers, dacs, sources, AVRs, subs
+
+Previous thread: >>92781749 →
+FAQ: https://rentry.org/uvhe4
+This text: https://rentry.org/7akgv
+
+Devices that are low priced are the most asked for, so here are some that are also considered good.
+
+Speakers:
+* JBL Stage A130 (Passive)
+* Focal Chora 806 (Passive)
+* Elac DBR62 (Passive)
+* JBL LSR305P MK II (Active)
+* Adam T5V (Active)
+* Krk Rokit 5 G4 (Active)
+* Neumi BS5P (Active)
+
+Amps:
+* Used Yamaha R-S700 (receiver, power section like A-S701, pre-out/main-in, 170€/$150)
+* Yamaha A-S 300/301/500/501/700 or 701
+* Aiyima 07 (Desktop)
+* Fosi BT20A (Desktop)
+
+Headphone amps:
+* Topping L30 II (headphone)
+* Loxjie D30 (DAC and headphone)
+
+DAC:
+* Topping d10s or E30
+* Loxjie D30 (also headphone amp)
+
+Streamer:
+* RPi 3A+ with Moode and CamillaDSP (30€, rpilocator.com)
+
+Measurement Microphone:
+* MiniDSP UMIK1
+
+DSP:
+* MiniDSP 2.4HD
+* MiniDSP Flex
+
+Subwoofer:
+* SVS SB-1000
+* Rythmik L12
+
+Software:
+* REW
+
+Books:
+* Floyd E. Toole: Sound Reproduction: The Acoustics and Psychoacoustics of Loudspeakers and Rooms, third edition
+
+Thread soundtrack:
+* Heroin version: [YouTube] The Stranglers - Golden Brown (1080p) (embed)
+* Audiophile version: [YouTube] Dave Brubeck - Golden Brown (embed)
+
+Tips:
+* Avoid uncorrected rooms
+* Avoid soundbars
+* Use Hifishark and price search sites to find good deals.
+--- 92793505
+>>92793403 →
+>https://files.catbox.moe/qkwb8h.flac
+Epic.
+--- 92793576
+Ok, this thread we will be nice to the headphone and IEM fags.
+I reach out to you for peace here!
+
+This is Kraftwerks Die Roboter, but in the 3D mix AND HeᴀdpHoɴe ꜱuRRouɴd mJx:
+https://www.youtube.com/watch?v=kWV9c16S7rc [Embed]
+
+This is your moment to shine, this is what headphones and IEMs are made for!
+--- 92793634
+>>92793576
+Thats cool, but it doesn't feel 3D?
+--- 92793642
+>>92793576
+Unbeaten to this day.
+https://www.youtube.com/watch?v=IUDTlvagjJA [Embed]
+--- 92793659
+Hey OP, feel free to add the Wharfedale Diamond 12.1 to the list of good speakers. It is excellent pair of speakers for the price.
+--- 92793662
+>>92793634
+Doesn't work for me either. It is a cool mix, particularly the start is cool, but it's not "surround" i think.
+--- 92793679
+Show your tape deck if you have one
+https://files.catbox.moe/s1pn0y.mp4
+Super ANRS sounds better than Dolby B or even C.
+--- 92793788
+>>92793642
+That works, and was fun :-)
+
+>>92793659
+Added.
+
+>>92793679
+Cool!
+I will tomorrow, have to go to bed soon. I have a few decks.
+--- 92793818
+My new reference song:
+https://www.youtube.com/watch?v=ZY6h3pKqYI0 [Embed]
+--- 92793877
+>>92793788
+That's a nice pioneer stack. Not a fan of the turntable though.
+--- 92793878
+>>92793407 (OP)
+I’m looking for a decent pair of headphones for about $200 USD for use on Linux if that makes a difference. Is that too low a budget to get something decent?
+--- 92793884
+>>92793818
+https://www.youtube.com/watch?v=u163wC6mP2A [Embed]
+
+This thread is cursed now.
+--- 92793918
+>>92793878
+HD 560S, HE 400SE.
+--- 92794000
+>>92793877
+System of a friend, i think the record player looks epic, but it's not even half automatic, listening to a record is a real chore as you can imagine.
+
+>>92793878
+AKG K702 is solid and should perform well regardless of your operating system, don't overthink it, just order 3 or so models from Amazon and test them.
+--- 92794070
+>>92793878
+I use a DT990 with Debian. KDE looks fresher with it.
+But yeah, i use it direct on my motherboard, works with a Thinkpads headphone out as well.
+Bought some replacement parts too, have it for maybe 7 years or so.
+https://www.thomann.de/de/beyerdynamic_dt990pro.htm
+--- 92794476
+>>92794338
+Stack of crap.
+--- 92794498
+>>92794476
+Thanks, you too.
+--- 92794514
+>>92794338
+Nice tape decks.
+--- 92794564
+>>92794514
+Thanks, got some more.
+--- 92794611
+I'm suckung up every silver Yamaha deck that looks good, costs less than 50€ and was at least midrange or better.
+Prices get higher and higher and it gets harder to find good things now.
+--- 92794617
+I dare you to name a comfier pair of headphones than the SHP1900
+--- 92794690
+I seriously need someone to talk me out of getting into vinyl collecting.
+--- 92794714
+>>92794690
+Don't do it
+--- 92794845
+>listening to music
+Lmao gaylords
+--- 92795069
+whats /hifi/ approved music player?
+--- 92795111
+>>92795069
+RaspberryPi with Moode. It's on top of the DAC, on top of the amp.
+--- 92795254
+Got these for cheap.
+They look sexo
+--- 92795271
+>>92795254
+Huge though. How cheap?
+--- 92795301
+>>92795271
+650 for both
+--- 92795347
+Any other McIntosh Guys here?
+--- 92795506
+>>92793407 (OP)
+Should I buy the TMA-2s? 
+The bluetooth headband looks like it would fall of my head.
+
+https://aiaiai.audio/headphones/tma-2-build-your-own/s10h10x01e04c02
+--- 92795785
+Anyone ever try a pair of edifier R1280Ts? They are one of the few speakers I can afford right now. And I kinda plan on moving continents constantly for the next few decades or so, so I dont think towers are going to be very convenient to haul around.
+--- 92795975
+>>92795785
+>And I kinda plan on moving continents constantly for the next few decades or so
+Get headphones you tard
+--- 92796055
+>>92795975
+I already have a few of them. But I'm going to move because of work. Its not like I'm going to be a hobo nomad that has to fit everything inside a backpack.
+--- 92796084
+cross board shitposting because E-mu Teaks
+--- 92796149
+WHY DO MY SPEAKERS MAKE STATIC NOISE ALL OF A SUDDEN.
+THEY DIDN'T DO THAT BEFORE (I think?).
+
+IT DRIVES ME FUCKING MAD
+--- 92796179
+>>92796084
+Biodynabro
+--- 92796343
+>>92796084
+>CDs
+Kek. But those phones remind me that the new meze headphones are supposedly pretty cool.
+--- 92796356
+>>92796149
+It it actual static or is it just a hiss from the low noise floor of your AMP?
+--- 92796409
+>>92796343
+How else am I to rip boomer rock straight from the source? Also i can't fit Technics in my room anymore
+--- 92796469
+>>92796409
+Another Biodyna AND 1800 layout enjoyer, what are the chances?
+--- 92796585
+>>92796469
+Higher than you'd expect!
+--- 92796793
+>>92796356
+I dunno what's the difference. They are active speakers. It's just faint noise when I put my ear near the speakers. I don't think they did that before.
+
+Could it be my power grid making funny stuff?
+--- 92796929
+Recommend me a good DAC to replace this SMSL M200 I got as a gift. Something with at balanced input for my speakers (JBL MKII 3 Series 8")
+--- 92797312
+>>92796929
+Why do youw ant to replace it?
+
+Schiit Modius
+--- 92797377
+>>92797312
+The Bluetooth function barely fucking works and the remote could never pair with it
+Also more ports more better
+--- 92797436
+>>92797377
+>Also more ports more better
+Ports for what.
+Maybe what you are looking for is a preamp
+--- 92797455
+>>92797377
+Wait, do you have a bluetooth device that actually works properly? I swear to the gods that this piece of shit of a technology from 25 years ago NEVER works seamlessly.
+--- 92797493
+>>92797455
+Yeah my car lol. Without fail I can connect and blast Steely Dan or MotFD out of it.
+It's a 2016 Buick Lacrosse
+The SMSL on the other hand is SHIT, SHIT for Bluetooth stuff. I do a bypass using Bluetooth audio receiver app on my PC and using an ASUS Bluetooth dongle...which isn't ideal since sometimes i don't want to turn my PC on for music
+>>92797436
+wew
+I'll go with the Modius then unless someone suggests otherwise
+--- 92797786
+>>92797493
+>car
+Dont even get me started
+>get into car
+>bluetooth works fine one day
+G-goo...
+>get in another day
+>bluetooth is off on the phone for some reason
+>takes 5 minutes to repair and make it work
+>get in the another day
+>phone connects, but no audio comes out , need to turn off the car for it to work
+I hate bluetooth.
+--- 92797952
+Played around with the equalizer to address my BR02 muffled treble. After simply adding some bias to the treble frequencies, the speakers sound like that extremely bright and clean KSC-75 sound that I have been looking for when playing electronic music.
+--- 92798384
+Audezechads, we're coming home!
+https://www.audeze.com/products/mm-100
+--- 92798864
+>>92798384
+Are they still made with mexican slave labour in San Diego, though? "Made in the USA" hell yeah.
+--- 92799094
+Is there any headphone worth getting below $1000 besides the HD600?
+--- 92800204
+>>92799094
+Yeah. What do you want? A regular harman target headphone? Look at the sundara or its small brother, the he400se. You are going to need a strong amp to run them, though. Vintage AKG 240s are great, DT 770s are great, the Meze 109 pro are awesome and many others that I have no experience with.
+If you dont want to follow the target, either because you are going to use it to listen to specifc types of sound (which is a point of failure of the harman target/IEF methodology as it tries to achieve the average listening experience) or you follow an subjectivist philosophy, there's a ton of shit. Notoriously, Grados and its knockoffs.
+--- 92800355
+I have an Audeze LCD-XC 2021 and connect it to iFi iDSD nano BL, a DAC/amp I used for IEMs previously. It seems to just work (volume knob at about 1 o'clock) with the LCD-XC, but I wonder - would there be an improvement if I used a more powerful amp? The guy who I got them from shilled so many powerful amps and even some cables that would improve the sound, but I kinda think he drank the hifi koolaid and just rides on the wave of placebo
+--- 92800369
+>>92799094
+you can cop used Sennheiser HD 800/800s or Focal Clear OGs and you're set for life and might not even spend the full 1k. could be further improved by equalizing - AutoEQ or just manually to your liking
+--- 92800393
+>>92795069
+pirated roon
+--- 92800410
+>>92794690
+dont be a reddit soitard
+--- 92800443
+>>92800355
+I've never tried any audeze, but, from my experience with hifimans, you can EQ the shit out of planars. If you get a powerful amp you will be able to set up a preamp of 20db with no issue. But all you need is 1w@32ohms. This means a JDS atom, SMSL C200, topping DX3 or D/E30 and similar amps or amp/dacs. You could probably even get away with something like a DX1, Fosi Q5 or a Fiio K7 (dont, though. the K7 is trash for the price). The Dac X6mk2 can probably run them just fine, but it is not transparent and has some nasty harmonics.
+--- 92800509
+>>92800443
+I already EQ the shit out of everything I own cuz free audio improvement. i think the ifi i have is 400mw @ 32 ohm but on audeze site it says recommended wattage is 250 mw, so i guess no need to upgrade?
+--- 92800538
+>>92800204
+>sundara
+>harman target
+--- 92800704
+>>92800538
+Yes, it fits the (unsmoothed) harman target very well if you EQ the bass 15db, which is quite possible and expected on this headphone. Your point? 
+>>92800509
+If the amount of preamp you add in the EQ is plenty in the setting that you like, you dont get audio clipping and it is not terribly quiet, sure, you are good to go. But the IFI zen dac is not transparent, so there's that. As for the cables and shit like that, they wont improve the audio quality. You may want them for a better feel or form factor (straight head vs flat head, braided, stiffness, etc) but the default ones ought to be perfectly fine.
+--- 92801090
+>>92790953 →
+Wtf what happened?
+--- 92801157
+Can somebody recommend noise cancelling headphones?
+I'm looking for something to wear in public transport and watching videos outside.
+Budget of €100-150 seems reasonable to me.
+Are Sony WH-CH720N an option?
+--- 92801532
+>>92793788
+Does vinyl really sound better?
+--- 92802153
+Yes, hello.
+I would like one advice, please.
+My previous speakers were Creative GigaWorks T40 Series II, and honestly I loved them, barring one small issue with their "power saving" feature (after some time it goes to sleep and when you play music, the sound only starts after like 4 seconds). I could buy them again, but maybe there is something better for similar price? My only requirement is the size, I don't have much space on my table.
+
+Also there are none of the options from the op available in my country.
+--- 92802376
+>>92795785
+Here they are in a blind test, they don't do bad: https://www.youtube.com/watch?v=5GbEs3NSuTk [Embed]
+
+>>92796084
+Sweet CDs.
+
+>>92796409
+That's GenX retard. Learn the difference.
+
+>>92796469
+Slim but never zero.
+
+>>92796793
+Unlikely. Make sure all cables have a good connection, wiggle a bit. There always will be a faint hiss if you put your ear to the tweeter, but it should not be noticeable when you sit in listening position and normal volume without signal.
+
+>>92797952
+Nature is healing?
+
+>>92801090
+The market platform removed the listing and sent me a message that the seller was a fraud, i shouldn't give out any infos.
+Sad thing is, the seller was in my city, i would obviously seen that there are no Genelecs when he would not wanted me to collect them.
+
+>>92801157
+I got these recently, they support LDAC, have low distortion so they are easy to EQ, the noise canceling works. They also have a nice android app where you can EQ to taste. Price is around $100.
+https://www.audiosciencereview.com/forum/index.php?threads/1more-sonoflow-nc-headphone-review.42849/
+Only con so far is that i haven't seen a source for replacement ear pads.
+
+>>92801532
+Vinyl sounds better than nothing, but worse than any other source except 8 track maybe. You don't buy vinyl for it's sound quality (well some retards do, god bless their stunted brains), you buy it because you have nostalgia for it or just to collect it.
+Check out the first few Youtube links in the previous thread, there is a great film about record collectors and their autismo.
+
+>>92802153
+>Also there are none of the options from the op available in my country.
+Sorry man, we don't have a 4chan sales support team in North-Korea yet.
+--- 92802458
+>>92795785
+MR4's are way better
+--- 92802460
+>>92802376
+>Sorry man, we don't have a 4chan sales support team in North-Korea yet.
+Then get on it? What am I paying you for?
+--- 92802562
+>>92801532
+It doesn't when using a master of the same quality for records and other mediums, records are technically inferior to other mediums.
+--- 92802864
+>>92801532
+No.
+--- 92802913
+Any other cheap fucks around here?
+I've been using my Sennheiser HD 201 for almost 20 years but they started to look like they were picked straight from a dumpster so I decided to get new stuff.
+I got the HD 599 on sale for 68 bucks and pic related, Fosi Audio DAC for 35.
+Now I'm missing some new speakers. I've seen the Edifier R1280T being recommended on the 100 bucks range but they seem more oriented to general use instead of music, the Presonus Eris 3.5 caught my eye but I had to return them to Amazon twice.
+Any other suggestions? I saw the Dali Spektor 2 brand new for 239 and I could stretch my budget, but I'm not sure if pairing that kind of speakers with a chink DAC is considered retarded.
+--- 92802934
+https://addictedtoaudio.com.au/collections/surround-processors-and-receivers/products/lyngdorf-mp-60-2-1-av-processor-with-roomperfect
+
+Can someone explain to me why a 2.1 Receiver would cost so much?
+--- 92802996
+>>92795347
+>Tapedeck Onkyo TA2570
+Had it myself.
+--- 92803023
+>>92802913
+>Dali Spektor 2
+That would be an immense step up from Edifiers, a friend has them, i like them very much.
+Next thing you are looking for a Japanese amp from the 90ies.
+You can continue use your DAC, there is no problem in mixing stuff.
+How do you drive the Dali Spektor 2? Do you have an amp? Or does the Fosi has an amp built in?
+--- 92803212
+>>92803023
+This thing has an AMP as well, straight from the description
+>Texas Instruments NE5532
+
+Most likely I'd use a dedicated computer for music in the future and I'll invest more but for now I thing this will do.
+--- 92803351
+>>92803212
+That's fine. The Spectors are a great foundation. Next updates could be:
+* subwoofer
+* calibrated measurement microphone so you know what happens
+* beefier amp
+--- 92803371
+>>92803351
+--- 92803374
+>>92802934
+pretty sure they mean HDMI 2.1 anon
+sure looks like more than 3 outputs to me
+--- 92803403
+Is it me or is Silver colored Hifi components getting more popular? Or is it just people tired of plain old black?
+--- 92803447
+>>92802153
+>Creative GigaWorks T40 Series II,
+These Edifier MR4's will sound way better, and they only cost $10-15 more
+https://www.amazon.com/Edifier-Powered-Monitor-Speakers-Near-Field/dp/B09DKV849B/
+--- 92803461
+>>92803403
+It's just the paid Yamaha shill in here.
+--- 92803477
+Who else here /rips/ ???
+
+Imagine recording your own audio.....
+--- 92803483
+>>92803461
+Feel free to shill non-whites hifi, it's not my problem that you are lethargic.
+--- 92803501
+>>92803477
+I buy entire CD collections and rip everything, even the stuff i don't like, just in case. Then i keep the stuff i like and sell the rest for the same or more.
+I use 2 old DVD roms hocked up to an old laptop to speed up the process.
+--- 92803594
+>>92803501
+So you copy digital files ? Like a USB stick ? And just not download them from rutracker ? 
+
+AMAZING 
+
+Amazing skills there my man.
+--- 92803633
+>>92803461
+Yamaha is Based as fuck. Kindly fuck off you imbecile zoomer fuckwad. 
+
+>>92803403
+It goes in 10 year cycles silver is the new black.
+--- 92803673
+Last night, it was maybe 1 am, my tape decks VU meter lit up, moved a bit, then went dark again.
+What was that?
+--- 92803687
+>>92803633
+Sweet amp my dude.
+--- 92803689
+>>92803607
+All sound is analog
+--- 92803690
+>>92803607
+hot but kys
+--- 92803741
+>>92803607
+Didn't think i'm evergoing to say it, but you really don't offer anything on 4chan anywhere. You can't even shitpost properly. What a sad existence:
+https://desuarchive.org/g/search/username/%D0%BAa%D0%BD%D0%B8/
+--- 92803774
+>>92803673
+Phantom power.
+--- 92803848
+>>92803687
+Thanks man i bought it for nothing and repaired the main output FETs it like 20 years ago. Its been to many parties and lived a good life :)
+--- 92803864
+No woman on this earth is sexier than some VU dials…
+--- 92803873
+>>92803741
+Imagine craving attention that bad.
+--- 92803910
+>>92803864
+--- 92804142
+>>92803873
+We need people like that so I don't feel bad for staying up until 4 am drinking beer while listening to Siouxsie and The Banshees and shitposting.
+--- 92804278
+>>92804142
+Nah mate, look at the posts, that dude is unironically pathological. Claims to be Russian, likely unemployed, posts real vile stuff day in and out at all times, doesn't engage anywhere in meaningful discussion.
+--- 92804368
+>>92803910
+Best timeline my friend.
+--- 92804391
+>>92804278
+Don't get hung up on it. Literally the same faggot that ruined /hpg/ and /iemg/ lel
+--- 92804429
+>>92804278
+He seems to behave accordingly to the image I have of the average ruskie, I wouldn't worry.
+--- 92804528
+Found his speakers in the archive, he must have gotten them within the last year.
+Jesus Christ, that is sad.
+--- 92804539
+>>92804528
+His bed. ;-(
+--- 92804581
+>>92802376
+>Only con so far is that i haven't seen a source for replacement ear pads.
+They sell them on amazon.
+www.amazon.de/1More-Sonoflow-Ohrpolster-Black/dp/B0BW2XQ823/
+--- 92804643
+>>92804391
+He did? I think i'll add a word about filtering to the OP template.
+
+>>92804528
+>>92804539
+Vile. But anyway, dudes posts are gone, let's not get stuck on this.
+
+>>92804581
+I'll order two pairs and put them away, they will eventually disintegrate and you don't want to find out that they aren't available anymore.
+Dankeschön Bernd!
+--- 92804998
+I have "profound" (just enough that the VA pays me disability for that and tinitus) hearing loss in both ears from the USMC (CH-53E, left gun). Right now my computer has no speakers. I use my HE-4XX headphones plugged into my Blue Yeti for audio. Purchased these a while back, with a tentative shipping month of July. Did I waste my money?
+
+>>92804528
+>>92804539
+At least he isn't a hoarder. Wife and I have been binging Hoarders, from season 1 episode 1.
+
+1. made us feel better about the state of our house
+
+2. made us promise that if we become hoarders, we will still keep our fucking shower and toilet clean
+
+3. made us clean out the fridge
+--- 92805044
+>>92804528
+>Found his
+Who?
+--- 92805324
+>>92804998
+>Did I waste my money?
+Doesn't seem to be much money, what did you pay, $50? Even if they are crap, send them back, gift them to something, or just use them in the garage or garden. Don't overthink it, if you have damaged hearing you might not detect the difference anyway.
+
+>>92805044
+The guy shitting in our thread every day around european noon. Has been removed by the jannies because some based ones have reported him.
+There are places for shitposting, the users in here and possibly /hpg/ and /iemg/ seem to have decided this is not one of them.
+--- 92805642
+I'm not giving any (You), I agree with the last post.
+Report and move on, if you want to circle jerk and create drama over some schizo fuck off to discord or literally anywhere but here.
+--- 92805744
+>>92805586
+>>have no counter arguments on why he is wrong
+Why would anyone want to argue with such stupid nonsense?
+--- 92805806
+What receiver should I buy for my 5.1 home theatre speaker setup? Denon AVR-X250BT? Denon AVR-X580? Denon AVR-S660H? Onkyo TX-SR393? Yamaha RX-V4A? Yamaha RX-V385? Marantz NR1510?
+
+I haven't actually bought the speakers yet, but I was thinking of starting with some Q Acoustics Q3030i Bookshelf Speakers (maybe Q3020i if I feel like saving money). Down the line I might check out getting some Polk XT60s/XT70s, then changing the Q Acoustics from front to side channels. Also considering JBL Stage A130s but they're not discounted right now (Q3030i is). Haven't decided on a sub or centre channel yet.
+
+My visual hardware will include a Samsung QN90B 4K TV, Nvidia Shield 2019, PS3/4/5, Windows 11 PC (probably not an HTPC, more of a gaming desktop)
+
+Home theatre surround sound is obviously the first priority. Second priority is music.
+
+What is the general consensus on running dual-sub? Is it worth paying a premium for 5.2 over 5.1? Does it depend on the room or something?
+
+Is virtualized Dolby Atmos a meme? I notice a lot of receivers promote it as a feature. I don't even know if they're allowing the upfiring front speakers or if they're using some hacky method to make the standard 5 channels *emulate* ceiling speakers.
+--- 92805904
+>>92805806
+I just realized half the receivers I listed don't support HDR10+ passthrough. That just won't do, it's the only worthwhile HDR format my high-end Samsung TV can play.
+
+So the choice is now between The Yamaha RX-V4a, Denon AVR-X580 and AVR-S660H.
+--- 92806371
+Huh, /hpg/ is dead?
+--- 92806453
+>>92806371
+It wasn't alive for a long time i think.
+--- 92806564
+>>92805904
+Wait a minute, only my Samsung has HDR10+, and the video signal obviously isn't going to pass through a receiver, only the audio will via eARC.
+
+VICTORY IS MINE.
+--- 92806705
+Anyone wanting to hear the difference between what a fairly affordable (&lt;$1000) setup of speakers, amp and dac can do versus something like the Logitech Z-5500's just setup your PC for WASAPI digital output to both with foobar2000 and then play a track like Vika and Linda's cover of Many Rivers to Cross. The amount of detail that gets lost in the Logitech's is tragic. But they're still an absolutely brilliant budget 5.1 setup.
+--- 92806908
+I found a pair of Acoustic Research AR-1 floorstanding speakers that appear to be in decent condition and are being sold for 950 euro. Should I buy them?
+--- 92806995
+>>92802934
+>$25,000
+That sort of garbage is why hardly anyone takes audio seriously. There's way too much snake oil to strip inheritance from the children of boomers and plain old garbage hiding under flowery product descriptions and an interesting facade.
+--- 92807021
+>>92799094
+Denon AH-D5200 with a 9200 driver swap
+--- 92807121
+>>92806995
+I bought a longer TOSLINK cable and the market is filled with gold-plated snake oil.
+--- 92807165
+>>92807121
+This hurts me all over. Humanity deserves to go extinct.
+--- 92807382
+>>92806908
+I would probably. These are still pretty cool.
+--- 92807799
+>>92802913
+JBL Stage A130 mentioned in the sticky is a known good budget speaker. I have seen it go for like $150 CAD ($110 USD) on sale in my area.
+--- 92808207
+>>92805806
+I'd wait for the A130. Especially if you're going to move them to surrounds at some point. They're much cheaper and that money can go towards a subwoofer. You can backorder them on Crutchfield. I only had to wait a month or two for mine a couple years ago.
+Get the Yamaha RX-V4A. When in doubt and on a budget looking for a receiver, buy Yamaha.
+2 subwoofers are totally worth it if you're not using one nearfield or if more than one person is listening. Rythmik is pro tier and you pay a bit more for that. SVS, HSU, and RSL have very good budget-minded options. 
+Nearly everything you would want to know about subwoofers. Not for the feint of heart: https://www.avsforum.com/threads/guide-to-subwoofer-calibration-and-bass-preferences.2958528/
+--- 92808659
+>>92808207
+>I'd wait for the A130. Especially if you're going to move them to surrounds at some point. They're much cheaper
+A Q Acoustics Q3030i currently costs me the equivalent of $330 USD.
+A130s cost me the equivalent of $400 USD.
+--- 92808744
+>>92808659
+Strange. Maybe just go for them instead? Surrounds aren't important as your front 3, so it's a good place to save some money if that's your eventual plan.
+--- 92808903
+>>92808744
+Yeah, isn't it perfectly viable to use bookshelf speakers for the Front L/R? I was thinking of starting out with that, and by the time I eventually pick up some heavy hitting floorstanders, I could delegate my bookshelf speakers to Surround L/R.
+
+I think the Q3030i Bookshelfs are mainly geared for music though. I don't see anything in the official product page about being used for home theatres. On the Q Acoustics website, all their 3000-series home theatre packages use Q3010i bookshelves, never Q3020 or Q3030. https://www.qacoustics.com/collections/home-theater/
+--- 92809025
+>>92808903
+There are no specific criteria for music or movie sound for front left and right.
+Consider that the Q3030i are unusually deep.
+The plan to use smaller speakers first, then upgrade to larger ones and putting the small ones to the back is a good one.
+--- 92809071
+>>92808903
+It's more than fine. It's a great way to save money.
+
+Don't worry about "music speakers" or "movie speakers". Good speakers measure well, and Q Acoustics makes some pretty good speakers.
+https://www.audiosciencereview.com/forum/index.php?threads/q-acoustics-3030i-quasi-anechoic-spinorama-and-other-measurements.12500/
+You'll absolutely want a subwoofer or two with them, but these are alright speakers for $330 a pair if the A130s are $400 a pair. Where I am, they're $550 a pair right now, so that's why I was recommending waiting for the $200 a pair A130.
+--- 92809204
+>>92793407 (OP)
+why aren't the new polks in the OP?
+--- 92809279
+>>92793407 (OP)
+--- 92809318
+>>92809204
+I'm not familiar with them. Shill why they should be in there and i will put them in.
+--- 92809872
+>>92800704
+>EQ
+So I every headphones fits harman, good to know
+--- 92810069
+>>92809872
+Most headphones have too much distortion to handle harman-style tuning.
+--- 92810185
+>>92809279
+There should be a mention of how the autist listens to shit like vidya and anime OST.
+--- 92810637
+All right hear me out here. What I want to do is autistic, but I'm trying to find a solution. I want to feed audio sources from both my Nintendo Switch and PC into a single unit, and have that mixed signal be sent to my headphones and speakers, with a toggle switch between which device gets the signal (speakers or headphones.)
+
+My current equipment includes: SMSL PO100, Micca Origen G2, AKG K712, Klipsch The Fives. My PC sends USB to the PO100, which sends SPDIF to the G2. I send line-out to The Fives via 3.5mm, and the amped 3.5mm to my headphones. The Switch currently isn't apart of the setup, I used to have a set of Logitech Z623 and I just sent 3.5mm into the mixer port for both PC &amp; Switch audio, but those died. I got The Fives for free so I'm trying to come up with a way to have the same functionality. I think it may work if I send USB from both my PC &amp; Switch into a dual female to single male usb cable, and feed that into the PO100; this way the G2 can just function normally as it has been, but both outputs consist of the mixed sources. I have no idea idea if that'll actually work, because I don't know how the PO100 will deal with it.
+
+Any ideas? Honestly I'm ok with buying new equipment (dac/amp/mixer) to get the functionally, if it's possible. I'd just not like to spend more than say, $300.
+--- 92810644
+If power amplifiers do always have 2 terminals for each speaker to connect to regardless of the input source, one of which is a positive and another of which is negative/return, then why is it not the case for headphone connection even up until this day?
+I mean 3.5/6.35mm TRRS or 4-pin (mini) XLR plugs at 70-80s should already be a thing, so why not?
+--- 92810848
+>>92810644
+Because speakers are two separate units, so tying their grounds together would mean running one cable between both of them and connecting that to ground at the amp.
+Headphones meanwhile have their transducers right near each other in a single assembly so they can get away with running a single ground wire to both drivers. That said, headphones with individual positive and negative connections for both drivers do exist.
+--- 92810911
+>>92810637
+Yeah, i think i need a diagram for this.
+It's just to much peyote for this old coyote.
+--- 92811082
+>NAMM show Day 2
+>still no signs of that rumoured flagship headphone spotted
+Guess I have to get stuck with my Hi-X65 for a while. Is it a good idea to buy Hi-X60 for outdoor listening though?
+--- 92811230
+>>92809279
+I fucking hate niggerbuss normi headphones and iems.
+--- 92811402
+>>92810637
+>>92810911
+Took me a minute to create one.
+--- 92811568
+>>92811402
+I don't know any DAC that accepts two USB connections.
+
+How about you use a different kind of output, say toslink, SPDIF or analog on your computer?
+You get a Yamaha A-S801, connect your computer to it (SPDIF, toslink or analog), connect your Switch via USB to it and connect the speakers.
+You can then sell all the other stuff to recoup some of your cost.
+--- 92811607
+>>92811568
+This is then used to switch between speakers and headphones.
+--- 92811632
+I haven't blessed this website with music in a long while.
+https://www.youtube.com/watch?v=c_6eugVagiQ [Embed]
+--- 92811652
+>>92811568
+>>92811607
+Forget it, your speakers are active, that isn't your solutions then.
+Sorry mate, i tried.
+
+>>92811632
+Thank you, blessed music linker, you are a welcome change of pace in these troubling days.
+--- 92811706
+>>92811568
+Yeah they're active. Bleh. It's such a niche issue and I've found no solution. The only thing I can come up with that's cheap is trying to send both usb signals into the PO100 unit. At this point, I'm willing to try it, even if it doesn't work or kills the PO100.
+--- 92811947
+>>92811632
+Noice. Tried to get their stuff on the usual suspects (TPB, rutracker and some other sites) but found only one of their albums without sources.
+Don't kids these days share anymore?
+--- 92811992
+>>92811402
+You will need an actual mixer and 2 sources of analog audio to mix, I don't know of anything that would have USB audio "inputs" to mix.
+
+Realistically speaking you should just plug the audio output of your Switch into your PC's line input and use the PC to do the mixing, that way you don't need to buy anything else. Of course the disadvantage here is that you won't get sound from the Switch if the PC is off.
+--- 92812289
+>>92811992
+The Yamaha AG06 has one audio input.
+But it will look messy on a desk.
+--- 92812317
+>>92812289
+USB i mean, it has one USB input.
+--- 92812359
+>>92812317
+You would connect your computer to USB, then the switch using a DAC to analog in. That should do the trick then, right?
+--- 92812633
+>>92811992
+Present your penis and I'll suck it. You know what kills me? I thought about how cool it would be if my motherboard could just accept aux and output audio via usb. Turns out we've had that ability since forever. Holy fuck I'm goddamn stupid. Setting up line-in worked perfectly with the same exact setup I have. It doesn't matter that I won't be able to hear my switch if my PC is off, I can find a different solution to that if it ever arises, but it shouldn't.
+
+Anon, I love you.
+--- 92812659
+Anyone have some recommendations for cable makers in the EU?
+
+I want a custom cable (mini XLR 3pin to 3.5mm) for my headphones since the stock is way too fucking long, rigid, and shitty looking.
+Was looking at Oidio but they are UK so I'd get fucked hard by custom fees.
+--- 92812734
+>>92812633
+All the anons love you back.
+https://youtu.be/3JWTaaS7LdU?t=107 [Embed]
+This is now a feels thread.
+--- 92812774
+>>92809872
+Kek, you have never tried to EQ anything, have you? You can only finetune so much.
+--- 92812780
+>>92812633
+Cool, glad it works for you anon
+--- 92814631
+Redpill me on the DT1990pro
+--- 92814862
+>>92814631
+It's a hoax, perpetrated by left wing pinkos, to cripple the free markets.
+It's not real and it can't hurt you.
+You can thank me later.
+--- 92814896
+>>92814631
+I have the DT990 Pro and DT990 Edition, they are fine. Comfy as well and parts for years.
+I suspect the DT1990 Pro is fine too.
+--- 92815279
+my schiit modi 2 uber won't get recognized by windows anymore. is there any way I can still use my Modi 2 without breaking the bank? otherwise I'll just wait for my next "bonus" to get a fiio k5 pro ess. 
+
+driving a r70x. they sound fine on my portable fiio q1 but I've noticed that to get more "detail" i need to put the volume up but then it gets really uncomfortable at that high volume so I'm hella confused.
+--- 92816041
+>>92815279
+>my schiit modi 2 uber won't get recognized by windows
+Install Gentoo. Does it work on another computer?
+
+>to get more "detail" i need to put the volume up
+Seems you have a rare hearing condition called Fletcher-Munson syndrome:
+https://en.wikipedia.org/wiki/Equal-loudness_contour#Fletcher%E2%80%93Munson_curves
+--- 92816162
+>>92816041
+that's the weirdest shit. had it working on one computer. plugged it out to plug into another computer and now it won't get recognized on both computers. it's such a fucking prick.
+--- 92816278
+I'm pretty happy with my listening setup, don't think I'll be changing any of the equipment any time soon. I do however have 2 ideas i could improve it for relatively low costs. I've been considering adding some good quality diffusion foam behind the monitors and speakers, they are kinda close to the wall and I've heard that can have negative influence on soundstage so maybe a little room treatment could fix it. Another thing i have to do eventually is getting a proper measurement mic and setting up my EQ properly (I'm using software EQ to be clear, the analog EQ in the technics stack is just there to be pretty lol) as after adding a rel q150 sub into the chain the frequency response under 120hz is a bit of a mess even when judging it by ear. What should I prioritize - room treatment or getting the measurement mic? Cost would probably be more or less the same and I'll get both eventually. Acoustic panel recommendations appreciated, as for the mic I'll just go for the umik1.
+Also another question regarding DACs - I've heard opinions that the D50S that i currently use is "clinical and not musical at all" and decided to take the empirical approach and get the E70 velvet that is praised for its "musical" sound to test it. Heard no difference which was half expected as I'm more of a measurements fan than pretty words with no concrete meaning believer but half disappointing cause I hoped I'd hear the difference. I returned it the next day. did I get gaslit into buying a 500$ paperweight in the form of a high end DAC or am I actually deaf?
+
+>>92794564
+Holy shit it's all Yamaha? Why?
+
+>>92803403
+Always liked silver more
+
+>>92812659
+I heard gladiator cables is great, a bunch of online buddies have them and only have good things to say. They're based in Italy i believe. I choose to stick to AliExpress tho cause I'm cheap.
+
+>>92811947
+If RuTracker doesn't have it I usually go to soulseek. Just gotta watch out for dodgy transcodes and vinyl rips.
+--- 92816375
+>>92815279
+the modi 2 used a massively flawed usb controller and oscillator combo.
+my unit died many years ago, be glad yours lasted much longer.
+you may be able to get some extra life by throwing heavy heat at the controller, but it will fail again later
+--- 92816419
+>>92816375
+already tried heat it just goes nah bro can't be recognized durrrrr
+--- 92816697
+>>92816041
+Is it just me or does the font on old quad equipment look awfully similar to comic sans?
+--- 92816902
+I have a Sony receiver with integrated phono amp (TA-AV421). It has a problem where it will turn off the output randomly and I have to power it off/on to get it working again. What might be causing this? I have it open so I can post pictures of the insides, but nothing seems wrong as far as I can tell.
+--- 92816913
+>>92816162
+Could it be simply broken? Maybe the connector?
+--- 92817097
+>>92816278
+There are three main goals in room acoustics: diffusion, reflection and absorption. You want the last behind and possibly under your speakers. It might be also worth it to use DSP to reduce the energy a bit around 200Hz, as that is where your table adds gain.
+Absorption needs mass however, so you are looking for heavy, yet opencelled material, like certain types of rockwool.
+Sadly, any sharp corner becomes reflects sound waves and becomes a mini speaker fucking up the sound stage. But such is live in the near field, not really much you can do.
+Do you have a measurement microphone?
+
+Sweet Misubishi power amp, the other stuff is also very cool.
+
+Also nice tissue box, let me guess, you sometimes watch sad movies? ;-)
+--- 92817259
+Bruhs, i might get a CV1 tomorrow! Wish me luck!
+It looks like a nice one too.
+
+>>92816278
+> Holy shit it's all Yamaha? Why?
+I repair and sell, it's a hobby and a hustle (and a curse according to my family). Certain silver stuff gets harder to get every year, gotta have a stash for the lean times ahead.
+>soulseek
+Haven't heard that one in a decade, didn't know it was still around and used.
+
+>>92816697
+Nah mate, i don't think so, it's a bit crooked and unusual however.
+
+>>92816902
+Broken solder pads, or weak relays maybe?
+--- 92817285
+>>92816278
+That record player ... what is going on there? It looks a bit small!
+--- 92817357
+>>92817259
+>Broken solder pads, or weak relays maybe?
+Here is the inside. Maybe there is something I need to replace?
+--- 92817510
+>>92817357
+Hard to tell really. I recommend you get a component tester for $15 and check all the capacitors. Also a multimeter to make sure there aren't broken solderpads. It takes a lot of time to find some errors, sometimes hours of deep work. The problem is that with running, heat is generated, that can cause expansion and some hair crack in the solder becomes a problem.
+
+Try to see if there is relay clicking when the sound disappears, that might point to a smaller area to test.
+--- 92817691
+>>92817097
+>Do you have a measurement microphone
+As I said in the earlier post i don't have it yet and I'm wondering what should come first in my priority list - room treatment or measurement mic and EQ. 
+>You want the last behind and possibly under your speakers
+So you're saying one of those homemade rock wool panels will do the job? Would be good news for my wallet, I was worried I'd spend big money on one of those fancy looking wooden diffusion panels.
+>sad movies
+Should've seen that coming
+>>92817285
+Technics SL-J3. looks like it'd be a cheap gimmick but honestly it sounds pretty good with the OMP30 cartridges I got in there. Tangential tonearm probably helps with IGD too. Vinyl is a novelty to me so i don't care too much about the sound either way. The baby size helps tho cause i have fairly limited space to work with.
+--- 92817934
+I just bought a Scarlett Solo Gen3. What Headphone amp can I pair it with? I was thinking the Topping L30II
+--- 92817972
+>>92816419
+rip
+i filled in the holes of the enclosure and use the aluminum case as an ashtray.
+max disrespect for shit (,hehe) products.
+their solid state amps are solid tho
+--- 92818044
+Picrel is me, building a nest to sleep in.
+
+>>92817691
+I would start with a calibrated measurement microphone so you get some insight into what kind of energy reaches your ears. Check out Moving Mike Method.
+>So you're saying one of those homemade rock wool panels will do the job? Would be good news for my wallet, I was worried I'd spend big money on one of those fancy looking wooden diffusion panels.
+Well, rockwool is for absorption, not diffusion. Better learn more about the three things i named. Also check out the book in OP, it helps to understand what your ear makes of it.
+I really should put up the PDF of it as it is such a deep well of information.
+
+>>92817934
+I don't know the Solo, but the L30II is really good, particularly for the money.
+
+>>92817972
+F
+--- 92818784
+Can a DAC power a pair of desktop passive speakers without an amplifier? I'm using my A07 amplifier with a 32V 80W power cable and never needed to crank the volume dial above 25%. And that's with my computer volume set at 20%.
+--- 92818969
+>>92818784
+yes! i do it all the time to watch hockey and sports. it's not great for music because of odd clipping issues (probably bass note related, high excursion, etc)
+the speakers are on the smaller side
+--- 92819088
+>>92818784
+Passives? Probably not, DACs are not really meant to output more than 2V or so and definitely aren't built for big output currents either.
+Active speakers would have no trouble running off just a DAC but then you'd be stuck with software volume control, which has its own drawbacks (and advantages).
+--- 92819102
+edifier edifier edifier edifier edifier edifier edifier edifier 
+
+edifier
+--- 92819151
+If you guys already have an amplifier, but no built in AM/FM tuner, what kind of tuner are you using to feed your stereo or surround system?
+--- 92819302
+>>92802913
+I am supremely cheap because I am supremely poor.
+I bought an xy-s220h and a 600w 36v power supply for it. All my speakers are hand me downs over a decade old but do more than well enough for me. 
+6 sets of Aiwa speakers from the early 90s. One random ass box I got a while ago and only markings on the speakers is impedance. As well as a couple of Bazooka Tube subs that came off a boat a while ago too. 
+
+Obviously not using all of them at once. currently using a set of Aiwas and a Bazooka tube and couldn't be happier with the total of $80 I spent on everything and it being better than the Pioneer it replaced. Quite happy with it all.
+--- 92819755
+>>92819102
+Why do people get so fucking mad at edifier?
+--- 92820037
+>>92819151
+Do people actually listen to old school radio these days? If you're dead set on sitting through a 50/50 mix of foot fungus medicine advertisements and the same songs over and over just get a DAC and use internet radio stations. Probably won't be much more expensive than an AM/FM tuner and will at least give you the option of playing your own music.
+--- 92820439
+>>92820037
+NTA but
+>hey guys, what do you use for X?
+>X?? I don't do X. Who does X? Why would anyone want to do X? X sucks. Why not do Y? You should do Y.
+Perfectly sums up my experiences with internet audio communities, to be honest.
+--- 92820458
+>>92820439
+literally all of my programming inquiries online. i really hate technology now
+--- 92820586
+>>92820439
+>>92820458
+--- 92820611
+I think my head head and ears must be weirdly shaped. I bought the DT770 Pros, and my main purchase consideration was comfort. These are supposed to be famously comfortable. Unfortunately, even at their maximum extension and regardless of how I try to adjust them, the bottom of my right ear gets irritated fast.
+I like the way they sound, but I'll have to return them if I can't fix this.
+Anyone had similar issues? Is it worth trying some replacement pads or other mods?
+(Before these I had the MH752 and Takstar Pro 82, both known for being unusually comfortable. They were better than this but still weren't perfect, especially the 752 started to get unpleasant with longer sessions.)
+--- 92820659
+>>92820611
+it took way to long for beyer pads to become comfortable to me.
+but you should return them anyway, because beyerdynamic and their build quality blows
+--- 92820762
+>>92820659
+>build quality blows
+Interesting, you're the first person to say that. I heard they're built to be abused in studio environments and such. They certainly "feel" quite durable.
+Anyway, in terms of comfort, are there any other closed backs I should look at in roughly the same price bracket?
+--- 92820767
+>>92795347
+how did it end up being the most expensive thing in the photo
+--- 92820881
+>>92820762
+>Interesting, you're the first person to say that
+the plastic detent holding together the headband slider is made of garbage ABS. and my set gained massive channel imbalance over a 3 month period.
+both sets of beyers i've owned are the same story. great if not god-tier first impressions and sound, followed by disappointment and creating ebay listings. 250ohm 770, and 600ohm 880
+i liked the 770 a good bit more
+--- 92821463
+Sup, /hifi/?
+My Audio Technica AD700xs are on their last legs. The AT open air series are literally the only headphones I've ever tried that fit me comfortably as I have a big head. For reference: 24.5in circumference, 4X motorcycle helmet, never found a hat that fit. Do you have other suggestions in the $200-$300 range for the man with the giant head or should I just go ahead and get the AD900x?
+--- 92821619
+>>92821463
+What's dying, and do you enjoy their sound profile or do you want to try something else?
+--- 92821723
+>>92821619
+The rubber on the cable and headband is starting to dry rot and crack exposing the wires underneath and the right side is a little blown out. I've patched the wire with electrical tape, but I want to replace them before it progresses too far.
+Yes, I like the profile. Could use more bass, but that's kind of par for the course for AT and open-back headphones.
+--- 92821831
+>>92821463
+I have a 23.5" head and the HD600 fits me comfortably, you probably would be fine
+--- 92821893
+>>92820037
+I listen to college stations.
+I don't have that problem.
+--- 92821958
+>>92821723
+Cable would be fixable with a removable cable mod, but the headband wires are an issue. I don't think they sell spares for those.
+If the drivers were dying I'd recommend swapping in some Aliexpress/eBay "for Fostex/Denon" drivers as those will actually give you quite the bass boost, but if they're actually falling apart that's not gonna do much good.
+
+From what I've read the 900X has a bit less bass than the 700 or 500. I'd personally look for a cheap 500X and driver swap that, but that's just me loving to mess with stuff.
+Maybe look at the R70X, it's on the high side of your budget but the bass on that should dig a little deeper and fit should be similar.
+--- 92821999
+Is shit like this past meme status yet or are they actually good now?
+--- 92822108
+>>92821831
+How do they compare to the 500 series size-wise? Because I tried the 560S and it felt like I was being squeezed.
+
+>>92821958
+I just assumed that the 900x was just a straight upgrade to the 700x, but if that's not the case, simply buying another pair of 700x is also an option.
+--- 92822359
+Somehow this still sounds fine..
+--- 92823245
+I have the Audio-Technica ATH-M50X and they kinda sound like shit compared to the Jabra Elite 85h I used to have.
+The sound just doesn't feel as intense and clear or like it's too far away and lacking energy. It's hard to describe. But sounds just feel less immersive. 
+Stuff doesn't feel as surround as it used to either, with the Jabra I could set up sound from many different directions on windows but with the ATH it's just stereo.
+They both cost roughly the same and both had great reviews so I don't understand why there's such an audio quality gap.
+I'd get another Jabras but their bluetooth connectivity is absolute shit and buggy as hell. If they were wired I'd easily recommend them.
+Could something like a sound card help them sound better? I really don't know much about this stuff.
+--- 92823414
+What do you guys think of Kef? I have some 104.2's that im going to restore. Think this is a good idea?
+--- 92823599
+Best bluetooth speaker around $100? I don't mind waiting a few months if there's a sale around $100 on something more expensive.
+Don't care if it's portable, in fact if it's marketed and designed as being portable then that makes me think a fair bit of the design and price is going towards that goal even though I don't care about it.
+Don't care about audiophile autism where you ask why I'm not streaming FLAC from my home media server to a wired $1000 speaker, I have nice shit in my living room but this is just for my bedroom when I'm going to sleep so I don't want or care about anything more complicated than "output phone audio to it via bluetooth".
+Hard to find good info on this specific use-case since basically everything I see online is either assuming portability is important or is hundreds of dollars.
+--- 92823657
+>>92823599
+I would buy used powered speakers and bluetooth dongle on amazon
+--- 92823778
+>>92823599
+>>92823657
+Actually Chinese class D amp with Bluetooth and some ancient passives gonna be even easier. 
+https://www.amazon.com/Bluetooth-Amplifier-Wireless-Receiver-Adapter/dp/B072Q157FY/ref=sr_1_8?crid=265PG92COSFA3&amp;keywords=bluetooth%2Bamp&amp;qid=1681627026&amp;sprefix=bluetooth%2Bamp%2Caps%2C184&amp;sr=8-8&amp;th=1
+--- 92823917
+>>92816697
+That's futura, a font that was popular on during most of the XXth century, not comic sans.
+--- 92824407
+>>92819151
+I have a TEAC T-R460 AM/FM stereo tuner.
+>>92820037
+>Do people actually listen to old school radio these days?
+There are good local FM stations and I don't want to eat up my internet bandwidth with stuff I can listen anytime without an internet connection.
+--- 92825013
+>>92819755
+I have a pair of R1700BTs and they're good. They have their place in the budget speaker range.
+--- 92825032
+What outputs on a receiver do speakers like this connect to? Like what is the name of them?
+--- 92825157
+What happens if I pull the headphone cord out of my energizer mid-use lol do I die
+Pic related
+--- 92825299
+>>92825032
+Height channel. They're reflective speakers intended to be aimed at the ceiling.
+--- 92825543
+>>92818784
+The answer is no.
+A DACs output voltage is meant for preamplifier or amplifier inputs, that is, 2 or 4 volt peak, without much ampere behind it, usually milliamps. The Aiyima 07 has a very high input impedance in the kiloohms range, as all preamp or amps have.
+A speaker has a low impedance, typically around 8-4 ohm, that means the output of your DAC is immediately driven into clipping and sounds like shit. Not to mention possible heat death of the ICs.
+To get a larger range at your amp, from now 0 to 25% to a more healthy 0 to 50%, just reduce the output from the DAC. Many DACs can change volume (some come with regular preamp functionality and remotes, like the Topping E30).
+
+>>92819151
+Yamaha T-S1000. Got mine for 250€.
+Last year i got a T-1060 for 40€, a top model from the 80ies, it's awesome.
+
+>>92819302
+We'll allow it.
+
+>>92819755
+Because they are, objectively, chink shit. They are barely above soundbars. However, fact is, they are above soundbars as well as cheap and plenty. To get fundamentally better sound you have to pay fundamentally more, it's a result per $ thing that makes them attractive.
+
+>>92820037
+>Do people actually listen to old school radio these days?
+I do, there are two FM stations that are worth listening into at specific times here, one has local news and one has something like "new modern jazz record evening" where i get many of my clues for new music. Neither of them is in my Moodes internet radio list.
+Not every radio station is financed by advertisement in the first world.
+
+>>92820439
+Sad truth. And so we suffer on.
+
+>>92821999
+It's gimmicky crap.
+
+>>92823414
+Yes, picrel, a true and eternal classic.
+
+>>92823599
+Go for used passives and the Fosi amp in OP instead, you can thank yourself later.
+
+>>92823917
+Cheers.
+Font nerd.
+
+>>92825032
+Consider using existing or cheap regular small bookshelfs instead of what your pic shows.
+--- 92825628
+After doing an extensive research, while drunk for the most part, I've narrowed my choice of speakers to two.
+>Dali Spektor 2
+>Elac Debut b5.2
+Both are 239€ brand new.
+Do any of you know anything about these models that could help me make the final decision?
+--- 92825866
+>>92825299
+What is an example of an AV Receiver with a height channel? I looked at some higher end receivers and all I see are presence channels.
+
+>>92825543
+>Consider using existing or cheap regular small bookshelfs instead of what your pic shows.
+Those are for completely different purposes.
+--- 92825887
+>>92793407 (OP)
+should this thread be called /hifi/? or /hpg/ + /sg/?
+--- 92825944
+Thoughts on these bad boys? I'm thinking of picking up a pair.
+
+Active speaker chads rise up.
+--- 92825956
+>>92825628
+Yes, the Elac B6.2 is only 20€ more a pair (in Germany), but has vastly better low end.
+I would prefer the Elac in any case, on account of their good measurements.
+Had the DBR62 for a few weeks, really impressive.
+
+>>92825866
+>What is an example of an AV Receiver with a height channel?
+Marantz NR1609, but it's a shit device. You can use two of their channels as height if your source has height channels.
+>>Consider using existing or cheap regular small bookshelfs instead of what your pic shows.
+>Those are for completely different purposes.
+What is the difference between a height channel loudspeaker and a regular bookshelf loudspeaker?
+I recommend you school yourself before making bold statements:
+https://www.svsound.com/blogs/speaker-setup-and-tuning/what-is-a-height-effects-speaker
+
+>>92825887
+You can call it what you want, i call it Jim.
+
+>>92825944
+Could be shitty, could be brilliant. Check the actives in the OP, they are known good value.
+--- 92826075
+>>92825543
+>Font nerd
+If I was one I'd know the name of the square font used on 1980s hi-fi gear and calculators.
+--- 92826108
+>>92826075
+--- 92826139
+>>92825628
+Can't you just order 3 or 4 pairs from Amazon and send them all but one back? The extra cost would probably not be much and worth it.
+--- 92826162
+Any recommendations on a decent cheap USB-C to 3.5 DAC? Went from a S9+ to a Pixel 6a and I'm really missing the 3.5 port for my m50x's. Bought the cheap ass Apple dongle, but can't get any decent volume out of it.
+--- 92826268
+Sennheiser HD 560S or Beyer 900 pro x?
+--- 92826304
+>>92826108
+https://www.youtube.com/watch?v=SaYpyF-MYQ0 [Embed]
+Whatcha listenin' to now?
+--- 92826356
+>>92826162
+Had the same problem, but Pixel 6 Pro, was recommended the MBlu dongle:
+https://de.aliexpress.com/item/4000828212055.html
+However, i took the Pro version, the difference is one has 30mW@32 ohms, the Pro has 60mW@32 ohms.
+I got it yesterday, but didn't test it yet, may in an hours or so.
+
+>>92826304
+Just lazy, lowfi dub. I like a morning that starts with a headache and juicy basslines:
+https://www.youtube.com/watch?v=xH9bgpCHyJA&amp;list=LL&amp;index=40 [Embed]
+--- 92826417
+>>92826356
+That sure is bassy.
+--- 92826445
+>>92826139
+I had to return the previous speakers I bought from Amazon twice because they kept fucking up, I'm not dealing with this idiots again.
+--- 92826535
+>>92826304
+Sounds like the soundtrack to an early Jackie Chan movie.
+--- 92827138
+>>92825866
+Look at the 9.x and 11.x models. Some 7.x models will have height as an alternative to surround backs. Some might also call the height channels 5.1.2 or similar.
+And the lines between the positions are blurred in newer formats. You measure your speakers and the receiver applies sounds to them accordingly.
+--- 92827145
+>>92826535
+And it sounds great.
+--- 92827542
+>>92827145
+Sure does.
+--- 92827996
+>>92826304
+I only listen to real music.
+https://youtu.be/UIkpPwWs7UI [Embed]
+--- 92828369
+>>92827996
+What the hell? It sounds like the kind of stuff arte would broadcast at 2AM.
+--- 92828639
+>>92828369
+People love degenerate art.
+--- 92829156
+in two hours ...
+--- 92829186
+>>92829156
+... will i be 100€ poorer and a CA-V1 richer.
+It's not silver, but at least it has VU meters :-)
+--- 92829255
+>>92829186
+Black hifi looks good too.
+--- 92829349
+>>92829255
+Only if you are poor.
+--- 92830150
+>>92815279
+this guy here. if i REALLY wanted to replace my dac/amp (not like it makes a difference, q1 is loud enough so it's a really low priority) but I wanted to keep the magni. what's the cheapest dac I can buy that I can just plug into my computer and then to the magni? everything is like $150-200+ and I'm like jesus fuck I can just buy a dac/amp 
+combo for that money. 
+
+what the fuck is the point of high end dac/amps anyways
+--- 92830405
+>>92826304
+Psytrance 
+https://youtu.be/blAe1GMvJLg?t=217 [Embed]
+--- 92830500
+I found the Chora 806 for $389 and got excited but then I realized it was for one speaker only
+
+https://eqaudio.ca/bookshelf-speakers/focal-chora-806-bookshelf-speakers-each/
+--- 92830961
+>>92826304
+https://www.youtube.com/watch?v=Rm5AzUXCFfo [Embed]
+--- 92831235
+pops got me these for my 15th birthday
+>hi-fi sounds sweet
+>but there's huge missing gap in low frequencies
+>super fucking loud but distorted
+>hardware shit out in a couple of years
+we replaced the fuse inside and the volume knob now crackles after all the use. The left speaker shorted out and I had to electrical tape the wire at an angle to fix it.
+
+The manual said to have the satellite speakers facing away from you because a stereo matrix decoder supplies surround sound. They sound bad if you have them facing toward you and facing them away makes the audio sound like it is coming from behind or in between the speakers, which gives the illusion of 3D sound.
+--- 92831297
+>>92831235
+>hi-fi sounds sweet

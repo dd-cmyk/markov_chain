@@ -1,0 +1,986 @@
+-----
+--- 92786563
+Users of all levels welcome.
+Share Windows tools, utilities, tips &amp; tricks.
+
+FAQ:
+>How do I activate Windows?
+https://github.com/massgravel/Microsoft-Activation-Scripts
+HWID mimics upgrade activation to generate a permanent legitimate license. (non-VL only)
+
+>>Which W10 version should I install?
+>Home/Pro
+Comes with bloatware apps (games, music, news, etc) and bloatware system apps
+>Edu/Workstation/Enterprise
+Comes with bloatware system apps (weather, people, onedrive, teams, etc).
+>LTSC, 5 years support VL-KMS only
+>IoT LTSC, 10 years support HWID only
+Comes with Win32 system utils, no MS Store, no apps. It's basically W10: W7 Edition
+If you need MS Store, run this in cmd: wsreset -i
+Install Xbox/Gamebar apps for feature parity with other versions.
+
+>Do I even need IoT LTSC?
+W10 Home/Pro/Edu/Ent editions end support in 2025, LTSC in 2027, IoT LTSC in 2032.
+
+>How do I activate Office?
+https://github.com/abbodi1406/KMS_VL_ALL_AIO/releases
+Emulated KMS server, not ideal as it can trip AV and deactivate. Alternatively, use MSOffice through your browser since it's free.
+Or you can try OnlyOffice/LibreOffice and set it to save as MSOffice file formats.
+
+>ISO Downloads:
+>Windows https://pastebin.com/nUMgAr0b 
+>IoT LTSC https://pastebin.com/ywkasnhM 
+>Office https://pastebin.com/G8w5qu6z 
+
+>Should I debloat or Optimize-Offline?
+If you need to ask, then no. You WILL break something.
+If you know what you're doing:
+https://pastebin.com/S5VKBirt
+
+>Windows/Office install guide
+https://rentry.org/windowsinstallguide
+
+>Portable programs &amp; reinstall-proofing
+https://pastebin.com/Zh7WSbJ2
+
+>Useful programs for a new install
+https://pastebin.com/hN8nnwns
+
+>I miss Windows##
+OpenShell/RetroBar/WinClassic
+
+WinInfo&amp;OtherPastas:
+https://rentry.org/fwt
+https://rentry.org/ltsc
+https://rentry.org/windows_for_retards
+Change to .co if links don't work
+
+Previous thread: >>92724625 →
+--- 92786750
+>>92786563 (OP)
+3.1tan is the cutest, and the Program Manager was great. Microsoft should have kept it instead of changing the interface completely.
+--- 92788053
+Looks like there's not a lot of people having windows-related questions today.
+--- 92790362
+>>92786563 (OP)
+I compulsorily activated a windows 10 pro license with that hwid thing
+After a year or so of use I realize I've no use for windows 10 and it probably (source: my ass) takes too many resources from my lenovo thinkpad x230 (i'm not a computer wizard, it was a gift)
+How do I downgrade to windows 7? I've never done this
+please don't call me a retard
+--- 92790744
+>>92790362
+You don't downgrade windows, you just reinstall the old version. You don't want to run Windows 7. I'm not going to tell you to buy a new laptop or install linux, but either of those is better than Windows 7 if you can't run Windows 10 properly.
+
+Have you considered backing all your stuff up and reinstalling Windows 10 fresh?
+--- 92790782
+>>92790744
+--- 92791107
+>>92790744
+>Have you considered backing all your stuff up and reinstalling Windows 10 fresh?
+I have, but I was hoping I could do otherwise. I trust you, so I guess I'll do that. What about this LTSC version mentioned above? Would that be better if I consider regular versions to be too full of intrusive apps? I really only need office for real life stuff (and I could use Google Docs for that I think) and miscellaneous software for private needs. Or is the Education version install from the rentry for retards a good balance for a retard like me?
+--- 92791142
+>>92791107
+>LTSC above
+It's a version that basically only comes with the old win32 stuff, IE, Edge, and Powershell.
+--- 92791371
+>internet icon suddenly shows no connection but everything its working normally
+fuck this pajeet OS
+--- 92791923
+>>92791142
+Skimmed the rentry for LTSC. I'm quite sure I wouldn't keep up, so I'll go with Edu instead. Thank you very much for the help
+--- 92793199
+How can I change the boot logo?
+--- 92793360
+I have my SSD partitioned in two, one for Windows and another for files. I started having this problem where the partition for files loses its label (F:) and it's as if the partition didn't exist. I have to open the Partition Manager and re-assign the label to fix it. What could cause this?
+The drive is mounted but I have to re-assign the label for it to become usable and appear in the Explorer
+--- 92794823
+>>92793199
+By altering some system files
+--- 92794976
+>>92793199
+https://www.youtube.com/watch?v=OsyDH5949hU [Embed]
+This guy explains it pretty well, along with a bunch of other Windows info in other videos.
+--- 92795276
+>>92793360
+Have you done shit like run chkdsk on the continually un-automatically mounting partition to see if anything is actually wrong with the filesystem?
+--- 92795331
+>>92759234 →
+>Windows 10 forced some "cumulative updates" despite the update service being blocked in simplewall.
+Holy fuck I can't believe it's not just me. I thought I screwed something up. Simplewall has worked flawlessly for me since switching to Windows 10 with a new build in August. Now suddenly the morning after a power outage my PC restarted into a Windows Update bullshit and I freaked out. Has someone posted this on their github?
+--- 92796422
+>>92795276
+Yes, it didn't find any errors
+--- 92797295
+>pretty sure old HD failed last night when trying to resize partition
+>now get pxe-m0f cable connection error 
+>run disk part on widows usb
+>it still recognizes the partitions and says they are healthy
+
+Wtf g?
+--- 92797383
+>>92791371
+>internet icon suddenly shows no connection after i disabled ncsi because "hurr it spyware durr"
+Don't ever change, /g/.
+--- 92797404
+>>92797383
+I din dun nuttin nigga
+--- 92797520
+>>92786750
+3.1tan is simply the best OS-tan
+--- 92797987
+What version of Photoshop should I pirate
+--- 92798040
+So someone gave me an HP Stream laptop with Windows 10 on it. I cannot log in b/c I don't know the password. I have a windows 10 install usb. If I were to use that USB to reinstall Windows 10 on this computer, will the original windows 10 license transfer over to the computer? I tried to factory reset the computer, but it says that it does not have enough space, b/c it has a crappy 32gb emmc drive.
+--- 92798122
+>>92798040
+>So someone gave me
+Yeah, sure. Give it back, Jamal.
+>an HP Stream laptop
+Oh fuck. GIVE IT BACK.
+--- 92798257
+>>92798122
+It was a family member that had it and didn't want it, so they gave it to me. They don't remember the password, but all I want to do is try to sell it on craigslist for $20 and get rid of it, but I want to make sure that Windows 10 is properly installed on there for the person who is getting it.
+--- 92798318
+>>92798257
+>http://www.cdslow.org.ru/files/ntpwedit/ntpwed07.zip
+Extract and place on your Windows USB. Boot, get command line, run it, load the SAM, and change password.
+But above all, get rid of that thing. Right out of your life. I don't care how.
+--- 92798762
+>>92798318
+Thank you! That was very helpful! Getting ready to get rid of it now!
+--- 92800172
+>>92786563 (OP)
+Since copying all my data files from a 1TB Western Digital Black hdd to a 2TB Samsung EVO ssd, Windows 7 is stuck in an infinite reboot loop unless the old hdd has a sata power cable connected to it. The system is running Windows 7 64 bit from another ssd.
+
+Any ideas on what is causing this and how to fix it so I can disconnect the hdd?
+--- 92800208
+>>92798762
+Never ever touch anything with Hewlett Packard again. Fuck HP. That zombie corp should die already.
+--- 92800265
+>>92800172
+You should try unmounting the hdd while booted in the OS, doing a full shutdown afterwards, and then disconnecting it physically.
+--- 92800289
+>>92800172
+Was the WD Black HDD plugged into the computer back when you installed Windows 7 on it? In that case it might've put some system components on it without telling you so now the OS won't boot without it connected. This is why guides say to only have the drive you want to install Windows to connected during setup time, then you can plug in the storage drive later.
+--- 92800419
+>>92800265
+The drive doesn't even need to have the data cable connected to it for Windows to boot properly. As soon as I disconnected the power from it, the problem occurs.
+>>92800289
+It was so long ago I don't remember for sure, but I probably did have the hdd connected when I installed the OS. Why would connecting only the power resolve the reboot loop? I even tried connecting another ssd in place of the hdd and experienced the same reboot loop.
+--- 92800548
+>>92786563 (OP)
+I wanna ask here again since last thread, the recommendation was kinda bunk. 
+Any recommendations for a photo repair program?
+Recently got into dicking around with older digital cameras and they don't always have the most reliable forms of memory. Don't care if the image is damaged, i just want to view them. Most recovery software seems to be just deleted file recovery programs too instead of something to repair corrupted jpgs too.
+
+Last thread, someone suggested Stellar Phoenix JPEG Repair, but that requires a paid-for license.
+--- 92800586
+Frens, is it true that alder lake cpu's perform better on windows 11?
+--- 92800644
+I love 3.1 tan
+--- 92801259
+>>92800548
+Could try PhotoRec. It's a FOSS one that seems pretty praised where I've seen.
+
+>>92800586
+They were basically made with 11 in mind, though it's specifically around the mid range 12th gen Intel Cores that were mad specifically for 11's backend systems, basically just check which 12th gen first had e-cores.
+--- 92801314
+>>92797987
+the 2024 version
+--- 92801339
+I need your help /g/for nearly 20 years I've been manually archiving all my writings, maps, all kinds of pictures of my badly done drawings, etc. BUT other part of my archive is my audiovisual reference archive a.k.a every picture, music or video that has given me some idea in the past.
+recently I was adding stuff and realized I have a multitude of duped shit so, what's the best program (or method) I can use to help me find all those pesky dupes? my archive is well over 4 teras of stuff so any space I can save could be fantastic.
+
+tl; dr - I need to remove duplicate files from my archive
+--- 92801343
+>>92800208
+what is it about HP?
+--- 92801448
+>>92801343
+Carly fucking Fiorina.
+Killed Compact.
+Killed the Palm handheld.
+Killed innovation.
+Also, modern day printers that can kill themselves remotely because you didn't renew the ink subscription. You read that right, ink motherfucking subscription.
+--- 92801493
+>>92801448
+>Killed Compact
+Compaq killed the old HP from the inside after killing DEC.
+--- 92801518
+>>92801493
+Should never have been acquired by HP to begin with. I still have fond memories of playing SNES games on my Compact PC with a Pentium 3.
+--- 92801705
+>>92801518
+Compaq was in difficulty when HP bought them, thanks in part for their acquisition of Digital Equipment.
+--- 92802197
+If i just choose update instead of custom install will my programs stay??????
+Im upgrading from win 10 education to win 10 lts iot???
+--- 92802229
+>>92802197
+IoT LTSC can't be upgraded to, you need to do a full wipe.
+So if you haven't backed up your files cancel the installation immediately.
+--- 92802245
+does using atlasos over mgmt toolkit give any advantages?
+--- 92802288
+>>92802245
+AtlasOS is basically a completely gutted 10 20H2 install made specifically to play games optimally, so if you miss any drivers or some such that aren't included in its ISO it includes a folder on the desktop that includes ways to re-install said drivers you might be missing that you need.
+--- 92802327
+>>92802288
+alright thank you, so its basically shit
+--- 92802348
+>>92802327
+Wouldn't say that. Just 10 but very paired down.
+Should run basically how you want it to, like you obviously want to play lots of games if you're looking at a gaming-focused custom Windows. Also carves out all the telemetry as standard for custom ISO projects.
+--- 92802475
+>>92802229
+I dont believe you everything updates just fine.
+--- 92802515
+Anyone use ShareX on Windows?
+Is there a command of setting or one of those % % that makes it sort by application rather than months.
+--- 92802540
+>>92802348
+no, I don't really want to play many games, I was just wondering if there was something that atlasos did better than mgmt since I need a clean install, but I guess not. and the fact that it's stuck with 20h2 isn't for me. I guess I'll stuck with mgmt
+--- 92802561
+>>92802540
+You should check out Tiny11 as well if you're in the mood for custom ISOs. Same kind of deal but not *as" paired down, but paired down enough that it can run on a computer with 2GB of RAM and the base install ends up being around 8GB in size.
+--- 92802574
+>>92802515
+%pn
+--- 92802604
+>>92786563 (OP)
+>File deleted
+ABSOLUTELY BASED
+
+MODS = GODS (on this issue, not every issue)
+
+I would personally welcome it if jannies and mods always deleted irrelevant OP images.
+--- 92802648
+>>92802561
+thank you very much for the suggestion, I'll try it, so that I can try 11 at the same time.
+--- 92802661
+>>92802648
+I'd recommend the no-sysreq release so you can install 11 through it on anything.
+Though you'll need to have an Archive account if you want to download it if that matters to you. Got hit with the high bandwidth hammer.
+--- 92802691
+>>92802561
+oh my god, I just downloaded the torrent and the thumbnails and got reminded of the terrible icons and ui paddings of 11 and why I'm not using it. I don't know if I'm gonna make it. I'll think about it while I backup my stuff
+
+>>92802661
+yes I downloaded that one, thank you
+--- 92803792
+What's the best third party video player for Windows? I'm getting a bit tired of Windows media player mainly because I can't open multiple video files at the same time.
+I don't want to use MPV or VLC because those have dogshit UI. Is there anything that looks as good as WMP?
+--- 92803810
+>>92803792
+Well mpv is the best one you could use, and if you want a third-party UI for it there's plenty of options. mpv-easy, mpv.net, Haruna, SMPlayer and Kawaii Player to name a few.
+--- 92803866
+>>92803810
+Mpv.net looks like the best option. I wanted something that didn't use Directshow or MF because then I can delete my codec packs, since I have a suspicion they are interfering with some games I want to play (nier replicant).
+--- 92803869
+can someone recomend me a picasa like image viewer
+if there is not a good updated program recomend me a decent one
+no nomacs thanks you
+--- 92803887
+>>92803866
+Well mpv uses its own codec packs via ffmpeg so you should be all good. You can also "install" it to your system (as it comes portable) via cut/pasting the unzipped files to an mpv folder you create in Program Files then running the mpv_install script inside one of the folders. Then you can choose it as a default video/music program.
+--- 92803969
+>>92803887
+yeah thats good but jeezus fucking christ why the fuck do these fucking faggots decide to implement their own ugly ass context menus instead of just using the win32 one...
+might have to settle on VLC. fucks sake
+--- 92803990
+>>92803969
+Don't go to an inferior video player because of such a nothing issue.
+--- 92804005
+>>92803990
+nah... fuck this ugly freetard shit
+open source programs are fucking insufferable pig ugly shit
+im sticking with WMP for now, and i'll fiddle with the codec pack settings to try and avoid stepping on the games too much
+--- 92804011
+>>92804005
+Well alright, whatever then.
+--- 92804030
+>>92804005
+I love your anger.
+--- 92804162
+>>92803969
+>>92804005
+why not using classic mphc-hc from k-lite codec like a normal person
+--- 92804184
+>>92804162
+its ugly too
+vlc is ugly mpv is ugly and everything based on mpv is ugly
+WMP is the only media player that isn't ugly
+whatever player I use it basically can't be open source, because 99% of the time that means they pay no attention to UI and they just slap their own home-rolled janky looking menus and buttons together with no regard for whether it looks halfway decent
+DISCUSTING
+--- 92804205
+>>92804184
+mpc-hc is not ugly wtf
+it support dark mode
+it have legacy context menu
+it supports madvr renderer for serious stuff if not using mpv
+it looks like a legacy app
+
+you are a fucking retard monkey
+--- 92804219
+>>92804205
+NTA, it's as ugly as sin.
+Most FOSSshit is.
+--- 92804247
+>>92804205
+VLC looks like a legacy app too but it doesnt fit in with windows 7
+it looks like it came from windows 2000 which is all well and good when it's a regular app that does "serious stuff" but not when it's got video playing in it
+do you understand what I'm saying?
+I want the media controls to be overlaid on top of the videos and fade away when not used
+not always there in a chunky block at the bottom
+and I want legacy context menu, not like mpv
+the fact is, designing UI for a media player isn't easy. only WMP and the various Mac-based media players get it right (and I'm not going to fuck around with hackintosh bullshit anymore, everything else about mac is crap)
+--- 92804265
+>>92804219
+Are you that familiar with sin?
+--- 92804277
+>>92804247
+No one care what you want unless you pay them.
+--- 92804289
+>>92804265
+Let me run the list.
+>check
+>check
+>check
+>check
+>check
+>tried, failed
+>check
+>check
+>check
+>check
+Yeah, pretty familiar.
+--- 92804296
+>>92804277
+i want freetards to stop releasing shitty software into the world and polluting my search results
+no, I do not want vlc (neither the old version with its badly designed clunky ui, or the new version with the ugly metro ui)
+no, i do not want mpv or a mpv clone
+what's left? anything proprietary and actually GOOD that I can pirate?
+--- 92804301
+>>92804289
+Good, then go bother Satan.
+--- 92804321
+Do you guys still use a personal firewall like simplewall?
+--- 92804328
+>>92804296
+How about you pay them to not "pollute your search results"? Otherwise: c'est la vie and da musst du halt durch.
+--- 92804336
+>>92804328
+>GIBS ME MONIE!
+give me the perfect media player according to my requirements and i might consider donating $10
+--- 92804353
+>>92804321
+Some anons seem to. Guess it's just different anon to anon.
+--- 92804355
+>>92804336
+That's not the deal you proposed, though. They are free to write whatever media player they want to write, and they don't have to give two shits about your "search result pollution".
+--- 92804374
+>>92804355
+I am free to throw garbage through your window, too. You can't do anything about it.
+--- 92804432
+>>92804374
+Good luck doing so without entering my property (criminal trespass) or breaking my window/soiling my carpet (property damage), which are actual crimes and are prosecuted even by complete shitshow states like California or Oregon.
+--- 92804475
+>>92804432
+So you're saying he can do it, he'll just have to pay a fine?
+Bit of an own goal there. You didn't even threaten to shoot him or something.
+--- 92804543
+>>92804475
+>he'll just have to pay a fine?
+Trespassing in California is a misdemeanor according to Penal Code 602, and someone convicted of it faces up to 6 months in a county jail *and* a fine of up to $1,000. I'm sure the county jail hurts more, though.
+--- 92804566
+>>92804543
+So you just admitted you're a commiefornia fuck. Good job - now you're even more of a joke.
+--- 92804612
+>>92804566
+>So you just admitted
+No, I just used California as an example of a failed state that will still prosecute trespassing.
+--- 92804635
+>>92804612
+Sure, commiefornian.
+At least know I know why you didn't threaten to shoot the other anon - you can't have a gun, or likely even a penis.
+--- 92804674
+I have a thinkpad, and planning to reformat it to LTSC. How do I install lenovo vantage without using windows store?
+--- 92804701
+>>92804432
+releasing malware on the internet is also a crime but these freetard fucks aren't prosecuted
+--- 92804736
+>>92804674
+rentry,org/lenbian
+A simple guide.
+--- 92804746
+>>92804674
+You download it from store.rg-adguard.net, and install it with DISM command[lets].
+--- 92804751
+>>92800172
+Can anyone else weigh in on this?
+--- 92804776
+>>92800172
+so you have no data cable connected?
+i'm gonna guess hardware issue. try booting a lincuck's live CD with and without that power cable and see what happens.
+--- 92804778
+>>92804635
+>you can't have a gun
+You don't make sense. Any US citizen who is of age and not convicted of a felony (meaning he's been in jail/prison for over a year) can have guns. New York tried to have people apply for permits for over a century, but that law was nuked by the Supreme Court last January.
+
+What's more, California uses the "Stand your ground" doctrine, meaning that you can legally shoot anyone if you believe they threaten you, which is totally the case if they break into your home. Which isn't necessarily the case if they throw garbage into my home, which is why I minimally assumed criminal trespass and not burglary.
+--- 92804787
+>>92804776
+or you can try a win7 install disk too (with &amp; without the cable), which would probably be a better diagnostic tool.
+--- 92804800
+>>92804701
+Guess what the "mal" in "malware" stands for. Just because you don't like the look doesn't mean it's released with malicious intent.
+--- 92804817
+>>92804800
+it's burning my eyes with ugliness, which the authors of the software are no doubt aware of.
+--- 92804861
+>>92804800
+Freetards have been calling everything they don't like "malware" for decades.
+Is this another one of your credibility-destroying "its ok when we do it" moments?
+--- 92804867
+>>92804817
+>it's burning my eyes with ugliness
+Sounds more like you have a problem with your display, which is on the hardware manufacturer, not the software writer.
+--- 92804899
+>>92800419
+connect another hdd to it too. maybe it's some sort of power spike bullshit going on, in which case, try replacing PSU.
+there's no way it can be a software issue if no data cable connected.
+--- 92804925
+>>92804861
+I don't care about your anecdotes.
+--- 92804939
+>>92804925
+>yes
+Glad we cleared that up.
+--- 92804974
+>>92804939
+>strawman
+Very glad indeed.
+--- 92805519
+>>92804787
+I've tried the repair option from the Windows 7 disc used to originally install the OS and get an error message:
+>This version of System Recovery Options is not compatible with the version of Windows your are trying to repair.
+
+I've tried creating and using a windows recovery disc and it repaired something in windows boot manager (I have a picture of the repair details on my phone if this info is helpful) but this didn't solve the issue. This was before I realized that if I had the old hdd connected, it boots to windows fine. I thought that maybe something copied to new data drive incorrectly. Maybe I ticked the "copy MBR" in ghost 15 for the data drive and this was somehow causing the problem. I copied the entire drive again and after making the old hdd inactive and setting the drive letter on the new ssd it booted. All my files were on the new drive and the system booted without incident. It was only after disconncting the hdd did I notice the problem persisted.
+
+I've tried every combination of different sata ports on the mb, different sata cables, different 12v sata power cables, different 12v ports on the psu. Nothing made a difference.
+--- 92805690
+>>92805519
+Yeah but you realize that if ONLY the power line is connected, and removing the power line causes a problem, it cannot possibly be a software issue, right? The SATA power goes directly into the PSU. There is no way for sofwtare to know, even if it wanted to, what is connected to the various power lines on the PSU. A software problem can be entirely ruled out. Try testing with the "magic HDD" physically outside of the computer case, too - just a hunch on my part. And make sure when you plug in the power cable for the magic HDD it doesn't touch or interfere with any other cables, since SATA cables can be extremely physically unreliable especially if they're worn out or bad quality.
+>I've tried every combination of different sata ports on the mb, different sata cables, different 12v sata power cables, different 12v ports on the psu. Nothing made a difference.
+Nothing made a difference as in, the "magic drive" had to be connected to power for things to work? As long as it's connected to *any* power cable everything works?
+--- 92805842
+Opinions on custom windows builds? I am very close to installing Ghost spectre win 11 on new system.
+--- 92805913
+>>92805842
+A majority of anons in here don't like them because they can't be audited for malicious shit, but honestly if there was anything malicious in these custom Windows ISOs they'd be very much known by now. Ghost Specter or Tiny11 are pretty alright from what I've tried. Tiny11 is a lot more stock compared.
+--- 92805929
+>As long as it's connected to *any* power cable everything works?
+correct
+
+All drives have been out of the case since I began this process. 
+I tried connecting an old functional ssd in place of the "magic drive" but I got the reboot loop again. Maybe it just likes hard drives (draw more power?). I'm at a loss.
+--- 92805949
+>>92805929
+meant for >>92805690
+--- 92805969
+>>92805913
+>Tiny11 is a lot more stock compared
+would you recommend it? I dont want any extra but bloat removal. Is it HWID activatable? what about updates?
+--- 92805979
+>>92805929
+That's weird as fuck, yeah. Got any spare PSUs lying around?
+--- 92806012
+>>92805969
+Yeah I'd recommend it. It's basically a normal 11 22H2 install that comes with only the bare necessities. You can run it on 2GB of RAM comfortably and the install size is like 8GB.
+>Is it HWID activatable?
+Yes, it's just 11 22H2
+>What about updates?
+Windows Update will still download updates for you.
+--- 92806147
+>>92806012
+are there any issues with ms online accounts? Iso on internet archive is legit?
+--- 92806194
+where do I get a DISK IMAGE (not iso, different filesystem type) of a portable windows 7 system, to be dd'd to a USB stick?
+
+t. linuxfag
+--- 92806197
+>>92806147
+The one uploaded by NTDEV himself on Archive is the one you download. Also get the no-sysreq ISO.
+It defaults to a local account as the main account but I guess you could log in to an MS account instead through the account settings if you *really* need to for whatever reason.
+--- 92806233
+>>92806197
+this? 
+https://archive.org/details/tiny-11-b-2no-sysreq.iso
+--- 92806325
+>>92806194
+>implying Windows can be live-booted
+--- 92806702
+>>92806325
+deffo can bro, plenty of isos out there (cf. disk images)
+I ran windows too, circa 2011
+--- 92806798
+>>92806702
+Why don't you link one, then?
+--- 92806817
+>>92806325
+Of course it can. Eats its face if the medium is read-only (hence why we have WinPE for ISOs, PXE, etc.), but runs fine from R/W media.
+Performance tends to be terrible however - I accidentally(!) booted Windows from a connected USB once, and it took something like six minutes to get to the logon screen.
+--- 92807227
+>>92805979
+I'll have to check. The only other towers I have around are pretty old and might all be PATA only. I'm not sure if I have the proper adapters.
+I guess I'll just have to live with having that hdd plugged in dumping excess heat into the case for now.
+--- 92807320
+>>92806325
+Windows 8/8,1/10 were able to be officially installed and booted from flash drives or other USB media via Windows to Go, which was actually discontinued as early as 10 20H1. You can obviously still use things like VHD(X) files to boot from USBs but it better be a fast USB then.
+--- 92807385
+I have two dumb questions. First, I got a second hand pc and it has W10 Pro activated with a digital license. I don't trust the installation and the ssd is old so I'm getting a new ssd and making a clean install. Will the system detect is still the same pc as before and activate automatically, or do I need to add my MS account? Second question, is there an easy way to downgrade to W10 from 11? I already upgraded to 11 but I'm not sure if I like it, can I just make the clean install I mentioned before with a w10 image and i'll keep the license?
+--- 92807405
+>>92807320
+>installed and booted from
+Shouldn't that be "installed to and booted from"?
+--- 92807429
+>>92807385
+>Wipe install
+>Install fresh Windows 10 Education
+>Create local account
+>Activate with MAS HWID
+Easy peasy.
+--- 92808124
+Not expecting any answers but since last week after a normal restart the cpu idling temperature is around 56-62C when it used to be like 40C. New laptop, debloated, dual booted with linux which still runs at the 40C when idle so I know this must be a windows thing. Any ideas on what's happening?
+--- 92808244
+Overwhelmed brainlet here.
+
+Been going around with a non-activated Windows 10 Pro for a while. I want a clean fresh start, no bloatware, as light as windows can be (inb4 lol), no malware, and as secure as possible (inb4 lmao).
+
+Any guides for this? The more dumbed down the better. I'm sick of my computer's declining performance and am worried about general safety, I'm worried I may have a btc miner on here at this point. Thanks in advance bros
+--- 92808394
+>>92808244
+10 Enterprise IoT LTSC is the most official way to basically get a completely stock 10 experience with no first or third party apps installed besides Edge and admin tools. It's as easy as just getting the ISO, flashing it to a USB using something like Rufus then booting into said USB, wiping the Pro install with diskpart's clean command via the shift+f10 command prompt then just installing it and getting to your new desktop.
+--- 92808552
+never mind, guys. just realised I can make a windows installation USB, boot into that, and tell it to install to a second USB, which will then be live, albeit slow as shit. I'll pull the SSD to avoid cock-ups.
+
+>>92806798
+https://archive.org/details/1_windows-7-x86-_1438
+weird for a nixfag to be dunking on winfags in the winfag thread
+--- 92808783
+>>92808124
+Power settings?
+--- 92810053
+I changed my PSU (dunno if that matters) but now my PC doesn't wake up from sleep anymore. It just crashes, then restarts if I try to wake it up.
+
+And it drives me fucking MAD. Any tips?
+--- 92810107
+Bros how do I make an installation disk for IoT LTSC? I've never had to do it before so I'm not sure of the steps. My thumbdrive is only 4GB which Microsoft insists is fine. However also according to them you need at least 5GB and according to others you need at least 16GB so making an installation DVD or whatever seems like the easiest option.
+--- 92810202
+Hi, /fwt/. I'm primarily a GNU/Linux user, but I like overclocking and plan to make a Windows install just to tweak my new AM5 system. Last time I did this was when Zen 2 launched, and you could get Windows 7 to work on AM4, so I just used my old install and it mostly just worked.
+
+Getting AM5/X670 to work with it seems like a much bigger pain in the ass, so I might as well make a temporary Windows install just to play with tweaking PBO2, RAM timings and overclock stability testing. Maaaybe play some games every now and then.
+
+What Windows version do you guys recommend?
+My requirements are:
+- decent performance with Zen 4 CPUs
+- ability to minimize botnet data collection as much as I can
+- plays nice with my RX 6800
+
+Some flexibility to rice it is also welcome. I remember ClassicShell was used to get rid of the new Windows 10/11 menu, is that still a thing? I would love to get Aero working or something.
+--- 92810207
+I assumed that Chocolatey was more popular than Scoop, but Scoop actually has way more stars on GitHub, nearly double
+
+Interesting
+--- 92810406
+Why is there no windows 11 os-tan?
+--- 92810654
+what's the easiest way to upgrade to win 11 from 10 without losing all of my data?
+--- 92810854
+>>92810654
+move your data to a different drive.
+--- 92810900
+I know this sounds retarded, but how do I activate IoT LTSC W10? Can I just use Dazloader or Microsoft toolkit or do I need to use something else with it being the kind of OS it is?
+--- 92810992
+>>92810654
+>>92810854
+don't listen to this dumbass brown pajeet. Just run the setup.exe on a bootable usb and should upgrade fine like that
+--- 92811144
+is android subsystem on win 11 actually useful?
+--- 92811400
+What OS can i use for T300chi?
+--- 92812520
+How do I download Windows 10 ISO from microsoft? The tool doesn't work on my machine
+--- 92812919
+is there any better way to get photos off an iphone onto a windows pc than using the default windows photo app? i can only transfer like 50 photos at a time, if i try to do more it freezes and doesn't work
+--- 92813219
+>>92810207
+winget obsoletes chocolatey
+scoop still has a niche
+portable/cli programs etc
+--- 92813222
+>>92810202
+>ability to minimize botent
+You want Windows 10 IoT LTSC from the OP post. Comes with nothing but IE, Edge, and Powershell. Windows store and it's apps don't even exist, like if you click "open in paint3D" in paint, nothing happens. If you're a linux user you'll like it, it's actually more stripped down than even most official versions of 7 were.
+
+>>92808552
+Windows Setup doesn't let you do that anymore, at least not in the GUI, you have to do what this guy says: >>92807320 and you have to do it from CMD by invoking shift+F10.
+https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/boot-to-vhd--native-boot--add-a-virtual-hard-disk-to-the-boot-menu?view=windows-11
+
+>>92810107
+It probably is fine for their installation media maker thing they package on 10/11, but you're trying to boot the IoT .iso that you're not even supposed to have, which is 4.9GB, so that's not gonna work. Burn it to a DVD or install Ventoy on an 8GB or larger drive. Make sure you match the MBR/GPT setup you have on your PC (including if secure boot is on or off) when you setup Ventoy. Once Ventoy is installed, you just copy any .iso to it and you can boot from it, it's like an oldschool chainloader.
+--- 92813245
+>>92812520
+change your user agent to safari using your browsers dev tools
+--- 92813270
+>>92811400
+8.1 Embedded
+--- 92813747
+>>92813222
+>Comes with nothing but IE, Edge, and Powershell
+can I still easily install some of those other apps afterwards?
+--- 92814127
+If I could have Windows but with the Gnome shell, that would be great. Their equivalent of task view is very nice. Does anyone have any advice for giving Windows that unix style?
+--- 92814149
+>>92813747
+Yeah, you can. There's a terminal command to reinstall the microsoft store, but I can't remember off hand.
+--- 92814326
+>>92813222
+>but you're trying to boot the IoT .iso that you're not even supposed to have
+Fuck I didn't think about that. Good point.
+This Ventoy thing seems the best option (my old skool blank DVDs are also too small it seems because they're only 4.7GB), but I'm too retarded to understand exactly what I'm to do with it.
+I'm thinking at this point I'm better off just buying a larger thumbdrive because at least it would come in handy in the future.
+--- 92814449
+>>92814326
+Ventoy is really easy. Just get the program and plugin your USB drive you want to use for Ventoy. Select MBR or GPT depending on what the rest of your setup is, if you're running something recent and didn't set it up yourself it's probably GPT, and turn Secure Boot on or off, select the right drive and hit install. The Ventoy drive should appear in your devices list, as a single device if you went MBR or two if you went GPT. Copy the .iso to the device named VENTOY and you're good to go. If you went with GPT, it's the device that doesn't have subfolders, the other one will have folders with names like EFI already in it.
+
+Ventoy will boot you to a grub-like interface where you can just run the .iso. You can also use it to boot Windows if your bootloader gets messed up.
+
+>>92814149
+Command to do so is in the OP post.
+--- 92814494
+I've been switching hardware parts and formatting my computer to treat fucking random BSOD's with different errors since November. 
+First it was WHEA-unCORRECTABLE_ERROR for three months while I tested SSDs and other hardware and slots. Finally got to editing my registry and seeing the error code on the top of the BSOD screen. From the "0X00...010" error code people on the Microsoft forums coined it as a nvme slot issue. So decide to do out with my entire motherboard because of it after 3 months of it crashing every time I stressed my PC.
+
+Now, after two weeks of very stable use, I have gotten 3 different BSOD's in the interval of 12 hours that are while the computer was under little to no stress, so I can't even reproduce them.
+
+Specs:R5 3600X / Gainward Phoenix RTX 3070 / Cougar VTE 600W PSU / 12GB RAM 3200Mhz from XPG / B450M Steel Legend Mobo / 1TB 7200RPM Sata + 512Gb M.2 SSD
+
+BSOD's have been:
+>page fault in non paged area
+>kmode exception not handled
+I cleaned my RAM sticks and slots afterwards and have now gotten a new one
+>memory management
+
+What the fuck is going on. I just want to be done with this.
+--- 92814554
+>>92814494
+>page fault in non-paged area
+>kmode exception not handled
+Sounds like driver issues
+>memory management
+You may have fucked up your RAM.
+--- 92814590
+>>92813270
+Already using it, can i use tiny11 or is that a great way to join the botnet.
+--- 92814826
+>>92814554
+It may also be a hundred other different shit, says all sources, as it could be some kernel connected to multiple processes instead of a single hardware problem.
+
+Error code was
+0x0000001a (0x0000000000041790, 0xffffaa8001db2b40, 0x0000000000000004, 0x0000000000000005).
+
+Any ideas? Apparently parameter 1 of 0x41790 means "A page table page has been corrupted. On a 64-bit version of Windows, parameter 2 contains the address of the PFN for the corrupted page table page. On a 32-bit version of Windows, parameter 2 contains a pointer to the number of used PTEs, and parameter 3 contains the number of used PTEs."
+
+But I don't know what any of that means
+--- 92814859
+>>92814449
+Thanks for explaining that I'll give it a shot and see what happens.
+--- 92814863
+>>92814590
+Do not use tiny11. We can't verify it's safe, so we assume it isn't.
+--- 92815117
+>>92814826
+>A page table page has been corrupted
+Not necessarily. Windows allows memory to be swappable to the page file for historic reasons, even if it's kernel memory. Problem is, there are pages that shouldn't be swapped out - ever - because they're being used in interrupt handlers (when hardware events trigger, like a user moved the mouse or a network package was sent). Interrupt handlers have to return as quickly as possible, which isn't the case when some crucial data has been swapped out to disk and now has to be reloaded (CPU registers have the fastest access times, after that come caches, after that come NUMA caches, if applicable, after that comes RAM, after that come mass storage devices, and after that comes network) - and when the kernel detects that such a thing is happening it kills itself with exactly that error code.
+
+I usually just disable the pagefile, but I can afford it (64 GB RAM).
+--- 92815782
+>>92815117
+Its what Windows says on their website, not me
+--- 92815901
+>>92813245
+Wow you're a genius thnak u
+--- 92816173
+>>92813219
+I see. I don't use Windows currently but if I do then maybe I will use Scoop. I would want it for command line stuff, like PHP, Node, FFmpeg, stuff like that. Whereas big GUI apps, like Chrome, I can just download in a browser.
+--- 92816282
+>>92810207
+scoop is "pajeetware"
+chocolatey is actually used in the real world
+--- 92816729
+>>92813222
+>You want Windows 10 IoT LTSC from the OP post.
+I've heard about it not having the Zen scheduler or something like that. Is it bullshit?
+--- 92816827
+>tried to install net framework 47 on windows 7
+>certificate failure
+>install certificate
+>timestamp failure
+>find out that they expired and changed their system from sha-1 to sha-2
+
+They really make it difficult to do updates dont they.
+--- 92816873
+>>92816827
+On a past extended EoL OS of their's? They sure do.
+--- 92818488
+>>92810900
+Mas, read the paste
+--- 92818790
+>>92816282
+Why do you say this? /g/ has always recommended Scoop to me, even when I thought Chocolatey looked better
+--- 92818996
+is it necessary to install the directx runtime on a new installation of windows 10?
+--- 92819049
+>>92818996
+It helps when it comes to running older games easier, though most games if you install them through Steam install the DirectX components if they need them.
+On fresh 10/11, I always install aboddi's VCRedist pack, the DirectX net installer, .NET 6.x Desktop Runtime and the XNA Framework 4.0, plus enable DirectPlay.
+--- 92819412
+>>92819049
+lol this thing wanted to install the bing toolbar
+XNA framework i know terraria needs it, i never installed it before
+--- 92819452
+>>92819412
+Oh yeah, always uncheck that. Cheeky fucking thing.
+--- 92820479
+>>92795331
+fwiw, I perfomed some experiments with Win7, 8.1, and 10, using Simplewall. On Win7, I can block 'system' service, and everything works fine. However, with 8.1, &amp; 10, if I block 'system' , I can no longer connect to the internet. I remember reading a long time ago that M$ had made deep kernel-level changes that would allow M$ to do shit users would not normally want an OS to do online. M$ likely just enabled some shit, and digitally raped you. 
+
+Reminder, Simplewall is not a 'firewall' in and of itself. 
+See picrel from Simplwall's page. 
+
+>t. didn't (((upgrade))) to 8.1 or 10
+--- 92820501
+What causes Dimm brightness after startup?
+--- 92821581
+>>92821082
+
+The fuck did I just watch
+--- 92822896
+>>92818790
+Probably just a contrarian. Scoop is great, especially if you need to install programs portably and without needing admin privilege.
+--- 92823135
+>>92791923
+Why do you say that? I am a fellow retard and I am running on unlicensed Windows 10 right now. Not sure what I should do.
+--- 92823312
+>>92790362
+The X230 will run Windrows 10 just fine. There ius no reason for 7.
+--- 92823367
+a folder named msdownld.tmp appeared on my D: partition wtf
+--- 92823386
+>>92823367
+oh i think it was created by the directx web installer
+i think it uses internet explorer for some reason
+--- 92823401
+>>92823367
+>>92823386
+As it's a temp file you can safely just delete it.
+--- 92823458
+>Updates ars underway please keep your device on
+It's been like this for an hour now....
+--- 92823528
+https://www.techspot.com/news/98255-five-year-old-windows-defender-bug-killing-firefox.html
+i told you motherfuckers
+defender used to go crazy everytime i used firefox
+--- 92823532
+>>92823367
+>a folder appeared wtf
+D:
+--- 92823641
+Is it okay for a retard normie to use LTSC? I hate bloat.
+--- 92823709
+>>92823641
+Totally. It's just a completely debloated variant of Enterprise used in like touchscreen kiosks and shit. It only comes with Edge and admin tools.
+--- 92824313
+>>92823528
+I've used Firefox for years and I've never noticed it feeling bad like the article says because of Defender.
+--- 92824498
+>>92820479
+What exactly do you mean by "blocking system"? Show screenshot.
+--- 92825063
+I installed W11 Home and now I can't turn off my password not expiring. Time to reinstall. Ass
+--- 92825101
+>>92825063
+But the password not expiring is default?
+--- 92825148
+>>92825101
+I got a notification that suggested I should change my password. Not sure if it's because of expiry now though. Still, I don't like that I don't have much control in that department. I think I'll install the professional version instead.
+--- 92825152
+>>92825063
+>home/pro systems in 2023
+why?
+--- 92825175
+>>92825148
+Yes, you should not even be thinking of installing the fucking Home version of 10. Get Education at least.
+--- 92825225
+>>92825152
+Different prices I guess? Or are you saying both are bad?
+
+>>92825175
+[spoiler]It was W11 home[spoiler]
+Admittedly I haven't really explored the differences but I thought I didn't need the stuff in pro. I guess I do.
+--- 92825235
+>>92825225
+both are really bad
+are you new here?
+do you even read windows related stuff
+>[spoiler]It was W11 home[spoiler]
+lol lmao
+--- 92825238
+>>92825225
+>failed spoiler
+Goddammit. Pls no bully.
+--- 92825241
+>>92825235
+I know Windows in general is ass. I still need it for the stuff I want to do.
+--- 92825243
+>>92825238
+/g/ doesn't have a spoiler feature to begin with.
+--- 92825249
+>>92825225
+also
+windows is fucking free
+windows doesnt cost money
+read the pasta for god sake
+MAS exist on github
+windows doesnt care if normal people pirate their software
+https://github.com/massgravel/Microsoft-Activation-Scripts/releases
+>>92825241
+>I know Windows in general is ass
+lol lmao
+you are stupid as hell
+--- 92825272
+>>92824313
+when i used firefox defender would start using a lot of cpu
+now its fixed
+--- 92825330
+>>92825243
+Yeah I figured immediately after posting. Happens with crossposting.
+
+>>92825249
+I never paid for Windows and have always used KM. What now? What's your route to continue shitting on me?
+--- 92825514
+>>92825249
+>windows doesnt care if normal people pirate their software
+>Windows is the company now
+--- 92825520
+>>92825514
+go back sir
+--- 92825743
+>>92825520
+>go back sir
+--- 92825826
+are there any good alternatives to Internet Download Manager?
+i want to use it for the multi-connection downloads to download stuff from sites like archive.org
+--- 92826164
+>use windows 10
+>have HDD
+>windows keeps spinning up the drive to check if it exists (fucking why) or to pre-load some shit (again fucking why)
+>disable all the options that are supposed to do that
+>set the drive to never be spun down in power options
+>it still spins up the drive even though I'm not using it
+>drive bites the dust in a month of usage when I previously used it for over 2 years as a system drive
+Nice fucking operating system.
+--- 92826256
+>>92821581
+https://saucenao.com/search.php?url=https://i.4cdn.org/g/1681613682294361s.jpg
+--- 92826738
+>>92825826
+I've always just used JDownloader2. Xtreme Download Manager and Motrix are also good.
+--- 92827187
+>>92826738
+how many max chunks per download do you use?
+--- 92827217
+>>92827187
+The max amount, so 20.
+Some sites get a bit pissy about this so I just decrease the size until the download actually starts. Archive doesn't mind 20 IIRC.
+--- 92827462
+What's the best retard-proof compromise between autism and privacy? I want my system to run games well because I'm a /v/ tourist. I'm going to install win10 on a new fresh PC. So far I've been bluepilled and only using official win10 so any improvement is good.
+Also why microsoft says ltsc/IoT is not meant for regular use? Does it run all the games and programs okay?
+--- 92827643
+>>92827462
+>Install Windows 10 22H2/11 22H2v1 Education with the internet turned off
+>Before you connect to the internet, run ShutUp10++ from a USB made earlier and run its recommended toggles, then restart the computer
+>Connect to the internet and let Windows Update install the shit it needs to and restart when it says to
+>Open an admin Powershell window after and run the command to open up MAS (check the OP), then run its HWID activation
+>Now either use the MS Store or winget to install a web browser of your choosing and get everything else you need from there
+>Optionally, download DDU and NVCleanstall to remove your WU-given NVIDIA drivers and install debloated and debotnetted ones instead.
+--- 92827789
+>>92827643
+>Education
+where do I get the key?
+>MAS, HWID
+???
+--- 92827799
+>>92827789
+That's exactly it. You use MAS in the OP to HWID activate your Windows, which permanently activates it.
+--- 92827842
+>>92827789
+>where do I get the key?
+there is no key. you just add an ei.cfg file to your standard win installation media. fwt rentry in the op explains the process.
+>MAS, HWID
+MAS is the activation tool. HWID (hardware id) is the activation method.
+--- 92827854
+>>92827799
+Okay find me someone who can actually work with retards because you clearly can't.
+--- 92827866
+>>92827842
+Thank you.
+--- 92827992
+>>92827854
+Just read the paste.
+--- 92828057
+>>92816827
+install simplix pack before doing anything on win7
+--- 92828346
+>>92827643
+You can also use win10 debloater + there is some tool that allows you to remove certain components from windows installation image like edge and other shit.
+>Now either use the MS Store or winget to install a web browser of your choosing and get everything else you need from there
+Or just put the browser installation media on a pendrive.
+I'd rather use IOT LTSC anyway so I wouldn't have to deal with win store and other shit.
+--- 92828365
+>>92828346
+>put exes into an usb
+nah i rather use winget
+--- 92828378
+>>92828346
+Having an installer or something like a Ninite installer on a USB beforehand is also good. And yes if you want to debloat the first party apps from an Education install you could use something like Bloatbox on 10 or Bloatynosey on 11.
+--- 92828469
+i have a mini pc with i7 7700t so technically compatible with w11 but i have w10 ltsc, should i update to 11? i don't really like it on my ocmpany laptop but i want to try it on my stuff
+--- 92828488
+>>92828469
+I thought 8th gen was the cutoff, but no just stick with 10 LTSC if you're already comfortable with it. You won't miss anything not changing to 11 on this mini PC.
+--- 92828624
+>>92828469
+you are not missing anything
+--- 92828914
+Anyone got a similar to Windows activation, adobe activator GitHub page?
+--- 92829366
+>>92828914
+One use to exist in CCMaker but it stopped working a good couple years ago. Best you can get is the releases of Adobe products by m0nkrus, whom the CCMaker dev works with.
+--- 92829423
+>>92828914
+one of my friends used the CC thing of reddit and it worked for him
+i do use monkrus releases instead
+--- 92829563
+>>92801339
+i've had luck with czkawka, especially with images
+https://github.com/qarmin/czkawka
+--- 92831309
+>>92824498
+On the [Apps] tab, blocking picrel on 7 causes no issues. In fact I have M$ crap blocked. Under 8-10, blocking this same process, breaks connectivity. Networking via WIFI refuses to conect to my access point. Have not tried this with a wired connection, but I suspect the result would be the same.
+--- 92831494
+>>92831309
+>svchost.exe
+>System
+Oh. That could explain why I don't have any issues with my rig (connected via ethernet), but a friend of mine whom I've set up his machine sometimes has to manually connect to his local Wifi. Oh well.

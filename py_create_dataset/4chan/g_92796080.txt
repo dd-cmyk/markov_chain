@@ -1,0 +1,1166 @@
+-----
+--- 92796080
+>Windows questions >>>/g/fwt
+>GNU/Linux questions >>>/g/fglt
+>PC building? >>>/g/pcbg
+>Programming questions >>>/g/dpt
+
+Previous Thread: >>92749119 →
+--- 92796160
+what's the best Nintendo Switch emulator for PC? I have a RTX 3060
+--- 92796228
+>>92795688 →
+so i must delete some of my porn in order Microsoft Drive Optimizer works? so that 10% of fragmentation is the reason why my hard disk use goes to 100% each time i start my computer? 
+
+Also: 
+on my dekopt i have like 5,0000 pics, video, music etc. Does that has any relation with this peak of disk use each time i start my computer(note all the elements on my deskopt are hiden because ruins my wallpaper)
+--- 92796239
+any good youtube channels on postgresql?
+--- 92796496
+Is there sum kind of script to strip down linux distro installs? Something that tries to remove and purge all common bloatware like libreoffice etc etc etc 
+
+I'm spending so much time uninstalling shit after every time I install any kind of linux iso.
+--- 92796618
+How I can fix these 'dead pixels'? How the fuck they changed of place if they are dead? This shit began at the left upper side corner and now is a fucking circle.
+--- 92796636
+>>92796080 (OP)
+Who is this beautiful girl? Do you have her name?
+--- 92796696
+>>92796228
+Try deleting some of the porn you like least and losslessly optimizing the images first. You can optimize PNGs with optipng, and JPEGs with the version of jpegtran built from mozjpeg repo.
+--- 92796772
+It is normal this rise of temperature?
+My hard disk is a SAMSUNG Model ST1000LM024.
+--- 92796837
+>>92796772
+Below roughly 60 it should be fine.
+--- 92796902
+>>92796772
+Spinning rust should stay under 45C for best performance; SSDs can get quite a bit harder before there are performance issues.
+--- 92796971
+>>92796636
+Sayuri Mattar, a Brazilian transvestite
+You gay my Negro
+--- 92797027
+>>92796696
+>optimizing the images first
+?
+
+im talking about use Microsoft Drive Optimizer to optimize that fucking 10% fragmented. See >>92794512 →
+--- 92797109
+>>92796902
+>>92796837
+I made this test >>92796772 without the bottom carcase of my latop. I did put again said carcase and the temperature is 44C now.
+So everything is normal? My room is 32C.
+--- 92797165
+>>92797109
+If it's an SSD you're totally fine, those don't start having performance loss until 60-80c depending on the model. If it's a hard drive, you're pretty close to the edge of comfort but that's just how it goes with a laptop.
+--- 92797193
+>>92797165
+it's a HDD
+--- 92797212
+>>92796971
+u r not gay if u r a man
+now i u r a woman than u r a lesbian for liking thos girl
+--- 92797239
+>>92796080 (OP)
+i wish i was sayuri
+--- 92797361
+>>92796618
+Had that on my old phone. It's acctually fluid infront of it. Either LCD fluid or just water inhibiting it functioning properly
+--- 92797476
+>>92796160
+Some games work better with Ryujinx, some better with Yuzu. The saves and mods are compatiable with each other.
+--- 92797543
+>>92797361
+And I fix it doing _____________?
+--- 92798143
+I have no idea what the fuck i did but my deskopt wallpaper just turn black but when I go to windows start button i can see my anime deskopt.
+--- 92798622
+>>92796080 (OP)
+
+what is the most efficient laptop and linux version for doing spooky glow in the dark activities
+--- 92799062
+Is there a feature or rating on micro sd cards that will indicate how much read/write longevity it has?
+--- 92799075
+Should i turn off hibernation?
+it's already consuming 31GB from my SSD
+--- 92799121
+trannoid slide thread
+--- 92799134
+>>92798622
+are you trying to be a glownigger? your kind isn't welcome here
+--- 92799190
+>>92796228
+>hard disk use goes to 100% each time i start my computer?
+sometimes windows update cause this too
+--- 92799194
+There's this site linuxfromscratch.org that shows you how to build a build environment to build an actual GNU/Linux system. Why isn't there a similar guide for Android?
+Yeah sure there are build instructions for Android all right but it's just a black box that does something mysterious and then it supposedly spits out a disk image to be used on a device or an installer ISO. Why can't I get Android as a chrootable directory or something?
+tldr; why is Android so weird?
+--- 92799277
+>>92798622
+glowies shoudn't use 4chan
+--- 92799357
+>>92799075
+probably. also disable fast startup assuming you have windows. it can cause high cpu usage ram useage and a high process count
+--- 92799422
+my monitor's osc is clear and white is white
+but the picture from the cable is kinda crappy (white is yellowish)
+pls tell me it's the cable
+--- 92799792
+>>92799357
+Thanks!. I just did it. I didn't realised before that these options were turned on by default since i skipped from 7 to 10. I've been using this pc for 8 months already. I hope i didn't do a big damage to my ssd.
+--- 92799841
+What max temperature throttle should I set for my 2070S until my new chink roulette fan comes in? The closest fan to the ports is out of commission for now.
+--- 92799842
+>>92796080 (OP)
+Maybe someone here may have an idea about this:
+I've had this more than once, my explorer will freeze until I kick it with task manager. Then I reset it. Sometimes I have to go so far as resetting my computers. I've tested my drives and they are fine. Is this some hiccup in Windows 10/11? 
+
+>>92798622
+>I am this new to /g/
+Fine, I'll spoon-feed you:
+A Think pad
+https://hackernoon.com/top-10-best-linux-distros-for-privacy-and-security
+
+Or as always Tails OS is good too, especially if you have no intentions of keeping it on it.
+--- 92799852
+>>92799841
+Or, should I reduce power target and if so what to?
+EVGA X1 shitware btw.
+--- 92800020
+Sometimes when I have firefox open something seems to be loading on the window, a window that only have google open, when I open another window whatever was loading is gone, what the hell is that?
+--- 92800525
+I need your help /g/for nearly 20 years I've been manually archiving all my writings, maps, all kinds of pictures of my badly done drawings, etc. BUT other part of my archive is my audiovisual reference archive a.k.a every picture, music or video that has given me some idea in the past.
+recently I was adding stuff and realized I have a multitude of duped shit so, what's the best program (or method) I can use to help me find all those pesky dupes? my archive is well over 4 teras of stuff so any space I can save ould be fantastic.
+
+tl; dr - I need to remove duplicate files from my archive
+--- 92800637
+>>92800183 →
+>Don't forget to set a global limit to your fps, you don't want to be like those fags with gigabyte 3080tis that blew up because of Diablo 4 uncapping framte rates.
+Graphics card break when they are used at 100% load?
+--- 92800743
+folks Im in a pinch right now and I on the hook to buy this iphone 13 pro for $670 for a friend of mine who lives in another country, but I think I am overpaying, wtf are these things on the screen? Is that on a screen protector or is just dirty/not cleaned?
+--- 92800753
+>>92800743
+pic
+--- 92800833
+>>92796160
+Yuzu is better for like 80% of the games but Ryujinx is way better in others. You can get Yuzu EA if you look for it and ryuijinx you can just get the latest version in their website and you're good to go.
+--- 92801152
+>>92796080 (OP)
+kys trannoid
+--- 92801410
+I can log into my gubment services (neetbux, vehicle registration, sending messages to police, etc) with my chip ID using a smart card reader.
+Are there other cool tricks to do with smart card reader? Like using it to log into my computer?
+--- 92801480
+How do I reduce the amount of space my mp4 videos take up on my pc?
+--- 92801662
+>laptop fan suddenly makes a horrible noise and then starts running quieter than normal
+>CPU core temps drop by 5 degrees
+Thanks, but why?
+--- 92801894
+What anime streaming sites does cytube support? I usually just torrent the files myself and stream them to friends on discord, but this leads to bad quality on their end. I imagine syncing from a streaming site, even though streaming sites are usually lower quality, would be a better experience.
+--- 92802016
+>checking info about ssd on phone chrome (maintenance time) 
+>click on some google first page link, it should be safe 
+>something called keychain (from my system i suppose, since it's using my phone's user interface) is asking to press some button option 
+>didn't really read, didn't push said buttons. clicked on phone's bottom to return to main page 
+>run a scan. no virus on phone. didn't download anything, didn't executed anything 
+is my phone safe? it was totally blank, like Pic related. i did click outside the square to go back
+--- 92802546
+i have a samsung s21 ultra, and it doesn't react to my s-pen's touches
+Like i can hover, it detects it and i can press the button and it reacts, but not to presses on the screen with it
+
+what do i do? i tried resetting but it said to hold the button and wait for the LED to light up, but my s-pen doesnt' have an led
+--- 92802576
+>>92796496
+For uninstalling things like Indian fonts you can write a bash script or Ansible playbook yourself.
+Same with installing stuff you need. Automation is key, but nobody does it for you.
+
+>>92798143
+Rebooting may help.
+
+>>92799062
+No, but those for industrial use will be marked as High Endurance.
+
+>>92800525
+There are many duplicate file finders, ask Google.
+
+>>92800637
+Only Gigabyte ones blew up because of poor build quality.
+--- 92802622
+>>92800743
+Dust
+
+>>92801480
+Move them to an external drive
+--- 92802664
+I have a video edited badly, with audio indicated as stereo but that have only sound on the left. Maybe there is sound on the right but if there it's tiny and useless.
+How can I play the audio left channel on both left and right at the same time?
+--- 92802760
+>>92802664
+never mind, I found it
+$ mpv --af=lavfi=[pan="stereo| c0=FL | c1=FL"] 37\ Minutes\ with\ the\ Legendary\ Brian\ Kernighan\ \[8CalKJ5-w-U\].mkv
+--- 92802788
+>>92796080 (OP)
+So u, do I need drivers or to install something on Linux for my Corsair liquid cooling or is it handled by the Motherboard like some other anon said
+--- 92802812
+I think something or someone may be interfering with my router, what's the best way to analyze network traffic to determine if someone is messing around in there?
+--- 92802947
+>>92802812
+If it's a WiFi issue bear in mind Bluetooth and other wireless devices* can interfere with it.
+*many wireless devices use Bluetooth related technology
+--- 92803026
+I'm buying a GPU fan replacement and noticed some sellers are listing their fans as sleeve and ball bearing instead of fluid when the stock fans with the same label are fluid. One also listed fluid bearing in one location and ball bearing in another. Many are selling 3200 rpm fans when the stock is 3500. Is it all just fucking scams with fake stickers and descriptions?
+--- 92803063
+Does any one have the /g/ programming projects image
+--- 92803172
+>>92803063
+I have it somewhere but can't be bothered, I hate ths retarded meme.
+--- 92803386
+Can i restore some backed up games from steam that i saved from my win 8.1 pc and now i use a win10
+--- 92803393
+>>92796080 (OP)
+post at least 6, faggot!
+--- 92803433
+>>92803026
+Not all fluid bearings have mindblowing quality. In fact the random chink factory likely makes better ball bearings than fluid bearings.
+So: you can't predict the quality of the product by just reading the product description.
+--- 92803582
+why is this thread a magnet for poo's
+--- 92804116
+>>92796080 (OP)
+what compsci field is least likely to get eaten by AI in the near future, 2 years into compsci degree and I keep reading articles that I'm basically fucked 2 years in.
+What compsci field/specialized compsci job do I focus in on that's safe from AIs
+--- 92804170
+>>92797543
+maybe put a bag of silica gel on it, or open the entire thing, you'd better let silica gel suck it out
+--- 92804260
+>>92798143
+?
+--- 92804367
+What's the best build service that would let me build bigger projects, like Linux kernel? Or should I just build it locally on the server?
+--- 92804385
+can I power this shit with a usb powerbank? how long would it last (approx.)? using just the onboard mic and bluetooth and I guess leds
+https://wiki.seeedstudio.com/XIAO_BLE
+I don't wanna weld a battery
+--- 92804403
+How to stop scripts on youtube AND allow them for /embed/ ?
+--- 92804448
+>>92804385
+>usb powerbank
+Of course, but you're complicating it.
+
+>how long would it last (approx.)?
+power consumption / battery capacity
+
+>I don't wanna weld a battery
+You dont need to, at all.
+--- 92804461
+>>92804448
+is there a battery terminal I can just snap onto it?
+--- 92804471
+>>92804403
+It is possible to restrict filters to a specific domain.
+
+https://adblockplus.org/filter-cheatsheet#options
+--- 92804502
+>>92804461
+You should solder a connector on there and a connector on the batteries wires.
+--- 92804520
+>>92804502
+this shit is small as fuck, I would probably fuck it up, thus the powerbank idea
+--- 92804587
+>>92796080 (OP)
+nakadashi sayuri chan
+--- 92804609
+>>92800020
+Google tracking gone wrong? The Google page/webapp reacts to being put to the background, this could break it out of the infinite loading.
+
+https://www.plus2net.com/javascript_tutorial/blur-demo.php
+--- 92804811
+My phone's home screen (the first one with the password and such), does not work, I can use the buttons on the side, and it is responsive, but anything with touch does not work, I have found a way to overcome this, b forcefully restarting it until it allows me to touch it so I can open it, but this period of me restarting over and over has been increasing, last time I spent 2 hours, fast forward 512 hours, it shut down on its won, and now I have spent 1 hour and a half trying to unlock it, to no avail, there are no other people I have seen on the internet with this same problem, and I dont know what to do anymore.
+--- 92805294
+>>92804811
+Out of the box solution is to remove the password, so it opens with no prompt
+--- 92805465
+>>92805294
+yes an anon in the spg thread told me the same thing, but I have to open it first, bt thanks anyways :D
+--- 92805484
+I'm working on a project and I have to detect collisions between 2 objects, and work out what sides the collisions happen on. They're both squares, so would it be stupid to use a boolean array to represent sides? It's on Java so I could make a class but it seems too much
+--- 92805510
+Is AGI happening in the next 10 years? Not long ago everyone seemed to think it was impossible.
+--- 92805655
+I just want something that can cast my desktop video and audio to a remote TV on the network. How fucking hard is that, in the year of our lord 2023?
+
+Chromecast worked for this for a year, until some recent update fucked it and now it plays the video at half speed (but audio at full speed), which shouldn't even be possible. VLC doesn't fully support casting to chromecast based devices any more because Google keeps trying to disable PC to chromecast streaming for anything not developed by them. Miracast doesn't work at all, doesn't seem to be compatible.
+
+How do I actually get this to work? What do I need to buy or install on my TV so I can cast desktop video and audio to it? This is fucking insane, everything is locked behind a walled garden, and the walled garden I happened to pick fucking broke and now there's nothing. Surely there's something open source out there that can be installed or set up that allows this?
+--- 92805683
+How to set up a keybinding for pasting the primary buffer to the current focused field?
+Just like mouse middle click but in the keyboard.
+--- 92805708
+>>92805655
+tried Moonlight? you need an Nvidia card though
+--- 92805716
+>>92796618
+Looks like an AI thing. That spot is becoming sentient.
+--- 92805742
+I installed Linux Mint Xfce over Windows 11 Home on a new laptop, but now it won't let me boot to BIOS. I tried using Ventoy over Rufus to see if it would override it but to no avail.
+How do I get back to Windows?
+--- 92805780
+https://en.cppreference.com/w/cpp/string/byte/strtol
+>str_end - pointer to a pointer to character.
+I fucking hate C apis in C++. Why doesn't the std have slices? Sure, they violate RAII, but I thought the entire point of C++ was "if you know what you're doing, big props, if you don't, get fucked".
+--- 92805816
+>>92805780
+Wait this isn't dpt.
+--- 92805877
+What is it that makes a computer "slow"?
+I've been tasked with "speeding up" a work computer (small business, family) but I'm not in IT and I have no idea what's wrong with it. It has a terabyte or more free in HD space, it's running windows 8 which I hate but I've win7 running faster for me, it has I think 8gb ram so that should be fine, etc. etc.
+When I mean slow I mean "takes a minute or two to open web-based email, takes 3 minutes to open quickbooks", etc. 
+No viruses either.
+It's only ever used for the barest of essentials, word docs, emails, etc.
+--- 92805910
+can a ryzen 9 7950X3D or a 7800X3D use an AIO cooler with a single fan?
+their TDP is 120W so it seems doable
+--- 92805916
+>>92805877
+Open Task manager and go to the Performance tab
+--- 92805930
+>>92805877
+the hard drive makes it slow, then the CPU. , if its a "regular" hard drive swap it for an SSD and see 5X performance immediately.
+--- 92806000
+>>92804116
+why everyone always avoid this question, i google it already and all get is jobs ai gonna take spammed ever link
+--- 92806006
+>>92805708
+Thank you, anon. Going through that setup, I realized what the actual issue was -- it was a known Nvidia streaming bug that happened to get applied to Chromecast with the recent Chrome update that enabled DLSS-style hardware driven video sharpening on Chrome. Disabling this toggle fixed it instantly.
+
+Fucking hell... At least I'm back to where I was beforehand.
+--- 92806015
+>>92805877
+Is it really using a hard drive? If so that will be it. These shouldn't really be used any more.
+--- 92806091
+>>92804116
+>2 years into compsci degree and I keep reading articles that I'm basically fucked 2 years in.
+That is total nonsense. They are LARPING hard. Compsci is one of the safest fields in general.
+--- 92806275
+B R E H S
+R
+E
+H
+S
+--- 92806384
+>>92803433
+I found a listing with a bunch of positive reviews on Amazon, it's 85 bucks after tip (including brokerage and taxes) and more expensive than the mid cost ones which were mostly sleeve bearing scams and low RPM, and way more as expensive as the one which was a real scam (1200RPM, compared to 3500 stock, and unlisted RPM elsewhere by the same seller.) The cheapest is on Aliexpress for 24 bucks from a seller with a bunch of shit reviews and But I'd rather deal with a shit product fulfilled by Amazon and arriving in 10 days than one on Aliexpress taking god knows how long to arrive while I sit with a half functional GPU.
+--- 92806454
+>>92803063
+https://better-dpt-roll.github.io/
+--- 92806511
+>>92805877
+CPU loads stuff onto and from the drive and onto and from the RAM.
+If the drive is slow (like an HDD) it will be really fucking slow to load anything, and slow to boot.
+CPU matters less to a certain extent but contributes a lot to speed.
+If there is insufficient RAM space it's really bad because you'll start using the drive in place of it and if that's an HDD it's super slow.
+Super fast RAM only really matters for gaymer garbage, for a work computer whatever is in there should be fine.
+
+You said HD space so the cheapest and best upgrade is an SSD.
+--- 92806574
+So here's a stupid question, who is posting /sqt/ so consistently? As in, who is making sure there is always one /sqt/ up at a time? It's been a fixture on /g/ for at least as long as I've been browsing (~9 years or so). Is it a mod/janitor? What happened to the Dwight Schrute OP pictures? Please bring them back.
+--- 92806653
+What does reopening closed tabs exactly do in google chrome? Does it reuse a cache stored in the pc or does it reload a new webpage?
+--- 92806808
+>>92805930
+>>92806015
+>>92806511
+I know I've been personally using an SSD for the past some years but I didn't think HDDs were that bad. May as well do so if only for the OS and boot, thanks anons.
+
+>>92805916
+Already did, and it's fine, as is disk fragmentation. Thanks for the idea though.
+
+>>92806574
+People see the lack of them and think to post to make sure there's one up because it's always there, and/or they want to ask a stupid question themselves.
+--- 92806932
+>>92806653
+Pretty sure it just downloads the page again
+--- 92807055
+>>92806932
+So if someone decides to spam refresh or closing/reopening a page, it will be considered as a download? That sounds bad.
+--- 92807341
+>Finally took the plunge and got around to buying an SSD because it seemed like a good deal
+>Didn't bother checking compatibility or anything because I'm a retard
+
+Do I need to do anything special before installing this? I didn't check the compatibility until after it was ordered and then I seen a couple of people saying they had issues where it wouldn't show up in the BIOS and they had to jump through lots of hoops to get it to work. Should I just disconnect any other drives so it's forced to recognise it? Will that even work? Did I fuck up bros?
+>Mobo is Asus B350
+>SSD is WD Black SN750 SE
+--- 92807366
+I know a lot of the math and from scratch coding of neural network models for biomed stuff - in Matlab unfortunately.
+
+I want to be position myself prudently to have the skills when I meet or create the right opportunity. So I'm going through some "applied ML in Python" course books obviously but what else should I focus on with an eye towards the future. Seems like SQL and AWS won't be obsolete anytime soon, how much should I commit to learning those? I don't want to get pigenholed into a data cleaning grunt. 
+
+
+I have no interest in working for FAANG or any financialized bullshit app-cancer start-up. Ideally I'd work in biomed, ecological conservation applications, video post-production computer vision or start my own business someday.
+--- 92807470
+>>92807055
+You can run an experiment with a page that changes, for example https://www.timetemperature.com/tzus/time_zone.shtml
+
+When you reopen the closed tab:
+It shows the old time - there was some cache.
+It shows the time at reopening - it was visited again.
+--- 92807503
+I have a home desktop with a 144hz 1080p HDMI/DP monitor, keyboard, mouse. It's about 6 years old and only has USB-A 3.0, it doesn't have USB-C.
+
+I have a work laptop (Thinkpad X13) with HDMI, USB-C, and some kind of port that Lenovo calls a "Network extension for Ethernet/side mechanical docking."
+
+I want to be able to switch between the laptop and the desktop while using the same monitor/keyboard/mouse and keep the monitor at 144hz. Is there some type of dock/switch I can buy that will do this? 
+
+I thought what I want is a KVM Switch but when I tried looking for one it seems like they are all old niche tech and limited to 60hz HDMI, and the docks that I looked at appeared to only be useful for connecting a laptop to home peripherals, not being able to switch between a desktop and laptop.
+--- 92807589
+>>92805510
+I'm still 95% confident it won't happen in the next 100 years.
+--- 92807843
+>>92807503
+I'm in a similar situation to you. I use something like this. 
+>It's cheap as shit
+>All the laptop io can be disconnected/reconnected with one cable
+>Switching between laptop/desktop requires two button presses, one for the USB switch and one for the monitor.
+--- 92808140
+I have kind of a problem with my wifi. Yeah
+>wifi
+I know, but I have to use it for now and this doesn't seem like usual wifi problems to me. What happens is, sometimes, maybe like once every 30-60 minutes, it will just time out for like a second. But that second will be enough to just disconnect me from any game or server it seems like. Everything is brand new so I dunno the problem might be. Anyone have any idea what I should be checking?
+--- 92808257
+>>92807341
+It will work, don't worry. The biggest surprise with NVMe drives is how stupid small they are.
+
+>>92807366
+SQL is useful, and AWS as well, but you can learn these on the job. Our maths guys only do 2-3 operations on AWS, everything is provided to them by DevOps.
+
+>>92807503
+Your monitor may have KVM functionality, it's worth reading the manual because then you don't have to buy anything.
+
+>>92808140
+I guess first thing is to find out whether it's the router or the client device.
+Can you replicate the same problem with other devices?
+--- 92808416
+>>92808257
+>Can you replicate the same problem with other devices?
+Lets assume that I can't. What would be the next step
+--- 92808438
+>>92807341
+You didn't fuck up. It'll be fine. I'm rocking an X370 board from 2017 and it recognized my NVME drive back then without issue.
+
+> Should I just disconnect any other drives so it's forced to recognise it?
+Recognition won't be an issue, but Windows does weird shit with the bootloader / recovery partition when you have multiple drives connected during installation. So just have the boot drive connected for windows installation, then once that's done connect everything else. 
+
+Otherwise you risk your recovery partition being on a different drive. Which isn't the end of the world but it's just another thing to keep track of.
+--- 92808512
+>>92807843
+Thanks, that looks like I could make something like that work.
+--- 92808815
+I have a website I need to setup with credit card processing. In other words, users of the website will be paying me with a credit card. 
+What are my options? Lowest fees of course. It’s not a high volume site.
+--- 92808856
+>>92808512
+>>92807503
+Anon's drawing is a mess, you don't need the extra USB hubs if you get an ugreen usb switch that has 4 ports already, as for the usb-c dongle make sure to get one with PD rated for your laptop, ugreen also makes them.
+--- 92809278
+My UPS switches to battery power every time my PC boots up and stays there.. What can be causing this?
+--- 92809574
+>>92808257
+>>92808438
+Based thanks bros.
+>just have the boot drive connected for windows installation
+Which boot drive do you mean? My current one or the SSD which I'll be installing the OS on to become my new boot drive and forgot to mention?
+--- 92809656
+>>92796080 (OP)
+>>92796636
+>>92796971
+Miguel edits his face a lot.
+--- 92809690
+>504 - Gateway Timeout. That’s an error.
+>We did not receive a timely response from the upstream server. That’s all we know.
+
+I haven't been able to access nyaa.si for the last month or two. What could be the issue? Tried on different devices and browsers, same problem. Works on my mobile internet.
+--- 92809698
+>>92806454
+roll
+--- 92809715
+>>92809278
+Most obvious would be bad line side connection somewhere. Have you watched how the voltage from the wall socket changes under load? Have you tried hooking up any other 100-200W load to the UPS to see what it does with that?
+--- 92809726
+>>92805510
+Really up to having AI hardware or not. Let's just wait for those "brain cards" to arrive, the current way of using graphics cards is really just a software render type of way doing it.
+--- 92809764
+>>92806384
+>RPM
+Rounds per minute is irrelevant unless we are talking about a server.
+--- 92809765
+>>92809715
+Most of the time i get between 100 and 110v. Sometimes goes as low as 90v. I tried booting up my ps4 and the UPS works normally.
+--- 92809780
+>>92809690
+Maybe your ISP/country was blocked
+--- 92810573
+>>92802016
+no one? i thought it might have been chrome interface asking for it since there was no pop up notification. I doubt it's that easy to get a virus on the phone ffs it was an electronics info page on the first page of Google
+--- 92810783
+Is it safe to use a microfiber cloth inside of a PC? My compressed air tin is empty and I have no other option except a hoover which seems like it would be static city so I don't really want to use that.
+--- 92810817
+>>92809765
+Yeah that's not acceptable. Stop using that outlet. You're supposed to have about 5% line regulation at 16A, give or take a few depending on the state and what kind of dwelling.
+--- 92810825
+>>92810573
+iPhone has some kind of password manager. It will be shown each time there is a website that wants user/password.
+
+Example:
+https://www.spincast.org/demos-tutorials/http-authentication/protected
+--- 92810888
+What is the easiest/fastest way to view my windows computer screen on my android phone on the same (W)LAN? I'm not looking to stream files saved on the computer, just view it's screen as fast as possible. I guess RDP is one, any others?
+--- 92810921
+>>92810817
+Well thanks. I'll check the house wiring.
+--- 92811336
+>>92810783
+Hoover is fine as long as you keep it off board surfaces. Static safety is 99% bullshit in the PC context. Much more a concern when handling unattached board level components.
+--- 92811411
+>>92811336
+That's cool then thanks. I always felt like static was a bit of a meme that happens rarely, but I with my luck I can never be too sure.
+--- 92811424
+>>92804260
+it's activated
+
+>>92802576
+>Rebooting may help.
+i did it and still same
+--- 92811461
+I have a gayman pc that recently started shidding the bed. Was wondering if anyone had troubleshooting insights for me.
+Setup:
+>5600x
+>asus b550 mobo, latest bios stock settings
+>rtx 3070 stock clocks
+>logitech g pro x superlight
+Symptoms:
+>game (pubg) runs fine as long as i'm only using the keyboard, when i use the mouse to free look it turns to a powerpoint slideshow presentation on dying in FPS games
+>unsure whether the issue is present in other games, pubg is my main game so i've been troubleshooting this for half a day. 
+>worsens after extended gameplay
+Things I've tried:
+>charging my mouse
+>changing mousepads
+>rollback graphics driver with ddu
+>reset bios settings
+This started happening shortly after the last update so it could be software related but I don't think it's my cpu. I downloaded ryzen master and did the stress test and it came back ok. If it were my hardware, I think it would be more likely to be the gpu or the psu rather than the mouse itself. Despite how many times I've dropped it, the fact that the issues get worse over time seems to point to heat being the culprit but I am guessing.
+I am downloading a fresh copy of windows to install but if I get it fixed without having to resort to that then all the better. Ideas, g/irls?
+--- 92811560
+has anybody noticed archived threads are no longer auto-pruning? I've got threads from 8 days ago on my watchlist
+--- 92811633
+I use to use my raspberry pi 4B as a libreelec device for making my dumb tv a bit smarter, but now thats redundant. I dont need a pi hole or anything related to networking, so im at a loss of what i can use it for other than learning arm assembly (and im more interested in learning risc v architecture) any suggestions?
+--- 92811724
+>>92799190
+but i already have dissable that shti(as far i know)
+--- 92811770
+>>92811560
+has auto pruning even been a thing on blue boards? also that statement makes me depressed as fuck because i remember when threads on /g/ used to last for weeks.
+>>92811461
+changing the mouse? is it only pubg?
+>>92808815
+square or stripe depending on the volume of sales (squares fee is slightly higher, but depends on pricing/ international)
+--- 92811823
+>>92811770
+>has auto pruning even been a thing on blue boards?
+Yeah, I've been using the thread watcher for years now. When the threads prune, which would usually happen after being archived for 3 days, they would also auto-delete from the watcher but it's not happening anymore.
+--- 92811827
+>>92811633
+Host a dark net website on it.
+--- 92811884
+>>92806454
+>00
+
+how do you format html when 4chan returns it as a single line? the rest is super easy
+--- 92811902
+>>92811823
+oh sorry im thinking of autosage, nvm
+--- 92811927
+>>92796902
+not only can SSDs get that hot, but they should for optimal performance.
+--- 92811981
+Are there any immediate issues with running two different dedicated graphics cards on Windows? How does it work with drivers?
+--- 92812037
+>>92811981
+People run multiple graphics interfaces all the time.
+Not to mention the cryptominers who have dozens of GPUs in one system.
+--- 92812090
+>>92812037
+Gonna be buying a new GPU very soon. I'll give it a go then :^)
+--- 92812209
+>>92810825
+I understand. I am an android user tho. So that's why i'm a bit concerned
+--- 92812675
+I checked all my bank statements and emails and there is literally nothing pointing to me having paid for the Noctua fans and heatsink I have in my PC build. Now my memory may be bad but the only way this could have happened is if I went and paid for it in cash, which would be fucking retarded and seems highly unlikely seeing as how I only went to pay for my case by card to avoid shipping because it was huge and would cost a lot to ship. There is no fucking way I withdrew 200 dollars in cash just to go out and buy a fucking fan/heatsink instead of ordering it online or even buying it with a card. But whatever. I read for stuff like spare clips and accessories you can just take a picture of your heatsink and fan, anyone had any luck with that?
+--- 92812755
+>>92812209
+I don't think Android has a "keychain" feature, maybe that was just some kind of phishing attempt and the interface was actually the website? Pretty weird to use faked Apple features to phish an android phone though.
+--- 92812808
+>>92811461
+>>92811770
+unfortunately I don't have another mouse to test but after playing csgo i can confirm that it is happening in other games. what makes me question whether it is the mouse though is that it seems to get worse with time. like at first it tracks okay then after a while it becomes all stuttery but only with mouse movements. framerate stays in the high 200s though so maybe it is the mouse and not gpu or psu
+--- 92812860
+Why is AI trained with online datamining, and not academic research and novel literature? Online people are braindead.
+--- 92813032
+>>92812860
+99% of academic research is trust fund kids writing about rape culture at dog parks, and 99% of novels are vacuous genre schlock.
+
+Also chat bots are bullshit generators, so it doesn't really matter what you feed them. They don't understand any of it and can't synthesize meaningful information from it.
+--- 92813094
+>>92812755
+it was using chrome interface since the button's letters weren't blue colored like in my own UI. it was weird. i just turned back using my phone's bottom arrows. it said something about VPN too if i remember well. I'm making a backup for my files to reboot it, just in case. Using phone for research sucks, not even the first 10 pages appear to be safe.
+--- 92813238
+Best sites to find paypigs?
+--- 92813584
+>>92798622
+My old Dell i14 5458 with a 920m Nvidia GC was pretty nice &amp; fast, Linux never gave me a problem on it.
+--- 92813614
+>>92808416
+Get a cable, or try another OS, or get a good WiFi adapter (Intel AX210 if internal, Mediatek mt7921au if USB).
+--- 92813632
+>>92796618
+go have it repaired, cheapo
+Or buy a new scren and fix it yourself
+--- 92813653
+How the FUCK do I install rocm drivers on manjaro?
+--- 92813894
+>>92813653
+ROCm supports Ubuntu LTS, RHEL and SLES. You're on your own.
+--- 92814019
+I have two external hard drives and an old laptop that I want to turn into a NAS so I can do scheduled backups on RAID 1 between the two ext HDDs. (I'm currently using Macrium Reflect on my Windows PCs onto just one HDD each). Unfortunately it's an old ultrabook I got for free with no Ethernet port. What OS is best suited? Apparently there are open source dedicated NAS OSes? 
+
+I also want to buy, or I suppose build, a cheap firewall. Something with decent logging and GUI log viewing capabilities. My network is fucking tiny and there's &lt;100mbit BW so I would think hardware resource requirements would be minimal. 
+
+Thanks in advance for any advice.
+--- 92814297
+>>92813032
+You need to go back.
+--- 92814624
+Best site to buy 1tb flash drives for the best price
+--- 92814846
+Would it be a good idea to run Kali Linux in one of those?
+
+https://www.ebay.com/itm/304888385095
+
+What would I not be able to do with Kali on this?
+--- 92814980
+Do you recommend firebase for a game server with in-game chat?
+--- 92815055
+Why should I bother using anything besides Ubuntu or its flavors when using Linux? Every single guide for anything at all to do with Linux is written as if you're using it anyway, after all.
+--- 92815211
+>>92814846
+Find out if the network card supports monitor mode
+--- 92815919
+What is the difference between using environment variables and a creds file?
+--- 92816095
+I'm paranoid about corruption 
+will a bit of dust in the ports or socket of an external drive make the files corrupted ? 
+I've never experienced any corruption but I wanna know so the thought gets out of my stupid head
+--- 92816132
+>>92815211
+>one source specifically mentions the BCM43602 network card, which is not the same as the network card in the MacBook Air M1, as supporting monitor mode on macOS4. Another source suggests that the MacBook Wi-Fi card does not support monitor mode
+Fug... thank you anyways.
+--- 92816194
+Why do I get a white dot in the middle of my screen with a dark faded background when I open certain websites?
+--- 92816562
+>>92796080 (OP)
+Is there a piece of software/platform that sits in your Windows tray like a daemon and supports userscripts/plugins. Example tasks:
+>poll Twitch every 5-10 minutes and see if a streamer has changed his category. show notification with the new category if he did.
+>poll /g/ every 5-10 minutes for keywords in thread OPs. show notification if a thread containing keywords was posted.
+>poll select online retailers for price discounts on items you are interested in.
+Basically it has to sit in the background and perform various user-defined tasks (mostly over the internet).
+--- 92816579
+>>92796080 (OP)
+Will my whole network be fucked if I open malware on a VM which targets my internet?
+
+Also will my accounts that I created outside of my VM and which I have infected on a VM still work normally outside a VM?
+--- 92816728
+>>92815919
+They're totally unrelated. An environment variable is a named string that every program you launch inherits as part of its execution environment. A creds file is a file.
+--- 92816730
+How do I map Caps Lock to escape when pressed and super when held down on Ubuntu? I can set it to super in gnome-tweak-tools but I can't set it to escape when pressed :(.
+--- 92816751
+>>92814624
+In the US? Amazon / camelcamelcamel
+--- 92816775
+>>92816194
+Not a thing. USB and SATA run checksums at both ends. Data corruption comes from media failure, bad memory, and drive firmware bugs. More or less in that order.
+--- 92816786
+>>92816775
+For >>92816095
+--- 92816846
+>>92816775
+>>92816786
+thanks 
+so these things are built to take alot of dust huh ? neat.
+--- 92816878
+>>92815055
+Ubuntu is the standard, with RHEL used heavily in some niches as well. 
+Github CI/CD? Ubuntu
+AWS CodeBuild? The Ubuntu image is literally called "standard" despite Amazon having their own AmazonLinux
+Azure? Ubuntu
+WSL? Ubuntu
+--- 92816925
+I want to squish together 2 1TB HDDs in RAID 0 for digital hoarding purposes, do I have to reinstall Windows to do this properly?
+--- 92816944
+I need a wsg archive that hosts webms and not jsut thumbnails. Any suggestions?
+--- 92816965
+>>92815919
+You can pass environment variables in situations where passing a file is harder (containers).
+Outside containers, variables are more secure because they are only visible to the process you pass them to, whereas files may be readable by unrelated processes.
+Variables also die with the process and leave no traces.
+--- 92817025
+>>92816925
+Don't put your OS on RAID0.
+Don't use software RAID with Windows if you can avoid it.
+--- 92817079
+>>92817025
+>Don't put your OS on RAID0.
+Why not?
+--- 92817445
+>>92817025
+I plan on having a separate SSD for Windows, the HDDs will be separate from that.
+--- 92817542
+>>92817445
+Then there's no need to reinstall Windows.
+
+>>92817079
+>one disk dies
+>data is gone
+>settings are gone
+Even with good backups, you're looking at one or more days wasted on getting things back to a working state.
+--- 92817719
+I installed UserBenchmark in an old PC and tried to run it, but when I double-click in the icon nothing happens. What should I do?
+--- 92817795
+>>92817719
+What OS are you running?
+--- 92817882
+>>92817795
+Windows 10 Pro
+--- 92818107
+>have 250GB SSD for just the OS (Windows 10)
+>has no programs on it at all but is still pretty full
+>Windows 10 has now managed to take up 170GB just on its own after some updates
+I know Windows is bloat but what the fuck is this? There was still 100GB of free space left before 22H2.
+
+Is there anything I can do to reduce all this shit? One more update and it'll probably max out the storage.
+--- 92818198
+>>92818107
+This is false. I just installed Windows 10 with various programs and the space occupied was 85 GB.
+--- 92818216
+>>92818198
+And yet, here I am with it happening. It's not a fresh install (being that it's been 2 or 3 years) but I never install any programs to it and I've only ever installed Windows updates.
+--- 92818284
+>>92796080 (OP)
+I want (he)r so bad bros.
+--- 92818355
+>>92818216 But I bet you use the Internet and accumulates data in it.
+--- 92818771
+Anyone have a chart like this that also includes 1440p and 3k?
+--- 92818797
+>>92818107
+>>92818198
+Do a fresh install. Windows is designed to occupy all the resources.
+--- 92818809
+>>92817719
+>>92817882
+>Windows 10
+>old PC
+Can't be that old.
+--- 92818810
+>>92796636
+>>92796971
+>>92797212
+>>92797239
+>>92804587
+>>92818284
+You will never be a woman, bro.
+--- 92818827
+>>92816925
+You want to boot Windows off a RAID? idk if it can do that.
+Linux can but I wouldn't boot Linux off anything complicated either.
+--- 92818856
+>>92818809
+i3-540
+--- 92818872
+>>92818797
+How do I extract my W10 key? I don't have the original code floating around anymore. I also considered cloning my SSD to an even larger one but I'm not sure if that's worth while nor what program to even use to do it (since searching for one on Google just brings up top 10 shilling).
+--- 92819054
+>>92818827
+You have to provide special RAID drivers when you install it. This also keeps anything else from being able to read the disk unless it has the same driver / controller chip. Basically don't fuck with RAID on Windows. Run a Linux VM as a service and access your files from that and it's less retarded than anything Microsoft can figure out.
+--- 92819103
+>>92816751
+Thanks
+--- 92819142
+>>92819054
+It's massive fuckery in either case, OS should boot with ease while all RAID/encryption setups should come in second.
+--- 92819211
+If I have a external video card in my computer and a internal one, is there a way for me to save energy deactivating completely the external video card, stopping the energy of the computer to flow to it? I want 0 W to go to it.
+--- 92819288
+>>92819211
+Yes, there is a way to disable an external video card completely in a desktop computer.
+
+You can disable it through the BIOS settings of the motherboard. The process may differ slightly depending on the brand and model of the motherboard, but generally, you will need to enter the BIOS settings by pressing a key during the boot process (often F2, Del, or Esc). Once you are in the BIOS settings, look for an option related to PCI/PCIe devices or graphics cards. You should be able to disable the external video card from there.
+
+This way no power will be supplied to the video card. This is the only way to achieve this without removing the video card from the slot.
+--- 92819656
+Is there any way in 4chanX to filter by flags, *but only in a specific thread??*
+
+A general thread I visit has recently acquired a schizo british spammer, so most of us filtered the UK flag, but best we can tell it's board specific so all the UK flags on the board are now filtered.
+--- 92819973
+How do I effectively flowchart an algorithm?
+--- 92820152
+>>92816965
+Makes sense. Thank you.
+--- 92820159
+How can I force comcast to give me a new ip address? I tried turning off my modem for 10 minutes and turning it back on, but I'm still at the same ip.
+--- 92820177
+>>92820159
+you have to call them and ask them to change it
+--- 92820189
+>>92820159
+did someone get permabanned from 4channel.org?
+--- 92820235
+>>92820189
+His IP most likely got leaked in an online game and he's being booted off. That was happening to literally anyone that played GTA Online for a long time.
+--- 92820293
+>>92820177
+ty, I will try that
+>>92820189
+no, I'm posting here. it's actually plebbit that I'm banned from, I've made a few dozen accounts over the past year and they all end up shadow banned or permabanned for "ban evasion", which makes it hard for me to call people [spoiler]niggertranny[/spoiler]. unironically though I hate 99% of that website but there are a couple rightwing and women-hate boards I enjoy participating in.
+--- 92820331
+>>92820293
+>ty, I will try that
+Try to get a dynamic IP if you can. then you can shitpost much easier but eh
+--- 92820446
+>>92820331
+I kinda like having a static ip because then I can connect to my home server when I'm away (eg to download music to my phone) but it's not something I do that often, so maybe worth getting a dynamic one.
+--- 92820585
+I think I broke the little retainer clip things under the key on my thinkpad keyboard, so the key won't clip back on. Is there somewhere I can get a replacement or something?
+--- 92820669
+while using VPN, captcha comes up every time I try to use google, anything I can do to stop this?
+--- 92820820
+>tl;dr looking for gaymen laptop with no budget
+I will be starting a new job where I'll be traveling constantly (I won't even have a house, I'll just be in hotels and company-provided apartments, moving to different countries every few weeks) and so I'm thinking of selling my PC and buying a powerful laptop.
+I can't find any trustworthy resources on the subject (the /g/ wiki suggests LaptopScribes, but it looks like their list is out-of-date by a few years to me) and don't have much knowledge of it either since all I've ever bought laptop-wise are Thinkpads. Where can I go to find trustworthy advice, or information sufficient to make an informed decision?
+--- 92820834
+>>92820820
+I should clarify that by "no budget" I mean "no constraints on budget", I'm looking for the best stuff because my work is resource-intensive.
+--- 92820843
+idk probably a top of the line Razer Blade
+--- 92821593
+>>92820669
+Stop accessing Google from a known VPN exit node
+--- 92821846
+>>92809574
+>My current one or the SSD which I'll be installing the OS on to become my new boot drive and forgot to mention?
+
+The new boot drive
+--- 92821901
+I'm trying to do basic webscraping, I just want the value inside the element, I normally do this by just copying the full xpath and scraping using that. How do you do this properly? My way works, I have a script running that yanks the integer out and dumps a csv and then I graph it, but I suspect this is not most optimal way of parsing the element in a script.
+--- 92821949
+Retard from /mu/ here,
+what do I need to get to record good audio aside from a good mic?
+I know nothing about sound cards or anything but have a pretty decent microphone.
+I have a good desktop that records great audio but my cheap laptop sounds like shit and I need something mobile to record with,
+do I need to get a new laptop with a sound card in it?
+How and where would I look for one?
+Can I get an external sound board?
+
+Or maybe I'm just a giga retard it's just that my laptop was $300 a decade ago so any upgrade would make it sound perfectly acceptable.
+
+Any help appreciated.
+--- 92822003
+>>92819656
+no. you could change the @include for the script but you'd have to do it every time a new general thread is made.
+--- 92822047
+>>92821949
+mic and mixing is 99% of what makes your audio sound good, but you should also be using an external audio interface and xlr cables for hooking up the mic.
+--- 92822063
+If up my rez from 1080p to 2k or 4k will my 10100f stop bottlenecking my 3060?
+--- 92822633
+>>92797239
+he doesn't pass without filters
+--- 92822634
+>>92821949
+If you want something portable you should get something like a tascam, but I'm skeptical if it's good for music production.
+you can also use a phone I think, if you got an expensive one you should get decent audio from it (but if you are doing a video, it's probably a pain to sync up the audio).
+--- 92822808
+theres a porn video i bought but they wont let you download. 
+
+whats the best workaround to download? i figure just streaming with obs would result in lower quality
+--- 92823341
+>>92822808
+>buying porn
+Lmao.
+
+You can screen record and the quality will be 1:1 with what's streaming depending on your settings.
+--- 92823441
+Can switching from AMD to Nvidia GPU cause a difference to audio output from motherboard? I notice when installing drivers it mentions an audio driver as well but to my knowledge Realtek should handle motherboard audio.
+
+Been listening to my music and I swear it sounds different but I know I'm critically listening to it and placebo could just be a bitch.
+
+Pls help me im going insane
+--- 92823638
+I got a lobby invite for Barotrauma on steam but I want to see who is in the lobby before I join.
+Do you know any way to see this? like some API feature or a site that allows me to check like steamid.
+--- 92823879
+I just bought this. Am I able to hook up an audio mixer to it to record music? I want to attach a condenser mic through an mixer but it only has 2 tiny little micro usb ports to charge the mouse and keyboard.
+--- 92823890
+>>92823441
+Update: Fixed it in a very odd way
+
+>Went to asus mobo website to grab latest Realtek drivers
+>Updated and restarted
+>Now it sounds even more different
+>Uninstalled and restarted
+>Now its back to how it always sounded before the switch
+
+Literally makes sense why going from AMD to Nvidia caused this but okay I'm happy now
+--- 92824125
+What should of mouse should I get as a non-gamer? I’ve been using the fucking Magic Mouse and it sucks ass.
+--- 92824177
+>>92818872
+https://github.com/massgravel/Microsoft-Activation-Scripts
+
+Use this and don't think about keys ever again
+
+>what program to even use to do it
+Macrium Reflect. Did the exact same thing a month ago, worked perfectly.
+--- 92824217
+>>92824177
+Also, took about 15 minutes cloning a ~250GB ssd to my 1TB one
+
+https://youtu.be/lSdSNAjmdDg?t=69 [Embed]
+Make sure to extend to the target disk
+--- 92824264
+>>92820235
+>getting banned from GTA online
+Seems like a blessing
+--- 92824276
+State of the art IT is demonic. How the fuck is this shit possible for humans to learn, design, and manufacture?
+--- 92824339
+Does anyone sell monitors that can have speakers plugged into them directly. I’m trying to make a setup where I can plug my PC and switch into a monitor and just swap between the two and maintain audio as opposed. Would rather not buy an audio extractor cause I fucking hate having wires and shit all over my desk
+--- 92824351
+>>92801410
+hair showing. haram
+--- 92824588
+>>92820159
+Try turning it off for like two days or so.
+--- 92824709
+can I use a single fan water cooler on a CPU that has a TDP of 140w? or will the CPU get throttled?
+--- 92824800
+I got a quite old workstation laptop from ebay and it kinda works but the only detail I can't get over is that it takes its sweet fucking time with uncompressing operations.
+Could the RAM be fucked? Already tried 4 different SOs
+--- 92824901
+>>92824276
+It's not that complicated when you remove the trillion layers of software written by idiots.
+--- 92824954
+>>92819656
+iirc dollchan has something like filters for generals or whatever, but you can use ublock origin instead
+--- 92825213
+>>92820820
+Lenovo Legion. They are sturdy and quite heavy, but don't have that obnoxious gayming look and would survive frequent travel.
+
+>>92820585
+Try Ebay and Aliexpress
+
+>>92822063
+That's possible, but the game won't run faster, in fact it will have lower FPS.
+--- 92825280
+>>92824125
+Logitech MX
+Corsair Scimitar RGB (can be turned off)
+
+>>92824339
+All monitors have 3.5mm port for headphones. You can plug speakers as well.
+I'm not exactly sure how this behaves when switching inputs, but I bet it switches with the picture.
+
+>>92824800
+Maybe the storage is slow, like HDD slow.
+--- 92825420
+>>92824800
+didn't read, did UJOUUUUU
+--- 92825563
+>>92825280
+It is a Adata Sata SSD I had been using earlier without problems in other computers.
+--- 92825801
+>>92820669
+Maybe Startpage
+--- 92825982
+As I understand it, the difference between the AGPLv3 and the GPLv3 is that AGPL specifies that providing remote access to the software (such as via a website) is considered distribution of the software requiring you to provide the source in that situation while GPL doesn't require that. My question is: why is there a seperate license for this clause? Why wasn't that included in the GPLv3 by default?
+By extension: why would anyone choose the GPL over the AGPL? Wouldn't it be better to have that extra clause even if it's a program written in C that would probably never be distributed that way? (And wouldn't a VPS be an example of where C software is being distributed in that way?) 
+I've read on the FSF website that the AGPL isn't a solution to SaaS but I still don't see why someone would choose to not have that extra clause if they've already decided to release it under the GPL anyway.
+--- 92826184
+>>92825982
+>providing remote access to the software (such as via a website) is considered distribution of the software
+>Why wasn't that included in the GPLv3 by default?
+Maybe because that's some heavy weight mental gymnastics.
+--- 92826199
+wanna buy my wife a gayming laptop for the sims 4 and I've been eyeing the asus A17. found the FA706IE model that's $1,300 canadollars for $400 off, so $900cad which is $675 burger bucks. has a 4800h and a 3050ti mobile, 16gigs of ram.
+is it worth it?
+--- 92826285
+>>92825982
+GPL was written before someone could take your software, alter it, but never distribute it while still making it available to the public.
+Essentially, AGPL closes a massive loophole in GPL that appeared as a result of changing technology.
+--- 92826291
+>>92826199
+I would avoid ASUS, wife's Vivobook is very poor, like dollar store quality.
+--- 92826563
+>>92826291
+all notebooks are dollar store quality
+--- 92826719
+>>92796971
+>>92818810
+Yeah that's fine. If this is a man then I'm gay now.
+--- 92826748
+>>92796080 (OP)
+My 2.5 SSD sometimes disappears or when clicking on D drive yields the message "this device does not exist", but restarting fixes the problem. How can I fix this shit without wasting precious seconds restarting everytime it happens?
+--- 92826838
+A bank has some sort of promotion where they'll give me money if I use their credit card several times a month. I'm a basement dweller who doesn't order too much from the internet so I'm afraid I won't use it enough to get the money.
+Is there some sort of service that costs extremely little, several pennies or something, that will count as a regular credit card payment? I don't really care what it is as long as it counts as a regular payment.
+--- 92826890
+>>92826838
+Just use your credit card to pay your bills and other expenses you normally use your income for, then use your income to instantly pay off you credit card. You'll build credit (which is kinda of a meme at this point) and get your lol free shit from the bank.
+--- 92826908
+My DP port just broke. Should i take the risk and replace it myself or pay someone to replace it? I don't really trust repair shops they do these repairs without care and they might be expensive. I'd rather spend that money on the tools but i should buy everything.
+--- 92826935
+>>92826890
+You may have missed the part where I mention I'm a basement dweller. I was serious, I have no income, no bills, and almost no expenses. But I'd appreciate the free money.
+--- 92826964
+>>92826935
+If you have zero income, not even SSI/SSD, then you shouldn't get a credit card. They probably wouldn't (they shouldn't) approve you for one anyway.
+--- 92827027
+>>92826964
+I'm not in the US. You'll get a credit card as long as you ask for it. I have 3 bank accounts and had 2 more that I later closed, almost all because of some promotion. And I have zero income.
+--- 92827280
+>>92827220 →
+why did 4chins translate my square signs to 2s?
+--- 92828071
+I want to monitor room temp and automate some stuff around the house. I don't want a hub that calls back to corporate hq like Amazon or Samsung SmartThings. I have an old iMac I can use as a server with a USB iot stick.
+What software should I use as the hub? Nodered/Matt or home assistant.
+Zwave or ZigBee hardware?
+
+Previously I got something working with nodered and ESP8266 boards but it was over wifi and the hardware was janky as fuck because every sensor needed a phone charger.
+--- 92828303
+>>92819973
+You look at the code, Look up standard flowchart symbols, arrange the flowchart symbols into blocks according to those rules until the flowchart describes exactly what the program is doing, then combine half the blocks into each other by making up words and deleting anything you don't want the public to know about, and then present the final result.
+--- 92828587
+Anyone got a link to a GitHub that has Adobe activation?
+--- 92828663
+how to get rid of these ads on youtube? i've just reinstalled ublock origin but they keep popping out
+--- 92829053
+>>92828663
+I use adguard for when I watch livestreams. Prerecorded videos I just watch on FreeTube, a desktop app that has built in blocking.
+--- 92829192
+>>92828071
+ZigBee devices are cheap and run off AAA batteries, I haven't changed a single battery in 6 months.
+I think the new Thread protocol is more compatible with ZigBee than Zwave.
+--- 92829206
+Free as in freedom mesh WiFi how? What standards should I be looking for? Can one WiFi interface act as an access point while doing the mesh thing or do they have to be two separate interfaces? I know not all WiFi devices can create an access point so am I looking at similar hardware question?
+--- 92829283
+Why is USB often much slower than the theoretical speed?
+--- 92829297
+>>92829283
+entropy
+--- 92829413
+>>92828663
+solved by enabling cosmetic filters. apparently it was disabled
+>>92829053
+i didn't ask that though, anyway thanks for the useless info
+--- 92829463
+I keep getting DNS_PROBE_FINISHED_NXDOMAIN when I tried to visit some websites, any idea how to fix this?
+--- 92829527
+>>92829463
+https://simpledns.plus/kb/195/how-to-enable-dns-over-https-doh-in-chrome
+--- 92829585
+>>92829283
+Are you talking about USB sticks or hard drives?
+--- 92829694
+>>92829206
+Why would you want mesh WiFi?
+--- 92829715
+>>92829527
+Thanks!
+--- 92829726
+I keep getting an issue where waking from sleep/hibernate mode doesn't work. The screen stays black, keyboard input gets no response, etc. When this happens and I go to reboot, the OS will not load on startup. It boots into BIOS menu and says no SSD is being read. Is my SSD just failing? Last time it happened I unplugged it from PSU and plugged back in to get it to work, could there just be an issue with sending power to SSD from the PSU?
+
+Coincidentally, I upgraded to Win 11 around the same time it started. It happens once every few weeks
+--- 92829773
+How can I make sure that my website works on every web browser under the sun? Like browsers that operate on HTML semantics rather than CSS?
+
+How do I even approach this topic, like is there a stripped down web browser I can get somewhere?
+--- 92829984
+>>92829585
+The USB connection itself
+--- 92830040
+>>92829773
+Try Dillo and NetSurf.
+--- 92830241
+is there a way to appeal a range ban? i haven't been able to post images for about a month.
+--- 92830458
+I'm retarded and forgot to add the RMA number while sending back a product. The addresses are correct but I am afraid they will reject the package anyways. Also there's no way to contact this company for anything other than RMA. Has anyone had a similar experience?
+--- 92830507
+Where can I find animated PNG images that aren't just converted gifs? I just want a couple for demo/testing purposes but practically the only one I can find is the stupid bouncing ball from wikipedia, or some flat vector art that might as well be a gif.
+
+The ball is the only one that actually benefits from png because it has semi-transparent shadow.
+--- 92830660
+>>92796080 (OP)
+How to filter retarded AI generated posts? When reading AI generated post they have this distinct writing style, but no idea how to use this to filter them out...
+--- 92830682
+>>92830507
+Nevermind I just found this
+https://commons.wikimedia.org/wiki/Category:Animated_PNG_files
+Most of the thumbnails aren't animated but the full images are.
+--- 92830686
+I've been thinking a lot about how riddled with ads and heavily censored the modern internet is. 
+If a group of people each had a little device with applications on it would it be possible for them to form a smaller temporary network, like a little decentralized internet away from googles prying eyes?
+
+I'm not super knowledgeable. But I find it ridiculous how someone else besides me is making money off the data I create when I browse the web. I think it would be a great thing for humanity to find away to use the internet to share things organically less incorporated
+--- 92830698
+I could use a source to score cheap PCs that are still good enough for office work
+--- 92830938
+Do motherboards in TYOOL 2023 still support RAID 5? It would be perfect for the arrangement I have right now: I have three 1 TB HDDs and I'd like to use them all.
+--- 92831012
+Have a Win7 HDD, have USB connector, connected to Win10 lapto. Can see everything fine initially but when I try to access user files it takes forever or doesn't respond. 
+Will I have to disable my password in Win7 to make it easier to access files?
+--- 92831100
+>>92830686
+If you just want away from spying and ads then all you need to do is stop browsing websites that have those.
+
+If you're concerned about censorship at the service level, then DNS and server providers can still censor the website itself. DNS can be avoided by using OpenNIC domains or connecting directly to IP addresses. Servers can always be self-hosted so nobody else can shut it down (not counting some police raid -type scenario). The server can be easily DDOSed though and it's extremely hard to prevent that without joining the botnet.
+
+If the server is self-hosted and you connect to it directly from the IP, then the only middle man is the ISP. Whether and how much they spy on you is anybody's guess, but that's the best you've got.
+
+If you want an entirely disconnected internet that's separate from ISPs and the current internet, then something like PirateBox is probably the best way to go.
+--- 92831115
+>>92796080 (OP)
+Is this the board to discuss stuff like drones, fpv racing and rc cars? Of not, what board would it be?
+If it is, is there a general that pops up?
+--- 92831166
+>>92831012
+Never mind. After it loaded got complete access
+So fucking Windows passwords are useless joke?
+I better learn how to encrypt my drives and data the proper way.
+--- 92831367
+>>92830660
+Train an AI to detect AI?
+--- 92831438
+how can i get the latest /pol/ threads with a certain flag?
+--- 92831532
+>>92831115
+No definitely no but you could make a thread just to check the waters or visit /diy/ and see there.
+--- 92831642
+>>92830938
+Yes, but you should never use it because motherboard RAID is fucking awful. Windows doesn't have reliable multi-disk storage in general. The closest you can get is newer Intel boards where they let you use a SSD as a journal device, but that's wasteful and still less reliable than having an on-disk format that doesn't break in the event of a hard reset.
+--- 92831647
+>>92831532
+>diy
+Ah I'll check it out

@@ -1,0 +1,1394 @@
+-----
+--- 92794346
+Before asking for help, please check our list of resources.
+
+If you would like to try out GNU+Linux you can do one of the following:
+1) Use a live image and to boot directly into the GNU+Linux distribution without installing anything.
+2) Keep using your current OS and run GNU+Linux in VMware for W## or Parallels for macOS.
+3) Do the reverse of step 2 in QEMU.
+4) Replace everything with GNU+Linux.
+
+Resources: Please spend at least a minute to check a web search engine with your question.
+– Many free software projects have active mailing lists.
+
+$ man %command%
+$ info %command%
+$ %command% -h/--help/-?
+$ help %builtin/keyword%
+
+Don't know what to look for?
+$ apropos %something%
+
+Check the Wikis (most troubleshoots work for all distros):
+https://wiki.archlinux.org
+https://wiki.gentoo.org
+
+/g/'s Wiki on GNU/Linux:
+https://wiki.installgentoo.com/index.php/Category:GNU/Linux
+
+>What distro should I choose?
+https://wiki.installgentoo.com/index.php/Babbies_First_Linux
+>What are some cool programs?
+https://wiki.archlinux.org/index.php/list_of_applications
+https://directory.fsf.org/wiki/Main_Page
+>What are some cool terminal commands?
+https://www.commandlinefu.com/commands/browse
+https://cheat.sh/
+>Where can I learn the command line?
+https://mywiki.wooledge.org/BashGuide
+https://www.grymoire.com/Unix/
+https://overthewire.org/wargames/bandit
+>Where can I learn more about Free Software?
+https://www.gnu.org/philosophy/philosophy.html
+>How to break out of the botnet?
+https://prism-break.org/en/categories/gnu-linux
+Leave 4chan, Chtwood reads every one of your posts and knows where you live.
+
+/fglt/'s website and copypasta collection:
+https://fglt.nl &amp;&amp; https://p.teknik.io/wJ9Zy
+
+/t/'s GNU/Linux Games: >>>/t/1175569
+
+IRC: #sqt on irc.libera.chat
+https://fglt.nl/irc.html
+
+Previous thread: >>92747283 →
+--- 92794381
+>>92794346 (OP)
+ Im about to install gentoo as my main OS now, the first time, and i still ahve a quick question regarding use flags
+
+ Ill choose the desktop profile, this comes with a shit ton of flags, but will I really need all of them? If i install this on my normla main desktop where I will also need much normie shit, i feel like i dont even need the possibility of use flags.
+
+ except for bluetooth or wayland gnome or such shit, i suppose i will need everything else. Is there kind off collection of useflags one should block and allow?
+ or do I always need to go back to the config file of portage before compiling a program to check if I have every useflag i need?
+
+ What if a useflag isnt blocked and also isnt allowed, just simply not there?
+--- 92794415
+Bros I'm considering making the full on switch from Windows to Linux, then running Windows in a VM for unsupported games/applications (I have two GPUs). Anything I should know before I pull the trigger?
+>inb4 wine
+I know, I know but I need muh obscure VNs, CDisplayEX for manga reading, and other potential oddball programs that won't run on wine
+--- 92794433
+>>92794415
+Just try it out. What distro will you use?
+--- 92794462
+>>92794433
+Linux Mint.
+I'm also in the process of converting one of my old ThinkPads into a plex media server so I'm going to install Mint on that first to get a taste of how it is
+--- 92794485
+>>92794415
+never had a VN which didn't run on wine without any hitches. no idea about CDisplayEX
+--- 92794527
+>>92794381
+>do I always need to go back to the config file of portage before compiling a program to check if I have every useflag i need?
+Well, I do this anyway so I don't miss any extra features of a program. But the USE= in your /etc/portage/make.conf will take care of most of this, and when running emerge always use emerge --ask so it will show whats enabled and whatnot for the specific package(s).
+>What if a useflag isnt blocked and also isnt allowed, just simply not there?
+Not sure what this question means, but whenever a program needs to use a flag thats blacklisted by you, typically emerge will stop you from installing said program completely until you make an exception to allow a certain useflag in /etc/portage/package.use
+>Ill choose the desktop profile, this comes with a shit ton of flags, but will I really need all of them? If i install this on my normla main desktop where I will also need much normie shit, i feel like i dont even need the possibility of use flags.
+Yeah, it's unnecessary bloat IMO.
+>Im about to install gentoo as my main OS now, the first time, and i still ahve a quick question regarding use flags
+Be careful Anon, if you get the chance to appreciate Gentoo it's hard wanting to back to other distros.
+--- 92794542
+>>92794415
+>Bros I'm considering making the full on switch from Windows to Linux
+I'd just like to interject for a moment. What you're referring to as Linux, is in fact, GNU/Linux, or as I've recently taken to calling it, GNU plus Linux. Linux is not an operating system unto itself, but rather another free component of a fully functioning GNU system made useful by the GNU corelibs, shell utilities and vital system components comprising a full OS as defined by POSIX.
+
+Many computer users run a modified version of the GNU system every day, without realizing it. Through a peculiar turn of events, the version of GNU which is widely used today is often called Linux, and many of its users are not aware that it is basically the GNU system, developed by the GNU Project.
+
+There really is a Linux, and these people are using it, but it is just a part of the system they use. Linux is the kernel: the program in the system that allocates the machine's resources to the other programs that you run. The kernel is an essential part of an operating system, but useless by itself; it can only function in the context of a complete operating system. Linux is normally used in combination with the GNU operating system: the whole system is basically GNU with Linux added, or GNU/Linux. All the so-called Linux distributions are really distributions of GNU/Linux.
+--- 92794582
+>>92794485
+never had a VN which didn't run on wine without any hitches
+I hope you mean older, non-steam VNs like pic rel 'cause that's what I plan on playing
+--- 92794591
+>>92794542
+I'm using Linux without Guuhnoo. Eat foot cheese.
+--- 92794606
+>>92794527
+>do I always need to go back to the config file of portage before compiling a program to check if I have every useflag i need?
+I misread this ^, no, you do not need to look inside of your make.conf every time before you install a program. Like I said in my post emerge --ask will show you what flags are being used, and for specific programs you can enable them by editing /etc/portage/package.use/genericnamehere
+  app-admin/keepassxc X doc 
+--- 92794741
+>>92794582
+>older, non-steam
+haven't really read a VN in like 3-4 years and certainly never paid for it. 
+"LANG=ja_JP.utf8 wine" (note it down and make a bash alias for it eventually) is your friend with any fantranslated game
+--- 92794800
+>>92794741
+sweet thank you, I'll be sure to save this :)
+--- 92794995
+3 days I've been trying to get a flatpak and pulseaudio working on musl void.
+Fuck. Me.
+I keep getting the same two errors near the start of the thing about it's being unable to connect.
+01:54:30.901 | ERROR | main_thread | AudioModule | setupAudioDriver: audio output open failed
+01:54:30.901 | ERROR | main_thread | MuseSamplerLibHandler | MuseSamplerLibHandler: Unable to open MuseSampler library, path: /root/.var/app/org.musescore.MuseScore/data/MuseSampler/lib/libMuseSamplerCoreLib.so
+
+I have pulseaudio, pipewire, dbus, installed.
+I'd installed packages listed in voiddocs possible fixes.
+For both pulseaudio and pipewire-pulse, I've tried launching as runit services, executing them as as is, executing through dbus-run-session.
+I tried understanding pulseaudio, and it's so abstruse, but I got mpv playing something some-fucking-how, so I took that as it working.
+Still no.
+
+Any information and or help I'd appreciate.
+Void won't be updating the package anything soon, my guess, and building the shit fails on me, with cmake being obtuse as usual, so flatpak is the only alternative.
+--- 92795307
+how do i speed my mouse up without using Coordinate Transformation Matrix
+it fucks up anything that grabs my mouse
+--- 92795335
+>>92795307
+xinput
+--- 92795728
+ok i installed the evdev driver and that works right
+libinput suck my chode
+--- 92795756
+>>92794741
+I've never had to set the locale for any jp game desu, shit just works on linux
+--- 92796102
+>>92794527
+>>92794606
+Thank you very much. I am right now in a mint live environment and now extracted the stage3 tarball. 
+
+Artix felt pretty comfy, i hope gentoo will feel even more comfy.
+
+with
+>What if a useflag isnt blocked and also isnt allowed, just simply not there?
+I meant, for example bluetooth or qt.
+When I do NOT have bluetooth in the USE= area, not even blacklisted NOR listed, what will happen? 
+
+Also, i questioned it not very understandable, do I even need use flags? I will soon get an x200 with not a lot of storage space, then gentoo is the perfect OS with its use flags, but i have a strong computer, what real benefits do I get from using gentoo over Artix?
+
+I am kinda doing this for the fucks of it right now, and to learn it xD
+--- 92796237
+>>92796102
+>>92794527
+>>92794606
+Adding*
+I am right now choosing use flags, When i choose eselect profile 5, which is for desktop use with X support,
+i get much fucking useflags,
+
+u said its bloat. So as I understand, when I dont put in that much and e.g. copy someones uselfags like mental outlaws ones form the video, and i want to install something but dont have the right use flags, itll warn me, and i can add them then and continue compiling the program?
+
+Should i then just put a few useflags in now, and let them be naturally added while i build my desktop environment or just put in everything from the giant profile?
+--- 92796298
+>>92796237
+Don't worry too much about "bloat", compiling most things doesn't take that long (unless you're poor and have a shit computer). After you've gotten everything set up is the time to be autistic, not before.
+--- 92796416
+>>92794346 (OP)
+Why is Tesseract OCR able to output PDFs but unable to read them?
+
+This is fucking retarded
+--- 92796495
+copying from last thread because the link here got posted while I was typing
+
+baldie sold me on trying out running my system from the tty
+I've been on linux for three years and I'm still no good with bash, a little immersion therapy is in order
+I looked at the sites in the sticky and some of them are helpful
+
+but what I really need is a resource that goes through each command individually and contextualizes what it's actually fucking for
+
+I'm very unimpressed with the manpages, they seem perfectly fine for reference, but for learning you have to scroll just to find the description of the command and it's usually one sentence and not a helpful one
+anyone seen what I'm looking for?
+--- 92796550
+I have to set up a new laptop for (dev) work and I want to use it as an opportunity to test some new distros, should I use void or nix?
+--- 92796583
+>>92796298
+Should I choose a hardened profile? can I still harden it as perfectly as i could now later on?
+--- 92796656
+>>92796583
+Yeah, I use a hardened profile. You'll have a really hard time changing later on, so yeah, choose it now. Also if you're gonna be running 64-bit only this is the time to make that choice too. It seems like you probably already knew this given how you phrased the question, so idk why you asked.
+--- 92796691
+lads is it possible to access a server via ssh while still retaining all the niceties of my local dotfiles?
+--- 92796754
+>>92796416
+It's much easier to create PDFs than convert them into bitmaps. There are already lots of other programs for that.
+--- 92796862
+>>92796656
+side question, when choosing hardened profile, will this make stuff harder to install or so? i also plan on playing games on steam for example, what does a hardened profile change, cuz if not something significant why wouldnt everyone choose a hardened
+
+And when typing
+> emerge --ask--verbose --update --deep --newuse @world
+its not recognizing --ask --verbose, did i fuck something up?
+--- 92797028
+>>92796862
+>when choosing hardened profile, will this make stuff harder to install
+Nah, probably not.
+> --ask--verbose
+you need a space there. It should be " --ask --verbose". Also, protip: "-avuDN" is the same as "--ask --verbose --update --deep --newuse" except with less typing.
+--- 92797209
+>>92796495
+tfw youre not smart enough for dumb shit on the schizo os
+--- 92797230
+What's the current year, retard proof program for converting/copying audio files that can run on Xubuntu? I have a few folders of FLACs that I need copies of in some other vanilla audio format.
+--- 92797281
+>>92794346 (OP)
+Are there any artists on here that use Linux drawing programs that arent dogshit?
+--- 92797308
+>>92797028
+So, sry for asking so much, 
+
+I am currently in a few important choices and I cant find articles explaining it good enough,
+
+i choose the hardened SElinux profile now, (i already chose the default desktop profile, and put in these useflags inthe make.conf, but I can choose hardened/selinux again) 
+
+Then questions and worries, I dont understand very well what profiles exactly do except for changing useflags, when changing to hardened/SElinux i do not have the desktop profile chosen, so is it any important to choose the desktop profile if I want to use dwm with X?
+if not why do these profile exist except for pre given useflags?
+--- 92797309
+>>92797230
+Lmfaoo are seriously telling me you cant even use MP3s and shit on Linix
+--- 92797337
+>>92797308
+>>92797028
+Forgot to ask, There is a stage3hardened/selinux tarball, i used the regular stage3RC tarball, If i want to choose the hardened/selinux profile, shouldnt I have used the hardened/selinux tarball then? should I start over?
+--- 92797371
+>>92797309
+Worse, I got an Iphone for my birthday.
+--- 92797389
+>>92797308
+>>92797337
+>is it any important to choose the desktop profile if I want to use dwm with X?
+Hardened has fewer useflags set by default, but that probably won't matter. Just set the useflags you need as you go along. dwm is pretty minimal, so I can't see you having too many problems here.
+>shouldnt I have used the hardened/selinux tarball then? should I start over?
+Yeah, you should probably start over.
+>>92797230
+ffmpeg :^)
+--- 92797407
+>>92797281
+what are you having trouble with
+--- 92797412
+>>92797230
+fre:ac is pretty retard proof, even comes with a GUI
+--- 92797488
+Hi. Does anybody know how to start the fancontrol-gui service automatically? I know how to make a systemd service I just don't know how to access fancontrol-gui's service.
+pic related it's the application.
+--- 92797557
+>>92797488
+depends on your login manager. for mine i put startup commands in:
+/home/user/.xsessionrc
+which initiates after i've logged in to my account from the login manager.
+
+in that file you just need to put the command and &amp; after it so you can launch multiple commands and it wont just wait till that program gets closed
+
+for example the contents would be
+fancontrol-gui &amp;
+firefox &amp;
+--- 92797712
+>>92797412
+You're a real nigger, thanks for the help.
+--- 92797730
+>>92797557
+I read a post and it apparently is the fancontrol systemd service it uses. I just tried to enable that service but it didn't work. It says it depends on lm_sensors so I enabled that too. but it's still not working.
+I already know how to autostart a script on login.
+--- 92797793
+Is my liquid cooler (Corsair h100) working out of the box on Arch Linux or do I have to install something else?
+--- 92797835
+>>92797389
+I now have hardened+selinux, just found out selinux is by glowie redhat. Is that bad? should i get normal hardened? will i ever need selinux?
+--- 92797836
+>>92797793
+Why wouldn't it be? The motherboard is what controls your fans/pump, no?
+--- 92797852
+>>92797836
+>The motherboard is what controls your fans/pump, no?
+Is it? I didnt know that, I thougt you need Corsair Link software
+--- 92797861
+>>92797230
+>converting
+FFMPEG
+--- 92797877
+>>92796754
+>There are already lots of other programs for that.
+Can you name some?
+--- 92797944
+>>92797877
+Can you use Google?
+--- 92797960
+>>92797835
+>just found out selinux is by glowie redhat. Is that bad?
+Lmao.
+>will i ever need selinux?
+idk, but the answer is probably not. MAC makes me feel safe and secure but I don't necessarily need it. Set it up however you want. It's your computer, so feel free to not even use it if you don't want to.
+--- 92797971
+>>92794346 (OP)
+>>92797389
+I typed
+> emerge --ask--verbose --update --deep --newuse @world
+But it didnt start compiling, output is pic.
+
+What shall I do? It tells use changes are necary to proceed but what exactly shall I put in there now? or what exactly is the problem?
+--- 92798036
+>>92797971
+You don't have to do anything, emerge just changed your config files. If you read the output you would see this. Just run the command again. Please just use the wiki, this is getting silly.
+--- 92798108
+>>92798036
+>>92797971
+er, I misspoke, emerge doesn't actually automatically update your config files like that. I can see why you're confused now. Either run dispatch-conf or manually update your useflags (I'd suggest making a file in /etc/portage/package.use/ for Qt related use-flags).
+--- 92798246
+There is this, anyone tried it?
+--- 92798248
+>>92798108
+So i typed u to update the conf and add a new one, and its compiling now thank you very much. 
+What exactly did this do tho and why/what was the problem, if its too much explaining its ok. thx again
+--- 92798353
+Retard here. Trying to install https://taku910.github.io/mecab/#install-unix. Not entirely sure if it's absolutely necessary to compile it, but I can't find anything else on the page, and I don't read Japanese. Ran across issue in picrel. The error say no acceptable C compiler found in $PATH. Do I just install gcc/cc (I'm assuming they're C compilers)?.
+--- 92798403
+>>92798248
+Sure. Whenever a config file is updated by portage you need to run dispatch-conf to update it. dispatch-conf is a tool for managing updates to configuration files. If a package updates a config file or emerge wants you to add a useflag you'll need to use it. You can roll back changes using it as well.
+
+Basically here's what happened: you added a file with the text from your screenshot (the # required by comments and the package atom/useflags) to your portage configuration.
+--- 92798685
+>>92796495
+Step 1: install emacs
+Step 2: C-h i
+Read the info docs through the emacs interface. Really the best way to go about this. There's an info doc for bash as well.
+--- 92798694
+>>92798353
+Install "build-essential" or whatever your distro calls it.
+--- 92798805
+>>92797793
+>>92797852
+If coolers needed OS support we would be seeing fried equipment everywhere.
+But there are some rare cases where fans spin at 100% unless tuned down by software* but it's never the other way around.
+--- 92798847
+>>92798353
+>>92798694
+I install and used gcc, but got an error saying that the compiler wasn't powerful enough to compile or if it should be to see some log. Found what I was looking for in my distro's repo, so I guess I'll stick with that.
+--- 92798884
+>>92798403
+thank you very much for your help today, you helped me out alot!
+--- 92799151
+>>92797944
+So you don't know any, got it.
+--- 92799283
+I'm on 5.19.0-32-generic because that's what came with the xubuntu installer and I'm not froggy enough to fuck around with my kernel too much yet other than maybe rolling it back.
+
+I just got a 4080 and lightdm won't start so I can't login or anything. I tried switching to tty1/2 etc, and it prompts the login, but then I just get a blinking unresponsive underscore-cursor.
+
+Fortunately I have an igpu so it's no big deal and I'm in, I just don't know what I have to install from apt to get it working. apt list | grep nvidia is overwhelming. What do I install? I wanna have cuda available to fuck around in python/jupyter/pytorch/aicoom if that makes a difference.
+--- 92799479
+>>92799283
+lol it was just sudo apt install nvidia-driver-525 nvidia-dkms-525
+
+what does dkms stand for?
+--- 92799504
+>>92799479
+>dkms
+>Dynamic Kernel Module Support (DKMS) is a program/framework that enables generating Linux kernel modules whose sources generally reside outside the kernel source tree. The concept is to have DKMS modules automatically rebuilt when a new kernel is installed.
+
+If I'm reading this right, it means the nvidia driver isn't part of the kernel itself like AMD, so it's pulled from somewhere else.
+--- 92799558
+>>92799504
+Yep, that's the big issue with nvidia, the Linux kernel is GPL licenced so you can't have proprietary code in it. That's also why the firmware blobs are distributed separately.
+--- 92799562
+>>92797793
+It will use the default BIOS/UEFI settings for fan control. If you're so worried, try out fancontrol, or this: https://github.com/Maldela/fancontrol-gui
+
+That aside, if you're using all AMD and want to control your GPU fans, try corectrl.
+--- 92799631
+>>92799558
+What's the status of the nouveau drivers? I don't think we have any access to user-space related work yet which is the core to getting it to work right.
+--- 92799675
+>>92799558
+>>92799504
+
+Well I'm getting 300 fps on portal 2 now so that's neat.
+--- 92800029
+>>92794346 (OP)
+>>92798108
+it says on the handbook
+>This will install the Linux kernel sources in /usr/src/ using the specific kernel version in the path. It will not create a symbolic link by itself without USE=symlink being enabled on the chosen kernel sources package. 
+which lets me realize that there are 2 ways of setting useflags, one global and apparently one for specific packages? i have set the symlink useflag global now, where do I set them for this package specific or did i understand it wrong?
+--- 92800183
+>>92799675
+Don't forget to set a global limit to your fps, you don't want to be like those fags with gigabyte 3080tis that blew up because of Diablo 4 uncapping framte rates.
+--- 92800248
+>>92800029
+>This will install the Linux kernel sources in /usr/src/ using the specific kernel version in the path
+what does that even mean lol
+--- 92800426
+>question asked: Any reasons to use Ubuntu over Mint?
+>answer received: Support, stability, software ecosystem.
+Doesn't Mint use Ubuntu's packages?
+--- 92800536
+xorg, arch, kde
+When MPV is full screen the screen will sometimes go black for a bit. It's properly black, like the backlight just turns itself off (as opposed to ips black which is still visible). 165hz, 1440p display, not sure where to go from here. Doesnt happen on windows so its definitely software related. I wonder if it could have something to do with gsync?
+--- 92800607
+>>92800183
+How do I do that?
+--- 92800887
+>compile a kernel without suspend mode support
+>no suspend button in the menu
+>compile a kernel WITH suspend mode support
+>suspend button in the menu
+How does the system know it? Is there some /sys/whatever/suspend node in there somewhere?
+--- 92800988
+>>92794591
+based
+the gnu+virgin fears the busyboxchad
+--- 92801374
+>>92800607
+Isn't there a limiter on your nvidia software itself? Sorry anon, I don't use Nvidia.
+--- 92801417
+>>92800536
+I have a monitor where a completely black screen will turn the panel off automatically, check any dynamic contrast settings there. I have a 165hz display as well and VRR works for me "fine" on mpv on x11 through KDE (of course, it disables composition, otherwise it can't use VRR). By "fine" I mean I've been trying to find out why it drops some fucking frames from time to time.
+--- 92801506
+Trying to run "HedgeModManager" on my Steam deck.
+After entering "./steamtinkerlaunch hmm start" into the terminal, everything seems to go fine until it returns:
+
+"Unhandled Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' or one of its dependencies. File not found.
+at HedgeModManager.HedgeApp.Main(String[] args)"
+
+I've tried several different ways of getting this programme to work and I have yet to succeed.
+--- 92801609
+All the kitschy retro window managers I like are gonna fucking die when wayland takes over, how do I cope with this
+--- 92801785
+>>92801609
+Change to Sway I guess if you want to continue using a WM with Wayland.
+--- 92801812
+>>92801785
+>tiling
+nah i meant shit like fvwm and windowmaker
+--- 92802614
+>>92801609
+Never switch to Wayland, it's dogshit anyway
+--- 92802666
+>>92800029
+In case you're still here, you probably don't want to set the symlink useflag at all, let alone globally. eselect kernel is probably the thing you're looking for, read about that.
+--- 92802673
+Thoughts on Ubuntu? Maybe snaps are annoying but I like the fact that Ubuntu has support from a company, it just gives me more peace of mind about security. Because if Ubuntu gets security issues then paying customers may leave them.
+--- 92802700
+>>92802673
+It just goes to show that some people in the world think of just Ubuntu when Linux is brought up, it's that ubiquitous. Using it should do you fine, though I'd recommend using an official spin instead like Kubuntu, Xubuntu or Ubuntu MATE instead because the spins run better then base Ubuntu LTS.
+--- 92802738
+I can appreciate Oracle not putting trash into their yum repositories but does anyone know where I could find programs such as maim, scrot, anki, etc.? Oracle Linux is supposedly RHEL-compatible so I probably wouldn't break too much shit if I configured dnf to use some 3rd party repo
+--- 92802747
+>>92802673
+I haven't used Ubuntu in a long long time, so take this with a grain of salt, but in my experience it was just a shinier Debian with extra annoying things to deal with. Also, Cannonical bad.
+--- 92802775
+>>92802747
+Back in the day Ubuntu was always just Debian but with an easier installer and third party drivers included plus its own repos with more up to date then average packages. It naturally had an audience, also helped that they shipped you installation CDs for free.
+--- 92802829
+>>92802673
+Ubuntu has the best font rendering
+--- 92802830
+>>92802775
+And back in the day Ubuntu had also a pretty nice gnome 2 desktop with a pretty nice theme and fonts which I'd still use to this day.
+--- 92802885
+I'm really loving linux after using it exclusively for ~6 months. No more worries about windows licenses and the latest incursions on your privacy. Always loved GIMP. Got games to work in wine. Even the video editor kdenlive is fucking excellent and so fast. Have probably installed and tried 6-7 different distros by now on a variety of computers, including minimal debian with openbox and lightdm.
+
+Any recommendations for youtube videos with tips and tricks for intermediary users? I want to learn more but whenever I search the topic I either get complete newbie stuff or really autistic stuff that tend to trend toward tiling window managers for some reason.
+--- 92802919
+>>92802829
+I remember that. Even using their fonts on other distros doesn't compare. I still won't use Ubuntu again, but I have yet to see font rendering as good anywhere else.
+--- 92802973
+I've been using Ubuntu for work the past few years but I want to make the complete switch away from Windows, primarily for privacy reasons. I have a similar distrust towards other big companies like Apple, Amazon etc.
+
+This is a long term project for me that will involve "unhooking" myself from a lot of other services. 
+
+Is Debian a decent distribution to go with if these are my concerns? I'd like something that is decently well supported with security updates and such but without corporations having their claws in it. For those reasons, I discarded Ubuntu and Fedora (my first two options).
+--- 92803132
+>>92802973
+Debian is good, but stable is really, really old as you probably know. I've found when you use Debian, you get itchy and start wanting newer packages and then it breaks when you get adventurous with repos and packages.
+--- 92803305
+>>92802973
+>doesn't know what distro to go for
+Could just partition your drive for easy distrohopping. Try Debian first and Arch second.
+>ESP (if an UEFI system)
+>swap partition
+>first distro
+>second distro
+>shared /home
+--- 92803328
+>>92802830
+Well yeah, the GNOME2 days were very much the best days, followed by the Unity days followed by the current GNOME3/4 days. So surprise it just kept getting worse.
+--- 92803377
+Any ideas about this Wine error? Wine is the latest, xact is also installed, everything else should be too.
+--- 92803525
+>>92803305
+setup a virtual machine, try arch and debian at the same time
+--- 92803629
+I have two drives on my laptop: a 128gb ssd and a 1tb hdd. Should I make a separate home partition on the ssd or the hdd?
+--- 92803674
+>Imagine paying for free software
+--- 92803684
+>>92803674
+>>Imagine paying for free software
+Red Heats endgame
+--- 92803686
+>>92803629
+I'd use the SSD for the system itself including /home and all, mount the HDD to /mnt/anime and store my anime there.
+HDDs are only good for storing media files.
+--- 92803781
+>>92803525
+How do you use virtual machines... seriously? I mean like actually using one as a desktop system.
+>inb4 GPU pass through
+Highly advanced topic and requires extra hardware.
+--- 92804078
+Is the Ideapad 3 compatible with Linux?
+--- 92804164
+>>92804078
+I don't see why it wouldn't. Just boot into a Linux ISO of your choice and it should be smooth sailing, though I guess you'll need to wipe the Windows install that'll already be on it. Plus turn off Secure Boot if you want to install something like Arch.
+--- 92804326
+>>92804164
+Do I also have to turn off the AMD security option or whatever it's called?
+--- 92804441
+>>92795307
+you're probably inputting the wrong values into the matrix
+IIRC the matrix describes a projective transformation (https://en.wikipedia.org/wiki/Homography)
+the gist is you only need to change the very last value (and the rest should be like an identity matrix), smaller values for faster and bigger values for slower
+--- 92804458
+>>92804326
+Sorry, no idea about that. Is it like some extra thing on top of Secure Boot?
+--- 92804575
+>>92794346 (OP)
+which distro loads faster on a vm?
+all i need is a distro that loads a desktop environment, a browser and can share the clipboard between host and guest.
+
+tried ubuntu on hyper-v and i had to create a new user in windows to share files between host and guest and i ran out of space after a while. added more space on the vm but it didnt show on gparted.
+turns out hyper-v is kind of shit compared to virtualbox but its faster.
+i have xubuntu on virtualbox but it takes like 3 minutes to 
+load. 
+is there anything that loads faster?
+--- 92804579
+>>92804458
+Yes, I think it's the TPM thing that Windows 11 requires
+--- 92804595
+>>92794346 (OP)
+It's telling about the current state of the world that there are so many people on /g/, 4channel and elsewhere in general trying to guilt people in to using windows or corporate distros so aggressively.
+--- 92804698
+>>92802738
+Just build from source I guess.
+--- 92804768
+Is there any reason to use EndeavourOS now that archinstall exists?
+--- 92804876
+>>92802673
+>I like the fact that Ubuntu has support from a company, it just gives me more peace of mind about security. Because if Ubuntu gets security issues then paying customers may leave them.
+Same exact thing goes for Fedora which is way less annoying
+--- 92804944
+>>92804768
+I find Endeavour installs Arch cleaner on average then archinstall does. Feels like archinstall has a new bug every new version that fucks up something else.
+--- 92804969
+>>92804698
+I doubt my feeble mind can take it
+--- 92805022
+>>92804944
+you need to git clone it before you use it. they're always a week behind the monthly release.
+--- 92805023
+>>92804969
+Building things from source isn't really *that* difficult. Like it's as easy as just running "make install" in the source files folder.
+Hell, a lot of the packages on the AUR are just scripts that build something from source for you.
+--- 92805048
+>>92805022
+What do you mean?
+--- 92805085
+>>92804969
+Have you ever tried building from source?
+90% of the time it's a matter of typing "make" or something just as easy.
+If you want to git gud there's no way around it in the long run...
+You will hit a point where existing applications no longer do it for you, and you want to modify them.
+--- 92805125
+>>92803377
+Solved by installing lib32alsa+plugins. It was Steins;Gate+fan patch if anyone wonders. Savegames from Windows also worked by copypasting them into Wine's "My Documents". Feels good.
+--- 92805181
+>>92805125
+God that's a good VN. Like stupid good.
+--- 92805220
+>>92805181
+Yeah, I was wondering if I'll be able to replay one more time after switching OS. One less question.
+--- 92805224
+>>92805125
+Is that the patch for the Steam version?
+--- 92805267
+>>92805224
+Yes, CoZ patch. Didn't work because of missing lib32 sound files. 
+S;G 0 also works the same.
+--- 92805436
+>>92797488
+>>92797730
+Isn't that just a gui for actual fancontrol service running on the background
+And yes it should be run before or without a graphical level user
+
+I just spent yesterday manually configuring my setup to run perfectly, but otherwise you need to run an auto config generator
+just fucking google it
+--- 92805459
+How the FUCK do I remember Terminal commands
+--- 92805481
+>>92805459
+Create a cheet sheet for yourself to read/study when you feel rusty? There's also plenty of cheat sheet style documents online you could check out.
+--- 92805580
+>>92805023
+>>92805085
+I've built emacs and netbeans before but right now I'm trying to figure out the right approach to packaging my own stuff, with a few preconditions:
+>assume $HOME is protected via chattr +i
+>libraries can only be pulled from base Oracle Linux 9 + EPEL
+>the build environment should be containerized or otherwise separated from base install
+and obviously I should end up with something that could be easily reinstalled in case I nuke my system, so probably a functioning *.rpm package
+--- 92805863
+>>92805048
+archinstall is a week or behind behind the monthly release of arch. you need to git clone or wait until it's on the repository before it's usable.
+--- 92806680
+>>92800887
+if you talking bout sddm yes. it cheks for it. if u talking bout the log out dialog yes, it checks for that too
+--- 92806840
+>>92804575
+Probably Fedora and SUSE because Ubuntu has always been the most performance retarded of the big 3 in general. If you're really hellbent on improving boot times you can get large gains from using a custom kernel and eliminating initrd from your early boot sequence. That's a lot easier on tweaker shit like Arch.
+>turns out hyper-v is kind of shit compared to virtualbox but its faster.
+VMWare Workstation Player was always the only good option for graphical desktop.
+--- 92807361
+>can't receive incoming connections at main pc
+>iptables says it's supposed to accept incoming connections
+>tcpdump says the packets are actually coming
+>disabling firewalld allows me to receive incoming connections but only from my local server
+>still can't receive connections from any other devices in my network
+
+how can I troubleshoot this further? asking this here because this didn't use to be a problem with mint before I switched to endeavour
+--- 92807787
+>>92794346 (OP)
+Trying to do GPU passthrough with my shiny new NVIDIA GPU. Previously, I was running off AMD integrated graphics. 
+
+When I first installed it and tried to boot, my computer hung in the boot jobs. Installing the nvidia drivers fixed this, meaning I could boot to NVIDIA or AMD depending on whether my GPU was plugged into the PSU.
+
+OK, time to disable the GPU. Added 
+>MODULES=(vfio_pci vfio_virqfd vfio vfio_iommu_type1)
+to my mkinitcpio.conf (kernel linux515) (yes, modconf is in the hooks)
+Added options vfio-pci ids=10de:2489,10de:228b to my vfio.conf 
+
+System still hangs at 
+::running early udev hooks
+It seems to me that it's hanging at vfio. Not sure what the cause could be. 
+Having to keep unplugging and replugging my GPU to debug this.
+
+Help me, fellow Arch virgins!
+--- 92808685
+What's the best Linux for a G4 Power PC?
+--- 92808697
+If I put modconf before autodetect in my mkinitpcio.conf, will I brick my system?
+--- 92808932
+>>92804575
+>which distro loads faster on a vm?
+QubeOS
+Puppy linux.
+--- 92809781
+>>92806680
+Talking about Mate desktop environment.
+--- 92809798
+>>92807361
+What's the point of firewalling if you allow incoming connections? Do you have a router setup?
+--- 92809978
+>>92794346 (OP)
+Please help, I'm trying to to learn LibreOffice Base and I'm following along the example activity
+I'm on Step : Add headings
+https://books.libreoffice.org/en/GS74/GS7408-GettingStartedWithBase.html#toc15
+It says:
+>2) Press the Enter key repeatedly to move the cursor down until it aligns with the gap between the Date field and the Breakfast field.
+But it doesn't do that, I press enter and the entire form goes down. I was doing fine so far why am I having trouble with this bullshit.
+--- 92810052
+I *want* to choose a distro based on politics regardless of quality (though I believe the right beliefs leads to better quality). Having said that, is it true Debian ousted a core maintainer of 20 years over offending some troon? I was set on learning Debian but, which is the least troon-infested - Fedora, Arch, or Debian? Which is more for the white man?
+--- 92810077
+>>92794346 (OP)
+I changed my PSU (dunno if that matters) but now my PC doesn't wake up from sleep anymore. It just crashes, then restarts if I try to wake it up.
+
+And it drives me fucking MAD. Any tips?
+--- 92810317
+>>92809798
+>What's the point of firewalling if you allow incoming connections?
+came turned on by default
+>Do you have a router setup?
+nothing fancier than the usual NAT setup
+--- 92810492
+Can I just use sudo apt upgrade to update my system or do I have to also use sudo apt update every time?
+--- 92810514
+>>92810492
+apt update will get new information from repos
+--- 92810837
+>>92804575
+I fucked around with Gnome Boxes and did a minimal Arch-Xfce install. Takes ~2-3 second to boot from an HDD, but Gnome Boxes is pretty anemic in terms of features.
+--- 92810986
+>>92808685
+Gentoo. Serious answer.
+--- 92811036
+>>92810052
+OpenBSD
+--- 92811040
+>>92810052
+Devuan, Arch, macOS are your best options.
+--- 92811192
+Is it possible to group playlist items by directory with cover art in Strawberry Music Player?
+--- 92811385
+>>92811036
+Thank you for your response. Will this allow for gaming and possibly Stable Diffusion with an AMD GPU?
+
+>>92811040
+Thank you for your response. May I ask you why?
+--- 92811442
+I'm losing my fucking mind here, I didn't think Oracle would actually break their own OS to sell those support packages
+>virt-manager is broken
+>oracle-ovirt just doesn't exist in the official repos
+>one boot option (the UEK kernel one) just doesn't boot
+>ol9_developer_EPEL doesn't really add anything
+--- 92811696
+>>92811442
+Pretty much the only reason for them to have their own RHEL knockoff. That and establish standing if anyone in the US is retarded enough to sell ZFS products without paying them.
+--- 92811713
+>>92810317
+wait what are you running a router box?
+--- 92811934
+>>92811442
+Sex Makima's big butt.
+--- 92812075
+>>92810986
+how many days until I have window maker and ati graphics?
+--- 92812193
+>"wheel" group
+Why is there gypsy symbolism in my GNU/Linux system?
+--- 92812216
+>>92812193
+because they're the original fastmen
+--- 92812238
+What's a good file manager that doesn't shit the bed when you open a folder with >50k files? Bonus points if it's fast at filtering them based on the filename. Nemo and Nautilus are quite crappy at it.
+--- 92812269
+>>92794381
+you can use default profile and get to desktop from there, a lot of desktop profile flags are unnecessary
+--- 92812415
+the apt at my other debian just shat itself
+--- 92812485
+i want to install gentoo but i always manage to fuck it up, and it's always the networking, no matter what i can't connect through WIFI
+--- 92812585
+>>92812485
+Use the WiFi cable for the time being.
+--- 92812715
+>>92812585
+i don't have an ethernet cable on my laptop
+--- 92813059
+Installing gentoo on powerpc right now how many days estimate until the xserver working
+--- 92813565
+>>92813059
+You're not supposed to compile anything on the G4
+--- 92813619
+>>92813565
+macos is whack though and I'm having problems with ubuntu.
+--- 92813914
+Does the 2.5g Realtek Ethernet in mobos work well on Linux?
+--- 92814207
+generally speaking what gpu works better on linux, amd, nvidia or it depends on the exact model?
+--- 92814394
+>>92813914
+Is that even a question on THE server os?
+--- 92814506
+>>92814207
+AMD is the gold standard. People say Intel is fine, too.
+--- 92814559
+>>92812193
+>>92812216
+Jej'd
+--- 92814646
+>>92814394
+Considering I'm not talking about server hardware, yes
+I'm asking because the 2.5g Intel 225/226 i garbage and I'm building a new PC soon
+--- 92814782
+>>92814207
+Cuda / Blender -> Nvidia
+Desktop/Browsing -> Intel IGP
+Rest -> AMD
+--- 92814855
+>>92814646
+You get what you pay for. But a quick search lists no issues with realtek besides initial driver installation.
+--- 92815632
+Swap file or partition for a SSD? EndeavourOS has no zram option in the installer.
+--- 92815779
+Using guhnome, any way (through an extension I guess) to bind a key to switch between 2 workspaces? As in, press it to switch to workspace 2, then press it again to switch to 1?
+--- 92816961
+>>92794346 (OP)
+installing gentoo after a failed install yesterday, a dilemma.
+
+So i tried to install gentoo yesterday and failed, deleted the partitions and went to sleep.
+
+Now, I dd'd /dev/sda for a few minutes (didnt know to finish takes hours so I stopped) and then I (with fdisk) created partitions and gave them filesystems like ext4, swap, and fat.
+
+Now im about to install my hardened tarball (should I get H/SElinux?) but it does not finish
+
+and when trying to ls in /mnt/gentoo it tells me :ls: reading directory '.': Bad message
+
+Here a pastebin of it: https://pastebin.com/yjXzMxkj
+
+
+pls help me, i first time installed it yesterday and spent 12 hours on it. On the VM it worked but yesterday i had problems, wanted to try again today but know this :(
+--- 92816985
+>Debian Sid
+>Arch
+>OpenSUSE Tumbleweed
+>Fedora Rawhide
+>Gentoo
+which is the best rollan?
+--- 92817038
+>let's sha1sum a password
+
+ 
+$ echo Password1 | sha1sum 
+(a hash)  -
+
+
+>hmm, that doesn't look right
+
+$ python
+> pwd = "Password1"
+> import hashlib
+> sha1pwd = hashlib.sha1(pwd.encode()).hexdigest()
+> print(sha1pwd)
+[something completely different)
+
+(I had to reformat because of spam detection)
+What did I do? why aren't these matching up?
+--- 92817189
+>>92816961
+can't load the paste, it's protected
+i'd have to guess that something with your formatting went wrong, or you forgot to format something.
+i'd probably do a simple-as-possible install for your first time, portage is a fickle beast sometimes. reading carefully and taking your time are the key.
+--- 92817294
+>>92817189
+ihW6uPavFA
+I am doing a first install thats the problem.
+--- 92817430
+>>92814394
+>>92813914
+Yes, it wasn't working at first but got added in Linux 5.9.
+I can't get Wake-on-LAN to work for some reason, but this has nothing to do with Linux.
+--- 92817441
+>>92817294
+>ihW6uPavFA
+looks like you probably ran out of room on the device that was mounted there, or otherwise screwed up the filesystem. just un-tarring it shouldn't do anything, but you could try unmounting the drive and running fsck.ext4 /dev/sd(whatever).
+>I am doing a first install thats the problem.
+yeah, in that case go for the desktop tarball. I had slightly more issues with the systemd tarball, but either that or the openrc one will give you less issues that a hardened one will, especially if you're having trouble at this point.
+--- 92817498
+>>92815632
+File. A swap partition only makes sense with btrfs.
+
+>>92817038
+echo -n
+--- 92817583
+>>92817498
+>echo -n
+I opened it in vim and gedit, but they didn't show that \n. I really fucking hate line ending bullshit.
+--- 92817619
+>>92817441
+output was: fsck.ext4 no such file or directory while trying to open /dev/sda3
+
+So, should I just remove every partition, and try to repair sda as a whole with fsck, because if sda3 is broken the rest is likely also broken.
+--- 92817734
+>>92817619
+as long as it isn't your system device, sure.
+parted works pretty well for me, since what you'd want to do is to remake the disk label (mklabel) and then some partitions (mkpart) with some sizes (300M, 16G, 100%, look up the syntax).
+If that doesn't work, it's more likely a disk issue.
+--- 92817764
+>>92817619
+Does dmesg have anything interesting in it? Also why not just repartition and start over?
+--- 92817836
+>>92816985
+arch
+--- 92817872
+>>92817734
+This is my system device. Im doing this on my main PC. I dont even know how there can be a problem
+
+I deleted all partitions yesterday, today I dd'd sda as a whole 2 time for a few minutes didnt finish, then with fdisk I partitioned them and gave them efisys,swap etc. etc. and fat,ext4.
+Doing parted is practiaclly just doing the same thing again with a different tool.
+
+>>92817764
+I did repartition and start over and now im here, after sending this message im going to start over again. but im not going to restart hope thats ok (im in a mint live environment)
+and dmesg is fucking FULL of ext4-fs error messages and others.
+--- 92817983
+>>92817872
+Would you mind posting an example of the errors you're getting? Probably a dumb question, but did you mkfs.ext4 after partitioning?
+--- 92818123
+Is it true that package mangers like Nix and Guix are more protected against random package maintainers maliciously tampering with packages?
+--- 92818327
+What's a good "just werks" distro that I can rice if I choose to go that route? Thinking of dual-booting it with windows on my main desktop. I've used Mint, Fedora, Ubuntu, and Solus in the past. I'm leaning towards Fedora. Maybe Pop! OS to try something new. I also thought of EndeavourOS since it seems like the easiest of the Arch based distros but I'm not sure how much configuration it would take to get it to work 100% on my machine.
+--- 92818356
+>>92817983
+So, i just re did all that, and it worked. I dont know why the fuck I always get these kindof problems with linux where I do the exact same thing 2 times with 2 different results. 
+
+Perhaps im just a bit retarded. Thx for the help guys, ill probably get into another problem in the next hour or 2 during the installation.
+--- 92818374
+>>92818327
+Try out Endeavour and see what you think.
+--- 92818396
+>>92794346 (OP)
+What are some plug and play wifi adapters? 
+I'm on linux mint if that matters
+--- 92818417
+>Try Debian 12 netinstall on my laptop
+>Wi-Fi doesn't work
+>Maybe the DVD images include more firmware, I'll try installing it in a VM first
+>Install it
+>try to install neofetch
+>"Media change: Please insert the disc labeled(...)"
+Ahahahahaha how the fuck is this real
+Am I back in the 90s is this the fucking PS1 am I playing Final Fantasy VII with my fucking operating system
+--- 92818447
+>>92818417
+That's Debian for you.
+--- 92818701
+>>92818417
+>Wi-Fi doesn't work
+This is the case for all "freedom respecting" distributions out there. It boils down to firmware blobs and their licencing.
+>"Media change: Please insert the disc labeled(...)"
+Your fault, stop having disks in your package sources.
+--- 92818744
+>>92818327
+You can "rice" all distros but Fedora and Pop_OS are the ones that actively fight against you if you want to remove packages from them.
+Just install Arch/Endeavour.
+--- 92818976
+>>92818417
+add the non-free option to your /etc/apt/sources.list
+--- 92819132
+>>92818374
+>>92818744
+I'll try out Endeavour from a live USB.
+--- 92819143
+>>92794346 (OP)
+>>92817734
+I am currently installing gentoo, and just emerged the sys-kernel/linux-firmware because I have nvidia card
+
+2 very important questions because I cannot decide on what path to go.
+
+1: should I compile the kernel and configure it manually? I did that yesterday not as spooky as i thought but in the end i had grub problems.
+
+2: I have an I9 and will do gaming, should I get the intel microcode?
+--- 92819323
+>>92819143
+>Should I compile the kernel and configure it manually
+Yeah. Manually configuring the kernel isn't too hard if you have the time. It's definitely something you can put off until later tho. Just use the default config for now desu.
+>should I get the intel microcode?
+Yes. Idk why you wouldn't want the microcode. The fact that you do gaming is sorta irrelevant.
+--- 92819414
+>>92818417
+It's time to stop using Debian.
+--- 92819547
+>>92819323
+currently in the kernel, and is it normal that my kernel does not have every option as the guide has?
+Like for example from the guide:
+
+[*] NVMe multipath support
+[*] NVMe hardware monitoring
+&lt;M> NVM Express over Fabrics FC host driver
+&lt;M> NVM Express over Fabrics TCP host driver
+&lt;M> NVMe Target support
+ [*] NVMe Target Passthrough support
+ &lt;M> NVMe loopback device support
+ &lt;M> NVMe over Fabrics FC target driver
+ &lt; > NVMe over Fabrics FC Transport Loopback Test driver (NEW)
+ &lt;M> NVMe over Fabrics TCP target support
+
+MY kernel does not have everything under and including 
+> &lt;M> NVMe Target support
+--- 92819739
+>>92819547
+Yeah, that's normal. The guide isn't always up to date and it might not matter. Assuming it is and does matter: Press 'z' in menuconfig to see hidden items and scroll until you see "NVMe Target Support" select it and press '?'. Look at the the items in the "Visible if" and "Depends on" sections and enable them. Press '/' to search for symbols.
+--- 92819772
+>>92813565
+fuck you bitch it's working fine
+--- 92819799
+>>92819739
+>>92819547
+I'm assuming you don't need any of those options though unless you're running a datacenter or something.
+--- 92819938
+Is there an equivalent of Cheat Engine for Linux?
+--- 92819946
+>>92819739
+>>92819799
+Thanks i didnt know. But visible if and depends on i dont know how to do that, and since appraently i dont rlly need it and the guide said "it doesnt hurt to" im just not gonna do it.
+
+thx again, one thing less on my mind.
+--- 92820173
+>>92819739
+>>92819799
+erm, so, i compiled the kernel now but forgot to emerge the microcode can i still do this after compiling the kernel?
+
+AND, about nvidia drivers. It says on thexorg info page, that i can add the VIDEO_CARDS variable and set it to nvidia and then update the @world, and the its gonna get installed with. This means I will not need to install x11-drivers/
+nvidia-drivers seperatly right?
+--- 92820183
+>>92819938
+gdb
+--- 92820231
+>>92820173
+>>92819799
+And do I need to check the graphics support for nouvaeu? i want to use proprietary, I can recompile the kernel by just going back to /usr/src/linux and make menuconfig again, this is not gonna create any problems right?
+--- 92820309
+>>92820183
+Thanks
+--- 92820372
+>>92820173
+>forgot to emerge the microcode can i still do this after compiling the kernel?
+Yeah, that's fine. The microcode gets loaded on boot, it doesn't need to be built into the kernel. 'sudo dmesg | grep microcode' after rebooting to verify.
+>This means I will not need to install x11-drivers/nvidia-drivers seperatly [sic] right?
+Correct
+>And do I need to check the graphics support for nouvaeu?
+If you built nouveau as a module you're fine. The nvidia-drivers package blacklists nouveau. I'd still recommend disabling it tho. If you built nouveau into your kernel you need to recompile your kernel with nouveau disabled or as a module.
+
+btw, check out genkernel. It's nice desu.
+--- 92820416
+Why is systemd bad?
+t. interested in gentoo
+--- 92820531
+>>92820416
+It isn't bad per se. It's just much larger and more complicated than I need. Also the script-based services of openrc are more comfy to me than systemd's declarative services. If you're comfy in a shell then you might like it more.
+
+You can still use systemd on Gentoo btw.
+--- 92820747
+>>92820416
+>systemd
+
++ it's pretty fast at booting 
+- it's a spooky, bloated monstrosity and no one really knows what's hiding in its code depths, so some people suspect there might be some glowshit going on
+--- 92820779
+>>92820372
+Now what the hell exactly am i supposed to do here? i dont feel comfortable just copy pasting, what modules, why, which one should I pick?
+--- 92820894
+>>92820779
+Just install the nvidia-drivers. The module for nouveau will be blacklisted by the package. You don't have to manually blacklist anything iirc. It just werks out of the box. Reboot and lsmod to see if nvidia or nouveau is being used.
+
+If that was unsuccessful or if you want to disable nouveau for some other reason: go into menuconfig and press '/' to search. Type "nouveau" and press enter. "DRM_NOUVEAU" will be the first option. Press '1' to go to it from the search page. Press 'n' to exclude it. Then compile your kernel. EZ.
+--- 92820936
+>>92820894
+i excluded novaeu according to https://wiki.gentoo.org/wiki/NVIDIA/nvidia-drivers
+already, im still in installation so i cannot reboot now, i will install the nvidia drivers when i finished the installation and am in my gentoo machine directly.
+
+so that means i can ignore the section in the pic?
+--- 92820994
+>>92820936
+as it says i think its for exotic hardware i should be fine, 3080 isnt rlly exotic i believe. Thx for ur help brother
+--- 92821046
+>>92820936
+>>92820994
+so that means i can ignore the section in the pic?
+Yeah, you got it. It depends on whether or not you need to force a module to load to make your hardware work. udev generally works tho.
+--- 92821088
+>>92821046
+afaik udev is from systemd, but i use openrc, is there any problem to that now?
+--- 92821094
+>>92821088
+https://wiki.gentoo.org/wiki/Eudev
+--- 92821121
+>>92821094
+>>92821088
+Just to be clear: eudev is what you're using if you have openrc installed.
+--- 92821140
+>>92821094
+>>92821121
+>>92821088
+Wait actually I'm retarded. udev is the default device manager.
+--- 92821169
+Does anyone know why my keyboard might alternate between 2 device names in /dev/input/by-id whenever my system goes to sleep? The 2 names are:
+>usb-COMPANY_USB_Device-if02-event-kbd
+>usb-COMPANY_USB_Device-event-kbd
+
+Right after my system boots (or resumes from suspend) the device is the one without *-if02-* and then after about an hour it randomly switches to the if02 name.
+It then stays like that until my system suspends again and it repeats the cycle.
+--- 92821231
+>>92821140
+>>92821121
+>>92821094
+>>92821088
+>https://wiki.gentoo.org/wiki/Eudev
+xD
+thank you
+--- 92821496
+>>92794346 (OP)
+https://www.youtube.com/watch?v=zpVD24fBI7g [Embed]
+--- 92821555
+>>92794346 (OP)
+>>92821094
+I want no possibility of failure so even if this quesiton is a bit unnsescary i spent about 20 hours installing gentoo id rather ask then fuck it up.
+
+So i installed grub, made the config etc. etc.
+But I compiled the kernel 2 times, the second time because I forgot stuff and grub found the kernel and same name but with
+>.old
+
+This is no problem is it?
+--- 92821609
+You know how Red Hat has an icon next to the Activities button? Well I wanna do that on a different distro but make it this penguin guy because I like him. How do I do that?
+--- 92821628
+>>92821555
+If you fail just reboot into the installation environment and chroot like you did before to fix whatever seems to be the issue. 20 hours seems excessive tho desu.
+>This is no problem is it?
+No. That's expected behavior.
+--- 92822052
+>>92821628
+Yyyyyyyeeeessss I'm in thx u soo much, I know need to get xorg etc. But I run gentoo know meaning I'm cool, I'm better I'm a /g/entooman lmao
+--- 92822327
+>>92821628
+I ran into a problem regarding microcode. Using Ur command the output was 
+What shall I do
+--- 92822405
+>>92822327
+>microcode
+Idk, grub-mkconfig should have detected it and automatically applied it. Have you looked at what the latest microcode revision is for your particular cpu? Gonna be honest this seems like a low-importance problem that you should deal with on your own. You gotta learn to fly on your own little bird :_:
+--- 92822646
+The Fedora logo should be a blue hat like this instead of facebook
+--- 92822667
+>>92822646
+the tipping jokes would reach critical levels. 
+i want a fedora-based distro called trilby just because it's funny
+--- 92822908
+>>92822667
+Yeah gloriouseggroll missed an opportunity there.
+--- 92823069
+>>92802885
+>youtube videos
+Stop this. Bad way to learn. You wanna get cozy with linux you gotta get cozy with reading.
+
+Instead:
+
+- look up all the packages that make up coreutils and in your terminal type man $program$. Especially grep. Piping stiff into grep is a big deal.
+
+- read through K&amp;R ANSI. You can skip the exercises but be sure to read the code segments and actually understand them. Unix &amp; C are very very very tight.
+
+- do a vim tutorial. You don't have to memorize keybinds, just know what esc, i, :w, :wq, and :q do.
+
+- journalctl -b 0 shows you the startup process for your system. Super helpful for when shit goes wrong. Don't read it all, just pgdn and scan it to get gut-familiarity.
+
+
+Oh, also google 'linux journey'. That should probably come before you read K&amp;R. It's honestly an amazing introduction.
+--- 92823100
+>>92802885
+>trend toward tiling window managers for some reason.
+>some reason
+
+The more you use linux the faster you'll get with CLI and you'll wanna do stuff with a mouse+gui as little as possible. Tmux lets you live in a single terminal, it will eventually be very handy.
+--- 92823785
+>>92809978
+I think I know now, I think changing the controls to anchor to page instead of anchor to paragraph will fix it but wont try right now.
+--- 92824751
+>>92819323
+>Just use the default config for now desu.
+The defconfig that comes with the mainline kernel? To be completely honest, it's unusable for most people, it's more like an example that targets 1990s PCs.
+--- 92824841
+>>92821555
+>custom kernel compiler
+Could just embed the microcode instead of fucking around with GRUB. Here's mine:
+CONFIG_EXTRA_FIRMWARE="amd-ucode/microcode_amd_fam19h.bin"
+--- 92824854
+>>92794346 (OP)
+I created a subvolume `/@shared` which I want to mount to `/home/username/shared`. However, some problems arise:
+
+1. `@shared` appears visibly in `/`. That isn't the case for any of the other subvolumes, which as far as I can tell have the same path structure, e.g. `/@home`.
+2. Even after mounting it to /home via fstab, it doesn't seem to actually work. If I make changes in `/@shared`, they aren't visible or accessible via `/home/username/shared`.
+
+Could anyone explain what fundamental thing I'm misunderstanding? Also, any anons have a link to a btrfs guide for actual newbs?
+--- 92824900
+Luv Artix.
+--- 92824903
+>>92820531
+>the script-based services of openrc are more comfy
+sysV was comfy. In fact it's easy to fall back to it as openRC is just a sysV plugin
+https://linuxfromscratch.org/lfs/downloads/stable/lfs-bootscripts-20230101.tar.xz
+--- 92824930
+>>92794346 (OP)
+Does linux (debian/ubuntu or mint ) play nice with amd gpus and or cpus or does linux prefer nvidia
+--- 92824965
+>>92824930
+Linux prefers AMD CPUs/GPUs because of their open source drivers/kernel modules. NVIDIA cards work, but only if you use Xorg displays.
+--- 92825021
+>>92824930
+Debian being all freetard doesn't provide firmware out of the box, you'll need firmware-amd-graphics but the driver code is in the kernel. But other than that AMD is more or less out of the box working. 
+Nvidia on the other hand is next level harder as their driver code doesn't even exist in the kernel.
+--- 92825069
+>>92825021
+>>92824965
+I see I've used mint before on a old laptop thinking of switching fully on my pc and thinkpad If windows pisses me off again considering ubuntu or mint w a lightweight de, was considering manjaro but wasnt sure if it any good. Wanted to get dosbox working for dk
+--- 92825112
+>>92825069
+If you want easy Arch don't choose Manjaro, use Endeavour instead.
+--- 92825137
+>>92825069
+Seconding endeavorOS. I had troubles with manjaro.
+--- 92825215
+>>92825112
+>>92825137
+I'm leaning more towards mint as its debian based I don't know enough to know why I would want to use an arch based distro over debian, as far as I'm aware or considering baby mode debian based distro linux would be good if my use case would be gayming from dosbox to modern and coding.
+--- 92825276
+>>92825215
+I'm really only a beginner with linux. I've found endeavor to be easy enough. Everything pretty much worked the way I wanted it to out of the box. I learned to use "git clone (repo name)" from the aur then makepkg -si. That's mostly all I've had to use in the terminal.
+--- 92825455
+>>92825276
+setup mint on my flash drive for when windows finally pisses me off for the last time.
+--- 92825843
+>>92824854
+I think you have to mount the root filesystem first to make it (like in /mnt temporarily). I remember being confused by this too when adding a swap subvolume. I followed this guide: https://www.jwillikers.com/btrfs-swapfile (obviously ignore all the swap stuff)
+--- 92825907
+>>92824854
+>appears visibly in `/`
+What does this mean?
+--- 92826038
+>>92825907
+Visibly as in a GUI. It actually shows up there. I point that out because the other subvolumes are also there yet they do NOT appear visibly.
+
+>>92825843
+When you say the root filesystem, do you mean the root directory, or the filesystem that the root directory exists on? I'll check out your guide in the meantime.
+--- 92826079
+>>92826038
+>When you say the root filesystem, do you mean the root directory, or the filesystem that the root directory exists on?
+I mean mounting the partition file, for example like this "mount /dev/sda1 /mnt" if your Btrfs filesystem is on /dev/sda1
+--- 92826373
+Is it possible to change a desktop icon for a Wine application in KDE? Right-click to Properties doesn't have such option. I've created a couple of shortcuts by Create New-Link to File of Directory. It launches properly but an icon is from default Breeze.
+--- 92826526
+>>92826373
+I'm not sure if there are any KDE-specific procedures but anywhere else, you'd probably have to manually construct / modify a *.desktop file and load it by running desktop-file-install
+>https://wiki.archlinux.org/title/desktop_entries
+--- 92826854
+>>92826526
+Thanks but I wasn't able to change it this way. I also tried Create New-Link to Application and it allows to change the icon but only launches it with Kate.
+--- 92827369
+How do I declare environment variables for a single user in NixOS? /etc/nixos/configuration.nix seems kind of retarded in this department, there's no option under users.users.&lt;name> that would let me modify, say, M2_HOME as if I was setting it in ~/.profile on a normal distro
+--- 92828049
+>unip can't into AES
+what's the point of using anything different from 7z in terminal to manage archives?
+--- 92828062
+>>92828049
+unzip*
+--- 92828136
+>>92794346 (OP)
+I want to try out discord.
+
+Are there any linux channels I could join to start out? Mostly to ask questions.
+--- 92828195
+torrminator is back online bitches
+--- 92828216
+If I have source tree for, say it, Linux 4.14.310, can I upgrade it to 4.14.312? For x86 you can do it by applying patches, how is it with ARM?
+--- 92828980
+hehe
+--- 92829027
+Hey people, I'm thinking about making the change from windows to linux, but I have a question that needs an answering. I want to install Artix, but I don't know which init system I should choose. Could anyone give me some info about the differences between the options I have. Currently, I'm thinking of using OpenRC because I heard it's better for beginners.
+--- 92829236
+>>92828136
+log in to IRC nigga
+--- 92829294
+>>92829027
+Don't listen to the loud anti systemd minority, systemd is great.
+--- 92829354
+>>92828136
+gaming on linux discord maybe?
+--- 92829370
+>>92829294
+This isn't the answer I was waiting for, but if you say that systemd is so great, could you give me some reasons except:
+>systemd is great
+
+I gave my own reason for thinking OpenRC is good so I would like some reasons from you, anon.
+--- 92829524
+>>92829370
+-service units are great, beats scripting
+Who else has shit like DynamicUser?
+-programs run by service units don't need logging capabilities as the output itself is logged
+-timer units are great, beats cron
+-mount units are great, I could easily specify a key file device to be mounted before cryptsetup
+-systemd-networkd is great, beats everything else
+OK some bloat there to be honest but I do use the DHCP server among other features.
+-systemd-resolved is great, supports DNS-over-TLS too
+--- 92829716
+>>92829524
+Those are some pretty good arguments, but I have seen many people claim that systemd isn't "safe". Could you tell me about the validity of these accusations?
+
+https://thehackernews.com/2019/01/linux-systemd-exploit.html
+https://www.theregister.com/2018/10/26/systemd_dhcpv6_rce/
+--- 92829738
+>>92794346 (OP)
+im following the Linux From Scratch boot an have now compiled everything... Why cant I boot my system? Initfs cant mount the root filesystem because my ssd does not appear under /dev/disks. Ive all the proper NVME configs of NVME Support of the kernel set as build-in.
+--- 92829769
+>>92829354
+how do I join that?
+
+>>92829236
+I'm millenial IRC is dead, and literally exists as a playground for skiddies and radio boomers.
+--- 92829834
+>>92829738
+UEFI, BIOS or a virtual machine?
+In the root filesystem encrypted or inside LVM or RAID? If not, you don't necessarily need an initramfs.
+--- 92829963
+>>92829834
+Thx for the reply.
+>UEFI, BIOS or a virtual machine?
+UEFI and hardware.
+>In the root filesystem encrypted or inside LVM or RAID?
+Not yet... I plan to encrypt so I was following BLFS.
+When I dont use Initramfs I get a kernel panic since my ssd cant be mounted.
+Its odd since when I get dropped to the initramfs shell and plug in a flash drive, /dev/disk... pops up!
+--- 92829967
+>>92829716
+Obviously more code means more attack surface so there's a trade off.
+>2018
+>2019
+--- 92830019
+>>92829963
+>UEFI and hardware.
+Make your kernel an EFI-stub and create a boot entry.
+>When I dont use Initramfs I get a kernel panic since my ssd cant be mounted.
+Use PARTUUID instead of filesystem UUID.
+$ efibootmgr -u
+BootCurrent: 0000
+Timeout: 1 seconds
+BootOrder: 0000
+Boot0000* Hannah Montana Linux      HD(1,GPT,xxxxxx,0x800,0x200000)/File(linux.efi)root=PARTUUID=xxxxxx
+Boots up linux.efi from the ESP root with appropriate arguments.
+--- 92830034
+Is there something wrong with Mint? I fell in love with how correct the default install feels OOTB, but the fact that it's so far from Debian lingers in my mind. More specifically, I'm concerned about long term stability and security when used by a normal person.
+I recall that Mint used to have this "pick repos you'd like to use" GUI thing, and it got called out on that because Ubuntu's security repositories weren't enabled by default. There was some commentary online on how Mint has a disregard for security thanks to that. However, in my fresh install of 21.1 I don't see that GUI tool to "enable optional security updates, but beware, they're unsafe (unstable/untested)", on the contrary: I got a popup suggesting I install security patches or enable automatic installing of them (I believe this is something like unattended-upgrades on Debian/Ubuntu), and in sources.list.d I had all repos enabled OOTB - Mint's, and then Ubuntu's including jammy-security, jammy-updates and jammy-backports.
+Am I correctly understanding that Mint maintainers' stand on security updates has changed, and now they don't do any silly stuff I should beware? Like Manjaro delays Arch packages for 2 weeks, I consider this, well, retarded (pun intended).
+Seriously, I love Mint as a go-to normie Linux distro so far. Is there something else I should know of before I deploy this on computers of family and friends who want to try Linux?
+--- 92830108
+>>92830034
+No? Mint is basically just Ubuntu but with things tweaked and added with its own DE included.
+--- 92830175
+>>92830108
+I'm aware, but you know, things can go very wrong when someone says "let's take this thing everyone knows and has many experienced people behind, and make our own based on that". cough, Manjaro, Garuda, etc. At least the shit added by Mint seems to work without issues, unlike the latter.
+I recall that at one point Mint site was hacked and had backdoored ISOs, I'm a bit concerned about that as well. But I'm okay calling this a one time bad occurrence.
+Anyway, hoping for comments from other anons as well.
+--- 92830295
+Retard here:
+Everytime I try to download a distro's ISO it constantly fails and needs to be restarted. Issue is ubiquitous across firefox, chrome, and edge. I can sit there and keep clicking resume for 10 minutes but don't want to. Happened with Mint, openSuse, and now Manjaro, so it's not the mirror. Seems like a file size problem...
+--- 92830379
+What's the most reliable way to kill the X server?
+--- 92830549
+>>92830379
+sudo pkill x
+--- 92830664
+>>92830295
+Even curl is failing after like 15ish MB...
+--- 92830844
+>>92830549
+I need something more reliable than that. A way to kill the X server instance that's running on the current display and be 100% certain that the correct process was killed.
+--- 92830865
+>>92830019
+Yeah, Ive tried partuuid/uuid. No luck.
+When I use other kernel, from my host distro, with its grub.cfg it works. So the problem must be other stuff.
+--- 92831082
+>>92794346 (OP)
+Why isn’t my Wi-Fi showing up? Every other Wi-Fi network shows up. Is it a faulty device? My Wi-Fi adapter is tl-win725n if that matters
+--- 92831121
+>>92830295
+>>92830664
+Figured it out. Thanks for reading my blog.
+--- 92831192
+>>92824854
+>Could anyone explain what fundamental thing I'm misunderstanding?
+Typically you use a btrfs' default subvolume to hold other subvolumes and use the subvol= mount option to get root, home, ... individually. Fedora and SUSE do this by default.
+>link to a btrfs guide for actual newbs?
+The old wiki because the new one is still a skeleton.
+https://archive.kernel.org/oldwiki/btrfs.wiki.kernel.org/index.php/SysadminGuide.html#Layout
+--- 92831339
+sleeping all day while gentoo compiles
+--- 92831453
+>>92829963
+>When I dont use Initramfs I get a kernel panic since my ssd cant be mounted.
+Does it print a list of available disks?
+>>92829738
+>Ive all the proper NVME configs of NVME Support of the kernel set as build-in.
+Did you say yes (Y) to the filesystem drivers also?
+--- 92831580
+>>92831453
+>Does it print a list of available disks?
+Nop, it prints nothing after that message.
+When I "blkid" in sh after the Initramfs errors out it also prints nothing.
+>Did you say yes (Y) to the filesystem drivers also?
+Yeah... Ive everything related to ext4 set. I also did grep my kernel config and I get Y for all the needed configs. I even got ChatGPT to review the configs and it says its ok... But I must be missing something in the kernel cause when I use the UUID of my other distro, the host, it boots ok.
+--- 92831617
+>>92831580
+Whats blkid for? Try lsblk instead.
+>when I use the UUID of my other distro, the host, it boots ok.
+So it does find the disk after all? Or is it a different physical disk?

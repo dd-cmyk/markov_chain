@@ -1,0 +1,7 @@
+I should make a type alias for the HashMap<String, HashMap<String, f64>>
+Add git support
+rewrite in rust the part where the input is cleaned
+I should also watch the video about cleaning the data, to understand what is happening there
+I must run cargo run from the main directory, otherwise the file read fails, fix that
+Add shitposting capabilities. By that I mean add some funny dataset
+preferably allow for easy change of n_gram without the need to search for a pair to star

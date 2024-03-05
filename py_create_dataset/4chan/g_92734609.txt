@@ -1,0 +1,1183 @@
+-----
+--- 92734609
+>>92709395 →
+Don't buy anything OTHER THAN IBM/Lenovo ThinkPad T, X, and W/P Series if you want the Real Business Experience™
+>Other business laptops are welcome in /tpg/ (Dell Latitude/Precision, HP EliteBook/ZBook)
+
+Why ThinkPad?
+>Used machines are plentiful and cheap
+>Excellent keyboards, tactile feel and quiet
+>Great durability: magnesium roll cage for structural integrity, with high quality plastic body panels
+>Utilitarian design: e.g. indicator LEDs, 7 row keyboard layout on older models
+>Docking stations that easily turns your laptop into a desktop
+>Easy to repair (most models), upgrade &amp; maintain thanks to readily available service manuals for every model, spare parts easy &amp; cheap to obtain
+>Excellent Linux &amp; *BSD support
+
+ThinkWiki - General info about ThinkPads/specs
+https://www.thinkwiki.org/wiki/ThinkWiki
+
+Classic models:
+>X220/X230 - 12", 768p, cheap and light
+>T420/T430 - 14", 900p (1080p w/mod board), Ivy Bridge support on T420 w/coreboot, quad core upgrade, classic keyboard mod on xx30 series
+>T520/530; W520/530 - 15", 1080p, DTR, 32GB RAM on quad core models
+>T440p/540p; W540/1 - last ThinkPads with socketed processors, easily replaceable trackpad (W541 doesn't need trackpad replacement)
+>T440s/T450(s)/T460(s)/T470(s) - ultraportables, good battery life
+>T480 - last ThinkPad with swappable battery, T25 keyboard mod, excellent performance/battery life, getting cheaper
+
+Upgraded models:
+>X2100 - X200/X201
+>X62/X63 - X61
+>T700 - T60
+https://www.xyte.ch
+
+BIOS replacement:
+https://coreboot.org - T440p, X131e, X1C1, and xx30 series (no 61) or older
+https://libreboot.org - similar to coreboot as of 20221214 release
+
+Additional resources:
+https://dankpads.com/tpg/
+https://biosimage.booru.org
+https://1vyra.in
+
+UEFI patches:
+https://github.com/digmorepaka/thinkpad-firmware-patches
+
+Chat:
+##ibmthinkpad on libera
+#/tpg/ on rizon
+--- 92734936
+Im looking for a beater laptop, specifically the X260. Is the i3-6200U CPU good enough to last me a few years for basic tasks and maybe some light coding?
+--- 92735616
+>>92734609 (OP)
+I want to replace my current vivobook with an actual good laptop, would prefer if it has great performance battery and display, also i want to be able to replace components since i will be using it for years to come. Are t480s good? Also another question this is probably more important, are business laptops better than consumer grade ones?
+--- 92735715
+X260 vs X270?
+--- 92735956
+Should i buy Thinkpad X201 for $100 in 2023?
+--- 92736482
+>>92734936
+>i3-6200U
+Most likely. just have to be a bit patient with new project builds. I would max out the ram to at least 16GB, better 32GB or 64GB (even if manufacturer only claims max 16GB) in preparation for the coming LLM wars.
+--- 92736578
+>>92736482
+llm wars?
+--- 92738733
+bump
+--- 92738751
+i bought a W530 palmrest for my T530, complete with fingerprint reader and colorimeter
+fingerprint works fine, but colorimeter wasnt picked up
+turned out the T530 doesnt have the USB line needed for it to work
+I wired in the 5V bus and the two USB lines (stolen from ExpressCard connector)
+the colorimeter being picked up by lsusb now as Bus 002 Device 003: ID 0765:5010 X-Rite, Inc. X-Rite Pantone Color Sensor
+
+when attempting to calibrate with displaycal i get the message dispcal: Error - new_disprd() failed with 'Instrument Access Failed'
+
+how the shit do i calibrate my display anons
+are there any anons with colorimeter equipped thinkpads that could verify if displaycal works
+--- 92739462
+>>92731697 →
+I'll never understand you Europeans, how you went from world conquerors to absolute knuckle dragging retards. Free university, but everyone is stupid, ironic.
+There is no "Lenovo approved" IPS full HD panel to put in a T430, an immediate hack is necessary and Lenovo will never admit even tacit approval for such a thing. Subsequently, panels that Lenovo uses in their other offerings are in no way guaranteed to be better than any other company's. They may be, but writing that off as "Lenovo approved therefore best" is bewilderingly stupid.
+--- 92739538
+>>92735956
+I would go for either X200 or X220, no point in buying an X201.
+--- 92739744
+>>92735956
+No, too much
+--- 92740656
+>>92739462
+And? There's nothing I disagree here with.
+--- 92741685
+I finally obtained a T430, and a pristine one at that.
+--- 92741698
+>>92740656
+>What the fuck are you on about
+--- 92741723
+>>92741698
+>The real thing doesn't exist for the T430, what's your point?
+--- 92741752
+>>92739462
+i had to take a 30 grand loan for my free university
+--- 92741878
+>>92741685
+And in the 6 hours that I've had it, I tore it apart, DIY'd a cmos battery replacement and replaced the fucking atrocious TN with a FHD IPS (from that ali seller >>92713947 →). And it actually is an IPS at least, but I've yet to confirm if it's a up-to-spec one. And it'll take a bit before I can confirm it's legit, because the preinstalled windowse 10 of course broke from that hardware change (pathethic), so now I'm the process of installing simplix'd win7 on it. Eventually I'll dualboot gentoo or freebsd on it, but for now I just need something that works and can run displaycal.
+--- 92743132
+>>92741878
+Oh and in case anyone was curious, the even the HD+ panel on these is just horrible. 60% sRGB coverage and 270:1 contrast. 
+Now surprisingly this isn't the worst I've seen, I have one on a HP laptop with 40% sRGB and utterly fucked whitepoint and gamma. Enterprise TNs are truly a sight to behold.
+--- 92743313
+>>92741878
+--- 92743555
+>>92741723
+Are you still unclear about what I meant by that or what
+--- 92743592
+>>92743555
+Yes I still don't know what you meant.
+--- 92743894
+>>92734609 (OP)
+Do Thinkanons recommend the Lenovo Vantage app to be sure you're using proper drivers, etc? Does it work?
+>new Thinker here: T430, came with Win10Home. I plan to upgrade win 10 to maybe a Lite, debloated version.
+--- 92743913
+>>92743592
+Case in point
+--- 92743942
+still looking for help -
+I am trying to recover my thinkpad x230 bottom chip stock bios image that i accidentally deleted with rm, i used photorec on my drive but i need some hints to search for the file.
+if someone can give strings, file type etc so i scan for it i would be very thankful.
+all i know is that its 8.0M in file size
+--- 92744067
+>>92743913
+I'm saying for modding there's a certain panel that's the "real thing", and you start to talk about what lenovo approves or not? I don't understand what is your problem.
+--- 92744146
+>>92744067
+There is no "real thing"
+It's a panel for a different model
+--- 92744191
+>>92744067
+And you said Lenovo approved first, goldfish brain
+--- 92744601
+>>92744146
+And? It's the best available panel, thus the real thing.
+--- 92744807
+>tfw doin comfy web browsing
+>tfw getting 12+ hours of projected battery life on my X230 with a 9 cell battery
+>tfw could carry an extra battery if i wanted to for double the battery life
+Feels good to have a laptop thats actually portable.
+--- 92744856
+>>92734609 (OP)
+Should I get an Asus G14 or the Flow X13?
+Both have the 6900hs, 1TB, and 16GB ram. I can get either for $1k. Anyone have experience with either of these laptops?
+--- 92746897
+>>92744601
+>joke's on them, I was only pretending
+--- 92747066
+>>92744856
+Which one of those is made by Lenovo?
+--- 92747221
+>>92746897
+The fuck? From the beginning, I've been looking for a real N140HCE-N1. Trying to order the real thing is near impossible. I from the beginning used the "real thing" in this context. When will you stop being retarded?
+--- 92747866
+I'm picking up a T480 tomorrow with an i7-8650u. My first laptop, what am I in for?
+--- 92747962
+>>92747866
+How much? I recall paying 420$ for mine during the middle of covid
+--- 92748048
+>>92747066
+This is the /g/ laptop general.
+--- 92748876
+>>92741878
+Few measured specs below, manufacturer spec in quotes.
+Brightness: 175 nits (300 nits)
+sRGB coverage: ~100% (100%)
+Contrast: 1250:1 (700:1)
+White point: 7000K (6500K)
+It also has perfect gamma tracking and sharpening behavior. No dead pixels, no backlight bleed, though it is an IPS so you always have IPS glow. No dead pixels (any you see in pic are from the camera, it's a 19 years old CCD).
+Damn accurate out of the box, though white point just a bit cold. Easy to fix though, and with quick low-res calib best&amp;worst delta-e already is &lt;1.0. 
+Just the brightness is not as high as it's supposed to be, but to put 175 nits in context, with good saturation its too bright for indoor use, outdoor it'll manage in a shade. So good enough. 
+The contrast however is way beyond than what was advertised, and above average for IPS. Really surprised here. 
+So this panel is basically perfect as far as IPS go. I have no idea if this is the real N140HCE-N1, but with this performance it doesn't matter. I now have a more accurate display in this 10 year old T430 than what the majority of anons have on their brand spaking new gayming desktops!
+--- 92749754
+>>92741878
+>>92748876
+havent seen you in awhile, thank you
+--- 92750277
+>>92744856
+G14 seems like a solid choice, but I've been eyeing an X16.
+--- 92750748
+Been using T440 for yonks now and showing its age. 
+University department will buy a laptop up to $4000AUD. Want something very very portable.
+I would honestly really like to try out a Surface Pro 9. The other option in my head is latest X1 extreme. Since this is /tpg/ given the above, is there any reason not to get X1 Extreme? 
+
+I actually had a Dell XPS 15 9550 like 2 years ago to replace the T400 but had to return it, QA on those things are fucking awful, and just returned to trusty T440. I do miss being able to play CIV VI on anything but strategic mode.
+--- 92751637
+>>92748876
+Woah it's the real deal!
+--- 92751910
+What is a fair price for a Thinkpad T460s in the US? i5 6th generation -8GB of RAM -Good battery -Yeah. cosmetic damage -250 SSD -IPS FHD screen
+--- 92751935
+>>92751910
+https://dankpads.com/tpg/ literally one of the links in the OP
+--- 92751937
+>>92751910
+I meant: No cosmetic damage, sorry.
+--- 92751969
+>>92741685
+Holy shit, clean af, how much did it cost?
+--- 92751992
+>>92751910
+>>92751937
+No more than $200 I suppose
+--- 92753344
+>>92741685
+Too bad it's not as epic as this.
+--- 92753403
+I think I broke the little retainer clip thing under one of my keys and the key isn't clipping back in. Can I buy a replacement somewhere?
+--- 92755328
+bump
+--- 92755688
+>>92753344
+That looks like tranny vomit.
+--- 92755718
+Bros, my little x230 is finally too slow for work, its not able to run zoom video chat. What do I buy next?
+--- 92756318
+>>92743894
+Install ltsc
+--- 92756381
+>>92749754
+Smells of pinks. J.R "Bob" Dobbs would be disappointed in your bastardization of the holy slackware.
+--- 92756989
+https://www.jw.com.au/product/lenovo-thinkpad-x1-carbon-gen-9-premium-business-grade-14-fhd-i7-1165g7-16gb-ram-512gb-ssd-windows-10-pro
+
+Is this worth it for $670 USD. Buying second hand (Australia)
+--- 92758836
+I'm about to buy a Dell Latitude 5490 because Thinkpads are overpriced here in the Netherlands
+--- 92759729
+>>92748876
+Back in one piece. The panel is not a perfect fit, like with Rev.C1 only either the top or bottom ears go in. And you must screw in the bottom ears, otherwise a dozen pixels will be cut off by the bezel on the top. 
+Also cuts off half a pixel on the right side, but it's good enough. Maybe with bending and breaking shit enough it could be centered perfectly. 
+
+>>92749754
+Decided to quit the board, but sharing this T430 and info on the panel mod is worthy of making an exception. 
+
+>>92751969
+90€ + 10€ shipping. 
+This variant had a i5-3320M, no dGPU, 4GB ram, 128GB SSD, HD+ 900p TN and a non-backlight nordic keyboard.
+I think in this condition with that SSD, it's a very reasonable price. I had a spare 8GB stick around too, so ram isn't a problem immediately. 
+Though all reasonableness goes out the window when considering the cost of modding. The IPS mod alone adds another 150€, though I can sell the original HD+ display for ~40€ hopefully. 
+
+I think I found a seller of refurb 45N2211 7-row keyboards. We'll find out in a month. This T430 will be so sexy if the item is legitimate. I WILL beat >>92753344.
+--- 92760980
+>>92759729
+>I WILL beat >>92753344
+In your dreams
+--- 92761197
+>>92759729
+Woah, but I thought it was Lenovo™ Approved©? The Best® Available Panel™? 
+What's up with that? Why doesn't it fit?
+--- 92761772
+>>92761197
+Best available panel? Well, it is as we can see from the results. 
+Lenovo approved? Nobody ever said it was, take your meds already. 2 days on and you're still seething over your own poor english skills.
+--- 92761992
+Any recommendations based on the requirements listed here >>>/wsr/1340976?
+--- 92762068
+>>92761992
+Thinkpad T420/T430 with FHD IPS mod and a thicc battery :D unironically checks out everything and is within budget, even the stock i5's should be good enough but you also have the option to upgrade to a quadcore, something X260 can't have.
+--- 92762333
+>>92761992
+https://www.ebay.com/itm/204303413595
+EliteBook 830 G5, preferably with an 8250U or better
+--- 92762376
+>>92761992
+x1c? If you have the budget, get the newer generations.
+--- 92762651
+>>92761772
+>half the brightness
+>doesn't fit
+Clearly the best panel
+Euroid moment
+--- 92762954
+>>92762651
+Thank god they don't put fluoride in the water here, might have grown up as retarded as you. 
+Trading the excessive outdoor brightness for so much superior contrast is an amazing deal. I use my monitors at 60-120 nits, anything above that is painful to look at indoors and is reserved strictly for outdoor use. 
+>doesn't fit
+I knew it wouldn't be perfect, known "issue" with this mod. The half a pixel of obstruction can hardly be seen in practice. 
+
+If you can recommend a better panel that can be made fits a T430, go ahead. Show me what other panel can deliver 1250:1 contrast.
+--- 92763081
+>>92759729
+i understand i miss your posts here but thanks again lol
+--- 92763374
+>>92735715
+Can't comment on the X260, but I love my X270. Best laptop I've ever owned.
+>comfy X-series form factor
+>decent FHD IPS display options (compared to the garbage older TN panels)
+>HDMI, 2xUSB3.0, SD, Ethernet, and USB-C (which can be used to charge)
+>stellar battery life with the 9-cell + internal batteries (10-12 hour uptime)
+>easy to find (snagged pic related for less than $200)
+Biggest drawback is the lack of quad-core CPU configurations, and that alone may make the X280 the better option but it really depends on your use case because that model lacks the battery bridge system and has fewer ports (non-standard Ethernet, microSD instead of SD).
+--- 92763526
+What's the difference between the X13 Gen 3 and then X13 Yoga Gen 3? Looking at the specs I only found the 360° hinge for tablet mode, is that it?
+--- 92763840
+>>92762954
+Definition of coping
+--- 92763918
+>>92763840
+I bet you're using a 250:1 TN
+--- 92764002
+obligatory weekly luv my x280 simple ass post
+luv my x280, simple ass
+--- 92764158
+>>92764002
+>No ethernet
+>soldered ram
+>non replaceable batteries
+
+I want to love it anon. I really do. My x230 is showing its age and I considered x280, but its really hard to like it.
+--- 92765181
+>>92764158
+yeah on paper I thought the same, but after actually getting it and using it for a few months I ended up not really minding those drawbacks, it does what it's supposed to do, simple as.
+--- 92765451
+Looking to pay &lt;600 USD for a workstation laptop
+Manufactured no earlier than 2018
+Discrete GPU, ideally higher end e.g. p2000>p1000
+Ideally good thermals since I want to use it in bed, general web browsing, youtube and 20 chrome tabs open
+
+Was looking at p52 but apparently it gets really hot under light loads? Looked through archive and saw some people had success undervolting the CPU? How annoying is it to repaste a p52? 
+
+I'm upgrading from a w530 and have repasted thinkpads from that era
+--- 92767124
+thinkbump
+--- 92767824
+>>92746897
+>>92747221
+> He was not pretending
+--- 92768318
+Should i upgrade my t430 to 16gb of ram or would there be no noticeable difference if i put 8gb on it? I rescued it from the previous owner who never maintained it, and have a tight budget to also get a good ssd, a battery and a few other things so it doesn't look like it came out of a dumpster
+I only use it for light web browsing and some 2d games
+--- 92768462
+>>92768318
+I assume you have a 4GB stick, you can find another for near free. If you eventually notice that you are running out of memory, and upgrade to a real 2x8GB kit, the $0 to $5 that you spent on the 4GB stick wont be a big loss.
+--- 92768741
+>>92767824
+I still don't understand what I said wrong.
+--- 92769449
+>>92768318
+8GB will be plenty sufficient
+--- 92769491
+>>92765451
+https://www.ebay.com/itm/295621082472
+ZBook 17 G5
+https://www.ebay.com/itm/374591012328
+Precision 7730
+
+Buy a 17 incher if you care that much about heat, or alternatively force the fans to run at a higher speed via NoteBook FanControl
+--- 92769545
+>>92765451
+>using a workstation in bed
+What's your bmi?
+--- 92769554
+>>92734609 (OP)
+guis im looking for 1920x1080 laptop, any suggestion, mainly for work and animu
+--- 92769620
+I got a T490s for 280Euro
+it only has the i5 but 16 GB ram, the bright nice display and the 512GB SSD.
+
+Opened up it looks like never used with only some light marks at the lid. Keyboard and mousepad look like new.
+
+Was this a good deal?
+--- 92770578
+>tfw waiting patiently for the AMD version of the Framework 16
+It's gonna be the perfect laptop, right?
+--- 92770821
+What's the best distro for an x230? I've got fedora running on it right now but it feels very sluggish
+--- 92771159
+>>92770821
+Xubuntu minimal
+--- 92771387
+recently bought a i7-8650 T480 off of ebay and the fn key is constantly being pressed, i took the keycap off and blew around with air duster to no avail, do you guys think i should try and return it, or buy a new keyboard?
+--- 92771548
+>>92770821
+CPU and RAM?
+--- 92771933
+>>92771387
+Turn fn lock off
+--- 92771942
+>>92771387
+push fn+esc
+you probably have fn-lock enabled
+--- 92772475
+>>92771933
+>>92771942
+fn lock is actually how i know the fn key is being held down, whenever i would press escape it toggled fn lock (and the light on the key) on and off, despite me not also pressing the fn key. for now though i have swapped the fn and left ctrl keys using the bios setting, and disabled left ctrl (which would now be triggered by the fn key) in my OS
+--- 92773976
+>>92771933
+t
+--- 92775006
+Long story short, I have some Dells, but upgrading the memory is laughably expensive like 100-150USD for 8GB (4GBx2) DDR2 sodimms
+I'm getting tempted with a T480s that i saw at a highly renown pawn shop of my memecountry (100+ old). had used some Thinkpads but never had one of my own.
+Is the T480s good for a first model? I am an IT monkey but with little laptop mantaining experience. please safes, I need some insight.
+>pic unrelated
+--- 92775430
+just picked up a t420, t430, and t480 for $300 total. what am i in for, lads.
+--- 92776335
+>>92775430
+That's a bargain, fix them up and get comfy anon, t480 is really good.
+--- 92777180
+Look, i just luv me t420.
+Simple as.
+--- 92777824
+>>92777180
+Truly the greatest laptop of all time
+--- 92778256
+>>92734609 (OP)
+>t460 for sale for just 70$
+>poorfag
+FUCK
+--- 92779845
+I paid around 500 dollars for a x220 and now i can't get a refund what do i do
+--- 92781597
+thinkbump
+--- 92782259
+>>92775006
+>T480s
+I like it overall but speakers are extraordinarily mediocre. Way quieter than my Pixel 3, nearly 0 bass.
+For fucks sake, I just want a laptop that would have
+>keyboard as comfortable as thinkpad
+>speakers that can be heard while cooking food, and that have some bass (compared to 0 bass, fuck even my phone is better)
+>touchpad buttons above touchpad
+>good Linux support
+Is this really impossible to achieve? Let's say my budget is unlimited. Please help, I spent last evening trying to find something on Notebookcheck. X1 Carbon G7 came up but it has only 16GB of soldered RAM, X1 Extreme G2 (or G3?) but it was quite expensive (maybe it's worth it?), X1 Carbon G9 also had a decent bass amount iirc and had 32 GB of RAM (soldered) max. Sucks that it's soldered but I could accept that. Except that for so much fucking money I shouldn't have to compromise.
+Help.
+--- 92782349
+How much CPU performance can I gain from upgrading my X220 to T480?
+--- 92782866
+>>92782259
+I use an X270 because I'm not so bothered by shoddy speakers. For your use I would still probably recommend the X1 Carbon (Gen 7 was even the exact model I used to have).
+Sure soldered RAM stinks, but in all reality it is more and more becoming the norm. The way I see it, your options are:
+>accept soldered RAM and get a semi-modern laptop like the X1C7
+>accept shitty speaker quality and use an older laptop that fits the rest of your specs
+>pay an exorbitant amount for either a new and shiny laptop like the X1C9 or a meme laptop like Framework (which even then may not have good speakers)
+At the end of the day, do you REALLY need more than 16gb of RAM, especially if you will be using Linux and not Winblows? Obviously it depends on your DE as well as your use case, but running Debian with Openbox I rarely use more than 4gb of my 16gb of RAM. As far as I'm concerned, any more is only really useful for gaming or rendering.
+
+>>92779845
+Learn from your mistake and hopefully be less of a retard in the future.
+--- 92783008
+>>92779845
+>I paid around 500 dollars for a x220
+How
+--- 92783846
+Any advice on what and where to look in Europe for T480 batteries?
+--- 92784113
+>>92734609 (OP)
+
+>Lenovo ThinkPad X270
+>Intel Core I5-7300U
+>256 GB M.2 SSD
+>8GB DDR4
+>260 EUR
+
+Is it worth buying a ThinkPad at this price? The biggest drawback is that it's refurbished.
+
+Alternatively, I could get a brand new HP laptop (AMD Athlon Gold 3150U, 8 GB DDR4 2400 MHz SDRAM, 256 GB M.2 SSD) for 324 EUR. I never bought a refurbished laptop before so I don't know how bad the consequences can be.
+--- 92784528
+Spotted a new ThinkPad E15 that's within my budget. Anyone here own one of these?
+--- 92784592
+>>92784528
+>within my budge
+How much is that?
+--- 92784627
+>>92784592
+£200-£300, it's an auction so it may increase but I would never pay more than my budget for it and anything above £250 would convince me to reconsider bidding more.
+--- 92786646
+>>92734609 (OP)
+>letting this die
+--- 92787166
+>>92786646
+Dead general
+--- 92787181
+Looking for a laptop to manage my sites while not at home. Something that can be flashed with open source bios. Something not very bulky and super old. 
+Budget $450.
+--- 92789011
+boop
+--- 92789750
+>>92787181
+X230s
+--- 92789973
+>>92786646
+can't kill that which was never alive
+--- 92791891
+>>92784528
+I had one of these at my old company. Honest, don't notice the difference in quality between this and the T series. I don't know if that is a reflection of how good the E series has gotten or how bad the T series is.
+--- 92794299
+bump
+--- 92794328
+>Lenovo ThinkPad L15 | Ryzen 4300U | 20GB RAM | 1000 GB SSD | AMD Radeon |
+Thoughts on this? 500 USD
+--- 92794382
+I got a battery off of aliexpress a few months back for my T480 and just now it said that my battery wasn't genuine, and now it wont charge. Worked fine before. Is there any way to bypass this?
+fucking lenovo bros, if i want to run a galaxy note 7 that should be my concern.
+--- 92794533
+>>92794328
+I think that's a good price for what you're getting.
+--- 92794547
+>>92794382
+>He trusted the chink
+--- 92795197
+>>92734609 (OP)
+I bought an x200s l9600 on ebay, and with shipping and taxes it will be nearly $300, which i was not expecting. Am I overpaying enough that I should cancel? Or just go through with it?
+--- 92795620
+>>92784113
+Pls respond
+
+Seeing some of the other prices here it almost looks like 260E for a refurb is a rip off
+--- 92796061
+>>92795197
+The fact that you're paying over $100 is a joke, why are you this retarded?
+--- 92796078
+>>92795620
+Oh you're European
+Explains everything
+--- 92796271
+>>92795620
+My X260 had been refurbished and it began suffering from unidentifiable hardware failures a few months into using it, this was 4 years ago and I've put up with it until now.
+I opened it up once and there was shit stuck in place with tape, so I suspect when they say refurbished they just mean getting it functional enough for it to be sold as working.
+--- 92796462
+>>92796061
+Well the l9600 is rarer to find than the lower spec models, so it's not factored into the averages as much, which iirc is $160 for the x200s according to the guide. This one is also in very good condition, it was the best of what was available when i searched. My laptop right now is literally being held together by duct tape, so i just went with it.
+--- 92797499
+thinkbump
+--- 92797844
+>>92782866
+First of all, thank you for answering. Can you give me a subjective comparison of sound of X1C7 vs X270? Is it really that much better like Notebookcheck says? "very good" they said. At least they also said T480s sounds awful.
+I think I'll buy some cheapest X1C7 to just check it myself and return, then hunt for a best specced model. X1C9 looks (well, looks) nicer than 7 with all speakers on top instead of top/bottom mix, and could get up to 32GB, but it's just really expensive, more than I think I'd like to spend on laptop (despite it being my main computer). On the other hand, if it really was an excellent machine, I think I could be fine with the increased cost. I have a rule that buying older flagship phone makes more sense than buying cheap midrange from current year. Maybe buying a premium laptop for premium price would be just as smart.
+I just have to absolutely make sure it's indeed a premium laptop. Lack of Ethernet (even the foldable latch kind), and that soldered RAM makes me feel otherwise. Are there other thinkpads with remarkably "not as shitty as usual" sound? I don't need laptop to be super thin or light. Those compromises above seem like direct consequences of that.
+>Framework
+Speakers are so-so according to internet, still better than T480s but I would also lose the mouse buttons above touchpad.
+>do I need more than 16GB
+Not really, but if I'm going to spend so much, I'd rather have more than I need especially if this laptop is going to stay with me for a few years. If the speakers were good in T480s, I'd keep it for a few more years - works well, is sturdy, etc.
+
+I feel sad when I notice Apple shills/users (how can you even tell...) have it easy nowadays - spend some money and get good laptop, spend more and get even better laptop. I have to fucking compromise on my requirements. But I love Linux, those trackpoint buttons and Thinkpad keyboard. Even if Asahi got production ready, I really can't imagine myself using a no-button touchpad.
+--- 92797993
+>>92797844
+>X1C9 looks (well, looks) nicer than 7 with all speakers on top instead of top/bottom mix
+I'm blind, it has bottom speakers as well. Anyway, doesn't matter, just noticed that those side grills look pretty. 16:10 obviously would be good to have but that alone wouldn't warrant a 100% price increase vs gen 7 offers that I'm seeing.
+--- 92798298
+What katana for my edc goes well with a thinkpad? Both need to fit in my trench coat
+--- 92798398
+>>92798298
+Ceremonial wakizashi with black-steeled blade + Librebooted X230 with magnesium chassis
+--- 92799047
+How's T480 in the current year as a daily driver? I will mostly use it for day to day tasks(Libre office suit, browsing, light image manipulation) and occasional webdev.
+--- 92799590
+>>92796271
+>My X260 had been refurbished and it began suffering from unidentifiable hardware failures a few months into using it, this was 4 years ago and I've put up with it until now
+
+Did you buy it from Lenovo or from some eBay seller? I've found that eBay refurbs are almost invariably garbage. My most recent and last purchase was a Sony Blu-Ray player that would intermittently freeze on playback. Got my money back on that one, bought a brand new one in store, have had zero issues since. But I've also bought a T480 from the "Lenovo Outlet" (ie, refurbished store) and it had all kinds of issues, was barely functional, and crashed constantly. Ended up returning it and buying a new X395 (which also ended up having a ton of hardware issues, just less annoying).
+--- 92799926
+deal alert
+
+ThinkPad L13 Yoga Gen 2
+$600 @ Best Buy
+https://slickdeals.net/f/16580279-lenovo-thinkpad-l13-yoga-gen-2-2-in-1-13-3-fhd-1920-x-1080-touch-laptop-ryzen-5-pro-5650u-8gb-memory-512gb-ssd-black-599-99-free-shipping
+--- 92800168
+>>92799047
+A raspberry pi will suffice for that
+--- 92800755
+Guys is there any way for me to upgrade the battery on an x1 1st gen? I love the little fucker and its perfect except the 2 hr battery life.
+--- 92801363
+T440p i5-4300M 4GB no disk, 90 eur
+1080p ips, 50 eur
+
+Good deal?
+--- 92802849
+>>92797844
+X270 is at least a bit better than say the older X220/X230, but beyond that I can't give much of a benchmark. I highly doubt it'll be sufficient if you're an audiophile, and I can't imagine it's much better than (if it's not the exact same configuration as) the T480s.
+I personally don't have too much experience with modern laptops, though I do remember thinking the X1C7 sounded surprisingly good. Probably the best I've heard barring a MacBook; say what you will about Apple, but the audiovisual aspects of their hardware are killer. Same goes for the screen on the Carbon; pretty good. Not sure what changes were made between the gen 7 and gen 9.
+
+>>92801363
+One thing to know about the T440p is that the default trackpad is turbo-kusoge tier. Even if you're a nipple user, it lacks separate right/left click buttons so the experience for that is shit as well. So you should really include the price of a new trackpad in the equation as well.
+Not only that, but 4gb of RAM won't take you far, and you're going to want to upgrade to a quad-core CPU (after all, that's one of the reasons to get a T440p in the first place). AND you'll need a disk, assuming you don't have one on hand.
+So post a new estimate with all that accounted for and ask again. Chances are, though; no, it is not a good deal. Because at that point you could get a T480 for a similar cost and have similar performance but with FAR better battery life and thermals.
+--- 92802909
+>>92765451
+I have a P52 and it definitely requires some work. Repasting is annoying since you need to disensemble the entire fucking thing to get to the CPU. Also, undervolting and setting up core limits with throttle stop is a must. otherwise it will be throttling and giving you inconsistent performance under stress.
+
+That being said. If you're ok with some initial screwing around you'll have a really nice, powerful machine that performs well under load. I actually use it for [spoiler]gaming[/spoiler] without issues.
+--- 92803859
+>>92748876
+>700:1
+Actually, the panel is performing as expected. The 700:1 stated contrast is some strange 0-63 value, not 0-255 like we'd assume. 
+3rd party reviews of laptops with this N140HCE-EN1 panel also get >1100:1 contrast. So I can confidently say that this is the real panel. 
+The brightness is still odd, could it be due to the adapter board? Regardless, it's more than bright enough still for my use.
+--- 92805087
+>>92799590
+Ebay seller
+--- 92805152
+>>92801363
+very good price, make sure to flash coreboot on it if you get it also get the dock if possible
+--- 92806432
+>>92802909
+/v/fags get out
+--- 92808613
+Bros I have sinned. My x230 successor is X1C gen8 with 8gigs of ram. Go on without me bros.
+--- 92808620
+I'm currently deciding whether or not this used T480 is a good deal, it has an i5-8350u, 16 gb ram and 256 gb ssd for $225.
+
+is this a good price for a T480? or should i wait for a cheaper one?
+--- 92809898
+>>92808620
+Depends on your countree. In my cunt, India, that's a good deal.
+
+Does it come with IPS display? Resolution?
+--- 92809934
+I'm installing Fedora on my new X1C. Will it ward off the troons? Its very important question anon.
+--- 92810334
+>>92809898
+it's canada here for me, currently waiting for a response from the seller. 
+
+if it is IPS display and comes with a good screen resolution, would it be worth buying?
+--- 92810542
+>>92809934
+Only if you use cinnamon or xcfe
+--- 92810934
+>>92796078
+How much would a refurbished X270 sell in your country (Canada)?
+--- 92811315
+>>92810334
+so the seller confirmed it's IPS
+--- 92811470
+>>92810934
+I do not live in Canada, nor do I consider it a country
+--- 92811636
+>>92811315
+I think its a good deal anon.
+--- 92811731
+>>92811470
+I was just kidding, I know that you're from America.
+--- 92811974
+Could a thinkpad run games like FIFA?
+--- 92812184
+>>92811636
+i guess i'll get it then, thanks anon
+--- 92813289
+>>92810542
+AAAAAAAAAAAAAAAAAAAAAA!
+--- 92814821
+>>92813289
+Put i3 on it after you put on the socks
+--- 92814834
+Where do you get your cheap lenovos from Central European fwlends
+--- 92815149
+>>92763374
+based bunsen bro
+--- 92817592
+Looking to replace my worn out X230 with something a bit more modern, doesn't necessarily have to be another Thinkpad but I'm open to suggestions.
+My basic requirements:
+>8+ hour battery life
+>max 13" screen size
+>at least 1920x1080 resolution
+>backlit keyboard
+>powerful enough for office/programming work
+>AU$1000 budget
+
+What are my options, anons?
+--- 92819094
+>>92817592
+I was at the same place as you. I boughted X1C. Take the X1C pill anon. If you really want 13", X1C Nano might be an option. Go to a shop and see if X1C's dimensions are ok for you though.
+--- 92819933
+>>92814834
+Szukam reply?
+--- 92822141
+>>92734609 (OP)
+Is the x200t tablet/swivel feature actually useful or is it a meme in the current year? Seems like it would be better to reduce weight/bulk with the x200s since they share the same processors, and get a portable touchscreen monitor if there's certain instances where it would actually be used.
+--- 92822877
+i bought a Zenbook 14 with Ryzen 5 and 16GB RAM
+--- 92822952
+>>92819094
+Ideally I'd get something in the realm of 10-12" screen size, but nobody seems to be catering to those outside of "chromebooks" these days. 14" is just a bit too big for travel use.
+--- 92824176
+>>92822141
+Okay I'm imagining it's 2010 and you're fucking retarded
+--- 92824904
+>>92824176
+I just don't have any experience with them, so my post was more out of curiosity.
+--- 92825335
+Hello sirs
+--- 92825367
+>>92795197
+$300 seems fair for an obscure CPU.
+>>92796061
+The resale value of a X200 alone is worth $150-200, and this is likely to increase rapidly in the future.
+--- 92825436
+How do I install an ethernet driver on my T410 running Linux Mint?
+--- 92825533
+>>92825436
+It doesn't just work out of the box?
+--- 92825561
+>>92825533
+Nah, I installed Mint on it last night and nothing happens when I plug in my ethernet cable.
+--- 92825717
+>>92825561
+type ip addr and post here
+--- 92826070
+wanna buy my wife a gayming laptop for the sims 4 and I've been eyeing the asus A17. found the FA706IE model that's $1,300 canadollars for $400 off, so $900cad which is $675 burger bucks. has a 4800h and a 3050ti mobile, 16gigs of ram.
+is it worth it?
+--- 92826147
+>>92826070
+>proprietary gaming garbage
+no
+--- 92826160
+>>92826070
+Wrong thread? ThinkPads are not gaming
+--- 92826232
+>>92826160
+this is the closet thing /g/ has to a laptop general
+>>92826147
+>proprietary gaming garbage
+I agree but it's not for me, I need something good that runs smooth so I don't have to deal with too many tech questions.
+--- 92826576
+is there a point to getting t480 if i am not going to upgrade anything after buying it? i.e. the natural failure rates of laptop components are high enough that I should plan for replacement, or there is no need
+--- 92827388
+X1C 6th gen i7, 8GB Ram, 258GB SSD for $235 USD 
+
+worth it or nah? Mainly used for browsing, light coding and watching movies
+--- 92827768
+>>92827388
+I boughted the same thing. Hoping its good.
+--- 92827783
+>>92826070
+Landfill goes into landfill.
+--- 92827816
+>>92822952
+The size is so close desu, you have to see one IRL.
+--- 92829775
+hey guys, can you recommend me a laptop for web development? The business one my work gave me is absolutely bloated and has a ton of spyware. Budget is anything, just needs to be fast, and I need a bunch of web servers and microservices running
+--- 92830184
+>>92829775
+Just format the work one you fucking faggot.
+--- 92830258
+>>92829775
+Anon, just use your laptop as a thin client and ssh into a powerful server to develop there. Make sure it has lots of ram.
+--- 92830262
+>>92830184
+can't, its authorized by my work with their account. I also want to install linux, but I'm afraid I might get in trouble for doing anything to the system. Just recommend me something nigga
+--- 92830291
+>>92829775
+Also, you can probably figure out port forwarding. You don't need a powerful laptop for webshit.
+--- 92830328
+>>92830262
+There's no such thing as a laptop suited for web design specifically so just buy something with decent specs that's not a rip. And yes, old Thinkpads will fit the bill nicely. Pick a model in the OP.
+--- 92830359
+>>92830328
+>>92830262
+Also, are you seriously going to drop money on a laptop for work use because the provided one is shit without first taking the issue up with work? "yo niggas I can't do my job on the thing you gave me, let me format it".
+
+Hell your story doesn't even sound right to me. What's the bloat/spyware on the work one? Are they tracking your time spent working or something? If so then won't using a completely different laptop look weird to your work?
+
+https://www.youtube.com/watch?v=FzFPmx96nnA&amp;ab_channel=TrolladinPlays [Embed]
+--- 92830380
+>>92802849
+Thanks again anon. I ordered an 8GB X1C7 (I can't believe how stupid that sounds, RAM memory being something you need to decide at computer purchase time...) and will check the sound situation myself, then return. I'm not an audio expert, but T480s just is too quiet to be decent. I got used to the sound signature (near 0 lows, but otherwise decent mids and highs) but I'm interested in improving volume and lows since sister will probably want to take my T480s as a college PC. Battery is still in good shape, i7 and 24GB of RAM will be plenty for her.
+It sounds really fucking stupid that I'll probably have to downgrade to 16 GB to receive a laptop with better speakers. Why not put some effort into audio in Txx models? You already did that for X1Cx.
+>MacBook
+Yeah when I watched a comparison between some Apple laptop and X1 Extreme G3/G4 iirc, the latter didn't stand a chance. I was disheartened at that point.
+But anyway, we'll see how X1C7 compares with T480s and then decide what to do next. Thanks anon.
+--- 92830536
+>>92830359
+my work laptop doesn't have any monitoring software but it does have a shit ton of proprietary tools for other departments like adobe products, 3d printing software, autodesk software. I can't uninstall any of it or modify the services so it ends up running.
+>>92830328
+which one would you recommend? Can't really decide
+--- 92830720
+>>92830536
+>I can't uninstall any of it or modify the services so it ends up running.
+I'm not the anons who replied to you before. I would consider this work laptop very "managed" then, and talk with the IT staff beforehand instead of silently using your own machine which they'll see as suspicious. Let them know that using Windows is fucking atrocious for dev work, and if they're concerned about compliance, they can use e.g. FleetDM to ensure auditors that everyone has full disk encryption and some antivirus running. That's what my company does, each dev can run whatever software stack they decide is most productive, but they have to run a small opensource agent that checks security policy compliance to cover CTO ass when someone wants to audit us.
+I know what you feel, and I know I'm lucky to be in a company who understands that devs aren't necessarily retarded. Make IT in your company know that Windows or whatever hurts your productivity, and ask why it's enforced you have Adobe/Autodesk DRM running when you don't use it at all. And let them know about alternatives that will give you and them a compromise.
+--- 92830793
+>>92830720
+ok will do, thanks for the input
+--- 92832617
+thinkbump
+--- 92832729
+Can anyone who has an X1 Nano and has also used other Thinkpads compare the keyboards of the two and let me know if the X1 Nano is particularly dogshit compared to your other Thinkpads? 
+
+The only other Thinkpads I own are X220s. I finally upgraded to a modern Thinkpad but the keyboard on the X1 Nano is really dogshit and I can't tell if it's just all modern Thinkpads are this bad or if this one is just particularly bad because of how small it is. I've read/watched a lot of reviews and a lot of people seem to like it and they say the actuation force is lower but that Lenovo made up for it in other ways. I'm still in the return period so I'm not sure if I should return it and get something with a better keyboard or not. I like everything else about it.
+--- 92833411
+>>92801363
+>>92802849
+>>92805152
+T440p i7-4702mq 16gb 1tb
+3 key trackpad, FHD ips
+260 eur
+
+I chose T440p because it's the newest coreboot capable thinkpad. so i cant get T480
+--- 92833494
+>>92833411
+I boughted x230 for similar reasons, but now its too slow for daily use, so I've moved anon, I hope you fight the Jews anon.
+--- 92833527
+>>92832729
+Stop it with the autism and enjoy your new toy. You'll get used to the nano's keyboard.
+--- 92833705
+my x220 is outdated as fuck. i dont know how you guys are still into these things. unless you moved onto the modern ones which i dont see the point of.
+--- 92833907
+>>92833494
+I have had a X1E2 for a while, maybe its retarded to spend 260 on a downgrade just for coreboot.
+--- 92834040
+My Chinese T420 battery is one of the larger ones and that makes it hard to carry in my backpack which is made for 15 inch laptops.
+Can it be harmful to unplug the battery and carry them separately to like any of the contacts or smth? Prob dumbass q
+--- 92835662
+>>92833705
+I mean, from my experience there's not really any laptop of higher quality out there from different brands, whether you're talking modern Thinkpads or older ones.
+--- 92835838
+Are etither of these two worth buying at the price?
+
+https://www.afbshop.de/notebooks/alle-notebooks/37408/lenovo-thinkpad-x270-12-5-zoll-core-i5-7200u-at-2-5-ghz-8gb-ram-250gb-ssd-fhd-1920x1080-webcam-win10pro?c=929#6d54e5de4bf98157bd7607cf6f68d311
+>219 EUR
+
+https://www.afbshop.de/notebooks/alle-notebooks/37418/lenovo-thinkpad-x270-12-5-zoll-core-i7-7500u-at-2-7-ghz-16gb-ram-500gb-ssd-fhd-1920x1080-webcam-win10pro?c=929#4d1d9dc8b35f92d06bd67c2597abfa49
+>319 EUR
+
+Yuo don't have even to click the link I guess the URL says it all. There's also a 269 EUR version in the middle which is almost the same as the first except it has I5-7300U instead of 7200U, and it's "less used" category.
+--- 92836074
+>>92833705
+if you run linux the performance is completely fine for a lot of tasks at least
+
+i dont mean this as a cope i just cant even tell a diff between using my arch x230 and my much newer work macbook if im not doing visual work or browsing super heavy websites. both are equally speedy on normal websites, or when running chat programs or office shit
+
+the only real issue is the fucking 1366x768 screen. you really have to run stuff fullscreen to get by. its also just a bad screen in gen
+--- 92837022
+Just replaced my X230's TN display with a IPS one. Totally worth the $70.
+But now I have a spare screen lying around, anyone here need it? I'll ship it no cost except, you pay the shipping. It's in perfect working condition.
+--- 92837147
+Should I get a t430 or a t480?
+--- 92837309
+>>92758836
+Did you end up buying it? I have a 5490 and I'm quite pleased with it, despite not being a "high-end" model it's quite sturdy and well built, and I was able to get a fully loaded i7-powered model for a very reasonable price because Latitudes don't get any love. Overall I actually prefer it to the newer Thinkpads, the build quality is better, type feel is better, and the clit mouse works more predictably. The one drawback is the screen, it's quite dim, and every time I see my wife's M1 Macbook Air, I'm reminded of how dim it is.
+--- 92837489
+>>92734609 (OP)
+Need a laptop to use as my only computer, coming off of a T450s, needs:
+
+
+>Good keyboard
+>User upgradeable storage
+>USB-C charging
+>Silent in regular operation, quiet under moderate load
+>At least 4c/8t
+>Hardware ethernet jack strongly preferred 
+
+
+T480 for cheap or splash out for a Framework? I had an E14 for a while and it was fine but I wouldn't bother getting one again
+I can spend up to £1kl but it better be fucking special to cost more than £300
+
+>>92835838
+>Dual core machines north of 100 euro
+No, get a T480 off of Ebay DE if you're on a tight budget, 2c/4t is EOL now.
+--- 92837512
+>>92837489
+Forgot pic
+--- 92837570
+>>92783846
+bump
+I'm looking for recommended sources with good price/quality ratio
+--- 92837706
+I'm lurking on my X200/Xubuntu from the comfort of my sofa!
+--- 92837739
+Can anyone id the stinkpad? Guy is selling all these piece of shit laptops for 30 bucks, who knows I can get the thinkpad for a fiver.
+
+Looks like an X220, but the fingerprint reader location is off
+--- 92837837
+>>92837739
+replying to myself, I've tried some google image searches and a T400 looks pretty spot on, judging from the three silver buttons on the top left of the keyboard and the fingerprint reader location.
+--- 92838339
+>>92837739
+Yeah it's a T400
+--- 92839605
+>>92837706
+based X series enjoyer, on my X230 with Debian i3 rn!
+--- 92839736
+>>92837147
+Both are completely different beasts. 
+>T430 = larger, uses more power/generates a lot of heat, extremely modular, cheaper, classic lenovo thinkpad design, can be librebooted, with a 4 core i7 it holds up pretty well
+>T480 = comparably smaller, uses less power/generates less heat, not nearly as modular, more expensive, nu-lenovo design, cannot be librebooted, holds up well
+I'd pick the T430 every time desu. But I do own a heavily modded X230 (keyboard, screen, BIOS, RAM, WiFi card, storage, all non-stock components. Not something you can do with a T480).
+--- 92839826
+>>92839736
+I take back the T480 not being modular, I was mistaken. I really meant to say that there was not as much aftermarket support for the T480 as older ThinkPads.
+--- 92839901
+>>92837512
+But if you buy from ebay you're gonna end up like this guy >>92796271
+--- 92840103
+What's the consensus on the T14? I heard the build quality is not up to standard but not much more.
+--- 92840163
+>>92840103
+It's fine.
+--- 92840425
+>earn less than 1/3rd that the western europeans get for the same job
+>have to pay more for PC parts
+>have to pay more for thinkpads too
+Living in eastern europe is the ultimate cookery.
+--- 92840858
+Bought a fanless laptop with a N4100 processor (2443 passmark for 6 watt TDP) for only $60.Did I do good?
+
+I'm gonna take out the battery and run it 24/7.
+--- 92842037
+>>92837739
+>Latitude C610
+>Thinkpad T400
+
+Shit, my high school and university computers
+
+The C610 was actually pretty based. Mine had an SXGA+ screen (1400x1050), a Mobility Radeon graphics card, and the keyboard was actually mechanical. It used very compact linear switches. Personally I preferred the keyboard on that to the T400, and it's among the best laptop keyboards I've ever used.
+
+>>92840103
+I had a Gen 3 T14 and I had a lot of problems with it. The build quality was not up to the standards of the xx40 generation Thinkpads (and certainly not up to the standards of earlier models), it thermal throttled like a bitch, overall thermals were terrible and my CPU would randomly idle at 80c, and the drivers were buggy, I sometimes got issues with the Trackpoint or graphics after waking from sleep. I had been using a 16" 2019 Macbook Pro at work, and I do not exaggerate when I say that laptop had better thermal performance than the Thinkpad. Last month my company offered to let me buy out the Mac for $400, which was a really good deal, so now that's my main machine. No idea what I'm going to do with the T14, maybe sell it (at a heavy loss of course, because Thinkpad).
+--- 92842125
+Is redmibook okay in this thread?
+If not, I'd just ask general question, do you use your laptop always plugged in or charge -> use -> charge?
+It was quite a shock upgrading from my ancient 2008 ASUS to Redmibook 15, which doesn't have removable batteries.
+--- 92842486
+>>92827816
+Huh, that's actually pretty close in size, and a lot thinner and lighter.
+What gen do you have, and what's the battery life like?
+--- 92843239
+>>92842486
+Mine is gen 6.
+--- 92843748
+Whats the ideal screen size(inches) and resolution to view one full page of a pdf file? 768p 14inch doesn't seem to be sufficient
+--- 92844089
+>>92843748
+4:3 screen
+--- 92845079
+>>92844089
+>Vertical space
+Never considered that, but I want a fairly modern machine. I don't think they make laptops with 4:3 aspect ratio anymore.
+--- 92845378
+What's wrong with L480? Everyone in the thread is talking about T480 but L480 has much better specs for half the price.
+--- 92845531
+>>92845378
+L means its for losers. I thought Lenovo made the naming convention obvious.
+--- 92845623
+>>92845531
+That's unhelpful. I want to buy a thinkpad but the ranges are confusing desu when I see 16gb i5 8th gen going for $190 and much more for the meme ones.
+--- 92845703
+>>92845623
+X series and T series have good build quality, that's what companies that love their employees buy them. The rest are not very well made.
+--- 92846190
+>>92736482
+>>92736578
+>I would max out the ram to at least 16GB, better 32GB or 64GB (even if manufacturer only claims max 16GB) in preparation for the coming LLM wars.
+>LLM wars
+what did he mean by this?
+--- 92846268
+>>92845378
+>>92845531
+>>92845623
+>>92845703
+I spotted a working thinkpad from 2014 with core i5 sticker for $20, tired of comparing so just bought that. The listing is from a woman who didn't post specs, so that'll be a surprise. What do you think? 4gb?
+--- 92846274
+>>92846268
+>core i5
+core i3******
+--- 92846650
+>>92846268
+T450 or X250, anyways, if you can make it work, its an amazing deal. You'll probably have to put in new ssd, a new battery and some ram. New keyboard and screen if they don't work / look good. You can spend between 20 and 100 more bux and make it your daily driver. Amazing buy.
+--- 92846782
+>>92846650
+It's i3 but no matter what it is it'll be at least 3 times faster than the old EEE Atom n550 laptop I use for the use case I have in mind.
+--- 92846854
+>>92846782
+Oh i3, ok. For 20 bux its fine.
+--- 92846871
+>>92735715
+>>92794299
+>>92830328
+
+Was Lenovo T510 the last of the great laptops of old era?
+
+>15.6" is too big
+
+You are just wrong, this is the perfect size.
+T410 has, due to its smaller size (14"), inadequate cooling. X201 is even smaller but has identical cooling to T410. You may ask why? It's because X201 has no space for DVD drive while T410 has a DVD drive. They balance out and now both have bad cooling for CPU.
+
+But T510 just doesnt have any of the problems above. How about screen then? Anything with lower resolution than 1920x1080 is shit. But the full HD screen is super magnificent in T510 its the best there ever was in Lenovos.
+
+Can we find anything bad about it? Well yeah you need to avoid the one with Nvidia. You need to buy the intel version. It CANNOT have core-i7 CPU because i7 in a laptop will only work with Nvidia GPUs. So you need to put up with core-i5.
+
+You can use 8GB RAM and surfa a Linux internet like a pro, with T510 that has Intel GPU, 2,4GHz dual core i5 (1st generation) and it will never over heat, ever.
+
+With a 10 year old bad battery you can still surf for 2 hours. With a retrofitted nice and shiny battery you can surf for 6 hours. These machines wont be checking if your battery is legit, they accept any kind of battery if its physically fits and has the right electrical properties, no shenanigans with ID chips that probe out if you have a legit Lenovo battery.
+
+The Linux support for integrated 3G modem is phenomenal. So is for Intel WIFI from the year 2010. Too bad 3G is quite useless now as a tech.
+--- 92846950
+>>92765451
+>Was looking at p52 but apparently it gets really hot under light loads?
+It doesnt. It has excellent cooling. I have one
+--- 92846964
+>>92770821
+Turn off mitigations. Dualcores are useless without it in 2023
+--- 92847002
+>>92770821
+Same, I just got a newer stinkpad.
+--- 92847026
+posting from my stock opensuse tumbleweed x60s.
+
+I like it but never really get to use it too much. Got a 2014 11" MBA for studies and a P51s for light gaymen.
+
+Also considering going from opensuse to debian and librebooting it, only issue is i have no free as in freedom wifi card so going to have to use proprietary wifi drivers for it.
+--- 92847082
+>>92846871
+if you are considering t510, there is no reason not to get t520 instead. they only differ in internals and sandy bridge is much faster than westmere. t520 also has quad-core configurations and qual-core models can be upgraded to a quad-core, which you cannot do with a t510.
+>Can we find anything bad about it? Well yeah you need to avoid the one with Nvidia. You need to buy the intel version. It CANNOT have core-i7 CPU because i7 in a laptop will only work with Nvidia GPUs. So you need to put up with core-i5.
+the ability to turn off the nvidia gpu and only use intel was added in one of the bios updates iirc. even the nvidia models have fully functional intel gpus because they are located on the cpu package. t520 had that option from the beginning. another reason to get t520, really.
+--- 92847619
+>>92846871
+>>92847082
+Why not a modded T430? One without the nvidia gpu can handle the 45W i7's, probably beating a maxed out T510 at least. 
+You can mod in the classic keyboard and a very high quality FHD IPS (or even 1440p one if you're crazy) on it too.
+--- 92848250
+>>92822877
+How much? I am lurking zenbooks on EU amazon's but they are all above 800 euros and have soldered rams.
+--- 92848973
+>>92846190
+> LLM
+Large language model, e.g. GPT
+--- 92849038
+So I set my battery charge threshold to 70/80 for both BAT0 and BAT1 (with TLP), is it possible to set the value for when to swap the batteries discharging when under a threshold? I think by default is goes down to 5%, is that even bad for battery life? If so I'd like to change it to around 20%.
+--- 92849717
+I just realized my speakers aren't working. The heatphone jack works fine.
+Any ideas, anons?
+--- 92850108
+>>92849717
+replace speakers?
+--- 92850273
+>>92849717
+Unmute them with alsamixer
+--- 92851201
+>Dell Latitude E5270 with I5-6200U, 8GB RAM and 256GB SSD, never used before
+>216€
+
+Worth it?
+--- 92852109
+The office my friend's working in is selling some thinkpads right now. The models they're selling are X250, X260 and X270; all sold in the same price.
+Which one should I get anons, and why?
+--- 92852442
+The only Thinkpad model I've used and/or taken apart is T460. I thought that one was pretty nice and easy to disassemble. I'm thinking of getting a T470, T480, X270 or P50. Can anybody comment on the build quality, reliability, ease of upgrade/repair, battery life, and speaker quality on these ones? I heard that they added some clips that make them hard to take apart on the new models and each new model has other issues as well.
+--- 92852778
+>>92846782
+What OS and software do you run on the netbook? I have a couple of old netbooks (N270 and N450, IIRC), but haven't really found a practical use for them.
+--- 92852991
+Are any of these 1080p?
+--- 92853322
+I got a t480 for $260.
+Did I do good?
+--- 92853873
+>>92852991
+LOL
+--- 92854512
+>>92852109
+x270 because its the latest gen. Does it come with IPS display? Did they mention any configurations?
+--- 92855230
+>>92738751
+run as root
+--- 92855286
+>>92794382
+did you run the battery down to 0% by any chance? if yes, you're fucked
+--- 92855315
+>>92825335
+redditor larper
+--- 92856086
+>>92851201
+Oh well, the next cheapest laptop with similar specs I could find was 280, so I took this.
+I will probably regret it.
+--- 92856218
+>>92852778
+I use kali but it takes like 3 minutes to boot
+--- 92856562
+>>92784528
+they are built really well but the battery life blows chunks, most likely due to intelaviv inside
+But it's a good option if you want ports and ethernet in a 15" size
+--- 92857857
+Is there anyone here using t420 ? I found one for 50€ and thinking about buying it. While searching I saw some people saying it is not strong enough in 2023 and how they bought new one instead. I need it for web browsing watching video and university assignments
+--- 92858035
+>>92857857
+idk if a lot of ppl here use t420 specifically but its basically in the same ballpark as all our x220, x230, t430:s
+
+which are all completely fine in my personal experience, especially when running linux. windows is fine, just be careful with bloat, but not preferred if you dont absolutely need some program
+
+since its a 50 euro deal just make sure to upgrade to an SSD and at least 8 gigs of ram if it doesnt have those already
+--- 92858468
+>>92852991
+no, they have notoriously horrible screens. they're business laptops, meaning durability/modularity/reliability, everything else be damned. You can get an IPS mod though to make them better
+--- 92858478
+>>92858035
+Thanks maybe I should finally give up and try linux
+--- 92858636
+I just don't get the thinkpad hype
+--- 92860117
+>still using lelnovo in 2005+18
+https://en.m.wikipedia.org/wiki/Lenovo#Security_and_privacy_incidents
+--- 92860201
+>>92860117
+We don't use jewcrosoft winblows so we are safe from most attacks.
+--- 92860219
+>>92860117
+Holy shit, thanks gods I didn't order yet. I was about to press the "he wants to order" button. I was thinking of buying a thinkpad precisely just to have a laptop on the go to carry all my hents and to masturbate in front of.
+
+So what other brand should I go for? HP? Dell? Anus?
+--- 92860224
+>>92857857
+>University assignments
+What a broad and worthless category of usage
+--- 92860270
+>>92860117
+was never on thinkpads, stop posting
+>>92860219
+retard
+--- 92860307
+>>92860270
+>5 points has been added to your social credit score
+--- 92860439
+>>92860270
+Yeah calling me a retard will definitely win me over back to your camp. I'm getting this one >>92762333
+--- 92860858
+>>92857857
+unless you’re doing heavy design work, a t410 or even a t400 is good enough. but if you’re doing that, no sub-3k thinkpad is going to be good enough anyways
+the only real killer is the battery life and perhaps screen resolution too
+--- 92860898
+>>92857857
+You might want to checkout the x series. They are in the same ballpark in price and you can carry it in a bag. T series laptops from that era feel like bricks.
+--- 92861284
+Will a Intel Core i5-1235U with Intel Iris Xe "Gen 12.2" graphics have hardware accelerated AV1 decode?
+Will it be usable under Win 11 with Firefox and Chromium browsers? VLC &amp; MPC as well?
+With YT pushing for AV1 at 1080p and below, it feels like not having usable AV1 decode on a brand new notebook is a waste of money.
+--- 92863133
+bump
+--- 92865033
+bump
+--- 92865803
+>>92861284
+Shit, I should have thought about this before buying another stinkpad.
+--- 92866097
+I'm tempted to buy another P series laptop...
+I don't really need it but I want one.
+Not sure if I should just get another P51 Xeon or if I should experiment
+--- 92867973
+>>92734609 (OP)
+please recommend me a 2-in-1 laptop with long battery life (8+ hours) for music production (fl studio) under $500
+--- 92868051
+>>92867973
+By 2 in one do you mean laptop + tab? x1 yoga?
+--- 92868104
+>>92868051
+yes but under $500. not necessarily a thinkpad
+--- 92868272
+>>92860898
+>T series laptops from that era feel like bricks.
+And that's a good thing.
+--- 92868281
+>>92868272
+Without the dock, T61 will also look good.
+--- 92868782
+I found x200 with dock in trash.
+Is there pre-built driver pack for win10 for that thing like they make for Panasonic?
+Installed win10 and did some basic drivers tho still have some missing devices.
+Also how to limit charging level?
+--- 92868812
+>>92868782
+You, generally don't need to manually install drivers, even on winblows, If something like wifi or bluetooth doesn't work, then you can start looking for drivers. What doesn't work anon?
+--- 92868913
+>>92868812
+This is what I was actually looking for but thanks...
+https://thinkwiki.de/Windows_10_Erfahrungsberichte#X200
+Unfortunately it seems I have occasional shutdowns on battery out of nowhere. It just turns off like it lost power, nothing in event viewer. Probably reason why it was tossed out in a first place.
+--- 92868969
+>>92868913
+Can you check with a new battery? Laptop of this age probably has a bad battery.
+--- 92869033
+>>92868969
+battery is non-oem but looks brand new, 0% wear and it lasts for long time. Just one more indicator that something is wrong with it since previous owner probably experience same shutdowns and tried fixing it with new battery.
+It also has non-oem 500gb ssd but I doubt that could be an issue.
+Thing also stinks as fuck, some nasty chemical smell like plastics degrading or something.
+--- 92869158
+>>92850273
+Something seems to be amiss.
